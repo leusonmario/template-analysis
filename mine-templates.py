@@ -3,9 +3,9 @@ import time
 import csv
 
 import config
+BASE_URL = "https://api.github.com"
 
-
-def save_repo_info_to_csv(data, filename="template_repos.csv"):
+def save_repo_info_to_csv(data, filename="template_repos_five_years_all.csv"):
     fieldnames = [
         "username", "project_name", "original_link_repository",
         "stars", "forks", "data_creation", "data_update"
@@ -53,8 +53,17 @@ def search_github_templates_with_star_ranges(base_query="", token=None, per_page
         repo_infos = []
         for repo in repos:
             #We consider only repositories that are true templates.
-            if repo.get('is_template', True):
-                full_name = repo["full_name"]
+            full_name = repo["full_name"]
+            details = requests.get(f"{BASE_URL}/repos/{full_name}", headers=headers)
+
+            if details.status_code != 200:
+                print(f"⚠️ Failed to get {full_name}: {details.json().get('message')}")
+                continue
+
+            repo_data = details.json()
+            template_info = repo_data.get("template_repository")
+
+            if repo.get('is_template', True) and template_info is None:
                 username, project_name = full_name.split("/")
                 original_link_repository = repo["html_url"]
                 stars = repo["stargazers_count"]
@@ -84,6 +93,6 @@ def search_github_templates_with_star_ranges(base_query="", token=None, per_page
 
 if __name__ == "__main__":
     search_github_templates_with_star_ranges(
-        base_query="language:python created:>2023-01-01 pushed:>2024-01-01 stars:>4 template_repository:",
+        base_query="language:python created:>2020-05-12 template_repository:",
         token=config.GITHUB_TOKEN
     )
