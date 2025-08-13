@@ -11,7 +11,8 @@ HEADERS = {
     "Accept": "application/vnd.github+json"
 }
 
-def save_selected_repo_to_csv(data, filename="selected_template_repos.csv"):
+def save_selected_repo_to_csv(data, filename="selected_template_repos", language=""):
+    filename_final = filename + "_" + language + ".csv"
     fieldnames = [
         "username", "project_name", "original_link",
         "stars", "forks", "data_creation", "data_update",
@@ -19,18 +20,18 @@ def save_selected_repo_to_csv(data, filename="selected_template_repos.csv"):
     ]
 
     try:
-        with open(filename, 'x', newline='', encoding='utf-8') as f:
+        with open(filename_final, 'x', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
     except FileExistsError:
         pass
 
-    with open(filename, 'a', newline='', encoding='utf-8') as f:
+    with open(filename_final, 'a', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writerows(data)
 
 
-def search_github_templates_with_star_ranges(base_query="", token=None, per_page=100, max_pages=30, target_template=None, star_ranges=None):
+def search_github_templates_with_star_ranges(base_query="", token=None, per_page=100, max_pages=30, target_template=None, star_ranges=None, language=""):
     headers = {
         "Authorization": f"Bearer {token}",
         "Accept": "application/vnd.github+json"
@@ -90,25 +91,32 @@ def search_github_templates_with_star_ranges(base_query="", token=None, per_page
             time.sleep(0.3)
 
         if selected_repos:
-            save_selected_repo_to_csv(selected_repos)
+            save_selected_repo_to_csv(selected_repos, language=language)
 
         current_page += 1
         time.sleep(1)
 
 if __name__ == "__main__":
     token = config.GITHUB_TOKEN
+    language = "Python"
+    start_line = 0
 
-    with open("template_repos.csv", newline='', encoding='utf-8') as f:
+    with open("repos_all_recent__"+language+".csv", newline='', encoding='utf-8') as f:
         reader = csv.DictReader(f)
-        for row in reader:
+        for i, row in enumerate(reader):
+            if i < start_line:
+                continue  # Skip first 10 rows after header
+
             username = row["username"]
             project_name = row["project_name"]
             target_template = username+"/"+project_name
-            base_query = f"language:python in:readme sort:updated {target_template}"
+            base_query = f"language:{language} in:name,description,readme sort:updated {target_template}"
 
             print(f"\n🔎 Searching for template-based repos from: {username}/{project_name}")
             search_github_templates_with_star_ranges(
                 base_query=base_query,
                 token=token,
-                target_template=target_template
+                target_template=target_template,
+                language=language
             )
+            time.sleep(2)
