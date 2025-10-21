@@ -1,0 +1,127 @@
+{
+  "errors": [],
+  "generated_at": "2025-10-21T14:18:26Z",
+  "metrics": {
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_h603c5vf\\msfmodules\\my_rce_module.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 73,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_h603c5vf\\msfmodules\\my_scanner_module.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 64,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 2,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 2,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 137,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "88     try:\n89         r = requests.get(base_url, verify=False)\n90     except requests.exceptions.RequestException as e:\n",
+      "col_offset": 12,
+      "end_col_offset": 48,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_h603c5vf\\msfmodules\\my_rce_module.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 295,
+        "link": "https://cwe.mitre.org/data/definitions/295.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Call to requests with verify=False disabling SSL certificate checks, security issue.",
+      "line_number": 89,
+      "line_range": [
+        89
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b501_request_with_no_cert_validation.html",
+      "test_id": "B501",
+      "test_name": "request_with_no_cert_validation"
+    },
+    {
+      "code": "88     try:\n89         r = requests.get(base_url, verify=False)\n90     except requests.exceptions.RequestException as e:\n",
+      "col_offset": 12,
+      "end_col_offset": 48,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_h603c5vf\\msfmodules\\my_rce_module.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 400,
+        "link": "https://cwe.mitre.org/data/definitions/400.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Call to requests without timeout",
+      "line_number": 89,
+      "line_range": [
+        89
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b113_request_without_timeout.html",
+      "test_id": "B113",
+      "test_name": "request_without_timeout"
+    },
+    {
+      "code": "79     try:\n80         r = requests.get(base_url, verify=False)\n81     except requests.exceptions.RequestException as e:\n",
+      "col_offset": 12,
+      "end_col_offset": 48,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_h603c5vf\\msfmodules\\my_scanner_module.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 295,
+        "link": "https://cwe.mitre.org/data/definitions/295.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Call to requests with verify=False disabling SSL certificate checks, security issue.",
+      "line_number": 80,
+      "line_range": [
+        80
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b501_request_with_no_cert_validation.html",
+      "test_id": "B501",
+      "test_name": "request_with_no_cert_validation"
+    },
+    {
+      "code": "79     try:\n80         r = requests.get(base_url, verify=False)\n81     except requests.exceptions.RequestException as e:\n",
+      "col_offset": 12,
+      "end_col_offset": 48,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_h603c5vf\\msfmodules\\my_scanner_module.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 400,
+        "link": "https://cwe.mitre.org/data/definitions/400.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Call to requests without timeout",
+      "line_number": 80,
+      "line_range": [
+        80
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b113_request_without_timeout.html",
+      "test_id": "B113",
+      "test_name": "request_without_timeout"
+    }
+  ]
+}

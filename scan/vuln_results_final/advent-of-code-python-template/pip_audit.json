@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "pyright", "version": "1.1.406", "vulns": []}, {"name": "ruff", "version": "0.14.1", "vulns": []}, {"name": "nodeenv", "version": "1.9.1", "vulns": []}, {"name": "typing-extensions", "version": "4.15.0", "vulns": []}], "fixes": []}

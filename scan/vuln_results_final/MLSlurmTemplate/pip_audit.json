@@ -1,0 +1,68 @@
+ERROR:pip_audit._virtual_env:internal pip failure:   error: subprocess-exited-with-error
+
+  
+
+  × python setup.py egg_info did not run successfully.
+
+  │ exit code: 1
+
+  ╰─> [18 lines of output]
+
+      Traceback (most recent call last):
+
+        File "<string>", line 2, in <module>
+
+          exec(compile('''
+
+          ~~~~^^^^^^^^^^^^
+
+          # This is <pip-setuptools-caller> -- a caller that pip uses to run setup.py
+
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+          ...<32 lines>...
+
+          exec(compile(setup_py_code, filename, "exec"))
+
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+          ''' % ('C:\\Users\\leu_m\\AppData\\Local\\Temp\\pip-install-li5ozrj8\\pillow_8918431a8d6f477b904a5babe30c843b\\setup.py',), "<pip-setuptools-caller>", "exec"))
+
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+        File "<pip-setuptools-caller>", line 35, in <module>
+
+        File "C:\Users\leu_m\AppData\Local\Temp\pip-install-li5ozrj8\pillow_8918431a8d6f477b904a5babe30c843b\setup.py", line 30, in <module>
+
+          PILLOW_VERSION = get_version()
+
+        File "C:\Users\leu_m\AppData\Local\Temp\pip-install-li5ozrj8\pillow_8918431a8d6f477b904a5babe30c843b\setup.py", line 26, in get_version
+
+          return locals()["__version__"]
+
+                 ~~~~~~~~^^^^^^^^^^^^^^^
+
+      KeyError: '__version__'
+
+      [end of output]
+
+  
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+error: metadata-generation-failed
+
+
+
+× Encountered error while generating package metadata.
+
+╰─> See above for output.
+
+
+
+note: This is an issue with the package mentioned above, not pip.
+
+hint: See above for details.
+
+
+ERROR:pip_audit._cli:Failed to install packages: ['C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmpyopk9lol\\Scripts\\python.exe', '-m', 'pip', 'install', '--no-input', '--keyring-provider=subprocess', '--dry-run', '--report', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmpn778mky7\\tmp3tox7bts', '-r', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_ev7ii4t2\\requirements.txt']

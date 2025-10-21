@@ -1,0 +1,4058 @@
+{
+  "errors": [],
+  "generated_at": "2025-10-21T14:15:09Z",
+  "metrics": {
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\docs\\playground\\liquid.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 57,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 5,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\defaults.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 35,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\exts\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\exts\\ext.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 74,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\exts\\filter_colon.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 44,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\exts\\front_matter.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 23,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\exts\\jekyll.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\exts\\shopify.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\exts\\standard.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 78,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\exts\\wild.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\filters\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\filters\\jekyll.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 267,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\filters\\manager.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 61,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\filters\\shopify.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 3,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\filters\\standard.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 278,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\filters\\wild.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 93,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\liquid.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 214,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\patching.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 95,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\tags\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\tags\\jekyll.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 44,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\tags\\manager.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 110,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\tags\\shopify.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 25,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\tags\\standard.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 320,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\tags\\wild.py": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 4,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 146,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\utils.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 56,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\setup.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 12,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\conftest.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 38,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py": {
+      "CONFIDENCE.HIGH": 22,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 22,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 222,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_front_matter.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 16,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_tags.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 11,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\shopify\\test_shopify_filters.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 4,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py": {
+      "CONFIDENCE.HIGH": 22,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 22,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 162,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py": {
+      "CONFIDENCE.HIGH": 32,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 32,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 383,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py": {
+      "CONFIDENCE.HIGH": 43,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 43,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 650,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\test_liquid.py": {
+      "CONFIDENCE.HIGH": 6,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 5,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 40,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_filters.py": {
+      "CONFIDENCE.HIGH": 9,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 9,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 31,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_include.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 22,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_wild_tags.py": {
+      "CONFIDENCE.HIGH": 5,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 5,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 45,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 156,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 2,
+      "SEVERITY.LOW": 148,
+      "SEVERITY.MEDIUM": 6,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 3682,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "52     try:\n53         exec(VARIABLES_CONTAINER.value, variables)\n54     except Exception as e:\n",
+      "col_offset": 8,
+      "end_col_offset": 50,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\docs\\playground\\liquid.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of exec detected.",
+      "line_number": 53,
+      "line_range": [
+        53
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b102_exec_used.html",
+      "test_id": "B102",
+      "test_name": "exec_used"
+    },
+    {
+      "code": "59     try:\n60         exec(FILTERS_CONTAINER.value, filters)\n61     except Exception as e:\n",
+      "col_offset": 8,
+      "end_col_offset": 46,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\docs\\playground\\liquid.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of exec detected.",
+      "line_number": 60,
+      "line_range": [
+        60
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b102_exec_used.html",
+      "test_id": "B102",
+      "test_name": "exec_used"
+    },
+    {
+      "code": "152 \n153     from xml.sax.saxutils import escape\n154     return escape(input)\n",
+      "col_offset": 4,
+      "end_col_offset": 39,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\filters\\jekyll.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Using escape to parse untrusted XML data is known to be vulnerable to XML attacks. Replace escape with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",
+      "line_number": 153,
+      "line_range": [
+        153
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b406-import-xml-sax",
+      "test_id": "B406",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "360     \"\"\"Sample elements from array\"\"\"\n361     return random.sample(value, k=n)\n",
+      "col_offset": 11,
+      "end_col_offset": 36,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\filters\\jekyll.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 361,
+      "line_range": [
+        361
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "101 \n102         self.env = Environment(**env_args, loader=loader)\n103         if env is not None:\n",
+      "col_offset": 19,
+      "end_col_offset": 57,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\liquid.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 94,
+        "link": "https://cwe.mitre.org/data/definitions/94.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.",
+      "line_number": 102,
+      "line_range": [
+        102
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b701_jinja2_autoescape_false.html",
+      "test_id": "B701",
+      "test_name": "jinja2_autoescape_false"
+    },
+    {
+      "code": "73     with redirect_stdout(out):\n74         exec(code, env.globals)\n75     return nodes.Output([nodes.Const(out.getvalue())], lineno=token.lineno)\n",
+      "col_offset": 8,
+      "end_col_offset": 31,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\tags\\wild.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of exec detected.",
+      "line_number": 74,
+      "line_range": [
+        74
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b102_exec_used.html",
+      "test_id": "B102",
+      "test_name": "exec_used"
+    },
+    {
+      "code": "102     code = compile(body, \"<liquid-import_-tag>\", mode=\"exec\")\n103     exec(code, env.globals)\n104     return nodes.Output([], lineno=token.lineno)\n",
+      "col_offset": 4,
+      "end_col_offset": 27,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\tags\\wild.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of exec detected.",
+      "line_number": 103,
+      "line_range": [
+        103
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b102_exec_used.html",
+      "test_id": "B102",
+      "test_name": "exec_used"
+    },
+    {
+      "code": "129     code = compile(body, \"<liquid-from_-tag>\", mode=\"exec\")\n130     exec(code, env.globals)\n131     return nodes.Output([], lineno=token.lineno)\n",
+      "col_offset": 4,
+      "end_col_offset": 27,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\tags\\wild.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of exec detected.",
+      "line_number": 130,
+      "line_range": [
+        130
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b102_exec_used.html",
+      "test_id": "B102",
+      "test_name": "exec_used"
+    },
+    {
+      "code": "169     code = compile(body, \"<liquid-addfilter-tag>\", mode=\"exec\")\n170     exec(code, globs)\n171     try:\n",
+      "col_offset": 4,
+      "end_col_offset": 21,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\liquid\\tags\\wild.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of exec detected.",
+      "line_number": 170,
+      "line_range": [
+        170
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b102_exec_used.html",
+      "test_id": "B102",
+      "test_name": "exec_used"
+    },
+    {
+      "code": "11     ).render()\n12     assert out == \"/a/b/c\"\n13 \n",
+      "col_offset": 4,
+      "end_col_offset": 26,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "22     )\n23     assert out == \"{'a': 1, 'b': 2}\"\n24 \n",
+      "col_offset": 4,
+      "end_col_offset": 36,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 23,
+      "line_range": [
+        23
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "25     out = liq.render(obj=[])\n26     assert out == \"None\"\n27 \n",
+      "col_offset": 4,
+      "end_col_offset": 24,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 26,
+      "line_range": [
+        26
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "28     out = liq.render(obj=[{}])\n29     assert out == \"None\"\n30 \n",
+      "col_offset": 4,
+      "end_col_offset": 24,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 29,
+      "line_range": [
+        29
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "32 def test_normalize_whitespace(set_default_jekyll):\n33     assert Liquid('{{\"a    b\" | normalize_whitespace}}').render() == \"a b\"\n34 \n",
+      "col_offset": 4,
+      "end_col_offset": 74,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 33,
+      "line_range": [
+        33
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "36 def test_sample(set_default_jekyll):\n37     assert Liquid(\"{{arr | sample | first}}\").render(arr=[1, 2, 3], n=1) in [\n38         \"1\",\n39         \"2\",\n40         \"3\",\n41     ]\n42 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 37,
+      "line_range": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "44 def test_markdownify(set_default_jekyll):\n45     assert Liquid(\"{{ '# a' | markdownify }}\").render() == \"<h1>a</h1>\"\n46 \n",
+      "col_offset": 4,
+      "end_col_offset": 71,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 45,
+      "line_range": [
+        45
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "66 \n67     assert Liquid(tpl).render() == str(out)\n68 \n",
+      "col_offset": 4,
+      "end_col_offset": 43,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 67,
+      "line_range": [
+        67
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "138 def test_sort(array, prop, none_pos, out, set_default_jekyll):\n139     assert Liquid(\"{{x | sort: p, n}}\").render(\n140         x=array, p=prop, n=none_pos\n141     ) == str(out)\n142 \n",
+      "col_offset": 4,
+      "end_col_offset": 17,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 139,
+      "line_range": [
+        139,
+        140,
+        141
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "176 def test_slugify(tpl, out, set_default_jekyll):\n177     assert Liquid(tpl).render() == str(out)\n178 \n",
+      "col_offset": 4,
+      "end_col_offset": 43,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 177,
+      "line_range": [
+        177
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "198 def test_array_to_sentence_string(array, connector, out, set_default_jekyll):\n199     assert (\n200         Liquid(\"{{ x | array_to_sentence_string: c }}\").render(\n201             x=array,\n202             c=connector,\n203         )\n204         == out\n205     )\n206 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 199,
+      "line_range": [
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "219 def test_jsonify(obj, out, set_default_jekyll):\n220     assert Liquid(\"{{ x | jsonify }}\").render(x=obj) == out\n221 \n",
+      "col_offset": 4,
+      "end_col_offset": 59,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 220,
+      "line_range": [
+        220
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "223 def test_xml_escape(set_default_jekyll):\n224     assert Liquid(\"{{ x | xml_escape }}\").render(x=None) == \"\"\n225     assert Liquid(\"{{ x | xml_escape }}\").render(x=\"AT&T\") == \"AT&amp;T\"\n",
+      "col_offset": 4,
+      "end_col_offset": 62,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 224,
+      "line_range": [
+        224
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "224     assert Liquid(\"{{ x | xml_escape }}\").render(x=None) == \"\"\n225     assert Liquid(\"{{ x | xml_escape }}\").render(x=\"AT&T\") == \"AT&amp;T\"\n226     assert (\n",
+      "col_offset": 4,
+      "end_col_offset": 72,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 225,
+      "line_range": [
+        225
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "225     assert Liquid(\"{{ x | xml_escape }}\").render(x=\"AT&T\") == \"AT&amp;T\"\n226     assert (\n227         Liquid(\"{{ x | xml_escape }}\").render(\n228             x=\"<code>command &lt;filename&gt;</code>\"\n229         )\n230         == \"&lt;code&gt;command &amp;lt;filename&amp;gt;&lt;/code&gt;\"\n231     )\n232 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 226,
+      "line_range": [
+        226,
+        227,
+        228,
+        229,
+        230,
+        231
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "234 def test_cgi_escape(set_default_jekyll):\n235     assert Liquid(\"{{ x | cgi_escape }}\").render(x=\"my things\") == \"my+things\"\n236     assert Liquid(\"{{ x | cgi_escape }}\").render(x=\"hey!\") == \"hey%21\"\n",
+      "col_offset": 4,
+      "end_col_offset": 78,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 235,
+      "line_range": [
+        235
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "235     assert Liquid(\"{{ x | cgi_escape }}\").render(x=\"my things\") == \"my+things\"\n236     assert Liquid(\"{{ x | cgi_escape }}\").render(x=\"hey!\") == \"hey%21\"\n237     assert (\n",
+      "col_offset": 4,
+      "end_col_offset": 70,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 236,
+      "line_range": [
+        236
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "236     assert Liquid(\"{{ x | cgi_escape }}\").render(x=\"hey!\") == \"hey%21\"\n237     assert (\n238         Liquid(\"{{ x | cgi_escape }}\").render(x=\"foo, bar; baz?\")\n239         == \"foo%2C+bar%3B+baz%3F\"\n240     )\n241 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 237,
+      "line_range": [
+        237,
+        238,
+        239,
+        240
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "243 def test_uri_escape(set_default_jekyll):\n244     assert (\n245         Liquid(\"{{ x | uri_escape }}\").render(x=\"my things\") == \"my%20things\"\n246     )\n247     assert (\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 244,
+      "line_range": [
+        244,
+        245,
+        246
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "246     )\n247     assert (\n248         Liquid(\"{{ x | uri_escape }}\").render(x=\"foo!*'();:@&=+$,/?#[]bar\")\n249         == \"foo!*'();:@&=+$,/?#[]bar\"\n250     )\n251     assert (\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 247,
+      "line_range": [
+        247,
+        248,
+        249,
+        250
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "250     )\n251     assert (\n252         Liquid(\"{{ x | uri_escape }}\").render(x=\"foo bar!*'();:@&=+$,/?#[]baz\")\n253         == \"foo%20bar!*'();:@&=+$,/?#[]baz\"\n254     )\n255     assert (\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 251,
+      "line_range": [
+        251,
+        252,
+        253,
+        254
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "254     )\n255     assert (\n256         Liquid(\"{{ x | uri_escape }}\").render(x=\"http://foo.com/?q=foo, \\\\bar?\")\n257         == \"http://foo.com/?q=foo,%20%5Cbar?\"\n258     )\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 255,
+      "line_range": [
+        255,
+        256,
+        257,
+        258
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "11 \"\"\"\n12     assert Liquid(tpl, front_matter_lang=\"toml\").render().strip() == \"1\"\n13 \n",
+      "col_offset": 4,
+      "end_col_offset": 72,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_front_matter.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "21 \"\"\"\n22     assert Liquid(tpl, front_matter_lang=\"json\").render().strip() == \"1\"\n",
+      "col_offset": 4,
+      "end_col_offset": 72,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_front_matter.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 22,
+      "line_range": [
+        22
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "9     liq = Liquid(TPLDIR / \"parent.tpl\", from_file=True)\n10     assert liq.render().strip() == \"sub\"\n11 \n",
+      "col_offset": 4,
+      "end_col_offset": 40,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 10,
+      "line_range": [
+        10
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "14     )\n15     assert liq.render().strip() == \"sub\"\n",
+      "col_offset": 4,
+      "end_col_offset": 40,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\jekyll\\test_jekyll_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 15,
+      "line_range": [
+        15
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "5 def test_filter(set_default_shopify):\n6     assert Liquid('').render() == ''\n",
+      "col_offset": 4,
+      "end_col_offset": 36,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\shopify\\test_shopify_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 6,
+      "line_range": [
+        6
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "9 def test_introduction(set_default_standard):\n10     assert (\n11         Liquid(\"{{page.title}}\").render(page={\"title\": \"Introduction\"})\n12         == \"Introduction\"\n13     )\n14 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 10,
+      "line_range": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "16 def test_tags(set_default_standard):\n17     assert (\n18         Liquid(\n19             \"\"\"\n20         {%- if user -%}\n21         Hello {{ user.name }}!\n22         {%- endif -%}\n23     \"\"\"\n24         ).render(user={\"name\": \"Adam\"})\n25         == \"Hello Adam!\"\n26     )\n27 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 17,
+      "line_range": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "29 def test_filters(set_default_standard):\n30     assert Liquid('{{ \"/my/fancy/url\" | append: \".html\" }}').render() == (\n31         \"/my/fancy/url.html\"\n32     )\n33 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 30,
+      "line_range": [
+        30,
+        31,
+        32
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "33 \n34     assert Liquid(\n35         '{{ \"adam!\" | capitalize | prepend: \"Hello \" }}'\n36     ).render() == (\"Hello Adam!\")\n37     # test keyword argument\n",
+      "col_offset": 4,
+      "end_col_offset": 33,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 34,
+      "line_range": [
+        34,
+        35,
+        36
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "37     # test keyword argument\n38     assert Liquid(\n39         '{{ \"hello adam!\" | replace_first: \"adam\", new:\"Adam\" | remove: \"hello \"}}'\n40     ).render() == (\"Adam!\")\n41 \n",
+      "col_offset": 4,
+      "end_col_offset": 27,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 38,
+      "line_range": [
+        38,
+        39,
+        40
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "48     \"\"\"\n49     assert Liquid(tpl).render(product={\"title\": \"Awesome Shoes\"}) == (\n50         \"These shoes are awesome!\"\n51     )\n52 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 49,
+      "line_range": [
+        49,
+        50,
+        51
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "57     \"\"\"\n58     assert Liquid(tpl).render(product={\"type\": \"Shirt\"}) == (\n59         \"This is a shirt or a pair of shoes.\"\n60     )\n61 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 58,
+      "line_range": [
+        58,
+        59,
+        60
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "66     \"\"\"\n67     assert Liquid(tpl).render(product={\"title\": \"Show Pack\"}) == (\n68         \"This product's title contains the word Pack.\"\n69     )\n70 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 67,
+      "line_range": [
+        67,
+        68,
+        69
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "75     \"\"\"\n76     assert Liquid(tpl).render(product={\"tags\": \"Hello Pack\"}) == (\n77         'This product has been tagged with \"Hello\".'\n78     )\n79 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 76,
+      "line_range": [
+        76,
+        77,
+        78
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "86     \"\"\"\n87     assert Liquid(tpl).render() == (\n88         \"This evaluates to true, since the `and` condition is checked first.\"\n89     )\n90 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 87,
+      "line_range": [
+        87,
+        88,
+        89
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "115     \"\"\"\n116     assert Liquid(tpl).render() == \"\"\n117 \n",
+      "col_offset": 4,
+      "end_col_offset": 37,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 116,
+      "line_range": [
+        116
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "126     \"\"\"\n127     assert Liquid(tpl).render().strip() == \"This condition will always be true.\"\n128 \n",
+      "col_offset": 4,
+      "end_col_offset": 80,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 127,
+      "line_range": [
+        127
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "133     \"\"\"\n134     assert (\n135         # Liquid(tpl).render(settings={\"fp_heading\": \"\"}).strip() == \"<h1></h1>\"\n136         # \"\" tests false in python, instead of true in liquid\n137         Liquid(tpl).render(settings={\"fp_heading\": \" \"}).strip() == \"<h1> </h1>\"\n138     )\n139 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 134,
+      "line_range": [
+        134,
+        135,
+        136,
+        137,
+        138
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "142     tpl = \"The current user is {{ user.name }}\"\n143     assert Liquid(tpl).render(user={}) == \"The current user is \"\n144 \n",
+      "col_offset": 4,
+      "end_col_offset": 64,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 143,
+      "line_range": [
+        143
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "148     \"\"\"\n149     assert (\n150         Liquid(tpl).render(site={\"users\": [\"Tobi\", \"Laura\", \"Tetsuro\", \"Adam\"]})\n151         == \" Tobi Laura Tetsuro Adam\"\n152     )\n153 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 149,
+      "line_range": [
+        149,
+        150,
+        151,
+        152
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "154     tpl = \"{{ site.users[0] }} {{ site.users[1] }} {{ site.users[3] }}\"\n155     assert (\n156         Liquid(tpl).render(site={\"users\": [\"Tobi\", \"Laura\", \"Tetsuro\", \"Adam\"]})\n157         == \"Tobi Laura Adam\"\n158     )\n159 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 155,
+      "line_range": [
+        155,
+        156,
+        157,
+        158
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "165 \n166     assert Liquid(tpl).render() == \"\\n\\ntomato\"\n167     tpl = \"\"\"\n",
+      "col_offset": 4,
+      "end_col_offset": 47,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 166,
+      "line_range": [
+        166
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "170 \n171     assert Liquid(tpl).render() == \"tomato\"\n172 \n",
+      "col_offset": 4,
+      "end_col_offset": 43,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 171,
+      "line_range": [
+        171
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "178 {% endif %}\"\"\"\n179     assert (\n180         Liquid(tpl).render()\n181         == \"\\n\\n  Wow, John G. Chalmers-Smith, you have a long name!\\n\"\n182     )\n183 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 179,
+      "line_range": [
+        179,
+        180,
+        181,
+        182
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "189 {%- endif -%}\"\"\"\n190     assert (\n191         Liquid(tpl).render()\n192         == \"Wow, John G. Chalmers-Smith, you have a long name!\"\n193     )\n194 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 190,
+      "line_range": [
+        190,
+        191,
+        192,
+        193
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "202     out = Liquid(tpl).render({\"var\": \"a\\n  b\"})\n203     assert out == \"\"\"\n204         1\n205         a\n206           b\n207         2\n208     \"\"\"\n209 \n",
+      "col_offset": 4,
+      "end_col_offset": 7,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 203,
+      "line_range": [
+        203,
+        204,
+        205,
+        206,
+        207,
+        208
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "213     out = Liquid(tpl).render({\"var\": \"a\\n  b\"})\n214     assert out == \"\"\"a\\n  b\"\"\"\n",
+      "col_offset": 4,
+      "end_col_offset": 30,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_basics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 214,
+      "line_range": [
+        214
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "205     tpl = f\"{{{{ {base!r} | {filter} }}}}\"\n206     assert Liquid(tpl).render() == str(result)\n207 \n",
+      "col_offset": 4,
+      "end_col_offset": 46,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 206,
+      "line_range": [
+        206
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "209 def test_newline_filters(set_default_standard):\n210     assert Liquid(\"{{ x | newline_to_br }}\").render(x=\"apple\\nwatch\") == (\n211         \"apple<br />watch\"\n212     )\n213     assert Liquid(\"{{ x | strip_newlines }}\").render(x=\"apple\\nwatch\") == (\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 210,
+      "line_range": [
+        210,
+        211,
+        212
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "212     )\n213     assert Liquid(\"{{ x | strip_newlines }}\").render(x=\"apple\\nwatch\") == (\n214         \"applewatch\"\n215     )\n216 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 213,
+      "line_range": [
+        213,
+        214,
+        215
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "222     \"\"\"\n223     assert Liquid(tpl).render().strip() == \"website.com/index.html\"\n224 \n",
+      "col_offset": 4,
+      "end_col_offset": 67,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 223,
+      "line_range": [
+        223
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "245     )\n246     assert (\n247         rendered\n248         == \"\"\"\n249     - business.\n250     - celebrities.\n251     - .\n252     - lifestyle.\n253     - sports.\n254     - .\n255     - technology.\n256     \"\"\"\n257     )\n258 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 246,
+      "line_range": [
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "277     )\n278     assert (\n279         rendered\n280         == \"\"\"\n281     - business.\n282     - celebrities.\n283     - lifestyle.\n284     - sports.\n285     - technology.\n286     \"\"\"\n287     )\n288 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 278,
+      "line_range": [
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "298     \"\"\"\n299     assert (\n300         Liquid(tpl).render()\n301         == \"\"\"\n302     - apples\n303     - oranges\n304     - peaches\n305     - carrots\n306     - turnips\n307     - potatoes\n308     \"\"\"\n309     )\n310 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 299,
+      "line_range": [
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "319     \"\"\"\n320     assert (\n321         Liquid(tpl).render()\n322         == \"\"\"\n323     - apples\n324     - oranges\n325     - peaches\n326     - carrots\n327     - turnips\n328     - potatoes\n329     - chairs\n330     - tables\n331     - shelves\n332     \"\"\"\n333     )\n334 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 320,
+      "line_range": [
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "341     setattr(b, \"a-b\", 2)\n342     assert (\n343         Liquid(\"{{a | where: 'a-b', 1 | map: 'a-b' | first}}\").render(a=[a, b])\n344         == \"1\"\n345     )\n346 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 342,
+      "line_range": [
+        342,
+        343,
+        344,
+        345
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "360 def test_date_arithmetic(tpl, out, set_default_standard):\n361     assert Liquid(tpl).render() == out\n362 \n",
+      "col_offset": 4,
+      "end_col_offset": 38,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 361,
+      "line_range": [
+        361
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "364 def test_emptydrop(set_default_standard):\n365     assert Liquid(\"{{ obj | sort_natural}}\").render(obj=[]) == \"\"\n366     assert (\n",
+      "col_offset": 4,
+      "end_col_offset": 65,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 365,
+      "line_range": [
+        365
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "365     assert Liquid(\"{{ obj | sort_natural}}\").render(obj=[]) == \"\"\n366     assert (\n367         Liquid(\"{{ obj | sort | bool}}\", mode=\"wild\").render(obj=[]) == \"False\"\n368     )\n369     assert (\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 366,
+      "line_range": [
+        366,
+        367,
+        368
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "368     )\n369     assert (\n370         Liquid(\"{{ slice(obj, 0) == False}}\", mode=\"wild\").render(obj=[])\n371         == \"True\"\n372     )\n373     assert (\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 369,
+      "line_range": [
+        369,
+        370,
+        371,
+        372
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "372     )\n373     assert (\n374         Liquid(\"{{ uniq(obj) != False}}\", mode=\"wild\").render(obj=[])\n375         == \"False\"\n376     )\n377 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 373,
+      "line_range": [
+        373,
+        374,
+        375,
+        376
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "379 def test_regex_replace(set_default_standard):\n380     assert Liquid('{{1 | regex_replace: \"a\"}}').render() == \"1\"\n381     assert Liquid('{{\"abc\" | regex_replace: \"a\", \"b\"}}').render() == \"bbc\"\n",
+      "col_offset": 4,
+      "end_col_offset": 63,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 380,
+      "line_range": [
+        380
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "380     assert Liquid('{{1 | regex_replace: \"a\"}}').render() == \"1\"\n381     assert Liquid('{{\"abc\" | regex_replace: \"a\", \"b\"}}').render() == \"bbc\"\n382     assert (\n",
+      "col_offset": 4,
+      "end_col_offset": 74,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 381,
+      "line_range": [
+        381
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "381     assert Liquid('{{\"abc\" | regex_replace: \"a\", \"b\"}}').render() == \"bbc\"\n382     assert (\n383         Liquid(\n384             '{{\"abc\" | regex_replace: \"A\", \"b\", case_sensitive=False}}'\n385         ).render()\n386         == \"bbc\"\n387     )\n388 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 382,
+      "line_range": [
+        382,
+        383,
+        384,
+        385,
+        386,
+        387
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "390 def test_basic_typecasting(set_default_standard):\n391     assert Liquid('{{ \"1\" | int | plus: 1 }}').render() == \"2\"\n392     assert Liquid('{{ \"1\" | float | plus: 1 }}').render() == \"2.0\"\n",
+      "col_offset": 4,
+      "end_col_offset": 62,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 391,
+      "line_range": [
+        391
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "391     assert Liquid('{{ \"1\" | int | plus: 1 }}').render() == \"2\"\n392     assert Liquid('{{ \"1\" | float | plus: 1 }}').render() == \"2.0\"\n393     assert Liquid('{{ 1 | str | append: \"1\" }}').render() == \"11\"\n",
+      "col_offset": 4,
+      "end_col_offset": 66,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 392,
+      "line_range": [
+        392
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "392     assert Liquid('{{ \"1\" | float | plus: 1 }}').render() == \"2.0\"\n393     assert Liquid('{{ 1 | str | append: \"1\" }}').render() == \"11\"\n394     assert Liquid('{{ 1 | bool }}').render() == \"True\"\n",
+      "col_offset": 4,
+      "end_col_offset": 65,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 393,
+      "line_range": [
+        393
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "393     assert Liquid('{{ 1 | str | append: \"1\" }}').render() == \"11\"\n394     assert Liquid('{{ 1 | bool }}').render() == \"True\"\n395     assert Liquid('{{ int(\"1\") | plus: 1 }}').render() == \"2\"\n",
+      "col_offset": 4,
+      "end_col_offset": 54,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 394,
+      "line_range": [
+        394
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "394     assert Liquid('{{ 1 | bool }}').render() == \"True\"\n395     assert Liquid('{{ int(\"1\") | plus: 1 }}').render() == \"2\"\n396     assert Liquid('{{ float(\"1\") | plus: 1 }}').render() == \"2.0\"\n",
+      "col_offset": 4,
+      "end_col_offset": 61,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 395,
+      "line_range": [
+        395
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "395     assert Liquid('{{ int(\"1\") | plus: 1 }}').render() == \"2\"\n396     assert Liquid('{{ float(\"1\") | plus: 1 }}').render() == \"2.0\"\n397     assert Liquid('{{ str(1) | append: \"1\" }}').render() == \"11\"\n",
+      "col_offset": 4,
+      "end_col_offset": 65,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 396,
+      "line_range": [
+        396
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "396     assert Liquid('{{ float(\"1\") | plus: 1 }}').render() == \"2.0\"\n397     assert Liquid('{{ str(1) | append: \"1\" }}').render() == \"11\"\n398     assert Liquid('{{ bool(1) }}').render() == \"True\"\n",
+      "col_offset": 4,
+      "end_col_offset": 64,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 397,
+      "line_range": [
+        397
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "397     assert Liquid('{{ str(1) | append: \"1\" }}').render() == \"11\"\n398     assert Liquid('{{ bool(1) }}').render() == \"True\"\n399 \n",
+      "col_offset": 4,
+      "end_col_offset": 53,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 398,
+      "line_range": [
+        398
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "401 def test_attr(set_default_standard):\n402     assert Liquid('{{x | attr: \"y\"}}').render(x={}) == \"None\"\n403     assert Liquid('{{x | attr: \"y\" | default: 1}}').render(x={}) == \"1\"\n",
+      "col_offset": 4,
+      "end_col_offset": 61,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 402,
+      "line_range": [
+        402
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "402     assert Liquid('{{x | attr: \"y\"}}').render(x={}) == \"None\"\n403     assert Liquid('{{x | attr: \"y\" | default: 1}}').render(x={}) == \"1\"\n404     assert Liquid('{{x | attr: \"y\"}}').render(x={\"y\": 1}) == \"1\"\n",
+      "col_offset": 4,
+      "end_col_offset": 71,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 403,
+      "line_range": [
+        403
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "403     assert Liquid('{{x | attr: \"y\" | default: 1}}').render(x={}) == \"1\"\n404     assert Liquid('{{x | attr: \"y\"}}').render(x={\"y\": 1}) == \"1\"\n405     assert Liquid('{{x | attr: \"y\"}}').render(x=namedtuple(\"X\", \"y\")(2)) == \"2\"\n",
+      "col_offset": 4,
+      "end_col_offset": 64,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 404,
+      "line_range": [
+        404
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "404     assert Liquid('{{x | attr: \"y\"}}').render(x={\"y\": 1}) == \"1\"\n405     assert Liquid('{{x | attr: \"y\"}}').render(x=namedtuple(\"X\", \"y\")(2)) == \"2\"\n406 \n",
+      "col_offset": 4,
+      "end_col_offset": 79,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 405,
+      "line_range": [
+        405
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "409     # with standard mode, map works the same as liquid_map\n410     assert Liquid('{{x | map: \"y\" | first}}').render(x=[{}]) == \"None\"\n411     assert Liquid('{{x | liquid_map: \"y\" | first}}').render(x=[{\"y\": 1}]) == \"1\"\n",
+      "col_offset": 4,
+      "end_col_offset": 70,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 410,
+      "line_range": [
+        410
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "410     assert Liquid('{{x | map: \"y\" | first}}').render(x=[{}]) == \"None\"\n411     assert Liquid('{{x | liquid_map: \"y\" | first}}').render(x=[{\"y\": 1}]) == \"1\"\n412     assert Liquid('{{x | liquid_map: \"y\" | last}}').render(\n",
+      "col_offset": 4,
+      "end_col_offset": 80,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 411,
+      "line_range": [
+        411
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "411     assert Liquid('{{x | liquid_map: \"y\" | first}}').render(x=[{\"y\": 1}]) == \"1\"\n412     assert Liquid('{{x | liquid_map: \"y\" | last}}').render(\n413         x=[namedtuple(\"X\", \"y\")(2)]\n414     ) == \"2\"\n",
+      "col_offset": 4,
+      "end_col_offset": 12,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 412,
+      "line_range": [
+        412,
+        413,
+        414
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "24     \"\"\"\n25     assert (\n26         Liquid(tpl).render(product={\"title\": \"Awesome Shoes\"}).strip()\n27         == \"These shoes are awesome!\"\n28     )\n29 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 25,
+      "line_range": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "36     \"\"\"\n37     assert (\n38         Liquid(tpl).render(product={\"title\": \"Not Awesome Shoes\"}).strip()\n39         == \"These shoes are not awesome.\"\n40     )\n41 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 37,
+      "line_range": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "45     # assert Liquid('{% unless \"\" %}1{% endunless %}').render() == \"\"\n46     assert Liquid('{% unless \"\" %}{% else %}1{% endunless %}').render() == \"\"\n47     assert Liquid(\"{% unless 0.0 %}{% else %}1{% endunless %}\").render() == \"\"\n",
+      "col_offset": 4,
+      "end_col_offset": 77,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 46,
+      "line_range": [
+        46
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "46     assert Liquid('{% unless \"\" %}{% else %}1{% endunless %}').render() == \"\"\n47     assert Liquid(\"{% unless 0.0 %}{% else %}1{% endunless %}\").render() == \"\"\n48     assert Liquid(\"{% unless empty %}1{% endunless %}\").render() == \"1\"\n",
+      "col_offset": 4,
+      "end_col_offset": 78,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 47,
+      "line_range": [
+        47
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "47     assert Liquid(\"{% unless 0.0 %}{% else %}1{% endunless %}\").render() == \"\"\n48     assert Liquid(\"{% unless empty %}1{% endunless %}\").render() == \"1\"\n49 \n",
+      "col_offset": 4,
+      "end_col_offset": 71,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 48,
+      "line_range": [
+        48
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "60     \"\"\"\n61     assert (\n62         Liquid(tpl).render(customer={\"name\": \"anonymous\"}).strip()\n63         == \"Hey Anonymous!\"\n64     )\n65 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 61,
+      "line_range": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "78     \"\"\"\n79     assert Liquid(tpl).render(handle=\"cake\").strip() == \"This is a cake\"\n80 \n",
+      "col_offset": 4,
+      "end_col_offset": 72,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 79,
+      "line_range": [
+        79
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "80 \n81     assert (\n82         Liquid(\n83             \"\"\"\n84     {% case true %}\n85     {% when false %}\n86     {% endcase %}\n87     \"\"\"\n88         )\n89         .render()\n90         .strip()\n91         == \"\"\n92     )\n93 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 81,
+      "line_range": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "99     \"\"\"\n100     assert (\n101         Liquid(tpl).render(\n102             collection={\n103                 \"products\": [\n104                     {\"title\": \"hat\"},\n105                     {\"title\": \"shirt\"},\n106                     {\"title\": \"pants\"},\n107                 ]\n108             }\n109         )\n110         == \" hat shirt pants\"\n111     )\n112 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 100,
+      "line_range": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "119     \"\"\"\n120     assert (\n121         Liquid(tpl).render(collection={\"products\": []}).strip()\n122         == \"The collection is empty.\"\n123     )\n124 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 120,
+      "line_range": [
+        120,
+        121,
+        122,
+        123
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "124 \n125     assert (\n126         Liquid(\"{{(1..5) | list}}\", filters={\"list\": list}).render()\n127         == \"[1, 2, 3, 4, 5]\"\n128     )\n129 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 125,
+      "line_range": [
+        125,
+        126,
+        127,
+        128
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "138     \"\"\"\n139     assert Liquid(tpl).render().split() == [\"1\", \"2\", \"3\"]\n140 \n",
+      "col_offset": 4,
+      "end_col_offset": 58,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 139,
+      "line_range": [
+        139
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "151     \"\"\"\n152     assert Liquid(tpl).render().split() == [\"1\", \"2\", \"3\", \"5\"]\n153 \n",
+      "col_offset": 4,
+      "end_col_offset": 63,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 152,
+      "line_range": [
+        152
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "166     rendered = [ren.strip() for ren in rendered if ren.strip()]\n167     assert rendered == [\n168         \"First time through!\",\n169         \"Not the first time.\",\n170         \"Not the first time.\",\n171         \"Not the first time.\",\n172         \"Not the first time.\",\n173     ]\n174 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 167,
+      "line_range": [
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "181     \"\"\"\n182     assert Liquid(tpl).render(products=range(5)).split() == [\n183         \"1\",\n184         \"2\",\n185         \"3\",\n186         \"4\",\n187         \"5\",\n188     ]\n189 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 182,
+      "line_range": [
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "190     # forloop outside for-loop\n191     assert Liquid(\"{{forloop}}\").render(forloop=1) == \"1\"\n192 \n",
+      "col_offset": 4,
+      "end_col_offset": 57,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 191,
+      "line_range": [
+        191
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "199     \"\"\"\n200     assert Liquid(tpl).render(products=range(5)).split() == [\n201         \"0\",\n202         \"1\",\n203         \"2\",\n204         \"3\",\n205         \"4\",\n206     ]\n207 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 200,
+      "line_range": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "218     rendered = [ren.strip() for ren in rendered if ren.strip()]\n219     assert rendered == [\n220         \"Keep going...\",\n221         \"Keep going...\",\n222         \"Keep going...\",\n223         \"Keep going...\",\n224         \"This is the last iteration!\",\n225     ]\n226 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 219,
+      "line_range": [
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "247     rendered = [ren.strip() for ren in rendered if ren.strip()]\n248     assert rendered == [\n249         \"<p>This collection has 4 products:</p>\",\n250         \"<p>Apple</p>\",\n251         \"<p>Orange</p>\",\n252         \"<p>Peach</p>\",\n253         \"<p>Plum</p>\",\n254     ]\n255 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 248,
+      "line_range": [
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "260     \"\"\"\n261     assert Liquid(tpl).render(products=range(5)).split() == [\n262         \"5\",\n263         \"4\",\n264         \"3\",\n265         \"2\",\n266         \"1\",\n267     ]\n268 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 261,
+      "line_range": [
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "273     \"\"\"\n274     assert Liquid(tpl).render(products=range(5)).split() == [\n275         \"4\",\n276         \"3\",\n277         \"2\",\n278         \"1\",\n279         \"0\",\n280     ]\n281 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 274,
+      "line_range": [
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "288     \"\"\"\n289     assert Liquid(tpl).render(array=[1, 2, 3, 4, 5, 6]).split() == [\"1\", \"2\"]\n290 \n",
+      "col_offset": 4,
+      "end_col_offset": 77,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 289,
+      "line_range": [
+        289
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "295     \"\"\"\n296     assert Liquid(tpl).render(array=[1, 2, 3, 4, 5, 6]).split() == [\n297         \"3\",\n298         \"4\",\n299         \"5\",\n300         \"6\",\n301     ]\n302 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 296,
+      "line_range": [
+        296,
+        297,
+        298,
+        299,
+        300,
+        301
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "307     \"\"\"\n308     assert Liquid(tpl).render(array=[1, 2, 3, 4, 5, 6]).split() == [\"3\", \"4\"]\n309 \n",
+      "col_offset": 4,
+      "end_col_offset": 77,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 308,
+      "line_range": [
+        308
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "318     \"\"\"\n319     assert Liquid(tpl).render().split() == [\"3\", \"4\", \"5\", \"1\", \"2\", \"3\", \"4\"]\n320 \n",
+      "col_offset": 4,
+      "end_col_offset": 78,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 319,
+      "line_range": [
+        319
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "327     \"\"\"\n328     assert Liquid(tpl).render(array=[1, 2, 3, 4, 5, 6]).split() == [\n329         \"6\",\n330         \"5\",\n331         \"4\",\n332         \"3\",\n333         \"2\",\n334         \"1\",\n335     ]\n336 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 328,
+      "line_range": [
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "343     \"\"\"\n344     assert Liquid(tpl).render().split() == [\n345         \"one\",\n346         \"two\",\n347         \"three\",\n348         \"one\",\n349     ]\n350 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 344,
+      "line_range": [
+        344,
+        345,
+        346,
+        347,
+        348,
+        349
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "356     \"\"\"\n357     assert Liquid(tpl).render().split() == [\n358         \"one\",\n359         \"one\",\n360         \"two\",\n361         \"two\",\n362     ]\n363 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 357,
+      "line_range": [
+        357,
+        358,
+        359,
+        360,
+        361,
+        362
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "386 \n387     assert (\n388         rendered\n389         == \"\"\"\n390     <table>\n391     <tr class=\"row1\"><td class=\"col1\">\n392       Cool Shirt\n393     </td><td class=\"col2\">\n394       Alien Poster\n395     </td><td class=\"col3\">\n396       Batman Poster\n397     </td><td class=\"col4\">\n398       Bullseye Shirt\n399     </td><td class=\"col5\">\n400       Another Classic Vinyl\n401     </td><td class=\"col6\">\n402       Awesome Jeans\n403     </td></tr>\n404     </table>\n405     \"\"\"\n406     )\n407 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 387,
+      "line_range": [
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "428 \n429     assert (\n430         rendered\n431         == \"\"\"\n432     <table>\n433     <tr class=\"row1\"><td class=\"col1\">\n434       Cool Shirt\n435     </td><td class=\"col2\">\n436       Alien Poster\n437     </td></tr><tr class=\"row2\"><td class=\"col1\">\n438       Batman Poster\n439     </td><td class=\"col2\">\n440       Bullseye Shirt\n441     </td></tr><tr class=\"row3\"><td class=\"col1\">\n442       Another Classic Vinyl\n443     </td><td class=\"col2\">\n444       Awesome Jeans\n445     </td></tr>\n446     </table>\n447     \"\"\"\n448     )\n449 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 429,
+      "line_range": [
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447,
+        448
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "470 \n471     assert (\n472         rendered\n473         == \"\"\"\n474     <table>\n475     <tr class=\"row1\"><td class=\"col1\">\n476       Cool Shirt\n477     </td><td class=\"col2\">\n478       Alien Poster\n479     </td></tr><tr class=\"row2\"><td class=\"col1\">\n480       Batman Poster\n481     </td></tr>\n482     </table>\n483     \"\"\"\n484     )\n485 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 471,
+      "line_range": [
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "507 \n508     assert (\n509         rendered\n510         == \"\"\"\n511     <table>\n512     <tr class=\"row1\"><td class=\"col1\">\n513       Cool Shirt\n514     </td><td class=\"col2\">\n515       Alien Poster\n516     </td></tr><tr class=\"row2\"><td class=\"col1\">\n517       Batman Poster\n518     </td></tr>\n519     </table>\n520     \"\"\"\n521     )\n522 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 508,
+      "line_range": [
+        508,
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "543 \n544     assert (\n545         rendered\n546         == \"\"\"\n547     <table>\n548     <tr class=\"row1\"><td class=\"col1\">\n549       Bullseye Shirt\n550     </td><td class=\"col2\">\n551       Another Classic Vinyl\n552     </td></tr><tr class=\"row2\"><td class=\"col1\">\n553       Awesome Jeans\n554     </td></tr>\n555     </table>\n556     \"\"\"\n557     )\n558 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 544,
+      "line_range": [
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "579 \n580     assert (\n581         rendered\n582         == \"\"\"\n583     <table>\n584     <tr class=\"row1\"><td class=\"col1\">\n585       Bullseye Shirt\n586     </td><td class=\"col2\">\n587       Another Classic Vinyl\n588     </td></tr>\n589     </table>\n590     \"\"\"\n591     )\n592 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 580,
+      "line_range": [
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "606     rendered = Liquid(tpl).render()\n607     assert (\n608         rendered\n609         == \"\"\"\n610     <table>\n611     <tr class=\"row1\"><td class=\"col1\">\n612     1\n613     </td><td class=\"col2\">\n614     2\n615     </td><td class=\"col3\">\n616     3\n617     </td><td class=\"col4\">\n618     4\n619     </td></tr>\n620     </table>\n621 \n622     <table>\n623     <tr class=\"row1\"><td class=\"col1\">\n624     3\n625     </td><td class=\"col2\">\n626     4\n627     </td><td class=\"col3\">\n628     5\n629     </td></tr>\n630     </table>\n631     \"\"\"\n632     )\n633 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 607,
+      "line_range": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "641     \"\"\"\n642     assert (\n643         Liquid(tpl).render()\n644         == \"\"\"\n645       In Handlebars, {{ this }} will be HTML-escaped, but\n646       {{{ that }}} will not.\n647     \"\"\"\n648     )\n649 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 642,
+      "line_range": [
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "651 def test_assign(set_default_standard):\n652     assert Liquid(\"{% assign x = 'bar' %}{{x}}\").render() == \"bar\"\n653 \n",
+      "col_offset": 4,
+      "end_col_offset": 66,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 652,
+      "line_range": [
+        652
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "657     {{ my_variable }}\"\"\"\n658     assert Liquid(tpl).render() == \"I am being captured.\"\n659 \n",
+      "col_offset": 4,
+      "end_col_offset": 57,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 658,
+      "line_range": [
+        658
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "669     \"\"\"\n670     assert Liquid(tpl).render().strip() == (\n671         \"I am 35 and my favorite food is pizza.\"\n672     )\n673 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 670,
+      "line_range": [
+        670,
+        671,
+        672
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "680     \"\"\"\n681     assert Liquid(tpl).render().split() == [\"0\", \"1\", \"2\"]\n682 \n",
+      "col_offset": 4,
+      "end_col_offset": 58,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 681,
+      "line_range": [
+        681
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "687     \"\"\"\n688     assert Liquid(tpl).render().split() == [\"-1\", \"-2\", \"-3\"]\n689 \n",
+      "col_offset": 4,
+      "end_col_offset": 61,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 688,
+      "line_range": [
+        688
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "709     \"\"\"\n710     assert Liquid(tpl).render(a=1).strip() == \"22\"\n711     assert Liquid(tpl).render(a=2).strip() == \"11\"\n",
+      "col_offset": 4,
+      "end_col_offset": 50,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 710,
+      "line_range": [
+        710
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "710     assert Liquid(tpl).render(a=1).strip() == \"22\"\n711     assert Liquid(tpl).render(a=2).strip() == \"11\"\n712 \n",
+      "col_offset": 4,
+      "end_col_offset": 50,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\standard\\test_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 711,
+      "line_range": [
+        711
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "15     )\n16     assert tpl.render(a=1) == \"1\"\n17     assert tpl.env.x == 1\n",
+      "col_offset": 4,
+      "end_col_offset": 33,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\test_liquid.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 16,
+      "line_range": [
+        16
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "16     assert tpl.render(a=1) == \"1\"\n17     assert tpl.env.x == 1\n18 \n",
+      "col_offset": 4,
+      "end_col_offset": 25,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\test_liquid.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 17,
+      "line_range": [
+        17
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "21     loader = FileSystemLoader(\"~\")\n22     env = Environment(\n23         loader=loader,\n24         variable_start_string=\"{$\",\n25         variable_end_string=\"$}\",\n26     )\n27     tpl = Liquid.from_env(\"{$ a $}\", env)\n",
+      "col_offset": 10,
+      "end_col_offset": 5,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\test_liquid.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 94,
+        "link": "https://cwe.mitre.org/data/definitions/94.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.",
+      "line_number": 22,
+      "line_range": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b701_jinja2_autoescape_false.html",
+      "test_id": "B701",
+      "test_name": "jinja2_autoescape_false"
+    },
+    {
+      "code": "27     tpl = Liquid.from_env(\"{$ a $}\", env)\n28     assert tpl.render(a=1) == \"1\"\n29 \n",
+      "col_offset": 4,
+      "end_col_offset": 33,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\test_liquid.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 28,
+      "line_range": [
+        28
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "36     )\n37     assert tpl.render(a=1) == \"1\"\n38 \n",
+      "col_offset": 4,
+      "end_col_offset": 33,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\test_liquid.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 37,
+      "line_range": [
+        37
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "49 \n50     assert run(tpl.render_async(a=1)) == \"1\"\n",
+      "col_offset": 4,
+      "end_col_offset": 44,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\test_liquid.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 50,
+      "line_range": [
+        50
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "10     out = Liquid(tpl).render(a=1)\n11     assert out == \"2\"\n12 \n",
+      "col_offset": 4,
+      "end_col_offset": 21,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "13     out = Liquid(tpl).render(a=\"a\")\n14     assert out == \"a.html\"\n15 \n",
+      "col_offset": 4,
+      "end_col_offset": 26,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 14,
+      "line_range": [
+        14
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "20     out = Liquid(tpl).render()\n21     assert out == \"2\"\n22 \n",
+      "col_offset": 4,
+      "end_col_offset": 21,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 21,
+      "line_range": [
+        21
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "27     out = Liquid(tpl).render(x=[1.1, 2.2, 3.3])\n28     assert out == \"[1, 2, 3]\"\n29     out = Liquid(tpl).render(x=[])\n",
+      "col_offset": 4,
+      "end_col_offset": 29,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 28,
+      "line_range": [
+        28
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "29     out = Liquid(tpl).render(x=[])\n30     assert out == \"[]\"\n31 \n",
+      "col_offset": 4,
+      "end_col_offset": 22,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 30,
+      "line_range": [
+        30
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "35     out = Liquid(tpl).render(x=[{\"y\": 1}, {\"y\": 2}, {\"y\": 3}])\n36     assert out == \"[1, 2, 3]\"\n37     out = Liquid(tpl).render(x=[])\n",
+      "col_offset": 4,
+      "end_col_offset": 29,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 36,
+      "line_range": [
+        36
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "37     out = Liquid(tpl).render(x=[])\n38     assert out == \"[]\"\n39 \n",
+      "col_offset": 4,
+      "end_col_offset": 22,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 38,
+      "line_range": [
+        38
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "44     out = Liquid(tpl).render(x=[1, 2, 3])\n45     assert out == \"[2, 3, 4]\"\n46     out = Liquid(tpl).render(x=[])\n",
+      "col_offset": 4,
+      "end_col_offset": 29,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 45,
+      "line_range": [
+        45
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "46     out = Liquid(tpl).render(x=[])\n47     assert out == \"[]\"\n",
+      "col_offset": 4,
+      "end_col_offset": 22,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_filters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 47,
+      "line_range": [
+        47
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "13     out = Liquid(tpl).render().strip()\n14     assert out == \"|8525|\"\n15 \n",
+      "col_offset": 4,
+      "end_col_offset": 26,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_include.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 14,
+      "line_range": [
+        14
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "21     out = Liquid(tpl).render().strip()\n22     assert out == \"|8525|\"\n23 \n",
+      "col_offset": 4,
+      "end_col_offset": 26,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_include.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 22,
+      "line_range": [
+        22
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "29     out = Liquid(tpl).render().strip()\n30     assert out == \"||\"\n",
+      "col_offset": 4,
+      "end_col_offset": 22,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_include.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 30,
+      "line_range": [
+        30
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "11     \"\"\"\n12     assert Liquid(tpl).render().strip() == \"1\"\n13 \n",
+      "col_offset": 4,
+      "end_col_offset": 46,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_wild_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "21     \"\"\"\n22     assert Liquid(tpl).render().strip() == \"1\"\n23 \n",
+      "col_offset": 4,
+      "end_col_offset": 46,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_wild_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 22,
+      "line_range": [
+        22
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "29     \"\"\"\n30     assert Liquid(tpl).render().strip() == \"a/b\"\n31 \n",
+      "col_offset": 4,
+      "end_col_offset": 48,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_wild_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 30,
+      "line_range": [
+        30
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "37     \"\"\"\n38     assert Liquid(tpl).render().strip() == \"a/b\"\n39 \n",
+      "col_offset": 4,
+      "end_col_offset": 48,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_wild_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 38,
+      "line_range": [
+        38
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "48     \"\"\"\n49     assert Liquid(tpl).render().strip() == \"a/b\"\n50 \n",
+      "col_offset": 4,
+      "end_col_offset": 48,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_58jqafz5\\tests\\wild\\test_wild_tags.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 49,
+      "line_range": [
+        49
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    }
+  ]
+}

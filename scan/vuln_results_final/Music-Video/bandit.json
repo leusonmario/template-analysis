@@ -1,0 +1,93 @@
+{
+  "errors": [],
+  "generated_at": "2025-10-21T13:37:29Z",
+  "metrics": {
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_9zfc7jj2\\helpers\\admin_check.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 16,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_9zfc7jj2\\helpers\\queues.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 21,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_9zfc7jj2\\helpers\\soon.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_9zfc7jj2\\player.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 475,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 512,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "525     await message.reply_text(\"\ud83d\udee0 <i>\ud835\ude81\ud835\ude8e\ud835\ude9c\ud835\ude9d\ud835\ude8a\ud835\ude9b\ud835\ude9d\ud835\ude92\ud835\ude97\ud835\ude90 \ud835\ude83\ud835\ude91\ud835\ude8e \ud835\ude71\ud835\ude98\ud835\ude9d \ud835\ude7f\ud835\ude95\ud835\ude8e\ud835\ude8a\ud835\ude9c\ud835\ude8e \ud835\ude86\ud835\ude8a\ud835\ude92\ud835\ude9d \u270b\ud83c\udffb \ud835\ude78\ud835\ude9d'\ud835\ude9c \ud835\ude7c\ud835\ude8a\ud835\udea2 \ud835\ude83\ud835\ude8a\ud835\ude94\ud835\ude8e \ud835\udffa-\ud835\udffb \ud835\ude7c\ud835\ude92\ud835\ude97\ud835\ude9e\ud835\ude9d\ud835\ude8e\ud835\ude9c \ud83e\udd10...</i>\")\n526     os.system(f\"kill -9 {os.getpid()} && python3 app.py\")\n527 \n",
+      "col_offset": 4,
+      "end_col_offset": 57,
+      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_9zfc7jj2\\player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 526,
+      "line_range": [
+        526
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    }
+  ]
+}

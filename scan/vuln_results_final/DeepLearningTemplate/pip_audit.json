@@ -1,0 +1,6 @@
+ERROR:pip_audit._virtual_env:internal pip failure: ERROR: Could not find a version that satisfies the requirement triton (from versions: none)
+
+ERROR: No matching distribution found for triton
+
+
+ERROR:pip_audit._cli:Failed to install packages: ['C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmpi2v73ww2\\Scripts\\python.exe', '-m', 'pip', 'install', '--no-input', '--keyring-provider=subprocess', '--dry-run', '--report', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmptfwi30jb\\tmphcazhvkl', '-r', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_ycpixzbj\\requirements.txt']

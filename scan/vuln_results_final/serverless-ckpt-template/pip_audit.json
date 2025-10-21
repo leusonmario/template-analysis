@@ -1,0 +1,6 @@
+ERROR:pip_audit._virtual_env:internal pip failure: ERROR: Could not find a version that satisfies the requirement torch==2.0.0 (from versions: 2.6.0, 2.7.0, 2.7.1, 2.8.0, 2.9.0)
+
+ERROR: No matching distribution found for torch==2.0.0
+
+
+ERROR:pip_audit._cli:Failed to install packages: ['C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmp4jv6letl\\Scripts\\python.exe', '-m', 'pip', 'install', '--no-input', '--keyring-provider=subprocess', '--dry-run', '--report', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmplx0zjtoq\\tmp5_dz88h1', '-r', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_l0ckb70k\\requirements.txt']

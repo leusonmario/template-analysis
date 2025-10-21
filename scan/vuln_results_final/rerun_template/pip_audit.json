@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "rerun-sdk", "version": "0.22.1", "vulns": []}, {"name": "attrs", "version": "25.4.0", "vulns": []}, {"name": "numpy", "version": "2.3.4", "vulns": []}, {"name": "pillow", "version": "12.0.0", "vulns": []}, {"name": "pyarrow", "version": "21.0.0", "vulns": []}, {"name": "typing-extensions", "version": "4.15.0", "vulns": []}], "fixes": []}

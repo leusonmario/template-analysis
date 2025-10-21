@@ -1,0 +1,72 @@
+ERROR:pip_audit._virtual_env:internal pip failure:   error: subprocess-exited-with-error
+
+  
+
+  × Getting requirements to build wheel did not run successfully.
+
+  │ exit code: 1
+
+  ╰─> [20 lines of output]
+
+      Traceback (most recent call last):
+
+        File "C:\Users\leu_m\AppData\Local\Temp\tmpjxil1qby\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 389, in <module>
+
+          main()
+
+          ~~~~^^
+
+        File "C:\Users\leu_m\AppData\Local\Temp\tmpjxil1qby\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 373, in main
+
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+
+        File "C:\Users\leu_m\AppData\Local\Temp\tmpjxil1qby\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 143, in get_requires_for_build_wheel
+
+          return hook(config_settings)
+
+        File "C:\Users\leu_m\AppData\Local\Temp\pip-build-env-_6ncni1z\overlay\Lib\site-packages\setuptools\build_meta.py", line 331, in get_requires_for_build_wheel
+
+          return self._get_build_requires(config_settings, requirements=[])
+
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+        File "C:\Users\leu_m\AppData\Local\Temp\pip-build-env-_6ncni1z\overlay\Lib\site-packages\setuptools\build_meta.py", line 301, in _get_build_requires
+
+          self.run_setup()
+
+          ~~~~~~~~~~~~~~^^
+
+        File "C:\Users\leu_m\AppData\Local\Temp\pip-build-env-_6ncni1z\overlay\Lib\site-packages\setuptools\build_meta.py", line 317, in run_setup
+
+          exec(code, locals())
+
+          ~~~~^^^^^^^^^^^^^^^^
+
+        File "<string>", line 8, in <module>
+
+      RuntimeError: uvloop does not support Windows at the moment
+
+      [end of output]
+
+  
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+error: subprocess-exited-with-error
+
+
+
+× Getting requirements to build wheel did not run successfully.
+
+│ exit code: 1
+
+╰─> See above for output.
+
+
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+
+
+ERROR:pip_audit._cli:Failed to install packages: ['C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmpjxil1qby\\Scripts\\python.exe', '-m', 'pip', 'install', '--no-input', '--keyring-provider=subprocess', '--dry-run', '--report', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmpxrxryd40\\tmpoxgeggba', '-r', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vp7gyrn1\\requirements.txt']

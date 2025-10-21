@@ -1,0 +1,3 @@
+ERROR:pip_audit._cli:requirement file C:\Users\leu_m\AppData\Local\Temp\repo_kqw8b2p7\pyproject.toml contains invalid specifier at line 1: Invalid requirement: : Expected package name at the start of dependency specifier
+    [tool.poetry]
+    ^

@@ -1,0 +1,62 @@
+ERROR:pip_audit._virtual_env:internal pip failure:   error: subprocess-exited-with-error
+
+  
+
+  × python setup.py egg_info did not run successfully.
+
+  │ exit code: 1
+
+  ╰─> [15 lines of output]
+
+      Traceback (most recent call last):
+
+        File "<string>", line 2, in <module>
+
+          exec(compile('''
+
+          ~~~~^^^^^^^^^^^^
+
+          # This is <pip-setuptools-caller> -- a caller that pip uses to run setup.py
+
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+          ...<32 lines>...
+
+          exec(compile(setup_py_code, filename, "exec"))
+
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+          ''' % ('C:\\Users\\leu_m\\AppData\\Local\\Temp\\pip-install-tyi5a70m\\flash-attn_166bbba3507545c0ba1e8bc93d3546d9\\setup.py',), "<pip-setuptools-caller>", "exec"))
+
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+        File "<pip-setuptools-caller>", line 35, in <module>
+
+        File "C:\Users\leu_m\AppData\Local\Temp\pip-install-tyi5a70m\flash-attn_166bbba3507545c0ba1e8bc93d3546d9\setup.py", line 22, in <module>
+
+          import torch
+
+      ModuleNotFoundError: No module named 'torch'
+
+      [end of output]
+
+  
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+error: metadata-generation-failed
+
+
+
+× Encountered error while generating package metadata.
+
+╰─> See above for output.
+
+
+
+note: This is an issue with the package mentioned above, not pip.
+
+hint: See above for details.
+
+
+ERROR:pip_audit._cli:Failed to install packages: ['C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmpr00sqaw0\\Scripts\\python.exe', '-m', 'pip', 'install', '--no-input', '--keyring-provider=subprocess', '--dry-run', '--report', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmpbqlzsrza\\tmpktnn73k6', '-r', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_2txl421w\\requirements.txt']

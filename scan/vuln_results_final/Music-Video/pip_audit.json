@@ -1,0 +1,8 @@
+ERROR:pip_audit._virtual_env:internal pip failure: ERROR: Ignored the following yanked versions: 1.2.3, 1.2.8, 2.0.0
+
+ERROR: Could not find a version that satisfies the requirement py-tgcalls==0.8.3 (from versions: 0.1.0, 0.2.1, 0.3.9, 0.4.9, 0.5.5, 0.6.0, 1.0.9, 1.1.6, 1.2.1, 1.2.2, 1.2.4, 1.2.7, 1.2.9, 2.0.1, 2.0.2, 2.0.3, 2.0.4, 2.0.5, 2.0.6, 2.1.0, 2.1.1, 2.1.2b1, 2.1.2b2, 2.1.2b3, 2.2.0b1, 2.2.0rc1, 2.2.0rc2, 2.2.0rc3, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.2.4, 2.2.5, 2.2.6, 2.2.7, 2.2.8)
+
+ERROR: No matching distribution found for py-tgcalls==0.8.3
+
+
+ERROR:pip_audit._cli:Failed to install packages: ['C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmpr8kp135k\\Scripts\\python.exe', '-m', 'pip', 'install', '--no-input', '--keyring-provider=subprocess', '--dry-run', '--report', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmp77cmjpyb\\tmpy026ygxk', '-r', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_9zfc7jj2\\requirements.txt']

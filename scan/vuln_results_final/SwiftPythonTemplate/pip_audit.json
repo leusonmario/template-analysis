@@ -1,0 +1,6 @@
+ERROR:pip_audit._virtual_env:internal pip failure: ERROR: Could not find a version that satisfies the requirement mlx (from versions: none)
+
+ERROR: No matching distribution found for mlx
+
+
+ERROR:pip_audit._cli:Failed to install packages: ['C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmpuwhtzgut\\Scripts\\python.exe', '-m', 'pip', 'install', '--no-input', '--keyring-provider=subprocess', '--dry-run', '--report', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\tmpke55bu25\\tmppyitjlqh', '-r', 'C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_ecb3hjd0\\requirements.txt']
