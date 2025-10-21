@@ -127,7 +127,7 @@ Return the answer in JSON format:
 
 
 def main(input_path, output_path, model):
-    api_key = "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"
+    api_key = ""
     df = pd.read_csv(input_path)
     df = filter_projects(df)
     #df = df.head(20).copy()  # process first 20 projects
