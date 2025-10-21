@@ -15,12 +15,12 @@ SPLIT_THRESHOLD = 1000             # GitHub returns only first 1000 hits
 RETRY = 3                          # network retries
 TIMEOUT = 30
 
-from datetime import date
+from datetime import date, timedelta
 from dateutil.relativedelta import relativedelta  # pip install python-dateutil
 
-def five_year_cutoff_iso():
+def cutoff_iso():
     # Today is your local date; GitHub expects ISO UTC date (no time needed).
-    cutoff = date.today() - relativedelta(years=2)
+    cutoff = date.today() - timedelta(days=1) - relativedelta(years=2)
     print(cutoff)
     return cutoff.isoformat()  # 'YYYY-MM-DD'
 
@@ -92,7 +92,8 @@ def split_ranges_adaptively(base_query, min_stars, max_stars, headers):
     ranges.sort(key=lambda x: (x[0], float("inf") if x[1] is None else x[1]))
     return ranges
 
-def save_repo_info_to_csv(rows, filename_base="template_repos_all_new", language=""):
+
+def save_repo_info_to_csv(rows, filename_base="template_repos_all_keywords", language=""):
     filename_final = f"{filename_base}_{language}.csv"
     fieldnames = [
         "id", "username", "project_name", "original_link_repository",
@@ -118,7 +119,8 @@ def fetch_range(base_query, star_min, star_max, headers, language):
     q = f"{base_query} {stars_q}".strip()
 
     seen_ids = set()
-    out_rows = []
+    out_rows = []       # only valid template repos
+    all_rows = []       # all repos (at least name info)
 
     for page in range(1, MAX_PAGES + 1):
         params = {
@@ -135,10 +137,6 @@ def fetch_range(base_query, star_min, star_max, headers, language):
             break
 
         for repo in items:
-            # Only keep actual templates (avoid extra /repos/{full_name} call)
-            if not repo.get("is_template", False):
-                continue
-
             rid = repo.get("id")
             if rid in seen_ids:
                 continue
@@ -146,7 +144,9 @@ def fetch_range(base_query, star_min, star_max, headers, language):
 
             full_name = repo.get("full_name", "")
             username, project_name = (full_name.split("/", 1) + [""])[:2]
-            out_rows.append({
+
+            # --- always store repo basic info ---
+            all_rows.append({
                 "id": rid,
                 "username": username,
                 "project_name": project_name,
@@ -158,10 +158,17 @@ def fetch_range(base_query, star_min, star_max, headers, language):
                 "language": language
             })
 
-        # stop early if last page had < PER_PAGE
+            # --- only keep actual templates for detailed CSV ---
+            if repo.get("is_template", False):
+                out_rows.append(all_rows[-1])  # reuse same dict
+
         if len(items) < PER_PAGE:
             break
         time.sleep(PAGE_SLEEP)
+
+    # Save *all* repos (including non-templates)
+    if all_rows:
+        save_repo_info_to_csv(all_rows, filename_base="all_repos_including_non_templates", language=language)
 
     return out_rows
 
@@ -172,17 +179,19 @@ def mine_language(language, token, filename_base, min_stars=0, max_stars=None):
         "User-Agent": UA,
     }
 
-    cutoff = five_year_cutoff_iso()
+    cutoff = cutoff_iso()
 
     # Base query: narrow to language, template-ish keywords, public, non-archived, non-fork.
     # Tip: include readme in text search; it helps surface templates.
     base_query = (
         f"language:{language} "
         f"in:name,description,readme "
-        f"(template OR boilerplate OR starter OR skeleton) "
-        f"fork:false archived:false is:public"
+        f"(template OR boilerplate OR starter OR skeleton OR scaffold) "
+        f"fork:false archived:false is:public "
         f"pushed:>={cutoff}"
     )
+
+    print(base_query)
 
     print(f"\n=== {language} ===")
     print("Building adaptive star ranges...")
@@ -209,8 +218,8 @@ def mine_language(language, token, filename_base, min_stars=0, max_stars=None):
 def main():
     # ---------- YOUR SETTINGS ----------
     import config  # expects GITHUB_TOKEN
-    filename_base = "repos_all_recent_"
-    languages = ["C#", "Java", "TypeScript", "Python", "JavaScript"]
+    filename_base = "repos_all_keywords_"
+    languages = ["Java"]#["JavaScript"] #"C#", "Java", "TypeScript", "Python",
     min_stars = 2
     max_stars = None  # None = open ended (>= min_stars)
     # -----------------------------------
