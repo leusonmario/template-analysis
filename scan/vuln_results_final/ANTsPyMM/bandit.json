@@ -1,0 +1,2606 @@
+{
+  "errors": [],
+  "generated_at": "2025-10-21T20:11:31Z",
+  "metrics": {
+    "/tmp/repo_iasegm0z/antspymm/__init__.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 144,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/antspymm/mm.py": {
+      "CONFIDENCE.HIGH": 23,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 7,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 23,
+      "SEVERITY.MEDIUM": 7,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 11221,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/adni_rsfmri_2_nrg_conversion.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 41,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/aslprep_perfusion_run_localint.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 44,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/bids_2_nrg.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 11,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/bids_cohort_example.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 19,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/blind_qc.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 54,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/deformation_gradient_reo.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 6,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 6,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 65,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/dipy_dti_recon.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 2,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 42,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/dti_distortion_correction_voxelwise_varying_bvectors_example.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 4,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 5,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 296,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/dti_recon.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 6,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/dti_reconstruction_voxelwise_varying_bvectors_localint.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 220,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/dti_reg.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 43,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/dwi_rebasing.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 5,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 5,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 87,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/dwi_run.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 32,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/dwi_run_ptbp_scrub.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 6,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 6,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 58,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/efficient_dwi_fit_mt_localint.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 62,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/ex_rsfmri_run_minimal_ptbp.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 46,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/ex_sr.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 17,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/example_run_from_directory.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 47,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/flair_run_localint.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 10,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/joint_dti_recon_localint.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 4,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 4,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 89,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/mm.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 97,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/mm_csv_ex_2.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 46,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/mm_csv_localint.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 190,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/mm_csv_localint_sr.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 210,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/mm_nrg.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 44,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/nrg_cohort_example.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 20,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/parallel_study_aggregation_example.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 26,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/perfusion_ptbp.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 9,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 9,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 45,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/perfusion_run_nnl.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 55,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/ppmi_step1_blind_qc.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 56,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/ppmi_step2_outlierness.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 69,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/ppmi_step3_mm_nrg_csv.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 141,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/ppmi_step4_aggregate.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 26,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/ptbp_nrg.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 121,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/roi_visualization.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 2,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 106,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/roi_visualization_ppmi.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 26,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/rsfmri_run_minimal_localint.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 40,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/run_local_integration_scripts.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 14,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/t1w_sr.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 55,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/template_overlays.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 2,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 12,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/ukbb_rsfmri.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 3,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 3,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 23,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/ukbb_to_nrg_processing.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 106,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/ukbb_to_nrg_processing2.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 126,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/docs/visualize_tractogram.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 26,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/tests/test_loop.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 24,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/tests/test_nrg_validation.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 44,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/tests/test_reference_run.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 19,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_iasegm0z/tests/voxelwise_bvec_dti_recon_test.py": {
+      "CONFIDENCE.HIGH": 5,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 5,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 79,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 42,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 54,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 2,
+      "SEVERITY.LOW": 36,
+      "SEVERITY.MEDIUM": 58,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 14500,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "3     from .version import __version__\n4 except:\n5     pass\n6 \n",
+      "col_offset": 0,
+      "end_col_offset": 8,
+      "filename": "/tmp/repo_iasegm0z/antspymm/__init__.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 4,
+      "line_range": [
+        4,
+        5
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "105 from os import path\n106 import pickle\n107 import sys\n",
+      "col_offset": 0,
+      "end_col_offset": 13,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 502,
+        "link": "https://cwe.mitre.org/data/definitions/502.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with pickle module.",
+      "line_number": 106,
+      "line_range": [
+        106
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b403-import-pickle",
+      "test_id": "B403",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "482     import platform\n483     import subprocess\n484     from datetime import datetime, timedelta\n",
+      "col_offset": 4,
+      "end_col_offset": 21,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 483,
+      "line_range": [
+        483
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "489     # Determine the tmp directory based on the operating system\n490     tmp_dir = '/tmp'\n491 \n",
+      "col_offset": 14,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 490,
+      "line_range": [
+        490
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "508                     rm_command = ['sudo', 'rm', '-rf', item_path] if use_sudo else ['rm', '-rf', item_path]\n509                     subprocess.run(rm_command)\n510 \n",
+      "col_offset": 20,
+      "end_col_offset": 46,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 509,
+      "line_range": [
+        509
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "1764                 ants.plot_ortho( x, crop=True, filename=thumb_fn, flat=True, xyz_lines=False, orient_labels=False, xyz_pad=0 )\n1765             except:\n1766                 pass\n1767         else:\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 1765,
+      "line_range": [
+        1765,
+        1766
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "1769                 ants.plot_ortho( y, x, crop=True, filename=thumb_fn, flat=True, xyz_lines=False, orient_labels=False, xyz_pad=0 )\n1770             except:\n1771                 pass\n1772     if thumb and x.dimension == 4:\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 1770,
+      "line_range": [
+        1770,
+        1771
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "1781                 ants.plot_ortho( xview, crop=True, filename=thumb_fn, flat=True, xyz_lines=False, orient_labels=False, xyz_pad=0 )\n1782             except:\n1783                 pass\n1784         else:\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 1782,
+      "line_range": [
+        1782,
+        1783
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "1787                     ants.plot_ortho(y, xview, crop=True, filename=thumb_fn, flat=True, xyz_lines=False, orient_labels=False, xyz_pad=0 )\n1788                 except:\n1789                     pass\n1790     return\n",
+      "col_offset": 16,
+      "end_col_offset": 24,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 1788,
+      "line_range": [
+        1788,
+        1789
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "3944     \"\"\"\n3945     assert imagein.dimension == 4, \"Input image must be 4D\"\n3946 \n",
+      "col_offset": 4,
+      "end_col_offset": 59,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 3945,
+      "line_range": [
+        3945
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "4053 \n4054     assert imagein.dimension == 4, \"Input image must be 4D\"\n4055     model_params = model_params or {}\n",
+      "col_offset": 4,
+      "end_col_offset": 59,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 4054,
+      "line_range": [
+        4054
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "6277   if debug:\n6278       ants.image_write( fmri_template, '/tmp/fmri_template.nii.gz' )\n6279       ants.image_write( fmri, '/tmp/fmri.nii.gz' )\n",
+      "col_offset": 39,
+      "end_col_offset": 66,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 6278,
+      "line_range": [
+        6278
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "6278       ants.image_write( fmri_template, '/tmp/fmri_template.nii.gz' )\n6279       ants.image_write( fmri, '/tmp/fmri.nii.gz' )\n6280       print(\"debug wrote fmri and fmri_template\")\n",
+      "col_offset": 30,
+      "end_col_offset": 48,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 6279,
+      "line_range": [
+        6279
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "6486   if debug:\n6487       ants.image_write( simg, '/tmp/simg.nii.gz' )\n6488       ants.image_write( ptImgAll, '/tmp/ptImgAll.nii.gz' )\n",
+      "col_offset": 30,
+      "end_col_offset": 48,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 6487,
+      "line_range": [
+        6487
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "6487       ants.image_write( simg, '/tmp/simg.nii.gz' )\n6488       ants.image_write( ptImgAll, '/tmp/ptImgAll.nii.gz' )\n6489       ants.image_write( und, '/tmp/und.nii.gz' )\n",
+      "col_offset": 34,
+      "end_col_offset": 56,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 6488,
+      "line_range": [
+        6488
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "6488       ants.image_write( ptImgAll, '/tmp/ptImgAll.nii.gz' )\n6489       ants.image_write( und, '/tmp/und.nii.gz' )\n6490       ants.image_write( und, '/tmp/und.nii.gz' )\n",
+      "col_offset": 29,
+      "end_col_offset": 46,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 6489,
+      "line_range": [
+        6489
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "6489       ants.image_write( und, '/tmp/und.nii.gz' )\n6490       ants.image_write( und, '/tmp/und.nii.gz' )\n6491 \n",
+      "col_offset": 29,
+      "end_col_offset": 46,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 6490,
+      "line_range": [
+        6490
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "9513     p = np.r_[p]\n9514     assert np.all((p >= 0) & (p < 0.5)), \"'p' must be between 0 and 0.5\"\n9515 \n",
+      "col_offset": 4,
+      "end_col_offset": 72,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 9514,
+      "line_range": [
+        9514
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "9518 \n9519     assert len(original_shape) <= 2, \"'x' must have at most 2 dimensions\"\n9520     while len(x.shape) < 2:\n",
+      "col_offset": 4,
+      "end_col_offset": 73,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 9519,
+      "line_range": [
+        9519
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "9526     else:\n9527         assert len(p) == nc, \"length of 'p' must be 1 or equal the number of columns of 'x'\"\n9528 \n",
+      "col_offset": 8,
+      "end_col_offset": 92,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 9527,
+      "line_range": [
+        9527
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "9573 \n9574     assert coverage >= 0 and coverage < 1, \"coverage probability out of range [0, 1)\"\n9575 \n",
+      "col_offset": 4,
+      "end_col_offset": 85,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 9574,
+      "line_range": [
+        9574
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "9638     # Ensure correct dimensions\n9639     assert len(original_shape) <= 2, \"'x' must have at most 2 dimensions\"\n9640     while len(x.shape) < 2:\n",
+      "col_offset": 4,
+      "end_col_offset": 73,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 9639,
+      "line_range": [
+        9639
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "9646     # Ensure only one of spans, kernel is provided, and build the kernel window if needed\n9647     assert (spans is None) or (kernel is None), \"must specify only one of 'spans' or 'kernel'\"\n9648     if spans is not None:\n",
+      "col_offset": 4,
+      "end_col_offset": 94,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 9647,
+      "line_range": [
+        9647
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "10727                     fcc_file.close()\n10728             except:\n10729                 pass\n10730         mystem=Path( image ).stem\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 10728,
+      "line_range": [
+        10728,
+        10729
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "10837                     evdepth = 0.9, mask=msk )\n10838             except:\n10839                 pass\n10840             if pull_rank:\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 10838,
+      "line_range": [
+        10838,
+        10839
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "10887                 mrimfg=mymeta['Manufacturer']\n10888             except:\n10889                 pass\n10890             try:\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 10888,
+      "line_range": [
+        10888,
+        10889
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "10891                 mrimodel=mymeta['ManufacturersModelName']\n10892             except:\n10893                 pass\n10894             try:\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 10892,
+      "line_range": [
+        10892,
+        10893
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "10895                 MagneticFieldStrength=mymeta['MagneticFieldStrength']\n10896             except:\n10897                 pass\n10898             try:\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 10896,
+      "line_range": [
+        10896,
+        10897
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "10899                 PixelBandwidth=mymeta['PixelBandwidth']\n10900             except:\n10901                 pass\n10902             try:\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 10900,
+      "line_range": [
+        10900,
+        10901
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "10903                 BandwidthPerPixelPhaseEncode=mymeta['BandwidthPerPixelPhaseEncode']\n10904             except:\n10905                 pass\n10906             try:\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 10904,
+      "line_range": [
+        10904,
+        10905
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "10907                 mriSAR=mymeta['SAR']\n10908             except:\n10909                 pass\n10910         ttl=mystem + ' '\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/antspymm/mm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 10908,
+      "line_range": [
+        10908,
+        10909
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "4 import shutil\n5 import subprocess\n6 \n",
+      "col_offset": 0,
+      "end_col_offset": 17,
+      "filename": "/tmp/repo_iasegm0z/docs/adni_rsfmri_2_nrg_conversion.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 5,
+      "line_range": [
+        5
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27         print(\"Get \" + temp )\n28         subprocess.run(dcm2cmd, shell=True)\n29         mynii = glob.glob(f\"{fns[k]}/*nii.gz\")\n",
+      "col_offset": 8,
+      "end_col_offset": 43,
+      "filename": "/tmp/repo_iasegm0z/docs/adni_rsfmri_2_nrg_conversion.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 28,
+      "line_range": [
+        28
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "57                         resample=myresam, pull_rank=mypr, verbose=True )\n58             except:\n59                 pass\n60 \n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_iasegm0z/docs/blind_qc.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 58,
+      "line_range": [
+        58,
+        59
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "63 #\n64 comptx = ants.apply_transforms( a2b, a2b, rig['fwdtransforms'], compose='/tmp/XXX' )\n65 # transform_and_reorient_dti(fixed, moving_dti, composite_transform, py_based=True, verbose=False, **kwargs)\n",
+      "col_offset": 72,
+      "end_col_offset": 82,
+      "filename": "/tmp/repo_iasegm0z/docs/deformation_gradient_reo.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 64,
+      "line_range": [
+        64
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "66 dti0reo = antspymm.transform_and_reorient_dti( a2b, dti0, comptx, py_based=True )\n67 ants.image_write( dti0, '/tmp/temp_dti.nii.gz' )\n68 ants.image_write( dti0reo, '/tmp/temp_dtireo.nii.gz' )\n",
+      "col_offset": 24,
+      "end_col_offset": 46,
+      "filename": "/tmp/repo_iasegm0z/docs/deformation_gradient_reo.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 67,
+      "line_range": [
+        67
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "67 ants.image_write( dti0, '/tmp/temp_dti.nii.gz' )\n68 ants.image_write( dti0reo, '/tmp/temp_dtireo.nii.gz' )\n69 # check this visually ....\n",
+      "col_offset": 27,
+      "end_col_offset": 52,
+      "filename": "/tmp/repo_iasegm0z/docs/deformation_gradient_reo.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 68,
+      "line_range": [
+        68
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "78 fareg=ants.registration( tfa, sfa, 'SyN' )\n79 comptx = ants.apply_transforms( tfa, sfa, fareg['fwdtransforms'], compose='/tmp/YYY' )\n80 dti0reo = antspymm.transform_and_reorient_dti( tfa, dti0, comptx, py_based=True )\n",
+      "col_offset": 74,
+      "end_col_offset": 84,
+      "filename": "/tmp/repo_iasegm0z/docs/deformation_gradient_reo.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 79,
+      "line_range": [
+        79
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "80 dti0reo = antspymm.transform_and_reorient_dti( tfa, dti0, comptx, py_based=True )\n81 ants.image_write( dti0, '/tmp/temp_dti.nii.gz' )\n82 ants.image_write( dti0reo, '/tmp/temp_dtireo.nii.gz' )\n",
+      "col_offset": 24,
+      "end_col_offset": 46,
+      "filename": "/tmp/repo_iasegm0z/docs/deformation_gradient_reo.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 81,
+      "line_range": [
+        81
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "81 ants.image_write( dti0, '/tmp/temp_dti.nii.gz' )\n82 ants.image_write( dti0reo, '/tmp/temp_dtireo.nii.gz' )\n83 # ImageMath 3 /tmp/temp_dtireo_rgb.nii.gz TensorColor /tmp/temp_dtireo.nii.gz \n",
+      "col_offset": 27,
+      "end_col_offset": 52,
+      "filename": "/tmp/repo_iasegm0z/docs/deformation_gradient_reo.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 82,
+      "line_range": [
+        82
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "45 \n46 ants.image_write( temp['FA'], '/tmp/temp_fa.nii.gz' )\n47 ants.image_write( temp['RGB'], '/tmp/temp_rgb.nii.gz' )\n",
+      "col_offset": 30,
+      "end_col_offset": 51,
+      "filename": "/tmp/repo_iasegm0z/docs/dipy_dti_recon.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 46,
+      "line_range": [
+        46
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "46 ants.image_write( temp['FA'], '/tmp/temp_fa.nii.gz' )\n47 ants.image_write( temp['RGB'], '/tmp/temp_rgb.nii.gz' )\n",
+      "col_offset": 31,
+      "end_col_offset": 53,
+      "filename": "/tmp/repo_iasegm0z/docs/dipy_dti_recon.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 47,
+      "line_range": [
+        47
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "42 def _download_with_progress(url, destination):\n43     with urllib.request.urlopen(url) as response, open(destination, 'wb') as out_file:\n44         total = int(response.getheader('Content-Length', 0))\n",
+      "col_offset": 9,
+      "end_col_offset": 36,
+      "filename": "/tmp/repo_iasegm0z/docs/dti_distortion_correction_voxelwise_varying_bvectors_example.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 43,
+      "line_range": [
+        43
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "310         mytx2 = ants.apply_transforms(t1w, img_LR_in_avg, mytx['fwdtransforms'],\n311             interpolator='linear', imagetype=0, compose='/tmp/comptxDT2T1' )\n312         print( mytx2 )\n",
+      "col_offset": 56,
+      "end_col_offset": 74,
+      "filename": "/tmp/repo_iasegm0z/docs/dti_distortion_correction_voxelwise_varying_bvectors_example.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 311,
+      "line_range": [
+        311
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "354 \n355 ants.image_write( t1w, '/tmp/t1w.nii.gz' )\n356 ants.image_write( RGB_w, '/tmp/rgbw.nii.gz' )\n",
+      "col_offset": 23,
+      "end_col_offset": 40,
+      "filename": "/tmp/repo_iasegm0z/docs/dti_distortion_correction_voxelwise_varying_bvectors_example.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 355,
+      "line_range": [
+        355
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "355 ants.image_write( t1w, '/tmp/t1w.nii.gz' )\n356 ants.image_write( RGB_w, '/tmp/rgbw.nii.gz' )\n357 ants.image_write( RGB_w2, '/tmp/rgbw2.nii.gz' )\n",
+      "col_offset": 25,
+      "end_col_offset": 43,
+      "filename": "/tmp/repo_iasegm0z/docs/dti_distortion_correction_voxelwise_varying_bvectors_example.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 356,
+      "line_range": [
+        356
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "356 ants.image_write( RGB_w, '/tmp/rgbw.nii.gz' )\n357 ants.image_write( RGB_w2, '/tmp/rgbw2.nii.gz' )\n",
+      "col_offset": 26,
+      "end_col_offset": 45,
+      "filename": "/tmp/repo_iasegm0z/docs/dti_distortion_correction_voxelwise_varying_bvectors_example.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 357,
+      "line_range": [
+        357
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "196     \n197     assert fa_corr > 0.80, \"FA correlation too low\"\n198     assert md_corr > 0.80, \"MD correlation too low\"\n",
+      "col_offset": 4,
+      "end_col_offset": 51,
+      "filename": "/tmp/repo_iasegm0z/docs/dti_reconstruction_voxelwise_varying_bvectors_localint.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 197,
+      "line_range": [
+        197
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "197     assert fa_corr > 0.80, \"FA correlation too low\"\n198     assert md_corr > 0.80, \"MD correlation too low\"\n199 \n",
+      "col_offset": 4,
+      "end_col_offset": 51,
+      "filename": "/tmp/repo_iasegm0z/docs/dti_reconstruction_voxelwise_varying_bvectors_localint.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 198,
+      "line_range": [
+        198
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "47 if False:\n48     ants.image_write( dtireg['motion_corrected'], '/tmp/temp.nii.gz' )\n",
+      "col_offset": 50,
+      "end_col_offset": 68,
+      "filename": "/tmp/repo_iasegm0z/docs/dti_reg.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 48,
+      "line_range": [
+        48
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "74 comptx = ants.apply_transforms( template, template, reg['invtransforms'], \n75                                 compose='/tmp/XXX' )\n76 \n",
+      "col_offset": 40,
+      "end_col_offset": 50,
+      "filename": "/tmp/repo_iasegm0z/docs/dwi_rebasing.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 75,
+      "line_range": [
+        75
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "101 if True:\n102     ants.image_write( myoutx['recon_fa'], '/tmp/temp1fa.nii.gz'  )\n103     ants.image_write( myoutx['recon_md'], '/tmp/temp1md.nii.gz'  )\n",
+      "col_offset": 42,
+      "end_col_offset": 63,
+      "filename": "/tmp/repo_iasegm0z/docs/dwi_rebasing.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 102,
+      "line_range": [
+        102
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "102     ants.image_write( myoutx['recon_fa'], '/tmp/temp1fa.nii.gz'  )\n103     ants.image_write( myoutx['recon_md'], '/tmp/temp1md.nii.gz'  )\n104     ants.image_write( myoutx['dwi_LR_dewarped'], '/tmp/temp1moco.nii.gz'  )\n",
+      "col_offset": 42,
+      "end_col_offset": 63,
+      "filename": "/tmp/repo_iasegm0z/docs/dwi_rebasing.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 103,
+      "line_range": [
+        103
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "103     ants.image_write( myoutx['recon_md'], '/tmp/temp1md.nii.gz'  )\n104     ants.image_write( myoutx['dwi_LR_dewarped'], '/tmp/temp1moco.nii.gz'  )\n105     ants.image_write( myoutx['dtrecon_LR_dewarp']['RGB'], '/tmp/temp1rgb.nii.gz'  )\n",
+      "col_offset": 49,
+      "end_col_offset": 72,
+      "filename": "/tmp/repo_iasegm0z/docs/dwi_rebasing.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 104,
+      "line_range": [
+        104
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "104     ants.image_write( myoutx['dwi_LR_dewarped'], '/tmp/temp1moco.nii.gz'  )\n105     ants.image_write( myoutx['dtrecon_LR_dewarp']['RGB'], '/tmp/temp1rgb.nii.gz'  )\n106 \n",
+      "col_offset": 58,
+      "end_col_offset": 80,
+      "filename": "/tmp/repo_iasegm0z/docs/dwi_rebasing.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 105,
+      "line_range": [
+        105
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "72     # censoring: [4, 5, 6, 28]\n73 antspymm.write_bvals_bvecs( bvals=bval_sc, bvecs=bvec_sc, prefix='/tmp/temp' )\n74 ee = antspymm.dipy_dti_recon( dwi_sc, '/tmp/temp.bval', '/tmp/temp.bvec', verbose=True )\n",
+      "col_offset": 65,
+      "end_col_offset": 76,
+      "filename": "/tmp/repo_iasegm0z/docs/dwi_run_ptbp_scrub.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 73,
+      "line_range": [
+        73
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "73 antspymm.write_bvals_bvecs( bvals=bval_sc, bvecs=bvec_sc, prefix='/tmp/temp' )\n74 ee = antspymm.dipy_dti_recon( dwi_sc, '/tmp/temp.bval', '/tmp/temp.bvec', verbose=True )\n75 # impute example\n",
+      "col_offset": 38,
+      "end_col_offset": 54,
+      "filename": "/tmp/repo_iasegm0z/docs/dwi_run_ptbp_scrub.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 74,
+      "line_range": [
+        74
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "73 antspymm.write_bvals_bvecs( bvals=bval_sc, bvecs=bvec_sc, prefix='/tmp/temp' )\n74 ee = antspymm.dipy_dti_recon( dwi_sc, '/tmp/temp.bval', '/tmp/temp.bvec', verbose=True )\n75 # impute example\n",
+      "col_offset": 56,
+      "end_col_offset": 72,
+      "filename": "/tmp/repo_iasegm0z/docs/dwi_run_ptbp_scrub.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 74,
+      "line_range": [
+        74
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "77 ff = antspymm.dipy_dti_recon( dwi_imp, prefix + \".bval\", prefix + \".bvec\", verbose=True )\n78 ants.image_write( dd['FA'], '/tmp/temp0.nii.gz' )\n79 ants.image_write( ee['FA'], '/tmp/temp1.nii.gz' )\n",
+      "col_offset": 28,
+      "end_col_offset": 47,
+      "filename": "/tmp/repo_iasegm0z/docs/dwi_run_ptbp_scrub.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 78,
+      "line_range": [
+        78
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "78 ants.image_write( dd['FA'], '/tmp/temp0.nii.gz' )\n79 ants.image_write( ee['FA'], '/tmp/temp1.nii.gz' )\n80 ants.image_write( ff['FA'], '/tmp/temp2.nii.gz' )\n",
+      "col_offset": 28,
+      "end_col_offset": 47,
+      "filename": "/tmp/repo_iasegm0z/docs/dwi_run_ptbp_scrub.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 79,
+      "line_range": [
+        79
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "79 ants.image_write( ee['FA'], '/tmp/temp1.nii.gz' )\n80 ants.image_write( ff['FA'], '/tmp/temp2.nii.gz' )\n",
+      "col_offset": 28,
+      "end_col_offset": 47,
+      "filename": "/tmp/repo_iasegm0z/docs/dwi_run_ptbp_scrub.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 80,
+      "line_range": [
+        80
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "48   mm = { 'rsf': rsfpro }\n49   antspymm.write_mm( '/tmp/RSF', mm )  \n50   ants.plot( rsfpro['fmri_template'], rsfpro[ rsfpro['dfnname']], crop=True, axis=2 )\n",
+      "col_offset": 21,
+      "end_col_offset": 31,
+      "filename": "/tmp/repo_iasegm0z/docs/ex_rsfmri_run_minimal_ptbp.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 49,
+      "line_range": [
+        49
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "82 if False:\n83     ants.image_write( myoutx['recon_fa'], '/tmp/temp1fa.nii.gz'  )\n84     ants.image_write( myoutx['recon_md'], '/tmp/temp1md.nii.gz'  )\n",
+      "col_offset": 42,
+      "end_col_offset": 63,
+      "filename": "/tmp/repo_iasegm0z/docs/joint_dti_recon_localint.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 83,
+      "line_range": [
+        83
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "83     ants.image_write( myoutx['recon_fa'], '/tmp/temp1fa.nii.gz'  )\n84     ants.image_write( myoutx['recon_md'], '/tmp/temp1md.nii.gz'  )\n85     ants.image_write( myoutx['dwi_LR_dewarped'], '/tmp/temp1moco.nii.gz'  )\n",
+      "col_offset": 42,
+      "end_col_offset": 63,
+      "filename": "/tmp/repo_iasegm0z/docs/joint_dti_recon_localint.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 84,
+      "line_range": [
+        84
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "84     ants.image_write( myoutx['recon_md'], '/tmp/temp1md.nii.gz'  )\n85     ants.image_write( myoutx['dwi_LR_dewarped'], '/tmp/temp1moco.nii.gz'  )\n86     ants.image_write( myoutx['dtrecon_LR_dewarp']['RGB'], '/tmp/temp1rgb.nii.gz'  )\n",
+      "col_offset": 49,
+      "end_col_offset": 72,
+      "filename": "/tmp/repo_iasegm0z/docs/joint_dti_recon_localint.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 85,
+      "line_range": [
+        85
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "85     ants.image_write( myoutx['dwi_LR_dewarped'], '/tmp/temp1moco.nii.gz'  )\n86     ants.image_write( myoutx['dtrecon_LR_dewarp']['RGB'], '/tmp/temp1rgb.nii.gz'  )\n87 \n",
+      "col_offset": 58,
+      "end_col_offset": 80,
+      "filename": "/tmp/repo_iasegm0z/docs/joint_dti_recon_localint.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 86,
+      "line_range": [
+        86
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "33 def _download_with_progress(url, destination):\n34     with urllib.request.urlopen(url) as response, open(destination, 'wb') as out_file:\n35         total = int(response.getheader('Content-Length', 0))\n",
+      "col_offset": 9,
+      "end_col_offset": 36,
+      "filename": "/tmp/repo_iasegm0z/docs/mm_csv_localint.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 34,
+      "line_range": [
+        34
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "51 def _download_with_progress(url, destination):\n52     with urllib.request.urlopen(url) as response, open(destination, 'wb') as out_file:\n53         total = int(response.getheader('Content-Length', 0))\n",
+      "col_offset": 9,
+      "end_col_offset": 36,
+      "filename": "/tmp/repo_iasegm0z/docs/mm_csv_localint_sr.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 52,
+      "line_range": [
+        52
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "14 import math\n15 t1fn = \"/tmp/data/PEDS015/20110812/Anatomy/PEDS015_20110812_mprage_t1.nii.gz\"\n16 idpfn = \"/tmp/data/PEDS015/20110812/PCASL/PEDS015_20110812_pcasl_1.nii.gz\"\n",
+      "col_offset": 7,
+      "end_col_offset": 77,
+      "filename": "/tmp/repo_iasegm0z/docs/perfusion_ptbp.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 15,
+      "line_range": [
+        15
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "15 t1fn = \"/tmp/data/PEDS015/20110812/Anatomy/PEDS015_20110812_mprage_t1.nii.gz\"\n16 idpfn = \"/tmp/data/PEDS015/20110812/PCASL/PEDS015_20110812_pcasl_1.nii.gz\"\n17 t1fn = '/tmp/data/PEDS022/20111216/Anatomy/PEDS022_20111216_mprage_t1.nii.gz'\n",
+      "col_offset": 8,
+      "end_col_offset": 74,
+      "filename": "/tmp/repo_iasegm0z/docs/perfusion_ptbp.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 16,
+      "line_range": [
+        16
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "16 idpfn = \"/tmp/data/PEDS015/20110812/PCASL/PEDS015_20110812_pcasl_1.nii.gz\"\n17 t1fn = '/tmp/data/PEDS022/20111216/Anatomy/PEDS022_20111216_mprage_t1.nii.gz'\n18 idpfn = '/tmp/data/PEDS022/20111216/PCASL/PEDS022_20111216_pcasl_1.nii.gz'\n",
+      "col_offset": 7,
+      "end_col_offset": 77,
+      "filename": "/tmp/repo_iasegm0z/docs/perfusion_ptbp.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 17,
+      "line_range": [
+        17
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "17 t1fn = '/tmp/data/PEDS022/20111216/Anatomy/PEDS022_20111216_mprage_t1.nii.gz'\n18 idpfn = '/tmp/data/PEDS022/20111216/PCASL/PEDS022_20111216_pcasl_1.nii.gz'\n19 t1fn = '/tmp/data/PEDS041/20110127/Anatomy/PEDS041_20110127_mprage_t1.nii.gz'\n",
+      "col_offset": 8,
+      "end_col_offset": 74,
+      "filename": "/tmp/repo_iasegm0z/docs/perfusion_ptbp.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 18,
+      "line_range": [
+        18
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "18 idpfn = '/tmp/data/PEDS022/20111216/PCASL/PEDS022_20111216_pcasl_1.nii.gz'\n19 t1fn = '/tmp/data/PEDS041/20110127/Anatomy/PEDS041_20110127_mprage_t1.nii.gz'\n20 idpfn = '/tmp/data/PEDS041/20110127/PCASL/PEDS041_20110127_pcasl_1.nii.gz'\n",
+      "col_offset": 7,
+      "end_col_offset": 77,
+      "filename": "/tmp/repo_iasegm0z/docs/perfusion_ptbp.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 19,
+      "line_range": [
+        19
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "19 t1fn = '/tmp/data/PEDS041/20110127/Anatomy/PEDS041_20110127_mprage_t1.nii.gz'\n20 idpfn = '/tmp/data/PEDS041/20110127/PCASL/PEDS041_20110127_pcasl_1.nii.gz'\n21 t1fn='/tmp/data/PEDS014/20100831/Anatomy/PEDS014_20100831_mprage_t1.nii.gz'\n",
+      "col_offset": 8,
+      "end_col_offset": 74,
+      "filename": "/tmp/repo_iasegm0z/docs/perfusion_ptbp.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 20,
+      "line_range": [
+        20
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "20 idpfn = '/tmp/data/PEDS041/20110127/PCASL/PEDS041_20110127_pcasl_1.nii.gz'\n21 t1fn='/tmp/data/PEDS014/20100831/Anatomy/PEDS014_20100831_mprage_t1.nii.gz'\n22 idpfn='/tmp/data/PEDS014/20100831/PCASL/PEDS014_20100831_pcasl_1.nii.gz'\n",
+      "col_offset": 5,
+      "end_col_offset": 75,
+      "filename": "/tmp/repo_iasegm0z/docs/perfusion_ptbp.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 21,
+      "line_range": [
+        21
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "21 t1fn='/tmp/data/PEDS014/20100831/Anatomy/PEDS014_20100831_mprage_t1.nii.gz'\n22 idpfn='/tmp/data/PEDS014/20100831/PCASL/PEDS014_20100831_pcasl_1.nii.gz'\n23 t1fn = \"/Users/stnava/data/PTBP/PTBP/PEDS049/20110217/T1w/000/PTBP-PEDS049-20110217-T1w-000.nii.gz\"\n",
+      "col_offset": 6,
+      "end_col_offset": 72,
+      "filename": "/tmp/repo_iasegm0z/docs/perfusion_ptbp.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 22,
+      "line_range": [
+        22
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "48 mm = { 'perf': perfh }\n49 antspymm.write_mm( '/tmp/PRF', mm )\n",
+      "col_offset": 19,
+      "end_col_offset": 29,
+      "filename": "/tmp/repo_iasegm0z/docs/perfusion_ptbp.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 49,
+      "line_range": [
+        49
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "46 \n47 import subprocess\n48 cmd_str = \" sudo find /tmp  -cmin +60 -delete \"\n",
+      "col_offset": 0,
+      "end_col_offset": 17,
+      "filename": "/tmp/repo_iasegm0z/docs/ppmi_step3_mm_nrg_csv.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 47,
+      "line_range": [
+        47
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "48 cmd_str = \" sudo find /tmp  -cmin +60 -delete \"\n49 subprocess.run(cmd_str, shell=True)\n50 \n",
+      "col_offset": 0,
+      "end_col_offset": 35,
+      "filename": "/tmp/repo_iasegm0z/docs/ppmi_step3_mm_nrg_csv.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 49,
+      "line_range": [
+        49
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "120 # Example file paths and output prefix\n121 statistical_file_path = \"/tmp/temp.csv\"\n122 data_dictionary_path = \"~/code/ANTsPyMM/docs/antspymm_data_dictionary.csv\"\n",
+      "col_offset": 24,
+      "end_col_offset": 39,
+      "filename": "/tmp/repo_iasegm0z/docs/roi_visualization.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 121,
+      "line_range": [
+        121
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "122 data_dictionary_path = \"~/code/ANTsPyMM/docs/antspymm_data_dictionary.csv\"\n123 output_prefix = '/tmp/vizit_'\n124 edge_image_path = '~/PPMI_template0_edge.nii.gz'\n",
+      "col_offset": 16,
+      "end_col_offset": 29,
+      "filename": "/tmp/repo_iasegm0z/docs/roi_visualization.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 123,
+      "line_range": [
+        123
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "10 data_dictionary_path = \"~/code/ANTsPyMM/docs/antspymm_data_dictionary.csv\"\n11 output_prefix = '/tmp/vizit_'\n12 edge_image_path = '~/.antspymm/PPMI_template0_edge.nii.gz'\n",
+      "col_offset": 16,
+      "end_col_offset": 29,
+      "filename": "/tmp/repo_iasegm0z/docs/roi_visualization_ppmi.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 11,
+      "line_range": [
+        11
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "14 \tif ct >= 0:\n15 \t\texec(open(fn).read())\n16 \tprint(\"\u2571\u2572\u2550\u2573\u2571\u2572\u25c6\u2571\u2572\u2550\u2573\u2571\u2572\u25c6\u2571\u2572\u2550\u2573\u2571\u2572=\u2571\u2572\u2550\u2573\u2571\u2572\u25c6\u2571\u2572\u2550\u2573\u2571\u2572\u25c6\u2571\u2572\u2550\u2573\u2571\u2572\")\n",
+      "col_offset": 2,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_iasegm0z/docs/run_local_integration_scripts.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of exec detected.",
+      "line_number": 15,
+      "line_range": [
+        15
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b102_exec_used.html",
+      "test_id": "B102",
+      "test_name": "exec_used"
+    },
+    {
+      "code": "61     print(\"done SR -- overwrite the T1w image \" + t1fn + \" with super_resolution\")\n62     ants.image_write( ants.iMath( mysr, \"Normalize\"),  '/tmp/tempsr.nii.gz' )\n63     \n",
+      "col_offset": 55,
+      "end_col_offset": 75,
+      "filename": "/tmp/repo_iasegm0z/docs/t1w_sr.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 62,
+      "line_range": [
+        62
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "11     print( t )\n12     proimgs=antspymm.template_figure_with_overlay(scalar_label_df, prefix, template=t, outputfilename='/tmp/py_viz_'+t+'.png' )\n13 t='ctx'\n",
+      "col_offset": 102,
+      "end_col_offset": 116,
+      "filename": "/tmp/repo_iasegm0z/docs/template_overlays.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "14 scalar_label_df = pd.DataFrame({'label': range(1001,1200), 'scalar_value': range(1001,1200)})\n15 proimgs=antspymm.template_figure_with_overlay(scalar_label_df, prefix, template=t, mask_dilation=0, outputfilename='/tmp/py_viz_'+t+'.png')\n16 \n",
+      "col_offset": 115,
+      "end_col_offset": 129,
+      "filename": "/tmp/repo_iasegm0z/docs/template_overlays.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 15,
+      "line_range": [
+        15
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "17 import pandas as pd\n18 rsf = ants.image_read( \"/tmp/UKBB-1839399-2-rsfMRI-20227.nii.gz\" )\n19 t1 = ants.image_read(\"/tmp/UKBB-1839399-2-T1wHierarchical-20252-brain_n4_dnz.nii.gz\")\n",
+      "col_offset": 23,
+      "end_col_offset": 64,
+      "filename": "/tmp/repo_iasegm0z/docs/ukbb_rsfmri.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 18,
+      "line_range": [
+        18
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "18 rsf = ants.image_read( \"/tmp/UKBB-1839399-2-rsfMRI-20227.nii.gz\" )\n19 t1 = ants.image_read(\"/tmp/UKBB-1839399-2-T1wHierarchical-20252-brain_n4_dnz.nii.gz\")\n20 t1segmentation=ants.image_read(\"/tmp/UKBB-1839399-2-T1wHierarchical-20252-tissue_segmentation.nii.gz\")\n",
+      "col_offset": 21,
+      "end_col_offset": 84,
+      "filename": "/tmp/repo_iasegm0z/docs/ukbb_rsfmri.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 19,
+      "line_range": [
+        19
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "19 t1 = ants.image_read(\"/tmp/UKBB-1839399-2-T1wHierarchical-20252-brain_n4_dnz.nii.gz\")\n20 t1segmentation=ants.image_read(\"/tmp/UKBB-1839399-2-T1wHierarchical-20252-tissue_segmentation.nii.gz\")\n21 bt = antspymm.get_average_rsf(rsf)\n",
+      "col_offset": 31,
+      "end_col_offset": 101,
+      "filename": "/tmp/repo_iasegm0z/docs/ukbb_rsfmri.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 20,
+      "line_range": [
+        20
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "16     def test_simple():\n17         assert os.getenv('CI') == 'true' and os.getenv('CIRCLECI') == 'true'\n18 else:\n",
+      "col_offset": 8,
+      "end_col_offset": 76,
+      "filename": "/tmp/repo_iasegm0z/tests/test_reference_run.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 17,
+      "line_range": [
+        17
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "19     def test_simple():\n20         assert os.getenv('CI') != 'true' and os.getenv('CIRCLECI') != 'true'\n",
+      "col_offset": 8,
+      "end_col_offset": 76,
+      "filename": "/tmp/repo_iasegm0z/tests/test_reference_run.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 20,
+      "line_range": [
+        20
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "34                 actual = bvecs_5d[i, j, k]\n35                 assert np.allclose(actual, expected, atol=1e-6), \\\n36                     f\"Mismatch at voxel {(i, j, k)}: {actual} vs {expected}\"\n37 \n",
+      "col_offset": 16,
+      "end_col_offset": 76,
+      "filename": "/tmp/repo_iasegm0z/tests/voxelwise_bvec_dti_recon_test.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 35,
+      "line_range": [
+        35,
+        36
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "109     # Tests\n110     assert isinstance(FA_img, ants.ANTsImage), \"FA_img should be an ANTsImage\"\n111     assert FA_img.shape == shape, f\"FA image has shape {FA_img.shape}, expected {shape}\"\n",
+      "col_offset": 4,
+      "end_col_offset": 78,
+      "filename": "/tmp/repo_iasegm0z/tests/voxelwise_bvec_dti_recon_test.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 110,
+      "line_range": [
+        110
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "110     assert isinstance(FA_img, ants.ANTsImage), \"FA_img should be an ANTsImage\"\n111     assert FA_img.shape == shape, f\"FA image has shape {FA_img.shape}, expected {shape}\"\n112     assert np.all((FA_img.numpy() >= 0) & (FA_img.numpy() <= 1)), \"FA values should be in [0, 1]\"\n",
+      "col_offset": 4,
+      "end_col_offset": 88,
+      "filename": "/tmp/repo_iasegm0z/tests/voxelwise_bvec_dti_recon_test.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 111,
+      "line_range": [
+        111
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "111     assert FA_img.shape == shape, f\"FA image has shape {FA_img.shape}, expected {shape}\"\n112     assert np.all((FA_img.numpy() >= 0) & (FA_img.numpy() <= 1)), \"FA values should be in [0, 1]\"\n113     assert MD_img.shape == shape, \"MD image has incorrect shape\"\n",
+      "col_offset": 4,
+      "end_col_offset": 97,
+      "filename": "/tmp/repo_iasegm0z/tests/voxelwise_bvec_dti_recon_test.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 112,
+      "line_range": [
+        112
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "112     assert np.all((FA_img.numpy() >= 0) & (FA_img.numpy() <= 1)), \"FA values should be in [0, 1]\"\n113     assert MD_img.shape == shape, \"MD image has incorrect shape\"\n114     \n",
+      "col_offset": 4,
+      "end_col_offset": 64,
+      "filename": "/tmp/repo_iasegm0z/tests/voxelwise_bvec_dti_recon_test.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 113,
+      "line_range": [
+        113
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    }
+  ]
+}

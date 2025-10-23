@@ -1,112 +1,8 @@
 {
   "errors": [],
-  "generated_at": "2025-10-21T15:00:23Z",
+  "generated_at": "2025-10-21T20:09:48Z",
   "metrics": {
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\service\\__init__.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 30,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\service\\common\\cli_commands.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 14,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\service\\common\\error_handlers.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 70,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\service\\common\\log_handlers.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 16,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\service\\common\\status.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 51,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\service\\config.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 13,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\service\\models.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 93,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\service\\routes.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 16,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\tests\\__init__.py": {
+    "/tmp/repo_fgupinfu/MODULE_NAME/__init__.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -119,7 +15,7 @@
       "nosec": 0,
       "skipped_tests": 0
     },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\tests\\factories.py": {
+    "/tmp/repo_fgupinfu/setup.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -128,11 +24,11 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 12,
+      "loc": 80,
       "nosec": 0,
       "skipped_tests": 0
     },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\tests\\test_cli_commands.py": {
+    "/tmp/repo_fgupinfu/tests/__init__.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -141,83 +37,23 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 20,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\tests\\test_models.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 42,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\tests\\test_routes.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 38,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\wsgi.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 1,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 1,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 9,
+      "loc": 0,
       "nosec": 0,
       "skipped_tests": 0
     },
     "_totals": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.MEDIUM": 0,
       "CONFIDENCE.UNDEFINED": 0,
       "SEVERITY.HIGH": 0,
       "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 424,
+      "loc": 80,
       "nosec": 0,
       "skipped_tests": 0
     }
   },
-  "results": [
-    {
-      "code": "12 if __name__ == \"__main__\":\n13     app.run(host=\"0.0.0.0\", port=PORT)\n",
-      "col_offset": 17,
-      "end_col_offset": 26,
-      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_vv9b19na\\wsgi.py",
-      "issue_confidence": "MEDIUM",
-      "issue_cwe": {
-        "id": 605,
-        "link": "https://cwe.mitre.org/data/definitions/605.html"
-      },
-      "issue_severity": "MEDIUM",
-      "issue_text": "Possible binding to all interfaces.",
-      "line_number": 13,
-      "line_range": [
-        13
-      ],
-      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b104_hardcoded_bind_all_interfaces.html",
-      "test_id": "B104",
-      "test_name": "hardcoded_bind_all_interfaces"
-    }
-  ]
+  "results": []
 }

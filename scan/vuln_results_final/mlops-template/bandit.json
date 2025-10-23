@@ -1,151 +1,8 @@
 {
   "errors": [],
-  "generated_at": "2025-10-21T15:10:37Z",
+  "generated_at": "2025-10-21T20:03:45Z",
   "metrics": {
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\bentoml\\hello.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 9,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\examples\\quickstart\\locustfile.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 83,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\examples\\quickstart\\query.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 1,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 1,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 7,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\examples\\quickstart\\service.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 13,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\examples\\quickstart\\train.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 14,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\hugging-face\\download_hf_model.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 11,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\hugging-face\\hf_fine_tune_hello_world.py": {
-      "CONFIDENCE.HIGH": 3,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 3,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 32,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\hugging-face\\hf_whisper.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 24,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\hugging-face\\load_model.py": {
-      "CONFIDENCE.HIGH": 2,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 2,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 10,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\hugging-face\\zero_shot_classification.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 27,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\main.py": {
-      "CONFIDENCE.HIGH": 0,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 12,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\mylib\\__init__.py": {
+    "/tmp/repo_su5wdorq/src/__init__.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -158,7 +15,7 @@
       "nosec": 0,
       "skipped_tests": 0
     },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\mylib\\calculator.py": {
+    "/tmp/repo_su5wdorq/src/data/__init__.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -167,24 +24,11 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 11,
+      "loc": 0,
       "nosec": 0,
       "skipped_tests": 0
     },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\test_main.py": {
-      "CONFIDENCE.HIGH": 1,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 1,
-      "SEVERITY.MEDIUM": 0,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 6,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\utils\\kw_extract.py": {
+    "/tmp/repo_su5wdorq/src/data/build_features.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -193,24 +37,11 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 42,
+      "loc": 0,
       "nosec": 0,
       "skipped_tests": 0
     },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\utils\\quickstart_pytorch.py": {
-      "CONFIDENCE.HIGH": 1,
-      "CONFIDENCE.LOW": 0,
-      "CONFIDENCE.MEDIUM": 0,
-      "CONFIDENCE.UNDEFINED": 0,
-      "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 0,
-      "SEVERITY.MEDIUM": 1,
-      "SEVERITY.UNDEFINED": 0,
-      "loc": 120,
-      "nosec": 0,
-      "skipped_tests": 0
-    },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\utils\\quickstart_tf2.py": {
+    "/tmp/repo_su5wdorq/src/data/cleaning.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -219,11 +50,11 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 26,
+      "loc": 0,
       "nosec": 0,
       "skipped_tests": 0
     },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\utils\\verify_pytorch.py": {
+    "/tmp/repo_su5wdorq/src/data/ingestion.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -232,11 +63,11 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 11,
+      "loc": 19,
       "nosec": 0,
       "skipped_tests": 0
     },
-    "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\utils\\verify_tf.py": {
+    "/tmp/repo_su5wdorq/src/data/labeling.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -245,188 +76,179 @@
       "SEVERITY.LOW": 0,
       "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 1,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_su5wdorq/src/data/splitting.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_su5wdorq/src/data/validation.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_su5wdorq/src/models/model1/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_su5wdorq/src/models/model1/dataloader.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_su5wdorq/src/models/model1/hyperparameters_tuning.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_su5wdorq/src/models/model1/model.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_su5wdorq/src/models/model1/predict.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_su5wdorq/src/models/model1/preprocessing.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_su5wdorq/src/models/model1/train.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_su5wdorq/src/visualization/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_su5wdorq/src/visualization/evaluation.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_su5wdorq/src/visualization/exploration.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
       "nosec": 0,
       "skipped_tests": 0
     },
     "_totals": {
-      "CONFIDENCE.HIGH": 7,
-      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
       "CONFIDENCE.UNDEFINED": 0,
       "SEVERITY.HIGH": 0,
-      "SEVERITY.LOW": 1,
-      "SEVERITY.MEDIUM": 7,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
       "SEVERITY.UNDEFINED": 0,
-      "loc": 459,
+      "loc": 19,
       "nosec": 0,
       "skipped_tests": 0
     }
   },
-  "results": [
-    {
-      "code": "2 \n3 result = requests.post(\n4    \"http://127.0.0.1:3000/classify\",\n5    headers={\"content-type\": \"application/json\"},\n6    data=\"[[5.9, 3, 5.1, 1.8]]\",\n7 ).text\n8 \n",
-      "col_offset": 9,
-      "end_col_offset": 1,
-      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\examples\\quickstart\\query.py",
-      "issue_confidence": "LOW",
-      "issue_cwe": {
-        "id": 400,
-        "link": "https://cwe.mitre.org/data/definitions/400.html"
-      },
-      "issue_severity": "MEDIUM",
-      "issue_text": "Call to requests without timeout",
-      "line_number": 3,
-      "line_range": [
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
-      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b113_request_without_timeout.html",
-      "test_id": "B113",
-      "test_name": "request_without_timeout"
-    },
-    {
-      "code": "15 # Load the dataset\n16 dataset = load_dataset(\"yelp_review_full\")\n17 dataset[\"train\"][100]\n",
-      "col_offset": 10,
-      "end_col_offset": 42,
-      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\hugging-face\\hf_fine_tune_hello_world.py",
-      "issue_confidence": "HIGH",
-      "issue_cwe": {
-        "id": 494,
-        "link": "https://cwe.mitre.org/data/definitions/494.html"
-      },
-      "issue_severity": "MEDIUM",
-      "issue_text": "Unsafe Hugging Face Hub download without revision pinning in load_dataset()",
-      "line_number": 16,
-      "line_range": [
-        16
-      ],
-      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b615_huggingface_unsafe_download.html",
-      "test_id": "B615",
-      "test_name": "huggingface_unsafe_download"
-    },
-    {
-      "code": "17 dataset[\"train\"][100]\n18 tokenizer = AutoTokenizer.from_pretrained(\"bert-base-cased\")\n19 \n",
-      "col_offset": 12,
-      "end_col_offset": 60,
-      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\hugging-face\\hf_fine_tune_hello_world.py",
-      "issue_confidence": "HIGH",
-      "issue_cwe": {
-        "id": 494,
-        "link": "https://cwe.mitre.org/data/definitions/494.html"
-      },
-      "issue_severity": "MEDIUM",
-      "issue_text": "Unsafe Hugging Face Hub download without revision pinning in from_pretrained()",
-      "line_number": 18,
-      "line_range": [
-        18
-      ],
-      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b615_huggingface_unsafe_download.html",
-      "test_id": "B615",
-      "test_name": "huggingface_unsafe_download"
-    },
-    {
-      "code": "24 # Load the model\n25 model = AutoModelForSequenceClassification.from_pretrained(\"bert-base-cased\", num_labels=5)\n26 \n",
-      "col_offset": 8,
-      "end_col_offset": 91,
-      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\hugging-face\\hf_fine_tune_hello_world.py",
-      "issue_confidence": "HIGH",
-      "issue_cwe": {
-        "id": 494,
-        "link": "https://cwe.mitre.org/data/definitions/494.html"
-      },
-      "issue_severity": "MEDIUM",
-      "issue_text": "Unsafe Hugging Face Hub download without revision pinning in from_pretrained()",
-      "line_number": 25,
-      "line_range": [
-        25
-      ],
-      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b615_huggingface_unsafe_download.html",
-      "test_id": "B615",
-      "test_name": "huggingface_unsafe_download"
-    },
-    {
-      "code": "4 \n5 model = AutoModelForSeq2SeqLM.from_pretrained(\"summarizeApp\")\n6 tokenizer = AutoTokenizer.from_pretrained(\"summarizeApp\")\n",
-      "col_offset": 8,
-      "end_col_offset": 61,
-      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\hugging-face\\load_model.py",
-      "issue_confidence": "HIGH",
-      "issue_cwe": {
-        "id": 494,
-        "link": "https://cwe.mitre.org/data/definitions/494.html"
-      },
-      "issue_severity": "MEDIUM",
-      "issue_text": "Unsafe Hugging Face Hub download without revision pinning in from_pretrained()",
-      "line_number": 5,
-      "line_range": [
-        5
-      ],
-      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b615_huggingface_unsafe_download.html",
-      "test_id": "B615",
-      "test_name": "huggingface_unsafe_download"
-    },
-    {
-      "code": "5 model = AutoModelForSeq2SeqLM.from_pretrained(\"summarizeApp\")\n6 tokenizer = AutoTokenizer.from_pretrained(\"summarizeApp\")\n7 #open the file with utf-8 encoding\n",
-      "col_offset": 12,
-      "end_col_offset": 57,
-      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\hugging-face\\load_model.py",
-      "issue_confidence": "HIGH",
-      "issue_cwe": {
-        "id": 494,
-        "link": "https://cwe.mitre.org/data/definitions/494.html"
-      },
-      "issue_severity": "MEDIUM",
-      "issue_text": "Unsafe Hugging Face Hub download without revision pinning in from_pretrained()",
-      "line_number": 6,
-      "line_range": [
-        6
-      ],
-      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b615_huggingface_unsafe_download.html",
-      "test_id": "B615",
-      "test_name": "huggingface_unsafe_download"
-    },
-    {
-      "code": "9 def test_add():\n10     assert add(1, 2) == 3\n",
-      "col_offset": 4,
-      "end_col_offset": 25,
-      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\test_main.py",
-      "issue_confidence": "HIGH",
-      "issue_cwe": {
-        "id": 703,
-        "link": "https://cwe.mitre.org/data/definitions/703.html"
-      },
-      "issue_severity": "LOW",
-      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
-      "line_number": 10,
-      "line_range": [
-        10
-      ],
-      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
-      "test_id": "B101",
-      "test_name": "assert_used"
-    },
-    {
-      "code": "212 model = NeuralNetwork()\n213 model.load_state_dict(torch.load(\"model.pth\"))\n214 \n",
-      "col_offset": 22,
-      "end_col_offset": 45,
-      "filename": "C:\\Users\\leu_m\\AppData\\Local\\Temp\\repo_5shbyv9g\\utils\\quickstart_pytorch.py",
-      "issue_confidence": "HIGH",
-      "issue_cwe": {
-        "id": 502,
-        "link": "https://cwe.mitre.org/data/definitions/502.html"
-      },
-      "issue_severity": "MEDIUM",
-      "issue_text": "Use of unsafe PyTorch load",
-      "line_number": 213,
-      "line_range": [
-        213
-      ],
-      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b614_pytorch_load.html",
-      "test_id": "B614",
-      "test_name": "pytorch_load"
-    }
-  ]
+  "results": []
 }

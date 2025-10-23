@@ -1,0 +1,3 @@
+ERROR:pip_audit._cli:requirement file /tmp/repo_o3mc1rn4/setup.py contains invalid specifier at line 1: Invalid requirement: : Expected end or semicolon (after name and no valid version specifier)
+    import codecs
+           ^

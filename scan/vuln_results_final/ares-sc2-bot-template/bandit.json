@@ -1,0 +1,914 @@
+{
+  "errors": [],
+  "generated_at": "2025-10-21T20:09:32Z",
+  "metrics": {
+    "/tmp/repo_ym9vp1sy/bot/main.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 18,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_ym9vp1sy/ladder.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 68,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_ym9vp1sy/run.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 84,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py": {
+      "CONFIDENCE.HIGH": 21,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 21,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 226,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_ym9vp1sy/scripts/create_pyinstaller_exe.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 117,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_ym9vp1sy/scripts/update_ares.py": {
+      "CONFIDENCE.HIGH": 13,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 13,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 21,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_ym9vp1sy/scripts/upload_to_ai_arena.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 65,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 38,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 38,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 599,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "93 \n94         random_race = random.choice([Race.Zerg, Race.Terran, Race.Protoss])\n95         print(\"Starting local game...\")\n",
+      "col_offset": 22,
+      "end_col_offset": 75,
+      "filename": "/tmp/repo_ym9vp1sy/run.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 94,
+      "line_range": [
+        94
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "96         run_game(\n97             maps.get(random.choice(map_list)),\n98             [\n",
+      "col_offset": 21,
+      "end_col_offset": 44,
+      "filename": "/tmp/repo_ym9vp1sy/run.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 97,
+      "line_range": [
+        97
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "11 from os import path, remove, walk\n12 from subprocess import Popen, run\n13 from typing import Dict, List, Tuple\n",
+      "col_offset": 0,
+      "end_col_offset": 33,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "141     \"\"\"\n142     difference = run(\"git diff\", capture_output=True, text=True)\n143     branch_name = run(\"git rev-parse --abbrev-ref HEAD\", capture_output=True, text=True)\n",
+      "col_offset": 17,
+      "end_col_offset": 64,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 142,
+      "line_range": [
+        142
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "141     \"\"\"\n142     difference = run(\"git diff\", capture_output=True, text=True)\n143     branch_name = run(\"git rev-parse --abbrev-ref HEAD\", capture_output=True, text=True)\n",
+      "col_offset": 17,
+      "end_col_offset": 64,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 142,
+      "line_range": [
+        142
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "142     difference = run(\"git diff\", capture_output=True, text=True)\n143     branch_name = run(\"git rev-parse --abbrev-ref HEAD\", capture_output=True, text=True)\n144     assert not difference.stdout, \"Uncommitted changes are present\"\n",
+      "col_offset": 18,
+      "end_col_offset": 88,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 143,
+      "line_range": [
+        143
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "142     difference = run(\"git diff\", capture_output=True, text=True)\n143     branch_name = run(\"git rev-parse --abbrev-ref HEAD\", capture_output=True, text=True)\n144     assert not difference.stdout, \"Uncommitted changes are present\"\n",
+      "col_offset": 18,
+      "end_col_offset": 88,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 143,
+      "line_range": [
+        143
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "143     branch_name = run(\"git rev-parse --abbrev-ref HEAD\", capture_output=True, text=True)\n144     assert not difference.stdout, \"Uncommitted changes are present\"\n145     assert branch_name.stdout.strip() == \"master\", \"This is not the master branch\"\n",
+      "col_offset": 4,
+      "end_col_offset": 67,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 144,
+      "line_range": [
+        144
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "144     assert not difference.stdout, \"Uncommitted changes are present\"\n145     assert branch_name.stdout.strip() == \"master\", \"This is not the master branch\"\n146 \n",
+      "col_offset": 4,
+      "end_col_offset": 82,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 145,
+      "line_range": [
+        145
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "155             config = yaml.safe_load(f)\n156         assert not config[\"Debug\"], \"Debug is not False\"\n157 \n",
+      "col_offset": 8,
+      "end_col_offset": 56,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 156,
+      "line_range": [
+        156
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "202     \"\"\"\n203     import subprocess\n204 \n",
+      "col_offset": 4,
+      "end_col_offset": 21,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 203,
+      "line_range": [
+        203
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "209         # Approach 1: Try with pip install\n210         subprocess.run(\n211             \"cd cython-extensions-sc2 && poetry run pip install -e .\",\n212             shell=True,\n213             env=build_env,\n214             check=True\n215         )\n216         return True\n",
+      "col_offset": 8,
+      "end_col_offset": 9,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 210,
+      "line_range": [
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "211             \"cd cython-extensions-sc2 && poetry run pip install -e .\",\n212             shell=True,\n213             env=build_env,\n214             check=True\n215         )\n216         return True\n217     except subprocess.CalledProcessError:\n218         print(\"Second build approach failed, trying setup.py directly...\")\n",
+      "col_offset": 8,
+      "end_col_offset": 9,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 212,
+      "line_range": [
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "221             # Approach 2: Use setup.py directly with different flags\n222             subprocess.run(\n223                 \"cd cython-extensions-sc2 && poetry run python setup.py build_ext --inplace\",\n224                 shell=True,\n225                 env=build_env,\n226                 check=True\n227             )\n228             return True\n",
+      "col_offset": 12,
+      "end_col_offset": 13,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 222,
+      "line_range": [
+        222,
+        223,
+        224,
+        225,
+        226,
+        227
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "223                 \"cd cython-extensions-sc2 && poetry run python setup.py build_ext --inplace\",\n224                 shell=True,\n225                 env=build_env,\n226                 check=True\n227             )\n228             return True\n229         except subprocess.CalledProcessError:\n230             print(\"All build approaches failed.\")\n",
+      "col_offset": 12,
+      "end_col_offset": 13,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 224,
+      "line_range": [
+        222,
+        223,
+        224,
+        225,
+        226,
+        227
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "240     # clone python-sc2\n241     run(\"git clone https://github.com/august-k/python-sc2\", shell=True)\n242     # clone map-analyzer\n",
+      "col_offset": 4,
+      "end_col_offset": 71,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 241,
+      "line_range": [
+        241
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "240     # clone python-sc2\n241     run(\"git clone https://github.com/august-k/python-sc2\", shell=True)\n242     # clone map-analyzer\n",
+      "col_offset": 4,
+      "end_col_offset": 71,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 241,
+      "line_range": [
+        241
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "242     # clone map-analyzer\n243     run(\"git clone https://github.com/raspersc2/SC2MapAnalysis\", shell=True)\n244     # cython extensions\n",
+      "col_offset": 4,
+      "end_col_offset": 76,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 243,
+      "line_range": [
+        243
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "242     # clone map-analyzer\n243     run(\"git clone https://github.com/raspersc2/SC2MapAnalysis\", shell=True)\n244     # cython extensions\n",
+      "col_offset": 4,
+      "end_col_offset": 76,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 243,
+      "line_range": [
+        243
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "244     # cython extensions\n245     run(\"git clone https://github.com/AresSC2/cython-extensions-sc2\", shell=True)\n246 \n",
+      "col_offset": 4,
+      "end_col_offset": 81,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 245,
+      "line_range": [
+        245
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "244     # cython extensions\n245     run(\"git clone https://github.com/AresSC2/cython-extensions-sc2\", shell=True)\n246 \n",
+      "col_offset": 4,
+      "end_col_offset": 81,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 245,
+      "line_range": [
+        245
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "304     # ensure env is setup and dependencies are installed\n305     p = Popen([\"poetry\", \"install\"], cwd=f\"{ROOT_DIRECTORY}\")\n306     # makes the process wait, otherwise files get zipped before compile is complete\n",
+      "col_offset": 8,
+      "end_col_offset": 61,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 305,
+      "line_range": [
+        305
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "304     # ensure env is setup and dependencies are installed\n305     p = Popen([\"poetry\", \"install\"], cwd=f\"{ROOT_DIRECTORY}\")\n306     # makes the process wait, otherwise files get zipped before compile is complete\n",
+      "col_offset": 8,
+      "end_col_offset": 61,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_ladder_zip.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 305,
+      "line_range": [
+        305
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "2 import shutil\n3 import subprocess\n4 from os import path, remove\n",
+      "col_offset": 0,
+      "end_col_offset": 17,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_pyinstaller_exe.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 3,
+      "line_range": [
+        3
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "122         print(\"Running command:\", \" \".join(self.pyinstaller))\n123         process = subprocess.run(self.pyinstaller, check=True)\n124 \n",
+      "col_offset": 18,
+      "end_col_offset": 62,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/create_pyinstaller_exe.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 123,
+      "line_range": [
+        123
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "1 from subprocess import run\n2 \n3 if __name__ == \"__main__\":\n",
+      "col_offset": 0,
+      "end_col_offset": 26,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 1,
+      "line_range": [
+        1
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "3 if __name__ == \"__main__\":\n4     run([\"git\", \"submodule\", \"deinit\", \"-f\", \".\"])\n5     run([\"git\", \"submodule\", \"update\", \"--init\"])\n",
+      "col_offset": 4,
+      "end_col_offset": 50,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "3 if __name__ == \"__main__\":\n4     run([\"git\", \"submodule\", \"deinit\", \"-f\", \".\"])\n5     run([\"git\", \"submodule\", \"update\", \"--init\"])\n",
+      "col_offset": 4,
+      "end_col_offset": 50,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "4     run([\"git\", \"submodule\", \"deinit\", \"-f\", \".\"])\n5     run([\"git\", \"submodule\", \"update\", \"--init\"])\n6     run([\"git\", \"submodule\", \"update\", \"--init\", \"--recursive\", \"--remote\"])\n",
+      "col_offset": 4,
+      "end_col_offset": 49,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 5,
+      "line_range": [
+        5
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "4     run([\"git\", \"submodule\", \"deinit\", \"-f\", \".\"])\n5     run([\"git\", \"submodule\", \"update\", \"--init\"])\n6     run([\"git\", \"submodule\", \"update\", \"--init\", \"--recursive\", \"--remote\"])\n",
+      "col_offset": 4,
+      "end_col_offset": 49,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 5,
+      "line_range": [
+        5
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "5     run([\"git\", \"submodule\", \"update\", \"--init\"])\n6     run([\"git\", \"submodule\", \"update\", \"--init\", \"--recursive\", \"--remote\"])\n7     run([\"poetry\", \"remove\", \"ares-sc2\"])\n",
+      "col_offset": 4,
+      "end_col_offset": 76,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 6,
+      "line_range": [
+        6
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "5     run([\"git\", \"submodule\", \"update\", \"--init\"])\n6     run([\"git\", \"submodule\", \"update\", \"--init\", \"--recursive\", \"--remote\"])\n7     run([\"poetry\", \"remove\", \"ares-sc2\"])\n",
+      "col_offset": 4,
+      "end_col_offset": 76,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 6,
+      "line_range": [
+        6
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "6     run([\"git\", \"submodule\", \"update\", \"--init\", \"--recursive\", \"--remote\"])\n7     run([\"poetry\", \"remove\", \"ares-sc2\"])\n8 \n",
+      "col_offset": 4,
+      "end_col_offset": 41,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "6     run([\"git\", \"submodule\", \"update\", \"--init\", \"--recursive\", \"--remote\"])\n7     run([\"poetry\", \"remove\", \"ares-sc2\"])\n8 \n",
+      "col_offset": 4,
+      "end_col_offset": 41,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "25 \n26     run([\"poetry\", \"lock\"])\n27     run([\"poetry\", \"install\"])\n",
+      "col_offset": 4,
+      "end_col_offset": 27,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 26,
+      "line_range": [
+        26
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "25 \n26     run([\"poetry\", \"lock\"])\n27     run([\"poetry\", \"install\"])\n",
+      "col_offset": 4,
+      "end_col_offset": 27,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 26,
+      "line_range": [
+        26
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "26     run([\"poetry\", \"lock\"])\n27     run([\"poetry\", \"install\"])\n",
+      "col_offset": 4,
+      "end_col_offset": 30,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 27,
+      "line_range": [
+        27
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "26     run([\"poetry\", \"lock\"])\n27     run([\"poetry\", \"install\"])\n",
+      "col_offset": 4,
+      "end_col_offset": 30,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/update_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 27,
+      "line_range": [
+        27
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "73             logger.info(URL)\n74             response = requests.patch(\n75                 URL, headers=request_headers, data=request_data, files=request_files\n76             )\n77             logger.info(response)\n",
+      "col_offset": 23,
+      "end_col_offset": 13,
+      "filename": "/tmp/repo_ym9vp1sy/scripts/upload_to_ai_arena.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 400,
+        "link": "https://cwe.mitre.org/data/definitions/400.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Call to requests without timeout",
+      "line_number": 74,
+      "line_range": [
+        74,
+        75,
+        76
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b113_request_without_timeout.html",
+      "test_id": "B113",
+      "test_name": "request_without_timeout"
+    }
+  ]
+}

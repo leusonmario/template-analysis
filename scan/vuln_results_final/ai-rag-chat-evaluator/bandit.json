@@ -1,0 +1,1415 @@
+{
+  "errors": [],
+  "generated_at": "2025-10-21T20:06:36Z",
+  "metrics": {
+    "/tmp/repo_d4zl_054/src/evaltools/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/__main__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 4,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/cli.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 97,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/eval/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/eval/evaluate.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 228,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/eval/evaluate_metrics/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 34,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/eval/evaluate_metrics/base_metric.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/eval/evaluate_metrics/builtin_metrics.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 50,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/eval/evaluate_metrics/code_metrics.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 73,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/eval/evaluate_metrics/prompt_metrics.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 44,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/gen/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/gen/generate.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 138,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/review/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 0,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/review/diff_app.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 71,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/review/diff_markdown.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 44,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/review/summary_app.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 48,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/review/summary_markdown.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 23,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/review/utils.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 74,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/src/evaltools/service_setup.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 105,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/tests/test_evaluate.py": {
+      "CONFIDENCE.HIGH": 8,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 8,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 81,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py": {
+      "CONFIDENCE.HIGH": 44,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 44,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 118,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 53,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 53,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1262,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "32     try:\n33         r = requests.post(url, headers=headers, json=body)\n34         r.encoding = \"utf-8\"\n",
+      "col_offset": 12,
+      "end_col_offset": 58,
+      "filename": "/tmp/repo_d4zl_054/src/evaltools/eval/evaluate.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 400,
+        "link": "https://cwe.mitre.org/data/definitions/400.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Call to requests without timeout",
+      "line_number": 33,
+      "line_range": [
+        33
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b113_request_without_timeout.html",
+      "test_id": "B113",
+      "test_name": "request_without_timeout"
+    },
+    {
+      "code": "93     if qa:\n94         qa = random.sample(qa, len(qa))  # Shuffle questions for some randomness\n95         existing_questions = \"\\n\".join([item[\"question\"] for item in qa])\n",
+      "col_offset": 13,
+      "end_col_offset": 39,
+      "filename": "/tmp/repo_d4zl_054/src/evaltools/gen/generate.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 94,
+      "line_range": [
+        94
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "15     result = send_question_to_target(\"Question 1\", \"http://example.com\")\n16     assert result[\"answer\"] == \"This is the answer\"\n17     assert result[\"context\"] == \"Context 1\\n\\nContext 2\"\n",
+      "col_offset": 4,
+      "end_col_offset": 51,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 16,
+      "line_range": [
+        16
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "16     assert result[\"answer\"] == \"This is the answer\"\n17     assert result[\"context\"] == \"Context 1\\n\\nContext 2\"\n18     assert result[\"latency\"] == 1\n",
+      "col_offset": 4,
+      "end_col_offset": 56,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 17,
+      "line_range": [
+        17
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "17     assert result[\"context\"] == \"Context 1\\n\\nContext 2\"\n18     assert result[\"latency\"] == 1\n19 \n",
+      "col_offset": 4,
+      "end_col_offset": 33,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 18,
+      "line_range": [
+        18
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "24     result = send_question_to_target(\"Question\", \"http://example.com\")\n25     assert result[\"answer\"] == (\n26         \"Response does not adhere to the expected schema. \"\n27         \"The answer should be accessible via the JMESPath expression 'message.content' \"\n28         \"and the context should be accessible via the JMESPath expression 'context.data_points.text'. \"\n29         \"Either adjust the app response or adjust send_question_to_target() \"\n30         \"in evaluate.py to match the actual schema.\\n\"\n31         \"Response: {}\"\n32     )\n33     assert result[\"context\"] == (\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 25,
+      "line_range": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "32     )\n33     assert result[\"context\"] == (\n34         \"Response does not adhere to the expected schema. \"\n35         \"The answer should be accessible via the JMESPath expression 'message.content' \"\n36         \"and the context should be accessible via the JMESPath expression 'context.data_points.text'. \"\n37         \"Either adjust the app response or adjust send_question_to_target() \"\n38         \"in evaluate.py to match the actual schema.\\n\"\n39         \"Response: {}\"\n40     )\n41 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 33,
+      "line_range": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "48     except Exception as e:\n49         assert str(e) == (\n50             \"Response does not adhere to the expected schema. \"\n51             \"The answer should be accessible via the JMESPath expression 'message.content' \"\n52             \"and the context should be accessible via the JMESPath expression 'context.data_points.text'. \"\n53             \"Either adjust the app response or adjust send_question_to_target() \"\n54             \"in evaluate.py to match the actual schema.\\n\"\n55             \"Response: {}\"\n56         )\n57 \n",
+      "col_offset": 8,
+      "end_col_offset": 9,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 49,
+      "line_range": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "64     except Exception as e:\n65         assert str(e) == (\n66             \"Response does not adhere to the expected schema. \"\n67             \"The answer should be accessible via the JMESPath expression 'message.content' \"\n68             \"and the context should be accessible via the JMESPath expression 'context.data_points.text'. \"\n69             \"Either adjust the app response or adjust send_question_to_target() \"\n70             \"in evaluate.py to match the actual schema.\\n\"\n71             \"Response: {'message': {}, 'context': {'data_points': {'text': ['Context 1', 'Context 2']}}}\"\n72         )\n73 \n",
+      "col_offset": 8,
+      "end_col_offset": 9,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 65,
+      "line_range": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "81     except Exception as e:\n82         assert str(e) == (\n83             \"Response does not adhere to the expected schema. \"\n84             \"The answer should be accessible via the JMESPath expression 'message.content' \"\n85             \"and the context should be accessible via the JMESPath expression 'context.data_points.text'. \"\n86             \"Either adjust the app response or adjust send_question_to_target() \"\n87             \"in evaluate.py to match the actual schema.\\n\"\n88             \"Response: {'message': {'content': 'This is the answer'}}\"\n89         )\n90 \n",
+      "col_offset": 8,
+      "end_col_offset": 9,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 82,
+      "line_range": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "8     metric_function = metric.evaluator_fn()\n9     assert callable(metric_function)\n10     assert metric_function(response=\"Hello, world!\") == {\"answer_length\": 13}\n",
+      "col_offset": 4,
+      "end_col_offset": 36,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 9,
+      "line_range": [
+        9
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "9     assert callable(metric_function)\n10     assert metric_function(response=\"Hello, world!\") == {\"answer_length\": 13}\n11     df = pd.DataFrame([{\"answer_length\": 20}, {\"answer_length\": 10}, {\"answer_length\": 5}])\n",
+      "col_offset": 4,
+      "end_col_offset": 77,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 10,
+      "line_range": [
+        10
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "11     df = pd.DataFrame([{\"answer_length\": 20}, {\"answer_length\": 10}, {\"answer_length\": 5}])\n12     assert metric.get_aggregate_stats(df) == {\"mean\": 11.67, \"max\": 20, \"min\": 5}\n13 \n",
+      "col_offset": 4,
+      "end_col_offset": 81,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "17     metric_function = metric.evaluator_fn()\n18     assert metric_function(response=None) == {\"answer_length\": -1}\n19     df = pd.DataFrame([{\"answer_length\": 20}, {\"answer_length\": 10}, {\"answer_length\": 5}, {\"answer_length\": -1}])\n",
+      "col_offset": 4,
+      "end_col_offset": 66,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 18,
+      "line_range": [
+        18
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "19     df = pd.DataFrame([{\"answer_length\": 20}, {\"answer_length\": 10}, {\"answer_length\": 5}, {\"answer_length\": -1}])\n20     assert metric.get_aggregate_stats(df) == {\"mean\": 11.67, \"max\": 20, \"min\": 5}\n21 \n",
+      "col_offset": 4,
+      "end_col_offset": 81,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 20,
+      "line_range": [
+        20
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "25     metric_function = metric.evaluator_fn()\n26     assert callable(metric_function)\n27     assert metric_function(response=\"Hello, world!\") == {\"has_citation\": False}\n",
+      "col_offset": 4,
+      "end_col_offset": 36,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 26,
+      "line_range": [
+        26
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "26     assert callable(metric_function)\n27     assert metric_function(response=\"Hello, world!\") == {\"has_citation\": False}\n28     assert metric_function(response=\"Hello, [world.pdf]!\") == {\"has_citation\": True}\n",
+      "col_offset": 4,
+      "end_col_offset": 79,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 27,
+      "line_range": [
+        27
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "27     assert metric_function(response=\"Hello, world!\") == {\"has_citation\": False}\n28     assert metric_function(response=\"Hello, [world.pdf]!\") == {\"has_citation\": True}\n29 \n",
+      "col_offset": 4,
+      "end_col_offset": 84,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 28,
+      "line_range": [
+        28
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "30     df = pd.DataFrame([{\"has_citation\": True}, {\"has_citation\": False}, {\"has_citation\": True}])\n31     assert metric.get_aggregate_stats(df) == {\"total\": 2, \"rate\": 0.67}\n32 \n",
+      "col_offset": 4,
+      "end_col_offset": 71,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 31,
+      "line_range": [
+        31
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "36     metric_function = metric.evaluator_fn()\n37     assert metric_function(response=None) == {\"has_citation\": -1}\n38     df = pd.DataFrame([{\"has_citation\": True}, {\"has_citation\": False}, {\"has_citation\": -1}])\n",
+      "col_offset": 4,
+      "end_col_offset": 65,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 37,
+      "line_range": [
+        37
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "38     df = pd.DataFrame([{\"has_citation\": True}, {\"has_citation\": False}, {\"has_citation\": -1}])\n39     assert metric.get_aggregate_stats(df) == {\"total\": 1, \"rate\": 0.5}\n40 \n",
+      "col_offset": 4,
+      "end_col_offset": 70,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 39,
+      "line_range": [
+        39
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "44     metric_function = metric.evaluator_fn()\n45     assert callable(metric_function)\n46     assert metric_function(ground_truth=\"answer in [file.pdf]\", response=\"answer in [file2.pdf]\") == {\n",
+      "col_offset": 4,
+      "end_col_offset": 36,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 45,
+      "line_range": [
+        45
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "45     assert callable(metric_function)\n46     assert metric_function(ground_truth=\"answer in [file.pdf]\", response=\"answer in [file2.pdf]\") == {\n47         \"citation_match\": False\n48     }\n49     assert metric_function(ground_truth=\"answer in [file2.pdf]\", response=\"answer in [file2.pdf]\") == {\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 46,
+      "line_range": [
+        46,
+        47,
+        48
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "48     }\n49     assert metric_function(ground_truth=\"answer in [file2.pdf]\", response=\"answer in [file2.pdf]\") == {\n50         \"citation_match\": True\n51     }\n52     assert metric_function(ground_truth=\"answer in [file2.pdf]\", response=\"answer in [file1.pdf][file2.pdf]\") == {\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 49,
+      "line_range": [
+        49,
+        50,
+        51
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "51     }\n52     assert metric_function(ground_truth=\"answer in [file2.pdf]\", response=\"answer in [file1.pdf][file2.pdf]\") == {\n53         \"citation_match\": True\n54     }\n55     df = pd.DataFrame([{\"citation_match\": True}, {\"citation_match\": False}, {\"citation_match\": True}])\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 52,
+      "line_range": [
+        52,
+        53,
+        54
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "55     df = pd.DataFrame([{\"citation_match\": True}, {\"citation_match\": False}, {\"citation_match\": True}])\n56     assert metric.get_aggregate_stats(df) == {\"total\": 2, \"rate\": 0.67}\n57 \n",
+      "col_offset": 4,
+      "end_col_offset": 71,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 56,
+      "line_range": [
+        56
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "63     metric_function = metric.evaluator_fn()\n64     assert metric_function(ground_truth=truth, response=response) == {\"citation_match\": True}\n65 \n",
+      "col_offset": 4,
+      "end_col_offset": 93,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 64,
+      "line_range": [
+        64
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "69     metric_function = metric.evaluator_fn()\n70     assert metric_function(ground_truth=\"Answer\", response=None) == {\"citation_match\": -1}\n71     df = pd.DataFrame([{\"citation_match\": True}, {\"citation_match\": False}, {\"citation_match\": -1}])\n",
+      "col_offset": 4,
+      "end_col_offset": 90,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 70,
+      "line_range": [
+        70
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "71     df = pd.DataFrame([{\"citation_match\": True}, {\"citation_match\": False}, {\"citation_match\": -1}])\n72     assert metric.get_aggregate_stats(df) == {\"total\": 1, \"rate\": 0.5}\n73 \n",
+      "col_offset": 4,
+      "end_col_offset": 70,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 72,
+      "line_range": [
+        72
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "77     metric_function = metric.evaluator_fn()\n78     assert callable(metric_function)\n79     assert metric_function(data={\"latency\": 20}) == {}\n",
+      "col_offset": 4,
+      "end_col_offset": 36,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 78,
+      "line_range": [
+        78
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "78     assert callable(metric_function)\n79     assert metric_function(data={\"latency\": 20}) == {}\n80     df = pd.DataFrame([{\"latency\": 20}, {\"latency\": 10}, {\"latency\": 5}])\n",
+      "col_offset": 4,
+      "end_col_offset": 54,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 79,
+      "line_range": [
+        79
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "80     df = pd.DataFrame([{\"latency\": 20}, {\"latency\": 10}, {\"latency\": 5}])\n81     assert metric.get_aggregate_stats(df) == {\"mean\": 11.67, \"max\": 20, \"min\": 5}\n82 \n",
+      "col_offset": 4,
+      "end_col_offset": 81,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 81,
+      "line_range": [
+        81
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "86 \n87     assert callable(metric.evaluator_fn(openai_config=None))\n88     df = pd.DataFrame([{\"myrelevance\": 5}, {\"myrelevance\": 4}, {\"myrelevance\": 3}])\n",
+      "col_offset": 4,
+      "end_col_offset": 60,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 87,
+      "line_range": [
+        87
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "88     df = pd.DataFrame([{\"myrelevance\": 5}, {\"myrelevance\": 4}, {\"myrelevance\": 3}])\n89     assert metric.get_aggregate_stats(df) == {\"mean_rating\": 4.0, \"pass_count\": 2, \"pass_rate\": 0.67}\n90 \n",
+      "col_offset": 4,
+      "end_col_offset": 101,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 89,
+      "line_range": [
+        89
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "94 \n95     assert callable(metric.evaluator_fn(openai_config=None))\n96     df = pd.DataFrame([{\"mycoherence\": 5}, {\"mycoherence\": 4}, {\"mycoherence\": 3}])\n",
+      "col_offset": 4,
+      "end_col_offset": 60,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 95,
+      "line_range": [
+        95
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "96     df = pd.DataFrame([{\"mycoherence\": 5}, {\"mycoherence\": 4}, {\"mycoherence\": 3}])\n97     assert metric.get_aggregate_stats(df) == {\"mean_rating\": 4.0, \"pass_count\": 2, \"pass_rate\": 0.67}\n98 \n",
+      "col_offset": 4,
+      "end_col_offset": 101,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 97,
+      "line_range": [
+        97
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "102 \n103     assert callable(metric.evaluator_fn(openai_config=None))\n104     df = pd.DataFrame([{\"mygroundedness\": 5}, {\"mygroundedness\": 4}, {\"mygroundedness\": 3}])\n",
+      "col_offset": 4,
+      "end_col_offset": 60,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 103,
+      "line_range": [
+        103
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "104     df = pd.DataFrame([{\"mygroundedness\": 5}, {\"mygroundedness\": 4}, {\"mygroundedness\": 3}])\n105     assert metric.get_aggregate_stats(df) == {\"mean_rating\": 4.0, \"pass_count\": 2, \"pass_rate\": 0.67}\n106 \n",
+      "col_offset": 4,
+      "end_col_offset": 101,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 105,
+      "line_range": [
+        105
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "110 \n111     assert callable(metric.evaluator_fn(openai_config=None))\n112     df = pd.DataFrame([{\"myrelevance\": 2}, {\"myrelevance\": 4}, {\"myrelevance\": \"Failed\"}])\n",
+      "col_offset": 4,
+      "end_col_offset": 60,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 111,
+      "line_range": [
+        111
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "112     df = pd.DataFrame([{\"myrelevance\": 2}, {\"myrelevance\": 4}, {\"myrelevance\": \"Failed\"}])\n113     assert metric.get_aggregate_stats(df) == {\"mean_rating\": 3.0, \"pass_count\": 1, \"pass_rate\": 0.33}\n114 \n",
+      "col_offset": 4,
+      "end_col_offset": 101,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 113,
+      "line_range": [
+        113
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "117     metric = builtin_metrics.BuiltinCoherenceMetric()\n118     assert metric.METRIC_NAME == \"gpt_coherence\"\n119     df = pd.DataFrame([{\"gpt_coherence\": 5}, {\"gpt_coherence\": 4}, {\"gpt_coherence\": 3}])\n",
+      "col_offset": 4,
+      "end_col_offset": 48,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 118,
+      "line_range": [
+        118
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "119     df = pd.DataFrame([{\"gpt_coherence\": 5}, {\"gpt_coherence\": 4}, {\"gpt_coherence\": 3}])\n120     assert metric.get_aggregate_stats(df) == {\"mean_rating\": 4.0, \"pass_count\": 2, \"pass_rate\": 0.67}\n121 \n",
+      "col_offset": 4,
+      "end_col_offset": 101,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 120,
+      "line_range": [
+        120
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "124     metric = builtin_metrics.BuiltinRelevanceMetric()\n125     assert metric.METRIC_NAME == \"gpt_relevance\"\n126     df = pd.DataFrame([{\"gpt_relevance\": 5}, {\"gpt_relevance\": 4}, {\"gpt_relevance\": 3}])\n",
+      "col_offset": 4,
+      "end_col_offset": 48,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 125,
+      "line_range": [
+        125
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "126     df = pd.DataFrame([{\"gpt_relevance\": 5}, {\"gpt_relevance\": 4}, {\"gpt_relevance\": 3}])\n127     assert metric.get_aggregate_stats(df) == {\"mean_rating\": 4.0, \"pass_count\": 2, \"pass_rate\": 0.67}\n128 \n",
+      "col_offset": 4,
+      "end_col_offset": 101,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 127,
+      "line_range": [
+        127
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "131     metric = builtin_metrics.BuiltinGroundednessMetric()\n132     assert metric.METRIC_NAME == \"gpt_groundedness\"\n133     df = pd.DataFrame([{\"gpt_groundedness\": 5}, {\"gpt_groundedness\": 4}, {\"gpt_groundedness\": 3}])\n",
+      "col_offset": 4,
+      "end_col_offset": 51,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 132,
+      "line_range": [
+        132
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "133     df = pd.DataFrame([{\"gpt_groundedness\": 5}, {\"gpt_groundedness\": 4}, {\"gpt_groundedness\": 3}])\n134     assert metric.get_aggregate_stats(df) == {\"mean_rating\": 4.0, \"pass_count\": 2, \"pass_rate\": 0.67}\n135 \n",
+      "col_offset": 4,
+      "end_col_offset": 101,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 134,
+      "line_range": [
+        134
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "138     metric = builtin_metrics.BuiltinFluencyMetric()\n139     assert metric.METRIC_NAME == \"gpt_fluency\"\n140     df = pd.DataFrame([{\"gpt_fluency\": 5}, {\"gpt_fluency\": 4}, {\"gpt_fluency\": 3}])\n",
+      "col_offset": 4,
+      "end_col_offset": 46,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 139,
+      "line_range": [
+        139
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "140     df = pd.DataFrame([{\"gpt_fluency\": 5}, {\"gpt_fluency\": 4}, {\"gpt_fluency\": 3}])\n141     assert metric.get_aggregate_stats(df) == {\"mean_rating\": 4.0, \"pass_count\": 2, \"pass_rate\": 0.67}\n142 \n",
+      "col_offset": 4,
+      "end_col_offset": 101,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 141,
+      "line_range": [
+        141
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "145     metric = builtin_metrics.BuiltinSimilarityMetric()\n146     assert metric.METRIC_NAME == \"gpt_similarity\"\n147     df = pd.DataFrame([{\"gpt_similarity\": 5}, {\"gpt_similarity\": 4}, {\"gpt_similarity\": 3}])\n",
+      "col_offset": 4,
+      "end_col_offset": 49,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 146,
+      "line_range": [
+        146
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "147     df = pd.DataFrame([{\"gpt_similarity\": 5}, {\"gpt_similarity\": 4}, {\"gpt_similarity\": 3}])\n148     assert metric.get_aggregate_stats(df) == {\"mean_rating\": 4.0, \"pass_count\": 2, \"pass_rate\": 0.67}\n149 \n",
+      "col_offset": 4,
+      "end_col_offset": 101,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 148,
+      "line_range": [
+        148
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "152     metric = builtin_metrics.BuiltinF1ScoreMetric()\n153     assert metric.METRIC_NAME == \"f1_score\"\n154     df = pd.DataFrame([{\"f1_score\": 5}, {\"f1_score\": 4}, {\"f1_score\": 3}])\n",
+      "col_offset": 4,
+      "end_col_offset": 43,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 153,
+      "line_range": [
+        153
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "154     df = pd.DataFrame([{\"f1_score\": 5}, {\"f1_score\": 4}, {\"f1_score\": 3}])\n155     assert metric.get_aggregate_stats(df) == {\"mean\": 4.0, \"max\": 5, \"min\": 3}\n156 \n",
+      "col_offset": 4,
+      "end_col_offset": 78,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 155,
+      "line_range": [
+        155
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "159     metric = builtin_metrics.BuiltinCoherenceMetric()\n160     assert metric.METRIC_NAME == \"gpt_coherence\"\n161     df = pd.DataFrame([{\"gpt_coherence\": \"Failed\"}, {\"gpt_coherence\": 4}, {\"gpt_coherence\": 3}])\n",
+      "col_offset": 4,
+      "end_col_offset": 48,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 160,
+      "line_range": [
+        160
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "161     df = pd.DataFrame([{\"gpt_coherence\": \"Failed\"}, {\"gpt_coherence\": 4}, {\"gpt_coherence\": 3}])\n162     assert metric.get_aggregate_stats(df) == {\"mean_rating\": 3.5, \"pass_count\": 1, \"pass_rate\": 0.33}\n",
+      "col_offset": 4,
+      "end_col_offset": 101,
+      "filename": "/tmp/repo_d4zl_054/tests/test_evaluate_metrics.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 162,
+      "line_range": [
+        162
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    }
+  ]
+}

@@ -1,0 +1,4597 @@
+{
+  "errors": [],
+  "generated_at": "2025-10-21T19:42:56Z",
+  "metrics": {
+    "/tmp/repo_eblx6qh7/bot/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/bot/bot.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 24,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/config.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 11,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/create_ladder_zip.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 74,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/run.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 147,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 8,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/action.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 72,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/bot_ai.py": {
+      "CONFIDENCE.HIGH": 27,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 27,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1011,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/bot_ai_internal.py": {
+      "CONFIDENCE.HIGH": 8,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 8,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 760,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/cache.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 34,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/client.py": {
+      "CONFIDENCE.HIGH": 49,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 49,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 713,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/constants.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 639,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/controller.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 64,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/data.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 71,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/dicts/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 4,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/dicts/generic_redirect_abilities.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 296,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/dicts/unit_abilities.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 653,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/dicts/unit_research_abilities.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 448,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/dicts/unit_tech_alias.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 36,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/dicts/unit_train_build_abilities.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 598,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/dicts/unit_trained_from.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 111,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/dicts/unit_unit_alias.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 44,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/dicts/upgrade_researched_from.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 92,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/expiring_dict.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 130,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/game_data.py": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 4,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 266,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/game_info.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 252,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/game_state.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 267,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/generate_ids.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 177,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/ids/__init__.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/ids/ability_id.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1595,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/ids/buff_id.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 318,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/ids/effect_id.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 20,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/ids/id_version.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/ids/unit_typeid.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2064,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/ids/upgrade_id.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 312,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/main.py": {
+      "CONFIDENCE.HIGH": 10,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 10,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 605,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/maps.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 39,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/observer_ai.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 140,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/paths.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 119,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/pixel_map.py": {
+      "CONFIDENCE.HIGH": 7,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 7,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 88,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/player.py": {
+      "CONFIDENCE.HIGH": 12,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 12,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 155,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/portconfig.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 55,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/position.py": {
+      "CONFIDENCE.HIGH": 12,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 12,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 306,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/power_source.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 25,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/protocol.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 66,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/proxy.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 196,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/renderer.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 131,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/sc2process.py": {
+      "CONFIDENCE.HIGH": 7,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 7,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 217,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/score.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 340,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/unit.py": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 4,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1218,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/unit_command.py": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 4,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 34,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/units.py": {
+      "CONFIDENCE.HIGH": 15,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 15,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 557,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/versions.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 472,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/sc2/wsl.py": {
+      "CONFIDENCE.HIGH": 9,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 9,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 72,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_eblx6qh7/upgrade_to_ares.py": {
+      "CONFIDENCE.HIGH": 5,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 5,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 79,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 190,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 190,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 16229,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "179         # Select a random map if none specified\n180         map_name = args.map if args.map else random.choice(MAP_POOL)\n181 \n",
+      "col_offset": 45,
+      "end_col_offset": 68,
+      "filename": "/tmp/repo_eblx6qh7/run.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 180,
+      "line_range": [
+        180
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "111         \"\"\"\n112         assert isinstance(alert_code, Alert), f\"alert_code {alert_code} is no Alert\"\n113         return alert_code.value in self.state.alerts\n",
+      "col_offset": 8,
+      "end_col_offset": 84,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 112,
+      "line_range": [
+        112
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "153         \"\"\" Returns a list of expansion positions, not sorted in any way. \"\"\"\n154         assert (\n155             self._expansion_positions_list\n156         ), \"self._find_expansion_locations() has not been run yet, so accessing the list of expansion locations is pointless.\"\n157         return self._expansion_positions_list\n",
+      "col_offset": 8,
+      "end_col_offset": 126,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 154,
+      "line_range": [
+        154,
+        155,
+        156
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "166         \"\"\"\n167         assert (\n168             self._expansion_positions_list\n169         ), \"self._find_expansion_locations() has not been run yet, so accessing the list of expansion locations is pointless.\"\n170         expansion_locations: Dict[Point2, Units] = {pos: Units([], self) for pos in self._expansion_positions_list}\n",
+      "col_offset": 8,
+      "end_col_offset": 126,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 167,
+      "line_range": [
+        167,
+        168,
+        169
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "174             if exp_position:\n175                 assert exp_position in expansion_locations\n176                 expansion_locations[exp_position].append(resource)\n",
+      "col_offset": 16,
+      "end_col_offset": 58,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 175,
+      "line_range": [
+        175
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "231 \n232         assert isinstance(building, UnitTypeId), f\"{building} is no UnitTypeId\"\n233 \n",
+      "col_offset": 8,
+      "end_col_offset": 79,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 232,
+      "line_range": [
+        232
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "545         :param cached_abilities_of_unit:\"\"\"\n546         assert isinstance(unit, Unit), f\"{unit} is no Unit object\"\n547         assert isinstance(ability_id, AbilityId), f\"{ability_id} is no AbilityId\"\n",
+      "col_offset": 8,
+      "end_col_offset": 66,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 546,
+      "line_range": [
+        546
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "546         assert isinstance(unit, Unit), f\"{unit} is no Unit object\"\n547         assert isinstance(ability_id, AbilityId), f\"{ability_id} is no AbilityId\"\n548         assert isinstance(target, (type(None), Unit, Point2))\n",
+      "col_offset": 8,
+      "end_col_offset": 81,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 547,
+      "line_range": [
+        547
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "547         assert isinstance(ability_id, AbilityId), f\"{ability_id} is no AbilityId\"\n548         assert isinstance(target, (type(None), Unit, Point2))\n549         # check if unit has enough energy to cast or if ability is on cooldown\n",
+      "col_offset": 8,
+      "end_col_offset": 61,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 548,
+      "line_range": [
+        548
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "628         building_type = type(building)\n629         assert type(building) in {AbilityData, AbilityId, UnitTypeId}, f\"{building}, {building_type}\"\n630         if building_type == UnitTypeId:\n",
+      "col_offset": 8,
+      "end_col_offset": 101,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 629,
+      "line_range": [
+        629
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "646             return await self.can_place_single(building, positions)\n647         assert isinstance(positions, list), f\"Expected an iterable (list, tuple), but was: {positions}\"\n648         assert isinstance(\n",
+      "col_offset": 8,
+      "end_col_offset": 103,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 647,
+      "line_range": [
+        647
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "647         assert isinstance(positions, list), f\"Expected an iterable (list, tuple), but was: {positions}\"\n648         assert isinstance(\n649             positions[0], Point2\n650         ), f\"List is expected to have Point2, but instead had: {positions[0]} {type(positions[0])}\"\n651         return await self.client._query_building_placement_fast(building, positions)\n",
+      "col_offset": 8,
+      "end_col_offset": 99,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 648,
+      "line_range": [
+        648,
+        649,
+        650
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "676 \n677         assert isinstance(building, (AbilityId, UnitTypeId))\n678         assert isinstance(near, Point2), f\"{near} is no Point2 object\"\n",
+      "col_offset": 8,
+      "end_col_offset": 60,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 677,
+      "line_range": [
+        677
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "677         assert isinstance(building, (AbilityId, UnitTypeId))\n678         assert isinstance(near, Point2), f\"{near} is no Point2 object\"\n679 \n",
+      "col_offset": 8,
+      "end_col_offset": 70,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 678,
+      "line_range": [
+        678
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "715             if random_alternative:\n716                 return random.choice(possible)\n717             return min(possible, key=lambda p: p.distance_to_point2(near))\n",
+      "col_offset": 23,
+      "end_col_offset": 46,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 716,
+      "line_range": [
+        716
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "735         \"\"\"\n736         assert isinstance(upgrade_type, UpgradeId), f\"{upgrade_type} is no UpgradeId\"\n737         if upgrade_type in self.state.upgrades:\n",
+      "col_offset": 8,
+      "end_col_offset": 85,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 736,
+      "line_range": [
+        736
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "772         \"\"\"\n773         assert isinstance(\n774             structure_type, (int, UnitTypeId)\n775         ), f\"Needs to be int or UnitTypeId, but was: {type(structure_type)}\"\n776         if isinstance(structure_type, int):\n",
+      "col_offset": 8,
+      "end_col_offset": 76,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 773,
+      "line_range": [
+        773,
+        774,
+        775
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "780             structure_type_value = structure_type.value\n781         assert structure_type_value, f\"structure_type can not be 0 or NOTAUNIT, but was: {structure_type_value}\"\n782         equiv_values: Set[int] = {structure_type_value} | {\n",
+      "col_offset": 8,
+      "end_col_offset": 112,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 781,
+      "line_range": [
+        781
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "913 \n914         assert isinstance(near, (Unit, Point2))\n915         if not self.can_afford(building):\n",
+      "col_offset": 8,
+      "end_col_offset": 47,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 914,
+      "line_range": [
+        914
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "930         if building in gas_buildings:\n931             assert isinstance(near, Unit)\n932             builder.build_gas(near)\n",
+      "col_offset": 12,
+      "end_col_offset": 41,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 931,
+      "line_range": [
+        931
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "1100         \"\"\"\n1101         assert (\n1102             upgrade_type in UPGRADE_RESEARCHED_FROM\n1103         ), f\"Could not find upgrade {upgrade_type} in 'research from'-dictionary\"\n1104 \n",
+      "col_offset": 8,
+      "end_col_offset": 81,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 1101,
+      "line_range": [
+        1101,
+        1102,
+        1103
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "1163         :param team_only:\"\"\"\n1164         assert isinstance(message, str), f\"{message} is not a string\"\n1165         await self.client.chat_send(message, team_only)\n",
+      "col_offset": 8,
+      "end_col_offset": 69,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 1164,
+      "line_range": [
+        1164
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "1182         :param pos:\"\"\"\n1183         assert isinstance(pos, (Point2, Unit)), \"pos is not of type Point2 or Unit\"\n1184         pos = pos.position.rounded\n",
+      "col_offset": 8,
+      "end_col_offset": 83,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 1183,
+      "line_range": [
+        1183
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "1190         :param pos:\"\"\"\n1191         assert isinstance(pos, (Point2, Unit)), \"pos is not of type Point2 or Unit\"\n1192         pos = pos.position.rounded\n",
+      "col_offset": 8,
+      "end_col_offset": 83,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 1191,
+      "line_range": [
+        1191
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "1200         :param pos:\"\"\"\n1201         assert isinstance(pos, (Point2, Unit)), \"pos is not of type Point2 or Unit\"\n1202         pos = pos.position.rounded\n",
+      "col_offset": 8,
+      "end_col_offset": 83,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 1201,
+      "line_range": [
+        1201
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "1208         :param pos:\"\"\"\n1209         assert isinstance(pos, (Point2, Unit)), \"pos is not of type Point2 or Unit\"\n1210         pos = pos.position.rounded\n",
+      "col_offset": 8,
+      "end_col_offset": 83,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 1209,
+      "line_range": [
+        1209
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "1217         # more info: https://github.com/Blizzard/s2client-proto/blob/9906df71d6909511907d8419b33acc1a3bd51ec0/s2clientprotocol/spatial.proto#L19\n1218         assert isinstance(pos, (Point2, Unit)), \"pos is not of type Point2 or Unit\"\n1219         pos = pos.position.rounded\n",
+      "col_offset": 8,
+      "end_col_offset": 83,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 1218,
+      "line_range": [
+        1218
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "1225         :param pos:\"\"\"\n1226         assert isinstance(pos, (Point2, Unit)), \"pos is not of type Point2 or Unit\"\n1227         pos = pos.position.rounded\n",
+      "col_offset": 8,
+      "end_col_offset": 83,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 1226,
+      "line_range": [
+        1226
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "163         \"\"\" Same as the function above. \"\"\"\n164         assert (\n165             self._expansion_positions_list\n166         ), \"self._find_expansion_locations() has not been run yet, so accessing the list of expansion locations is pointless.\"\n167         warnings.warn(\n",
+      "col_offset": 8,
+      "end_col_offset": 126,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai_internal.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 164,
+      "line_range": [
+        164,
+        165,
+        166
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "368 \n369         assert isinstance(\n370             action, UnitCommand\n371         ), f\"Given unit command is not a command, but instead of type {type(action)}\"\n372         if subtract_cost:\n",
+      "col_offset": 8,
+      "end_col_offset": 85,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai_internal.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 369,
+      "line_range": [
+        369,
+        370,
+        371
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "396         \"\"\"\n397         assert isinstance(\n398             action, UnitCommand\n399         ), f\"Given unit command is not a command, but instead of type {type(action)}\"\n400         if not self.can_afford(action.ability):\n",
+      "col_offset": 8,
+      "end_col_offset": 85,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai_internal.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 397,
+      "line_range": [
+        397,
+        398,
+        399
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "794         ).reshape((self._units_count, 2))\n795         assert len(positions_array) == self._units_count\n796         # See performance benchmarks\n",
+      "col_offset": 8,
+      "end_col_offset": 56,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai_internal.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 795,
+      "line_range": [
+        795
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "811         ).reshape((self._units_count, 2))\n812         assert len(positions_array) == self._units_count\n813         # See performance benchmarks\n",
+      "col_offset": 8,
+      "end_col_offset": 56,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai_internal.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 812,
+      "line_range": [
+        812
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "838         # https://stackoverflow.com/a/36867493/10882657\n839         assert i != j, \"No diagonal elements in condensed matrix! Diagonal elements are zero\"\n840         if i < j:\n",
+      "col_offset": 8,
+      "end_col_offset": 93,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai_internal.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 839,
+      "line_range": [
+        839
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "880         condensed_index = self.square_to_condensed(unit1.distance_calculation_index, unit2.distance_calculation_index)\n881         assert condensed_index < len(\n882             self._cached_pdist\n883         ), f\"Condensed index is larger than amount of calculated distances: {condensed_index} < {len(self._cached_pdist)}, units that caused the assert error: {unit1} and {unit2}\"\n884         distance = self._pdist[condensed_index]\n",
+      "col_offset": 8,
+      "end_col_offset": 179,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai_internal.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 881,
+      "line_range": [
+        881,
+        882,
+        883
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "928         method 3: Use scipy's cidst square matrix (2d array) without asserts (careful: very weird error messages, but maybe slightly faster)\"\"\"\n929         assert 0 <= method <= 3, f\"Selected method was: {method}\"\n930         if method == 0:\n",
+      "col_offset": 8,
+      "end_col_offset": 65,
+      "filename": "/tmp/repo_eblx6qh7/sc2/bot_ai_internal.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 929,
+      "line_range": [
+        929
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "64         if rgb_render_config:\n65             assert isinstance(rgb_render_config, dict)\n66             assert \"window_size\" in rgb_render_config and \"minimap_size\" in rgb_render_config\n",
+      "col_offset": 12,
+      "end_col_offset": 54,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 65,
+      "line_range": [
+        65
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "65             assert isinstance(rgb_render_config, dict)\n66             assert \"window_size\" in rgb_render_config and \"minimap_size\" in rgb_render_config\n67             window_size = rgb_render_config[\"window_size\"]\n",
+      "col_offset": 12,
+      "end_col_offset": 93,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 66,
+      "line_range": [
+        66
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "78         if race is None:\n79             assert isinstance(observed_player_id, int), f\"observed_player_id is of type {type(observed_player_id)}\"\n80             # join as observer\n",
+      "col_offset": 12,
+      "end_col_offset": 115,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 79,
+      "line_range": [
+        79
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "82         else:\n83             assert isinstance(race, Race)\n84             req = sc_pb.RequestJoinGame(race=race.value, options=ifopts)\n",
+      "col_offset": 12,
+      "end_col_offset": 41,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 83,
+      "line_range": [
+        83
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "95         if name is not None:\n96             assert isinstance(name, str), f\"name is of type {type(name)}\"\n97             req.player_name = name\n",
+      "col_offset": 12,
+      "end_col_offset": 73,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 96,
+      "line_range": [
+        96
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "133             result = await self._execute(observation=sc_pb.RequestObservation())\n134         assert result.HasField(\"observation\")\n135 \n",
+      "col_offset": 8,
+      "end_col_offset": 45,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 134,
+      "line_range": [
+        134
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "139                 result = await self._execute(observation=sc_pb.RequestObservation())\n140                 assert result.observation.player_result\n141 \n",
+      "col_offset": 16,
+      "end_col_offset": 55,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 140,
+      "line_range": [
+        140
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "211         :param end:\"\"\"\n212         assert isinstance(start, (Point2, Unit))\n213         assert isinstance(end, Point2)\n",
+      "col_offset": 8,
+      "end_col_offset": 48,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 212,
+      "line_range": [
+        212
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "212         assert isinstance(start, (Point2, Unit))\n213         assert isinstance(end, Point2)\n214         if isinstance(start, Point2):\n",
+      "col_offset": 8,
+      "end_col_offset": 38,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 213,
+      "line_range": [
+        213
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "230         \"\"\"\n231         assert zipped_list, \"No zipped_list\"\n232         assert isinstance(zipped_list, list), f\"{type(zipped_list)}\"\n",
+      "col_offset": 8,
+      "end_col_offset": 44,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 231,
+      "line_range": [
+        231
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "231         assert zipped_list, \"No zipped_list\"\n232         assert isinstance(zipped_list, list), f\"{type(zipped_list)}\"\n233         assert isinstance(zipped_list[0], list), f\"{type(zipped_list[0])}\"\n",
+      "col_offset": 8,
+      "end_col_offset": 68,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 232,
+      "line_range": [
+        232
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "232         assert isinstance(zipped_list, list), f\"{type(zipped_list)}\"\n233         assert isinstance(zipped_list[0], list), f\"{type(zipped_list[0])}\"\n234         assert len(zipped_list[0]) == 2, f\"{len(zipped_list[0])}\"\n",
+      "col_offset": 8,
+      "end_col_offset": 74,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 233,
+      "line_range": [
+        233
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "233         assert isinstance(zipped_list[0], list), f\"{type(zipped_list[0])}\"\n234         assert len(zipped_list[0]) == 2, f\"{len(zipped_list[0])}\"\n235         assert isinstance(zipped_list[0][0], (Point2, Unit)), f\"{type(zipped_list[0][0])}\"\n",
+      "col_offset": 8,
+      "end_col_offset": 65,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 234,
+      "line_range": [
+        234
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "234         assert len(zipped_list[0]) == 2, f\"{len(zipped_list[0])}\"\n235         assert isinstance(zipped_list[0][0], (Point2, Unit)), f\"{type(zipped_list[0][0])}\"\n236         assert isinstance(zipped_list[0][1], Point2), f\"{type(zipped_list[0][1])}\"\n",
+      "col_offset": 8,
+      "end_col_offset": 90,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 235,
+      "line_range": [
+        235
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "235         assert isinstance(zipped_list[0][0], (Point2, Unit)), f\"{type(zipped_list[0][0])}\"\n236         assert isinstance(zipped_list[0][1], Point2), f\"{type(zipped_list[0][1])}\"\n237         if isinstance(zipped_list[0][0], Point2):\n",
+      "col_offset": 8,
+      "end_col_offset": 82,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 236,
+      "line_range": [
+        236
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "278         :param ignore_resources:\"\"\"\n279         assert isinstance(ability, AbilityData)\n280         result = await self._execute(\n",
+      "col_offset": 8,
+      "end_col_offset": 47,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 279,
+      "line_range": [
+        279
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "298             \"\"\" Deprecated, accepting a single unit may be removed in the future, query a list of units instead \"\"\"\n299             assert isinstance(units, Unit)\n300             units = [units]\n",
+      "col_offset": 12,
+      "end_col_offset": 42,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 299,
+      "line_range": [
+        299
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "301             input_was_a_list = False\n302         assert units\n303         result = await self._execute(\n",
+      "col_offset": 8,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 302,
+      "line_range": [
+        302
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "340         :param ability:\"\"\"\n341         assert units\n342         assert isinstance(units, list)\n",
+      "col_offset": 8,
+      "end_col_offset": 20,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 341,
+      "line_range": [
+        341
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "341         assert units\n342         assert isinstance(units, list)\n343         assert all(isinstance(u, Unit) for u in units)\n",
+      "col_offset": 8,
+      "end_col_offset": 38,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 342,
+      "line_range": [
+        342
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "342         assert isinstance(units, list)\n343         assert all(isinstance(u, Unit) for u in units)\n344         assert isinstance(ability, AbilityId)\n",
+      "col_offset": 8,
+      "end_col_offset": 54,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 343,
+      "line_range": [
+        343
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "343         assert all(isinstance(u, Unit) for u in units)\n344         assert isinstance(ability, AbilityId)\n345 \n",
+      "col_offset": 8,
+      "end_col_offset": 45,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 344,
+      "line_range": [
+        344
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "363         :param unit_spawn_commands:\"\"\"\n364         assert isinstance(unit_spawn_commands, list)\n365         assert unit_spawn_commands\n",
+      "col_offset": 8,
+      "end_col_offset": 52,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 364,
+      "line_range": [
+        364
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "364         assert isinstance(unit_spawn_commands, list)\n365         assert unit_spawn_commands\n366         assert isinstance(unit_spawn_commands[0], list)\n",
+      "col_offset": 8,
+      "end_col_offset": 34,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 365,
+      "line_range": [
+        365
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "365         assert unit_spawn_commands\n366         assert isinstance(unit_spawn_commands[0], list)\n367         assert len(unit_spawn_commands[0]) == 4\n",
+      "col_offset": 8,
+      "end_col_offset": 55,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 366,
+      "line_range": [
+        366
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "366         assert isinstance(unit_spawn_commands[0], list)\n367         assert len(unit_spawn_commands[0]) == 4\n368         assert isinstance(unit_spawn_commands[0][0], UnitTypeId)\n",
+      "col_offset": 8,
+      "end_col_offset": 47,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 367,
+      "line_range": [
+        367
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "367         assert len(unit_spawn_commands[0]) == 4\n368         assert isinstance(unit_spawn_commands[0][0], UnitTypeId)\n369         assert unit_spawn_commands[0][1] > 0  # careful, in realtime=True this function may create more units\n",
+      "col_offset": 8,
+      "end_col_offset": 64,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 368,
+      "line_range": [
+        368
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "368         assert isinstance(unit_spawn_commands[0][0], UnitTypeId)\n369         assert unit_spawn_commands[0][1] > 0  # careful, in realtime=True this function may create more units\n370         assert isinstance(unit_spawn_commands[0][2], (Point2, Point3))\n",
+      "col_offset": 8,
+      "end_col_offset": 44,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 369,
+      "line_range": [
+        369
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "369         assert unit_spawn_commands[0][1] > 0  # careful, in realtime=True this function may create more units\n370         assert isinstance(unit_spawn_commands[0][2], (Point2, Point3))\n371         assert 1 <= unit_spawn_commands[0][3] <= 2\n",
+      "col_offset": 8,
+      "end_col_offset": 70,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 370,
+      "line_range": [
+        370
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "370         assert isinstance(unit_spawn_commands[0][2], (Point2, Point3))\n371         assert 1 <= unit_spawn_commands[0][3] <= 2\n372 \n",
+      "col_offset": 8,
+      "end_col_offset": 50,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 371,
+      "line_range": [
+        371
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "395             unit_tags = [unit_tags.tag]\n396         assert unit_tags\n397 \n",
+      "col_offset": 8,
+      "end_col_offset": 24,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 396,
+      "line_range": [
+        396
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "405         :param position:\"\"\"\n406         assert isinstance(position, (Unit, Units, Point2, Point3))\n407         if isinstance(position, Units):\n",
+      "col_offset": 8,
+      "end_col_offset": 66,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 406,
+      "line_range": [
+        406
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "426         :param position:\"\"\"\n427         assert isinstance(position, (Unit, Units, Point2, Point3))\n428         if isinstance(position, Units):\n",
+      "col_offset": 8,
+      "end_col_offset": 66,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 427,
+      "line_range": [
+        427
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "443         :param position:\"\"\"\n444         assert isinstance(position, (Point2, Point3))\n445         action = sc_pb.Action(\n",
+      "col_offset": 8,
+      "end_col_offset": 53,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 444,
+      "line_range": [
+        444
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "470         \"\"\"\n471         assert len(pos) >= 2\n472         assert 0 <= pos[0] <= 1\n",
+      "col_offset": 8,
+      "end_col_offset": 28,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 471,
+      "line_range": [
+        471
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "471         assert len(pos) >= 2\n472         assert 0 <= pos[0] <= 1\n473         assert 0 <= pos[1] <= 1\n",
+      "col_offset": 8,
+      "end_col_offset": 31,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 472,
+      "line_range": [
+        472
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "472         assert 0 <= pos[0] <= 1\n473         assert 0 <= pos[1] <= 1\n474         pos = Point2((pos[0], pos[1]))\n",
+      "col_offset": 8,
+      "end_col_offset": 31,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 473,
+      "line_range": [
+        473
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "499             pos = pos.position3d\n500         assert isinstance(pos, Point3)\n501         self._debug_texts.append(DrawItemWorldText(text=text, color=color, start_point=pos, font_size=size))\n",
+      "col_offset": 8,
+      "end_col_offset": 38,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 500,
+      "line_range": [
+        500
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "519             p0 = p0.position3d\n520         assert isinstance(p0, Point3)\n521         if isinstance(p1, Unit):\n",
+      "col_offset": 8,
+      "end_col_offset": 37,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 520,
+      "line_range": [
+        520
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "522             p1 = p1.position3d\n523         assert isinstance(p1, Point3)\n524         self._debug_lines.append(DrawItemLine(color=color, start_point=p0, end_point=p1))\n",
+      "col_offset": 8,
+      "end_col_offset": 37,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 523,
+      "line_range": [
+        523
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "540             p_min = p_min.position3d\n541         assert isinstance(p_min, Point3)\n542         if isinstance(p_max, Unit):\n",
+      "col_offset": 8,
+      "end_col_offset": 40,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 541,
+      "line_range": [
+        541
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "543             p_max = p_max.position3d\n544         assert isinstance(p_max, Point3)\n545         self._debug_boxes.append(DrawItemBox(start_point=p_min, end_point=p_max, color=color))\n",
+      "col_offset": 8,
+      "end_col_offset": 40,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 544,
+      "line_range": [
+        544
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "561             pos = pos.position3d\n562         assert isinstance(pos, Point3)\n563         p0 = pos + Point3((-half_vertex_length, -half_vertex_length, -half_vertex_length))\n",
+      "col_offset": 8,
+      "end_col_offset": 38,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 562,
+      "line_range": [
+        562
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "576             p = p.position3d\n577         assert isinstance(p, Point3)\n578         self._debug_spheres.append(DrawItemSphere(start_point=p, radius=r, color=color))\n",
+      "col_offset": 8,
+      "end_col_offset": 36,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 577,
+      "line_range": [
+        577
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "643             unit_tags = [unit_tags.tag]\n644         assert hasattr(\n645             unit_tags, \"__iter__\"\n646         ), f\"unit_tags argument needs to be an iterable (list, dict, set, Units), given argument is {type(unit_tags).__name__}\"\n647         assert (\n",
+      "col_offset": 8,
+      "end_col_offset": 127,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 644,
+      "line_range": [
+        644,
+        645,
+        646
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "646         ), f\"unit_tags argument needs to be an iterable (list, dict, set, Units), given argument is {type(unit_tags).__name__}\"\n647         assert (\n648             1 <= unit_value <= 3\n649         ), f\"unit_value needs to be between 1 and 3 (1 for energy, 2 for life, 3 for shields), given argument is {unit_value}\"\n650         assert all(tag > 0 for tag in unit_tags), f\"Unit tags have invalid value: {unit_tags}\"\n",
+      "col_offset": 8,
+      "end_col_offset": 126,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 647,
+      "line_range": [
+        647,
+        648,
+        649
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "649         ), f\"unit_value needs to be between 1 and 3 (1 for energy, 2 for life, 3 for shields), given argument is {unit_value}\"\n650         assert all(tag > 0 for tag in unit_tags), f\"Unit tags have invalid value: {unit_tags}\"\n651         assert isinstance(value, (int, float)), \"Value needs to be of type int or float\"\n",
+      "col_offset": 8,
+      "end_col_offset": 94,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 650,
+      "line_range": [
+        650
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "650         assert all(tag > 0 for tag in unit_tags), f\"Unit tags have invalid value: {unit_tags}\"\n651         assert isinstance(value, (int, float)), \"Value needs to be of type int or float\"\n652         assert value >= 0, \"Value can't be negative\"\n",
+      "col_offset": 8,
+      "end_col_offset": 88,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 651,
+      "line_range": [
+        651
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "651         assert isinstance(value, (int, float)), \"Value needs to be of type int or float\"\n652         assert value >= 0, \"Value can't be negative\"\n653         await self._execute(\n",
+      "col_offset": 8,
+      "end_col_offset": 52,
+      "filename": "/tmp/repo_eblx6qh7/sc2/client.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 652,
+      "line_range": [
+        652
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "258 temp2 = set(SPEED_INCREASE_DICT)\n259 assert temp1 == temp2, f\"{temp1.symmetric_difference(temp2)}\"\n260 del temp1\n",
+      "col_offset": 0,
+      "end_col_offset": 61,
+      "filename": "/tmp/repo_eblx6qh7/sc2/constants.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 259,
+      "line_range": [
+        259
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "287 temp2 = set(OFF_CREEP_SPEED_INCREASE_DICT)\n288 assert temp1 == temp2, f\"{temp1.symmetric_difference(temp2)}\"\n289 del temp1\n",
+      "col_offset": 0,
+      "end_col_offset": 61,
+      "filename": "/tmp/repo_eblx6qh7/sc2/constants.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 288,
+      "line_range": [
+        288
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "78         result = await self._execute(start_replay=req)\n79         assert result.status == 4, f\"{result.start_replay.error} - {result.start_replay.error_details}\"\n80         return result\n",
+      "col_offset": 8,
+      "end_col_offset": 103,
+      "filename": "/tmp/repo_eblx6qh7/sc2/controller.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 79,
+      "line_range": [
+        79
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "32     def __init__(self, bot: BotAI, max_age_frames: int = 1):\n33         assert max_age_frames >= -1\n34         assert bot\n",
+      "col_offset": 8,
+      "end_col_offset": 35,
+      "filename": "/tmp/repo_eblx6qh7/sc2/expiring_dict.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 33,
+      "line_range": [
+        33
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "33         assert max_age_frames >= -1\n34         assert bot\n35 \n",
+      "col_offset": 8,
+      "end_col_offset": 18,
+      "filename": "/tmp/repo_eblx6qh7/sc2/expiring_dict.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 34,
+      "line_range": [
+        34
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "44 \n45         assert isinstance(ability, AbilityData), f\"Ability is not of type 'AbilityData', but was {type(ability)}\"\n46 \n",
+      "col_offset": 8,
+      "end_col_offset": 113,
+      "filename": "/tmp/repo_eblx6qh7/sc2/game_data.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 45,
+      "line_range": [
+        45
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "83     def id_exists(cls, ability_id):\n84         assert isinstance(ability_id, int), f\"Wrong type: {ability_id} is not int\"\n85         if ability_id == 0:\n",
+      "col_offset": 8,
+      "end_col_offset": 82,
+      "filename": "/tmp/repo_eblx6qh7/sc2/game_data.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 84,
+      "line_range": [
+        84
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "94         # What happens if we comment this out? Should this not be commented out? What is its purpose?\n95         assert self.id != 0\n96 \n",
+      "col_offset": 8,
+      "end_col_offset": 27,
+      "filename": "/tmp/repo_eblx6qh7/sc2/game_data.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 95,
+      "line_range": [
+        95
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "182     def has_attribute(self, attr) -> bool:\n183         assert isinstance(attr, Attribute)\n184         return attr in self.attributes\n",
+      "col_offset": 8,
+      "end_col_offset": 42,
+      "filename": "/tmp/repo_eblx6qh7/sc2/game_data.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 183,
+      "line_range": [
+        183
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "89     def __getattr__(self, attr):\n90         assert attr in self.ATTRIBUTES, f\"'{attr}' is not a valid attribute\"\n91         return int(getattr(self._proto, attr))\n",
+      "col_offset": 8,
+      "end_col_offset": 76,
+      "filename": "/tmp/repo_eblx6qh7/sc2/game_state.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 90,
+      "line_range": [
+        90
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "73             if (not key) and (remapid is None):\n74                 assert v[\"buttonname\"] == \"\"\n75                 continue\n",
+      "col_offset": 16,
+      "end_col_offset": 44,
+      "filename": "/tmp/repo_eblx6qh7/sc2/generate_ids.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 74,
+      "line_range": [
+        74
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "133     def generate_python_code(self, enums):\n134         assert {\"Units\", \"Abilities\", \"Upgrades\", \"Buffs\", \"Effects\"} <= enums.keys()\n135 \n",
+      "col_offset": 8,
+      "end_col_offset": 85,
+      "filename": "/tmp/repo_eblx6qh7/sc2/generate_ids.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 134,
+      "line_range": [
+        134
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "193             stable_id_path = Path(self.DATA_JSON[self.PF])\n194             assert stable_id_path.is_file(), f\"stable_id.json was not found at path \\\"{stable_id_path}\\\"\"\n195             with stable_id_path.open(encoding=\"utf-8\") as data_file:\n",
+      "col_offset": 12,
+      "end_col_offset": 105,
+      "filename": "/tmp/repo_eblx6qh7/sc2/generate_ids.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 194,
+      "line_range": [
+        194
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "215 ) -> Result:\n216     assert isinstance(realtime, bool), repr(realtime)\n217 \n",
+      "col_offset": 4,
+      "end_col_offset": 53,
+      "filename": "/tmp/repo_eblx6qh7/sc2/main.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 216,
+      "line_range": [
+        216
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "352 \n353     assert players, \"Can't create a game without players\"\n354 \n",
+      "col_offset": 4,
+      "end_col_offset": 57,
+      "filename": "/tmp/repo_eblx6qh7/sc2/main.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 353,
+      "line_range": [
+        353
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "354 \n355     assert any(isinstance(p, (Human, Bot)) for p in players)\n356 \n",
+      "col_offset": 4,
+      "end_col_offset": 60,
+      "filename": "/tmp/repo_eblx6qh7/sc2/main.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 355,
+      "line_range": [
+        355
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "388 ):\n389     assert players, \"Can't create a game without players\"\n390 \n",
+      "col_offset": 4,
+      "end_col_offset": 57,
+      "filename": "/tmp/repo_eblx6qh7/sc2/main.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 389,
+      "line_range": [
+        389
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "390 \n391     assert any(isinstance(p, (Human, Bot)) for p in players)\n392 \n",
+      "col_offset": 4,
+      "end_col_offset": 60,
+      "filename": "/tmp/repo_eblx6qh7/sc2/main.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 391,
+      "line_range": [
+        391
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "492         result: List[Result] = asyncio.run(run_host_and_join())\n493         assert isinstance(result, list)\n494         assert all(isinstance(r, Result) for r in result)\n",
+      "col_offset": 8,
+      "end_col_offset": 39,
+      "filename": "/tmp/repo_eblx6qh7/sc2/main.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 493,
+      "line_range": [
+        493
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "493         assert isinstance(result, list)\n494         assert all(isinstance(r, Result) for r in result)\n495     else:\n",
+      "col_offset": 8,
+      "end_col_offset": 57,
+      "filename": "/tmp/repo_eblx6qh7/sc2/main.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 494,
+      "line_range": [
+        494
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "496         result: Result = asyncio.run(_host_game(map_settings, players, **kwargs))\n497         assert isinstance(result, Result)\n498     return result\n",
+      "col_offset": 8,
+      "end_col_offset": 41,
+      "filename": "/tmp/repo_eblx6qh7/sc2/main.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 497,
+      "line_range": [
+        497
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "502     portconfig = Portconfig()\n503     assert os.path.isfile(replay_path), f\"Replay does not exist at the given path: {replay_path}\"\n504     assert os.path.isabs(\n",
+      "col_offset": 4,
+      "end_col_offset": 97,
+      "filename": "/tmp/repo_eblx6qh7/sc2/main.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 503,
+      "line_range": [
+        503
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "503     assert os.path.isfile(replay_path), f\"Replay does not exist at the given path: {replay_path}\"\n504     assert os.path.isabs(\n505         replay_path\n506     ), f'Replay path has to be an absolute path, e.g. \"C:/replays/my_replay.SC2Replay\" but given path was \"{replay_path}\"'\n507     base_build, data_version = get_replay_version(replay_path)\n",
+      "col_offset": 4,
+      "end_col_offset": 122,
+      "filename": "/tmp/repo_eblx6qh7/sc2/main.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 504,
+      "line_range": [
+        504,
+        505,
+        506
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "91         \"\"\"\n92         assert isinstance(alert_code, Alert), f\"alert_code {alert_code} is no Alert\"\n93         return alert_code.value in self.state.alerts\n",
+      "col_offset": 8,
+      "end_col_offset": 84,
+      "filename": "/tmp/repo_eblx6qh7/sc2/observer_ai.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 92,
+      "line_range": [
+        92
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "19 \n20         assert self.width * self.height == (8 if in_bits else 1) * len(\n21             self._proto.data\n22         ), f\"{self.width * self.height} {(8 if in_bits else 1)*len(self._proto.data)}\"\n23         buffer_data = np.frombuffer(self._proto.data, dtype=np.uint8)\n",
+      "col_offset": 8,
+      "end_col_offset": 86,
+      "filename": "/tmp/repo_eblx6qh7/sc2/pixel_map.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 20,
+      "line_range": [
+        20,
+        21,
+        22
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "45         \"\"\" Example usage: is_pathable = self._game_info.pathing_grid[Point2((20, 20))] != 0 \"\"\"\n46         assert 0 <= pos[0] < self.width, f\"x is {pos[0]}, self.width is {self.width}\"\n47         assert 0 <= pos[1] < self.height, f\"y is {pos[1]}, self.height is {self.height}\"\n",
+      "col_offset": 8,
+      "end_col_offset": 85,
+      "filename": "/tmp/repo_eblx6qh7/sc2/pixel_map.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 46,
+      "line_range": [
+        46
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "46         assert 0 <= pos[0] < self.width, f\"x is {pos[0]}, self.width is {self.width}\"\n47         assert 0 <= pos[1] < self.height, f\"y is {pos[1]}, self.height is {self.height}\"\n48         return int(self.data_numpy[pos[1], pos[0]])\n",
+      "col_offset": 8,
+      "end_col_offset": 88,
+      "filename": "/tmp/repo_eblx6qh7/sc2/pixel_map.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 47,
+      "line_range": [
+        47
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "51         \"\"\" Example usage: self._game_info.pathing_grid[Point2((20, 20))] = 255 \"\"\"\n52         assert 0 <= pos[0] < self.width, f\"x is {pos[0]}, self.width is {self.width}\"\n53         assert 0 <= pos[1] < self.height, f\"y is {pos[1]}, self.height is {self.height}\"\n",
+      "col_offset": 8,
+      "end_col_offset": 85,
+      "filename": "/tmp/repo_eblx6qh7/sc2/pixel_map.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 52,
+      "line_range": [
+        52
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "52         assert 0 <= pos[0] < self.width, f\"x is {pos[0]}, self.width is {self.width}\"\n53         assert 0 <= pos[1] < self.height, f\"y is {pos[1]}, self.height is {self.height}\"\n54         assert (\n",
+      "col_offset": 8,
+      "end_col_offset": 88,
+      "filename": "/tmp/repo_eblx6qh7/sc2/pixel_map.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 53,
+      "line_range": [
+        53
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "53         assert 0 <= pos[1] < self.height, f\"y is {pos[1]}, self.height is {self.height}\"\n54         assert (\n55             0 <= value <= 254 * self._in_bits + 1\n56         ), f\"value is {value}, it should be between 0 and {254 * self._in_bits + 1}\"\n57         assert isinstance(value, int), f\"value is of type {type(value)}, it should be an integer\"\n",
+      "col_offset": 8,
+      "end_col_offset": 84,
+      "filename": "/tmp/repo_eblx6qh7/sc2/pixel_map.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 54,
+      "line_range": [
+        54,
+        55,
+        56
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "56         ), f\"value is {value}, it should be between 0 and {254 * self._in_bits + 1}\"\n57         assert isinstance(value, int), f\"value is of type {type(value)}, it should be an integer\"\n58         self.data_numpy[pos[1], pos[0]] = value\n",
+      "col_offset": 8,
+      "end_col_offset": 97,
+      "filename": "/tmp/repo_eblx6qh7/sc2/pixel_map.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 57,
+      "line_range": [
+        57
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "19     ):\n20         assert isinstance(p_type, PlayerType), f\"p_type is of type {type(p_type)}\"\n21         assert name is None or isinstance(name, str), f\"name is of type {type(name)}\"\n",
+      "col_offset": 8,
+      "end_col_offset": 82,
+      "filename": "/tmp/repo_eblx6qh7/sc2/player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 20,
+      "line_range": [
+        20
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "20         assert isinstance(p_type, PlayerType), f\"p_type is of type {type(p_type)}\"\n21         assert name is None or isinstance(name, str), f\"name is of type {type(name)}\"\n22 \n",
+      "col_offset": 8,
+      "end_col_offset": 85,
+      "filename": "/tmp/repo_eblx6qh7/sc2/player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 21,
+      "line_range": [
+        21
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "28         if p_type == PlayerType.Computer:\n29             assert isinstance(difficulty, Difficulty), f\"difficulty is of type {type(difficulty)}\"\n30             # Workaround, proto information does not carry ai_build info\n",
+      "col_offset": 12,
+      "end_col_offset": 98,
+      "filename": "/tmp/repo_eblx6qh7/sc2/player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 29,
+      "line_range": [
+        29
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "31             # We cant set that in the Player classmethod\n32             assert ai_build is None or isinstance(ai_build, AIBuild), f\"ai_build is of type {type(ai_build)}\"\n33             self.difficulty = difficulty\n",
+      "col_offset": 12,
+      "end_col_offset": 109,
+      "filename": "/tmp/repo_eblx6qh7/sc2/player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 32,
+      "line_range": [
+        32
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "36         elif p_type == PlayerType.Observer:\n37             assert race is None\n38             assert difficulty is None\n",
+      "col_offset": 12,
+      "end_col_offset": 31,
+      "filename": "/tmp/repo_eblx6qh7/sc2/player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 37,
+      "line_range": [
+        37
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "37             assert race is None\n38             assert difficulty is None\n39             assert ai_build is None\n",
+      "col_offset": 12,
+      "end_col_offset": 37,
+      "filename": "/tmp/repo_eblx6qh7/sc2/player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 38,
+      "line_range": [
+        38
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "38             assert difficulty is None\n39             assert ai_build is None\n40 \n",
+      "col_offset": 12,
+      "end_col_offset": 35,
+      "filename": "/tmp/repo_eblx6qh7/sc2/player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 39,
+      "line_range": [
+        39
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "41         else:\n42             assert isinstance(race, Race), f\"race is of type {type(race)}\"\n43             assert difficulty is None\n",
+      "col_offset": 12,
+      "end_col_offset": 74,
+      "filename": "/tmp/repo_eblx6qh7/sc2/player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 42,
+      "line_range": [
+        42
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "42             assert isinstance(race, Race), f\"race is of type {type(race)}\"\n43             assert difficulty is None\n44             assert ai_build is None\n",
+      "col_offset": 12,
+      "end_col_offset": 37,
+      "filename": "/tmp/repo_eblx6qh7/sc2/player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 43,
+      "line_range": [
+        43
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "43             assert difficulty is None\n44             assert ai_build is None\n45 \n",
+      "col_offset": 12,
+      "end_col_offset": 35,
+      "filename": "/tmp/repo_eblx6qh7/sc2/player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 44,
+      "line_range": [
+        44
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "68         \"\"\"\n69         assert isinstance(ai, BotAI) or ai is None, f\"ai is of type {type(ai)}, inherit BotAI from bot_ai.py\"\n70         super().__init__(PlayerType.Participant, race, name=name, fullscreen=fullscreen)\n",
+      "col_offset": 8,
+      "end_col_offset": 109,
+      "filename": "/tmp/repo_eblx6qh7/sc2/player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 69,
+      "line_range": [
+        69
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "150         super().__init__(PlayerType.Participant, race, name=name)\n151         assert Path(path).exists()\n152         self.path = path\n",
+      "col_offset": 8,
+      "end_col_offset": 34,
+      "filename": "/tmp/repo_eblx6qh7/sc2/player.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 151,
+      "line_range": [
+        151
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "59         :param ps:\"\"\"\n60         assert ps, \"ps is empty\"\n61         # pylint: disable=W0108\n",
+      "col_offset": 8,
+      "end_col_offset": 32,
+      "filename": "/tmp/repo_eblx6qh7/sc2/position.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 60,
+      "line_range": [
+        60
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "66         :param ps:\"\"\"\n67         assert ps, \"ps is empty\"\n68         closest_distance = math.inf\n",
+      "col_offset": 8,
+      "end_col_offset": 32,
+      "filename": "/tmp/repo_eblx6qh7/sc2/position.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 67,
+      "line_range": [
+        67
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "79         :param ps: Units object, or iterable of Unit or Point2\"\"\"\n80         assert ps, \"ps is empty\"\n81         # pylint: disable=W0108\n",
+      "col_offset": 8,
+      "end_col_offset": 32,
+      "filename": "/tmp/repo_eblx6qh7/sc2/position.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 80,
+      "line_range": [
+        80
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "87         :param ps:\"\"\"\n88         assert ps, \"ps is empty\"\n89         furthest_distance = -math.inf\n",
+      "col_offset": 8,
+      "end_col_offset": 32,
+      "filename": "/tmp/repo_eblx6qh7/sc2/position.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 88,
+      "line_range": [
+        88
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "173         # Cannot normalize if length is zero\n174         assert length\n175         return self.__class__((self[0] / length, self[1] / length))\n",
+      "col_offset": 8,
+      "end_col_offset": 21,
+      "filename": "/tmp/repo_eblx6qh7/sc2/position.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 174,
+      "line_range": [
+        174
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "201         if isinstance(distance, (tuple, list)):  # interval\n202             distance = distance[0] + random.random() * (distance[1] - distance[0])\n203 \n",
+      "col_offset": 37,
+      "end_col_offset": 52,
+      "filename": "/tmp/repo_eblx6qh7/sc2/position.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 202,
+      "line_range": [
+        202
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "203 \n204         assert distance > 0, \"Distance is not greater than 0\"\n205         angle = random.random() * 2 * math.pi\n",
+      "col_offset": 8,
+      "end_col_offset": 61,
+      "filename": "/tmp/repo_eblx6qh7/sc2/position.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 204,
+      "line_range": [
+        204
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "204         assert distance > 0, \"Distance is not greater than 0\"\n205         angle = random.random() * 2 * math.pi\n206 \n",
+      "col_offset": 16,
+      "end_col_offset": 31,
+      "filename": "/tmp/repo_eblx6qh7/sc2/position.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 205,
+      "line_range": [
+        205
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "217         angle = math.atan2(ty - self.y, tx - self.x)\n218         angle = (angle - max_difference) + max_difference * 2 * random.random()\n219         return Point2((self.x + math.cos(angle) * distance, self.y + math.sin(angle) * distance))\n",
+      "col_offset": 64,
+      "end_col_offset": 79,
+      "filename": "/tmp/repo_eblx6qh7/sc2/position.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 218,
+      "line_range": [
+        218
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "226         :param r:\"\"\"\n227         assert self != p, \"self is equal to p\"\n228         distanceBetweenPoints = self.distance_to(p)\n",
+      "col_offset": 8,
+      "end_col_offset": 46,
+      "filename": "/tmp/repo_eblx6qh7/sc2/position.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 227,
+      "line_range": [
+        227
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "228         distanceBetweenPoints = self.distance_to(p)\n229         assert r >= distanceBetweenPoints / 2\n230         # remaining distance from center towards the intersection, using pythagoras\n",
+      "col_offset": 8,
+      "end_col_offset": 45,
+      "filename": "/tmp/repo_eblx6qh7/sc2/position.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 229,
+      "line_range": [
+        229
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "372         \"\"\"\n373         assert data.p0.x < data.p1.x and data.p0.y < data.p1.y\n374         return cls((data.p0.x, data.p0.y, data.p1.x - data.p0.x, data.p1.y - data.p0.y))\n",
+      "col_offset": 8,
+      "end_col_offset": 62,
+      "filename": "/tmp/repo_eblx6qh7/sc2/position.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 373,
+      "line_range": [
+        373
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "13     def __post_init__(self):\n14         assert self.radius > 0\n15 \n",
+      "col_offset": 8,
+      "end_col_offset": 30,
+      "filename": "/tmp/repo_eblx6qh7/sc2/power_source.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 14,
+      "line_range": [
+        14
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "29         \"\"\"\n30         assert ws\n31         self._ws: ClientWebSocketResponse = ws\n",
+      "col_offset": 8,
+      "end_col_offset": 17,
+      "filename": "/tmp/repo_eblx6qh7/sc2/protocol.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 30,
+      "line_range": [
+        30
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "65     async def _execute(self, **kwargs):\n66         assert len(kwargs) == 1, \"Only one request allowed by the API\"\n67 \n",
+      "col_offset": 8,
+      "end_col_offset": 70,
+      "filename": "/tmp/repo_eblx6qh7/sc2/protocol.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 66,
+      "line_range": [
+        66
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "4 import platform\n5 import subprocess\n6 import time\n",
+      "col_offset": 0,
+      "end_col_offset": 17,
+      "filename": "/tmp/repo_eblx6qh7/sc2/proxy.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 5,
+      "line_range": [
+        5
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "185         if self.player.stdout is None:\n186             bot_process = subprocess.Popen(player_command_line, stdout=subprocess.DEVNULL, **subproc_args)\n187         else:\n",
+      "col_offset": 26,
+      "end_col_offset": 106,
+      "filename": "/tmp/repo_eblx6qh7/sc2/proxy.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 186,
+      "line_range": [
+        186
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "188             with open(self.player.stdout, \"w+\") as out:\n189                 bot_process = subprocess.Popen(player_command_line, stdout=out, **subproc_args)\n190 \n",
+      "col_offset": 30,
+      "end_col_offset": 95,
+      "filename": "/tmp/repo_eblx6qh7/sc2/proxy.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 189,
+      "line_range": [
+        189
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "5 import signal\n6 import subprocess\n7 import sys\n",
+      "col_offset": 0,
+      "end_col_offset": 17,
+      "filename": "/tmp/repo_eblx6qh7/sc2/sc2process.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 6,
+      "line_range": [
+        6
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "66     ) -> None:\n67         assert isinstance(host, str) or host is None\n68         assert isinstance(port, int) or port is None\n",
+      "col_offset": 8,
+      "end_col_offset": 52,
+      "filename": "/tmp/repo_eblx6qh7/sc2/sc2process.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 67,
+      "line_range": [
+        67
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "67         assert isinstance(host, str) or host is None\n68         assert isinstance(port, int) or port is None\n69 \n",
+      "col_offset": 8,
+      "end_col_offset": 52,
+      "filename": "/tmp/repo_eblx6qh7/sc2/sc2process.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 68,
+      "line_range": [
+        68
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "172                 self._data_hash = self.find_data_hash(self._sc2_version)\n173                 assert (\n174                     self._data_hash is not None\n175                 ), f\"StarCraft 2 Client version ({self._sc2_version}) was not found inside sc2/versions.py file. Please check your spelling or check the versions.py file.\"\n176 \n",
+      "col_offset": 16,
+      "end_col_offset": 171,
+      "filename": "/tmp/repo_eblx6qh7/sc2/sc2process.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 173,
+      "line_range": [
+        173,
+        174,
+        175
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "195 \n196         return subprocess.Popen(\n197             args,\n198             cwd=sc2_cwd,\n199             # Suppress Wine error messages\n200             stderr=subprocess.DEVNULL\n201             # , env=run_config.env\n202         )\n203 \n",
+      "col_offset": 15,
+      "end_col_offset": 9,
+      "filename": "/tmp/repo_eblx6qh7/sc2/sc2process.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 196,
+      "line_range": [
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "261                 with suppress(FileNotFoundError):\n262                     with subprocess.Popen([\"wineserver\", \"-k\"]) as p:\n263                         p.wait()\n",
+      "col_offset": 25,
+      "end_col_offset": 63,
+      "filename": "/tmp/repo_eblx6qh7/sc2/sc2process.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 262,
+      "line_range": [
+        262
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "261                 with suppress(FileNotFoundError):\n262                     with subprocess.Popen([\"wineserver\", \"-k\"]) as p:\n263                         p.wait()\n",
+      "col_offset": 25,
+      "end_col_offset": 63,
+      "filename": "/tmp/repo_eblx6qh7/sc2/sc2process.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 262,
+      "line_range": [
+        262
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "588         cast_range = self._bot_object.game_data.abilities[ability_id.value]._proto.cast_range\n589         assert cast_range > 0, f\"Checking for an ability ({ability_id}) that has no cast range\"\n590         ability_target_type = self._bot_object.game_data.abilities[ability_id.value]._proto.target\n",
+      "col_offset": 8,
+      "end_col_offset": 95,
+      "filename": "/tmp/repo_eblx6qh7/sc2/unit.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 589,
+      "line_range": [
+        589
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "1242         \"\"\"\n1243         assert isinstance(buff, BuffId), f\"{buff} is no BuffId\"\n1244         return buff in self.buffs\n",
+      "col_offset": 8,
+      "end_col_offset": 63,
+      "filename": "/tmp/repo_eblx6qh7/sc2/unit.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 1243,
+      "line_range": [
+        1243
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "1285         if unit in {UnitTypeId.EXTRACTOR, UnitTypeId.ASSIMILATOR, UnitTypeId.REFINERY}:\n1286             assert isinstance(\n1287                 position, Unit\n1288             ), \"When building the gas structure, the target needs to be a unit (the vespene geysir) not the position of the vespene geysir.\"\n1289         return self(\n",
+      "col_offset": 12,
+      "end_col_offset": 140,
+      "filename": "/tmp/repo_eblx6qh7/sc2/unit.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 1286,
+      "line_range": [
+        1286,
+        1287,
+        1288
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "1313         gas_structure_type_id: UnitTypeId = race_gas[self._bot_object.race]\n1314         assert isinstance(\n1315             target_geysir, Unit\n1316         ), \"When building the gas structure, the target needs to be a unit (the vespene geysir) not the position of the vespene geysir.\"\n1317         return self(\n",
+      "col_offset": 8,
+      "end_col_offset": 136,
+      "filename": "/tmp/repo_eblx6qh7/sc2/unit.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 1314,
+      "line_range": [
+        1314,
+        1315,
+        1316
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "21         \"\"\"\n22         assert ability in AbilityId, f\"ability {ability} is not in AbilityId\"\n23         assert unit.__class__.__name__ == \"Unit\", f\"unit {unit} is of type {type(unit)}\"\n",
+      "col_offset": 8,
+      "end_col_offset": 77,
+      "filename": "/tmp/repo_eblx6qh7/sc2/unit_command.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 22,
+      "line_range": [
+        22
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "22         assert ability in AbilityId, f\"ability {ability} is not in AbilityId\"\n23         assert unit.__class__.__name__ == \"Unit\", f\"unit {unit} is of type {type(unit)}\"\n24         assert any(\n",
+      "col_offset": 8,
+      "end_col_offset": 88,
+      "filename": "/tmp/repo_eblx6qh7/sc2/unit_command.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 23,
+      "line_range": [
+        23
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "23         assert unit.__class__.__name__ == \"Unit\", f\"unit {unit} is of type {type(unit)}\"\n24         assert any(\n25             [\n26                 target is None,\n27                 isinstance(target, Point2),\n28                 unit.__class__.__name__ == \"Unit\",\n29             ]\n30         ), f\"target {target} is of type {type(target)}\"\n31         assert isinstance(queue, bool), f\"queue flag {queue} is of type {type(queue)}\"\n",
+      "col_offset": 8,
+      "end_col_offset": 55,
+      "filename": "/tmp/repo_eblx6qh7/sc2/unit_command.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 24,
+      "line_range": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "30         ), f\"target {target} is of type {type(target)}\"\n31         assert isinstance(queue, bool), f\"queue flag {queue} is of type {type(queue)}\"\n32         self.ability = ability\n",
+      "col_offset": 8,
+      "end_col_offset": 86,
+      "filename": "/tmp/repo_eblx6qh7/sc2/unit_command.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 31,
+      "line_range": [
+        31
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "126     def first(self) -> Unit:\n127         assert self, \"Units object is empty\"\n128         return self[0]\n",
+      "col_offset": 8,
+      "end_col_offset": 44,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 127,
+      "line_range": [
+        127
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "139     def random(self) -> Unit:\n140         assert self, \"Units object is empty\"\n141         return random.choice(self)\n",
+      "col_offset": 8,
+      "end_col_offset": 44,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 140,
+      "line_range": [
+        140
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "140         assert self, \"Units object is empty\"\n141         return random.choice(self)\n142 \n",
+      "col_offset": 15,
+      "end_col_offset": 34,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 141,
+      "line_range": [
+        141
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "143     def random_or(self, other: any) -> Unit:\n144         return random.choice(self) if self else other\n145 \n",
+      "col_offset": 15,
+      "end_col_offset": 34,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 144,
+      "line_range": [
+        144
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "151             return self\n152         return self.subgroup(random.sample(self, n))\n153 \n",
+      "col_offset": 29,
+      "end_col_offset": 51,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 152,
+      "line_range": [
+        152
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "191         \"\"\"\n192         assert self, \"Units object is empty\"\n193         if isinstance(position, Unit):\n",
+      "col_offset": 8,
+      "end_col_offset": 44,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 192,
+      "line_range": [
+        192
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "210         \"\"\"\n211         assert self, \"Units object is empty\"\n212         if isinstance(position, Unit):\n",
+      "col_offset": 8,
+      "end_col_offset": 44,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 211,
+      "line_range": [
+        211
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "228         \"\"\"\n229         assert self, \"Units object is empty\"\n230         if isinstance(position, Unit):\n",
+      "col_offset": 8,
+      "end_col_offset": 44,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 229,
+      "line_range": [
+        229
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "251         \"\"\"\n252         assert self, \"Units object is empty\"\n253         if isinstance(position, Unit):\n",
+      "col_offset": 8,
+      "end_col_offset": 44,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 252,
+      "line_range": [
+        252
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "381         \"\"\"\n382         assert other_units, \"Other units object is empty\"\n383         # Return self because there are no enemies\n",
+      "col_offset": 8,
+      "end_col_offset": 57,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 382,
+      "line_range": [
+        382
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "408         \"\"\"\n409         assert self, \"Units object is empty\"\n410         assert other_units, \"Given units object is empty\"\n",
+      "col_offset": 8,
+      "end_col_offset": 44,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 409,
+      "line_range": [
+        409
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "409         assert self, \"Units object is empty\"\n410         assert other_units, \"Given units object is empty\"\n411         return min(\n",
+      "col_offset": 8,
+      "end_col_offset": 57,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 410,
+      "line_range": [
+        410
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "477         \"\"\"\n478         assert callable(pred), \"Function is not callable\"\n479         return self.subgroup(filter(pred, self))\n",
+      "col_offset": 8,
+      "end_col_offset": 57,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 478,
+      "line_range": [
+        478
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "588         \"\"\"\n589         assert isinstance(other, set), (\n590             \"Please use a set as this filter function is already fairly slow. For example\" +\n591             \" 'self.units.same_tech({UnitTypeId.LAIR})'\"\n592         )\n593         tech_alias_types: Set[int] = {u.value for u in other}\n",
+      "col_offset": 8,
+      "end_col_offset": 9,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 589,
+      "line_range": [
+        589,
+        590,
+        591,
+        592
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "637         \"\"\" Returns the central position of all units. \"\"\"\n638         assert self, \"Units object is empty\"\n639         return Point2(\n",
+      "col_offset": 8,
+      "end_col_offset": 44,
+      "filename": "/tmp/repo_eblx6qh7/sc2/units.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 638,
+      "line_range": [
+        638
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "3 import re\n4 import subprocess\n5 from pathlib import Path, PureWindowsPath\n",
+      "col_offset": 0,
+      "end_col_offset": 17,
+      "filename": "/tmp/repo_eblx6qh7/sc2/wsl.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "24     \"\"\"Get home directory of from Windows, even if run in WSL\"\"\"\n25     proc = subprocess.run([\"powershell.exe\", \"-Command\", \"Write-Host -NoNewLine $HOME\"], capture_output=True)\n26 \n",
+      "col_offset": 11,
+      "end_col_offset": 109,
+      "filename": "/tmp/repo_eblx6qh7/sc2/wsl.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 25,
+      "line_range": [
+        25
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "24     \"\"\"Get home directory of from Windows, even if run in WSL\"\"\"\n25     proc = subprocess.run([\"powershell.exe\", \"-Command\", \"Write-Host -NoNewLine $HOME\"], capture_output=True)\n26 \n",
+      "col_offset": 11,
+      "end_col_offset": 109,
+      "filename": "/tmp/repo_eblx6qh7/sc2/wsl.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 25,
+      "line_range": [
+        25
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "46 \n47     return subprocess.Popen(\n48         [\"powershell.exe\", \"-Command\", RUN_SCRIPT % (path, args)],\n49         cwd=sc2_cwd,\n50         stdout=subprocess.PIPE,\n51         universal_newlines=True,\n52         bufsize=1,\n53     )\n54 \n",
+      "col_offset": 11,
+      "end_col_offset": 5,
+      "filename": "/tmp/repo_eblx6qh7/sc2/wsl.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 47,
+      "line_range": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "46 \n47     return subprocess.Popen(\n48         [\"powershell.exe\", \"-Command\", RUN_SCRIPT % (path, args)],\n49         cwd=sc2_cwd,\n50         stdout=subprocess.PIPE,\n51         universal_newlines=True,\n52         bufsize=1,\n53     )\n54 \n",
+      "col_offset": 11,
+      "end_col_offset": 5,
+      "filename": "/tmp/repo_eblx6qh7/sc2/wsl.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 47,
+      "line_range": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "67     wsl_process.__exit__(None, None, None)\n68     proc = subprocess.run([\"taskkill.exe\", \"-f\", \"-pid\", out], capture_output=True)\n69     return proc.returncode == 0  # Returns 128 on failure\n",
+      "col_offset": 11,
+      "end_col_offset": 83,
+      "filename": "/tmp/repo_eblx6qh7/sc2/wsl.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 68,
+      "line_range": [
+        68
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "67     wsl_process.__exit__(None, None, None)\n68     proc = subprocess.run([\"taskkill.exe\", \"-f\", \"-pid\", out], capture_output=True)\n69     return proc.returncode == 0  # Returns 128 on failure\n",
+      "col_offset": 11,
+      "end_col_offset": 83,
+      "filename": "/tmp/repo_eblx6qh7/sc2/wsl.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 68,
+      "line_range": [
+        68
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "82     try:\n83         wsl_proc = subprocess.run([\"wsl.exe\", \"--list\", \"--running\", \"--verbose\"], capture_output=True)\n84     except (OSError, ValueError):\n",
+      "col_offset": 19,
+      "end_col_offset": 103,
+      "filename": "/tmp/repo_eblx6qh7/sc2/wsl.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 83,
+      "line_range": [
+        83
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "82     try:\n83         wsl_proc = subprocess.run([\"wsl.exe\", \"--list\", \"--running\", \"--verbose\"], capture_output=True)\n84     except (OSError, ValueError):\n",
+      "col_offset": 19,
+      "end_col_offset": 103,
+      "filename": "/tmp/repo_eblx6qh7/sc2/wsl.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 83,
+      "line_range": [
+        83
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 from subprocess import Popen, run\n5 \n",
+      "col_offset": 0,
+      "end_col_offset": 33,
+      "filename": "/tmp/repo_eblx6qh7/upgrade_to_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "93     print(\"Cloning ares-sc2-template...\")\n94     run(\"git clone --recursive https://github.com/AresSC2/ares-sc2-bot-template\", shell=True)\n95 \n",
+      "col_offset": 4,
+      "end_col_offset": 93,
+      "filename": "/tmp/repo_eblx6qh7/upgrade_to_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 94,
+      "line_range": [
+        94
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "93     print(\"Cloning ares-sc2-template...\")\n94     run(\"git clone --recursive https://github.com/AresSC2/ares-sc2-bot-template\", shell=True)\n95 \n",
+      "col_offset": 4,
+      "end_col_offset": 93,
+      "filename": "/tmp/repo_eblx6qh7/upgrade_to_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 94,
+      "line_range": [
+        94
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "100     print(\"Setting up ares\")\n101     run(\"poetry install\", shell=True)\n102 \n",
+      "col_offset": 4,
+      "end_col_offset": 37,
+      "filename": "/tmp/repo_eblx6qh7/upgrade_to_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 101,
+      "line_range": [
+        101
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "100     print(\"Setting up ares\")\n101     run(\"poetry install\", shell=True)\n102 \n",
+      "col_offset": 4,
+      "end_col_offset": 37,
+      "filename": "/tmp/repo_eblx6qh7/upgrade_to_ares.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call with shell=True seems safe, but may be changed in the future, consider rewriting without shell",
+      "line_number": 101,
+      "line_range": [
+        101
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    }
+  ]
+}

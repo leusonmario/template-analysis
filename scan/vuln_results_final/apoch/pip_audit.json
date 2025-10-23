@@ -1,0 +1,3 @@
+ERROR:pip_audit._cli:requirement file /tmp/repo_i_pjvbda/requirements.txt contains invalid specifier at line 2: Invalid requirement: : Local version label can only be used with `==` or `!=` operators
+    torch>=2.1.2+cu118
+         ~~~~~~~^

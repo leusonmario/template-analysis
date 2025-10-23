@@ -1,0 +1,1183 @@
+{
+  "errors": [],
+  "generated_at": "2025-10-21T19:46:39Z",
+  "metrics": {
+    "/tmp/repo_dp45za1v/.tests/unit/common.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 51,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_dp45za1v/.tests/unit/test_combine_benchmarks.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_dp45za1v/.tests/unit/test_combine_hp_performance.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_dp45za1v/.tests/unit/test_combine_results.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_dp45za1v/.tests/unit/test_find_feature_importance.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_dp45za1v/.tests/unit/test_plot_benchmarks.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_dp45za1v/.tests/unit/test_plot_feature_importance.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_dp45za1v/.tests/unit/test_plot_hp_performance.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_dp45za1v/.tests/unit/test_plot_performance.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_dp45za1v/.tests/unit/test_preprocess_data.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_dp45za1v/.tests/unit/test_render_report.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_dp45za1v/.tests/unit/test_run_ml.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 30,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 36,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 36,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 381,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "5 from pathlib import Path\n6 import subprocess as sp\n7 import os\n",
+      "col_offset": 0,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/common.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 6,
+      "line_range": [
+        6
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "57     def compare_files(self, generated_file, expected_file):\n58         sp.check_output([\"cmp\", generated_file, expected_file])\n",
+      "col_offset": 8,
+      "end_col_offset": 63,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/common.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 58,
+      "line_range": [
+        58
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "57     def compare_files(self, generated_file, expected_file):\n58         sp.check_output([\"cmp\", generated_file, expected_file])\n",
+      "col_offset": 8,
+      "end_col_offset": 63,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/common.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 58,
+      "line_range": [
+        58
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 import subprocess as sp\n5 from tempfile import TemporaryDirectory\n",
+      "col_offset": 0,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_combine_benchmarks.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"results/otu-mini-bin/benchmarks_results.csv\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_combine_benchmarks.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"results/otu-mini-bin/benchmarks_results.csv\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_combine_benchmarks.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 import subprocess as sp\n5 from tempfile import TemporaryDirectory\n",
+      "col_offset": 0,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_combine_hp_performance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"results/otu-mini-bin/hp_performance_results_glmnet.Rds\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename, \n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_combine_hp_performance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"results/otu-mini-bin/hp_performance_results_glmnet.Rds\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename, \n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_combine_hp_performance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 import subprocess as sp\n5 from tempfile import TemporaryDirectory\n",
+      "col_offset": 0,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_combine_results.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"results/otu-mini-bin/performance_results.csv\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,  \n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_combine_results.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"results/otu-mini-bin/performance_results.csv\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,  \n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_combine_results.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 import subprocess as sp\n5 from tempfile import TemporaryDirectory\n",
+      "col_offset": 0,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_find_feature_importance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"results/otu-mini-bin/runs/glmnet_100_feature-importance.csv\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,  \n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_find_feature_importance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"results/otu-mini-bin/runs/glmnet_100_feature-importance.csv\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,  \n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_find_feature_importance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 import subprocess as sp\n5 from tempfile import TemporaryDirectory\n",
+      "col_offset": 0,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_plot_benchmarks.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"figures/otu-mini-bin/benchmarks.png\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_plot_benchmarks.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"figures/otu-mini-bin/benchmarks.png\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_plot_benchmarks.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 import subprocess as sp\n5 from tempfile import TemporaryDirectory\n",
+      "col_offset": 0,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_plot_feature_importance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"figures/otu-mini-bin/feature_importance.png\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_plot_feature_importance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"figures/otu-mini-bin/feature_importance.png\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_plot_feature_importance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 import subprocess as sp\n5 from tempfile import TemporaryDirectory\n",
+      "col_offset": 0,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_plot_hp_performance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"figures/otu-mini-bin/hp_performance_glmnet.png\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_plot_hp_performance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"figures/otu-mini-bin/hp_performance_glmnet.png\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_plot_hp_performance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 import subprocess as sp\n5 from tempfile import TemporaryDirectory\n",
+      "col_offset": 0,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_plot_performance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"figures/otu-mini-bin/performance.png\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,    \n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_plot_performance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"figures/otu-mini-bin/performance.png\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,    \n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_plot_performance.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 import subprocess as sp\n5 from tempfile import TemporaryDirectory\n",
+      "col_offset": 0,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_preprocess_data.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"data/processed/otu-mini-bin_preproc.Rds\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_preprocess_data.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"data/processed/otu-mini-bin_preproc.Rds\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_preprocess_data.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 import subprocess as sp\n5 from tempfile import TemporaryDirectory\n",
+      "col_offset": 0,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_render_report.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"report_otu-mini-bin.md\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_render_report.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"report_otu-mini-bin.md\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_render_report.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "3 \n4 import subprocess as sp\n5 from tempfile import TemporaryDirectory\n",
+      "col_offset": 0,
+      "end_col_offset": 23,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_run_ml.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 4,
+      "line_range": [
+        4
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"results/otu-mini-bin/runs/glmnet_100_model.Rds results/otu-mini-bin/runs/glmnet_100_performance.csv results/otu-mini-bin/runs/glmnet_100_test-data.csv\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_run_ml.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "27         # Run the test job.\n28         sp.check_output([\n29             \"python\",\n30             \"-m\",\n31             \"snakemake\", \n32             \"results/otu-mini-bin/runs/glmnet_100_model.Rds results/otu-mini-bin/runs/glmnet_100_performance.csv results/otu-mini-bin/runs/glmnet_100_test-data.csv\",\n33             \"-f\", \n34             \"-j1\",\n35             \"--keep-target-files\",\n36             \"--configfile\",\n37             common.config_filename,\n38             \"--use-conda\",\n39             \"--directory\",\n40             workdir,\n41         ])\n42 \n",
+      "col_offset": 8,
+      "end_col_offset": 10,
+      "filename": "/tmp/repo_dp45za1v/.tests/unit/test_run_ml.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 28,
+      "line_range": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

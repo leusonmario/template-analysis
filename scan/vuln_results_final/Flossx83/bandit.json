@@ -1,0 +1,319 @@
+{
+  "errors": [],
+  "generated_at": "2025-10-21T19:23:40Z",
+  "metrics": {
+    "/tmp/repo_li_wxtq1/POS_Simulator/POS_Terminal_Simulator.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 565,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_li_wxtq1/POS_Simulator/prototypes/prototype.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 496,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_li_wxtq1/POS_Simulator/prototypes/prototypev2.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 537,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_li_wxtq1/java-switch/src/main/java/com/floss83/javaswitch/connection/connectiontests/ConnectionTestHttpsClient.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 27,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_li_wxtq1/java-switch/src/main/java/com/floss83/javaswitch/connection/connectiontests/ConnectionTestTcpClient.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 33,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_li_wxtq1/java-switch/src/main/java/com/floss83/javaswitch/connection/connectiontests/tempCodeRunnerFile.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 27,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 9,
+      "CONFIDENCE.LOW": 2,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 9,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1685,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "119 \n120 rand_num = lambda n: \"\".join(str(random.randint(0,9)) for _ in range(n))\n121 FIELD_RANDOM: Dict[int, Callable[[], str]] = {\n",
+      "col_offset": 33,
+      "end_col_offset": 52,
+      "filename": "/tmp/repo_li_wxtq1/POS_Simulator/POS_Terminal_Simulator.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 120,
+      "line_range": [
+        120
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "122     2: lambda: rand_num(16),\n123     4: lambda: f\"{random.randint(1,999999999999):012d}\",\n124     52: lambda: rand_num(16)\n",
+      "col_offset": 18,
+      "end_col_offset": 48,
+      "filename": "/tmp/repo_li_wxtq1/POS_Simulator/POS_Terminal_Simulator.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 123,
+      "line_range": [
+        123
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "497             elif dtype == 'n':\n498                 inp.setText(str(random.randint(0, 10**maxlen - 1)).zfill(maxlen))\n499         self.status.showMessage(\"Randomised selected fields\")\n",
+      "col_offset": 32,
+      "end_col_offset": 65,
+      "filename": "/tmp/repo_li_wxtq1/POS_Simulator/POS_Terminal_Simulator.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 498,
+      "line_range": [
+        498
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "108 # Randomizers\n109 rand_num = lambda n: \"\".join(str(random.randint(0,9)) for _ in range(n))\n110 FIELD_RANDOM: Dict[int, Callable[[], str]] = {\n",
+      "col_offset": 33,
+      "end_col_offset": 52,
+      "filename": "/tmp/repo_li_wxtq1/POS_Simulator/prototypes/prototype.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 109,
+      "line_range": [
+        109
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "111     2: lambda: rand_num(16),\n112     4: lambda: f\"{random.randint(1,999999999999):012d}\",\n113     52: lambda: rand_num(16)\n",
+      "col_offset": 18,
+      "end_col_offset": 48,
+      "filename": "/tmp/repo_li_wxtq1/POS_Simulator/prototypes/prototype.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 112,
+      "line_range": [
+        112
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "515             elif dtype == 'n':\n516                 inp.setText(str(random.randint(0, 10**maxlen-1)).zfill(maxlen))\n517         self.status.showMessage(\"Randomised selected fields\")\n",
+      "col_offset": 32,
+      "end_col_offset": 63,
+      "filename": "/tmp/repo_li_wxtq1/POS_Simulator/prototypes/prototype.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 516,
+      "line_range": [
+        516
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "112 \n113 rand_num = lambda n: \"\".join(str(random.randint(0,9)) for _ in range(n))\n114 FIELD_RANDOM: Dict[int, Callable[[], str]] = {\n",
+      "col_offset": 33,
+      "end_col_offset": 52,
+      "filename": "/tmp/repo_li_wxtq1/POS_Simulator/prototypes/prototypev2.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 113,
+      "line_range": [
+        113
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "115     2: lambda: rand_num(16),\n116     4: lambda: f\"{random.randint(1,999999999999):012d}\",\n117     52: lambda: rand_num(16)\n",
+      "col_offset": 18,
+      "end_col_offset": 48,
+      "filename": "/tmp/repo_li_wxtq1/POS_Simulator/prototypes/prototypev2.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 116,
+      "line_range": [
+        116
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "505             elif dtype == 'n':\n506                 inp.setText(str(random.randint(0, 10**maxlen-1)).zfill(maxlen))\n507         self.status.showMessage(\"Randomised selected fields\")\n",
+      "col_offset": 32,
+      "end_col_offset": 63,
+      "filename": "/tmp/repo_li_wxtq1/POS_Simulator/prototypes/prototypev2.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 506,
+      "line_range": [
+        506
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "27     print(f\"Posting to {url}\")\n28     resp = requests.post(url, data=ISO8583_MESSAGE, headers=headers)\n29     print(\"Server responded:\", resp.text)\n",
+      "col_offset": 11,
+      "end_col_offset": 68,
+      "filename": "/tmp/repo_li_wxtq1/java-switch/src/main/java/com/floss83/javaswitch/connection/connectiontests/ConnectionTestHttpsClient.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 400,
+        "link": "https://cwe.mitre.org/data/definitions/400.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Call to requests without timeout",
+      "line_number": 28,
+      "line_range": [
+        28
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b113_request_without_timeout.html",
+      "test_id": "B113",
+      "test_name": "request_without_timeout"
+    },
+    {
+      "code": "27     print(f\"Posting to {url}\")\n28     resp = requests.post(url, data=ISO8583_MESSAGE, headers=headers)\n29     print(\"Server responded:\", resp.text)\n",
+      "col_offset": 11,
+      "end_col_offset": 68,
+      "filename": "/tmp/repo_li_wxtq1/java-switch/src/main/java/com/floss83/javaswitch/connection/connectiontests/tempCodeRunnerFile.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 400,
+        "link": "https://cwe.mitre.org/data/definitions/400.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Call to requests without timeout",
+      "line_number": 28,
+      "line_range": [
+        28
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b113_request_without_timeout.html",
+      "test_id": "B113",
+      "test_name": "request_without_timeout"
+    }
+  ]
+}

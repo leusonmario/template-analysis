@@ -1,0 +1,113 @@
+{
+  "errors": [
+    {
+      "filename": "/tmp/repo_8i7f64gx/app/i2i-save-original-images.py",
+      "reason": "syntax error while parsing AST from file"
+    },
+    {
+      "filename": "/tmp/repo_8i7f64gx/build.py",
+      "reason": "syntax error while parsing AST from file"
+    }
+  ],
+  "generated_at": "2025-10-21T19:30:55Z",
+  "metrics": {
+    "/tmp/repo_8i7f64gx/app/i2i-save-original-images.py": {
+      "loc": 166,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_8i7f64gx/build.py": {
+      "loc": 262,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo_8i7f64gx/demo-i2i/i2i.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 146,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 574,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "11 import numpy.fft as fft\n12 import xml.dom.minidom\n13 import base64\n",
+      "col_offset": 0,
+      "end_col_offset": 22,
+      "filename": "/tmp/repo_8i7f64gx/demo-i2i/i2i.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Using xml.dom.minidom to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom with the equivalent defusedxml package, or make sure defusedxml.defuse_stdlib() is called.",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b408-import-xml-minidom",
+      "test_id": "B408",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "20 # Folder for debug output files\n21 debugFolder = \"/tmp/share/debug\"\n22 \n",
+      "col_offset": 14,
+      "end_col_offset": 32,
+      "filename": "/tmp/repo_8i7f64gx/demo-i2i/i2i.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 377,
+        "link": "https://cwe.mitre.org/data/definitions/377.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Probable insecure usage of temp file/directory.",
+      "line_number": 21,
+      "line_range": [
+        21
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b108_hardcoded_tmp_directory.html",
+      "test_id": "B108",
+      "test_name": "hardcoded_tmp_directory"
+    },
+    {
+      "code": "212         metaXml = tmpMeta.serialize()\n213         logging.debug(\"Image MetaAttributes: %s\", xml.dom.minidom.parseString(metaXml).toprettyxml())\n214         logging.debug(\"Image data has %d elements\", imagesOut[iImg].data.size)\n",
+      "col_offset": 50,
+      "end_col_offset": 86,
+      "filename": "/tmp/repo_8i7f64gx/demo-i2i/i2i.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Using xml.dom.minidom.parseString to parse untrusted XML data is known to be vulnerable to XML attacks. Replace xml.dom.minidom.parseString with its defusedxml equivalent function or make sure defusedxml.defuse_stdlib() is called",
+      "line_number": 213,
+      "line_range": [
+        213
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b313-b320-xml-bad-minidom",
+      "test_id": "B318",
+      "test_name": "blacklist"
+    }
+  ]
+}

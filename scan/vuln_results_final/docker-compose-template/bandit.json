@@ -1,0 +1,111 @@
+{
+  "errors": [
+    {
+      "filename": "/tmp/repo__b4yje8o/apps/realdebrid-account-monitor/main.py",
+      "reason": "syntax error while parsing AST from file"
+    }
+  ],
+  "generated_at": "2025-10-21T19:42:50Z",
+  "metrics": {
+    "/tmp/repo__b4yje8o/apps/nitter/sessions/get_session.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 2,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 151,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "/tmp/repo__b4yje8o/apps/realdebrid-account-monitor/main.py": {
+      "loc": 201,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 2,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 352,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "11 TW_CONSUMER_KEY = '3nVuSoBZnx6U4vzUxf5w'\n12 TW_CONSUMER_SECRET = 'Bcs59EFbbsdF6Sl9Ng71smgStWEGwXXKSjYvPVt7qys'\n13 \n",
+      "col_offset": 21,
+      "end_col_offset": 66,
+      "filename": "/tmp/repo__b4yje8o/apps/nitter/sessions/get_session.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 259,
+        "link": "https://cwe.mitre.org/data/definitions/259.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Possible hardcoded password: 'Bcs59EFbbsdF6Sl9Ng71smgStWEGwXXKSjYvPVt7qys'",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b105_hardcoded_password_string.html",
+      "test_id": "B105",
+      "test_name": "hardcoded_password_string"
+    },
+    {
+      "code": "14 def auth(username, password, otp_secret):\n15     bearer_token_req = requests.post(\"https://api.twitter.com/oauth2/token\",\n16         auth=(TW_CONSUMER_KEY, TW_CONSUMER_SECRET),\n17         headers={\"Content-Type\": \"application/x-www-form-urlencoded\"},\n18         data='grant_type=client_credentials'\n19     ).json()\n20     bearer_token = ' '.join(str(x) for x in bearer_token_req.values())\n",
+      "col_offset": 23,
+      "end_col_offset": 5,
+      "filename": "/tmp/repo__b4yje8o/apps/nitter/sessions/get_session.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 400,
+        "link": "https://cwe.mitre.org/data/definitions/400.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Call to requests without timeout",
+      "line_number": 15,
+      "line_range": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b113_request_without_timeout.html",
+      "test_id": "B113",
+      "test_name": "request_without_timeout"
+    },
+    {
+      "code": "21 \n22     guest_token = requests.post(\n23         \"https://api.twitter.com/1.1/guest/activate.json\",\n24         headers={'Authorization': bearer_token}\n25     ).json().get('guest_token')\n26 \n",
+      "col_offset": 18,
+      "end_col_offset": 5,
+      "filename": "/tmp/repo__b4yje8o/apps/nitter/sessions/get_session.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 400,
+        "link": "https://cwe.mitre.org/data/definitions/400.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Call to requests without timeout",
+      "line_number": 22,
+      "line_range": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b113_request_without_timeout.html",
+      "test_id": "B113",
+      "test_name": "request_without_timeout"
+    }
+  ]
+}

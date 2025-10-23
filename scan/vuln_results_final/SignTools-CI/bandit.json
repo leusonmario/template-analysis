@@ -1,0 +1,249 @@
+{
+  "errors": [],
+  "generated_at": "2025-10-21T19:46:07Z",
+  "metrics": {
+    "/tmp/repo_b69m07g_/sign.py": {
+      "CONFIDENCE.HIGH": 9,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 10,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1036,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 9,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 10,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1036,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "8 import traceback\n9 from subprocess import PIPE, Popen\n10 import subprocess\n",
+      "col_offset": 0,
+      "end_col_offset": 34,
+      "filename": "/tmp/repo_b69m07g_/sign.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 9,
+      "line_range": [
+        9
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "9 from subprocess import PIPE, Popen\n10 import subprocess\n11 from typing import Dict, List, NamedTuple, Set, Tuple, IO, Any, Optional, Mapping, Union\n",
+      "col_offset": 0,
+      "end_col_offset": 17,
+      "filename": "/tmp/repo_b69m07g_/sign.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 10,
+      "line_range": [
+        10
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "44     try:\n45         result = subprocess.run(cmd, capture_output=capture, check=check, env=env, cwd=cwd, timeout=timeout)\n46     except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:\n",
+      "col_offset": 17,
+      "end_col_offset": 108,
+      "filename": "/tmp/repo_b69m07g_/sign.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 45,
+      "line_range": [
+        45
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "62 ):\n63     return subprocess.Popen(cmd, env=env, cwd=cwd, stdout=PIPE, stderr=PIPE)\n64 \n",
+      "col_offset": 11,
+      "end_col_offset": 76,
+      "filename": "/tmp/repo_b69m07g_/sign.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 63,
+      "line_range": [
+        63
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "70         random.seed(seed)\n71     result = \"\".join(random.choices(string.ascii_lowercase + string.digits, k=len))\n72     if old_state is not None:\n",
+      "col_offset": 21,
+      "end_col_offset": 82,
+      "filename": "/tmp/repo_b69m07g_/sign.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 330,
+        "link": "https://cwe.mitre.org/data/definitions/330.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Standard pseudo-random generators are not suitable for security/cryptographic purposes.",
+      "line_number": 71,
+      "line_range": [
+        71
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random",
+      "test_id": "B311",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "168 def security_import(cert: Path, cert_pass: str, keychain: str) -> List[str]:\n169     password = \"1234\"\n170     keychains = [*security_get_keychain_list(), keychain]\n",
+      "col_offset": 15,
+      "end_col_offset": 21,
+      "filename": "/tmp/repo_b69m07g_/sign.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 259,
+        "link": "https://cwe.mitre.org/data/definitions/259.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Possible hardcoded password: '1234'",
+      "line_number": 169,
+      "line_range": [
+        169
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b105_hardcoded_password_string.html",
+      "test_id": "B105",
+      "test_name": "hardcoded_password_string"
+    },
+    {
+      "code": "301 \n302     auth_pipe = subprocess.Popen(\n303         # enable copy to clipboard so we're not interactively prompted\n304         [\"fastlane\", \"spaceauth\", \"--copy_to_clipboard\"],\n305         stdin=PIPE,\n306         stdout=PIPE,\n307         stderr=PIPE,\n308         env=my_env,\n309     )\n310 \n",
+      "col_offset": 16,
+      "end_col_offset": 5,
+      "filename": "/tmp/repo_b69m07g_/sign.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 302,
+      "line_range": [
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "301 \n302     auth_pipe = subprocess.Popen(\n303         # enable copy to clipboard so we're not interactively prompted\n304         [\"fastlane\", \"spaceauth\", \"--copy_to_clipboard\"],\n305         stdin=PIPE,\n306         stdout=PIPE,\n307         stderr=PIPE,\n308         env=my_env,\n309     )\n310 \n",
+      "col_offset": 16,
+      "end_col_offset": 5,
+      "filename": "/tmp/repo_b69m07g_/sign.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 302,
+      "line_range": [
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "1104             # ensure all mappings are same length and actually byte patchable\n1105             assert all(len(k) == len(v) for k, v in self.mappings.items())\n1106 \n",
+      "col_offset": 12,
+      "end_col_offset": 74,
+      "filename": "/tmp/repo_b69m07g_/sign.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 1105,
+      "line_range": [
+        1105
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "1125                         path.relative_to(component)\n1126                     except:\n1127                         continue\n1128                     if pipe.poll() is None:\n",
+      "col_offset": 20,
+      "end_col_offset": 32,
+      "filename": "/tmp/repo_b69m07g_/sign.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Continue detected.",
+      "line_number": 1126,
+      "line_range": [
+        1126,
+        1127
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.8.6/plugins/b112_try_except_continue.html",
+      "test_id": "B112",
+      "test_name": "try_except_continue"
+    }
+  ]
+}
