@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
 """
-Plot LLM category distribution across programming languages.
-
-Usage:
-    python plot_category_distribution.py --inputs llm_classified_random_Java.csv llm_classified_random_Python.csv
-
-Requirements:
-    pip install pandas matplotlib
+Plot and save LLM category distribution across programming languages (with larger text and percentages on bars).
+Handles minor category variants (e.g., "Automation/ DevOps" vs "Automation/DevOps").
 """
 
 import argparse
@@ -15,6 +10,7 @@ import json
 import matplotlib.pyplot as plt
 import os
 from collections import Counter, defaultdict
+import re
 
 
 def extract_language_from_filename(filename):
@@ -22,7 +18,7 @@ def extract_language_from_filename(filename):
     base = os.path.basename(filename)
     name = os.path.splitext(base)[0]
     parts = name.split("_")
-    return parts[-1]  # assumes last underscore-separated token is language
+    return parts[-1]
 
 
 def parse_category(json_text):
@@ -34,12 +30,8 @@ def parse_category(json_text):
     # Remove markdown formatting if present
     if text.startswith("```"):
         text = text.strip("`")
-        # remove optional 'json' hint
         text = text.replace("json", "", 1).strip()
-    if text.startswith("{") and text.endswith("}"):
-        pass
-    else:
-        # Try to find JSON block inside
+    if not (text.startswith("{") and text.endswith("}")):
         start = text.find("{")
         end = text.rfind("}")
         if start != -1 and end != -1:
@@ -49,11 +41,35 @@ def parse_category(json_text):
         data = json.loads(text)
         return data.get("category", "").strip()
     except Exception:
-        print(json_text)
+        print(f"⚠️ Could not parse JSON:\n{text[:200]}...")
+        print(text)
         return None
 
 
-def main(files):
+def normalize_category(cat):
+    """Normalize category names to avoid duplicates due to spacing, slashes, or capitalization."""
+    if not cat:
+        return None
+
+    cat = cat.strip()
+
+    # Normalize spacing around slashes and punctuation
+    cat = re.sub(r"\s*/\s*", "/", cat)
+    cat = re.sub(r"\s{2,}", " ", cat)
+
+    # Normalize capitalization (first letter of each word)
+    cat = cat.title()
+
+    # Handle known manual equivalences if necessary
+    synonyms = {
+        "Automation/Devops": "Automation/DevOps",
+        "Machine Learning/Ai": "Machine Learning/AI",
+        "Ml/Ai": "Machine Learning/AI",
+    }
+    return synonyms.get(cat, cat)
+
+
+def main(files, output_file):
     all_counts = defaultdict(Counter)
     all_categories = set()
 
@@ -72,10 +88,10 @@ def main(files):
             continue
 
         categories = df["llm_output"].apply(parse_category).dropna()
+        categories = categories.apply(normalize_category).dropna()
 
         if categories.empty:
-            print("⚠️ No valid categories found. Example data:")
-            print(df["llm_output"].head(3).to_string(index=False))
+            print("⚠️ No valid categories found.")
             continue
 
         counts = Counter(categories)
@@ -87,34 +103,87 @@ def main(files):
         print("❌ No valid data found across files.")
         return
 
-    # Prepare data for plotting
+    # Prepare data and compute percentages
     categories_sorted = sorted(all_categories)
     langs = sorted(all_counts.keys())
 
-    data = []
+    data_counts = []
+    data_percents = []
     for lang in langs:
-        data.append([all_counts[lang].get(cat, 0) for cat in categories_sorted])
+        total = sum(all_counts[lang].values())
+        counts = [all_counts[lang].get(cat, 0) for cat in categories_sorted]
+        percents = [c / total * 100 if total > 0 else 0 for c in counts]
+        data_counts.append(counts)
+        data_percents.append(percents)
 
-    # Plot grouped bar chart
-    fig, ax = plt.subplots(figsize=(12, 6))
+    # Save summary CSV
+    summary = []
+    for i, lang in enumerate(langs):
+        for cat, count, pct in zip(categories_sorted, data_counts[i], data_percents[i]):
+            summary.append({"Language": lang, "Category": cat, "Count": count, "Percent": pct})
+    summary_df = pd.DataFrame(summary)
+    csv_output = os.path.splitext(output_file)[0] + "_summary.csv"
+    summary_df.to_csv(csv_output, index=False)
+    print(f"\n💾 Summary saved to {csv_output}")
+
+    # ---- Plot ----
+    plt.rcParams.update({
+        "font.size": 12,
+        "axes.titlesize": 20,
+        "axes.labelsize": 20,
+        "xtick.labelsize": 15,
+        "ytick.labelsize": 20,
+        "legend.fontsize": 15
+    })
+
+    fig, ax = plt.subplots(figsize=(16, 8))
     bar_width = 0.8 / len(langs)
     x = range(len(categories_sorted))
 
+    max_height = 0
     for i, lang in enumerate(langs):
         offset = [pos + i * bar_width for pos in x]
-        ax.bar(offset, data[i], width=bar_width, label=lang)
+        bars = ax.bar(offset, data_percents[i], width=bar_width, label=lang)
+        max_height = max(max_height, max(data_percents[i], default=0))
 
+        # Add percentage labels above each bar
+        for bar, pct in zip(bars, data_percents[i]):
+            if pct > 0:
+                ax.text(
+                    bar.get_x() + bar.get_width() / 2,
+                    bar.get_height() + (max_height * 0.01),
+                    f"{pct:.1f}%",
+                    ha="center",
+                    va="bottom",
+                    fontsize=10,
+                    rotation=90,
+                    fontweight="medium"
+                )
+
+    ax.set_ylim(0, max_height * 1.15)
     ax.set_xticks([pos + bar_width * (len(langs) - 1) / 2 for pos in x])
     ax.set_xticklabels(categories_sorted, rotation=45, ha="right")
-    ax.set_ylabel("Count")
-    ax.set_title("Distribution of LLM-classified Categories by Programming Language")
-    ax.legend(title="Language")
-    plt.tight_layout()
-    plt.show()
+    ax.set_ylabel("Percentage (%)")
+    ax.set_title("Distribution of LLM-classified Categories by Programming Language", pad=20)
+    # Place legend on the right side, outside the chart
+    ax.legend(
+        title="Language",
+        loc="center left",
+        bbox_to_anchor=(1.02, 0.5),  # (x, y) — slightly outside the right border
+        borderaxespad=0,
+        frameon=False
+    )
+
+    plt.tight_layout(rect=[0, 0, 0.85, 1])  # leave room on the right for the legend
+
+    plt.savefig(output_file, dpi=300, bbox_inches="tight")
+    print(f"📊 Figure saved to {output_file}")
+    plt.close()
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Compare LLM category distributions across programming languages.")
     parser.add_argument("--inputs", nargs="+", required=True, help="Paths to CSV files (one per language).")
+    parser.add_argument("--output", default="category_distribution.png", help="Output plot filename (default: category_distribution.png)")
     args = parser.parse_args()
-    main(args.inputs)
+    main(args.inputs, args.output)

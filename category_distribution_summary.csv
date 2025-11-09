@@ -1,0 +1,71 @@
+Language,Category,Count,Percent
+C#,Automation/DevOps,14,4.794520547945205
+C#,Communication/Bots,15,5.136986301369863
+C#,Data Apps/Visualization,0,0.0
+C#,Data Management,1,0.3424657534246575
+C#,Education,11,3.767123287671233
+C#,Game Development,47,16.095890410958905
+C#,Infrastructure/Cloud,3,1.0273972602739725
+C#,Machine Learning/AI,2,0.684931506849315
+C#,Mobile Development,6,2.054794520547945
+C#,Plugin/Extensibility Frameworks,45,15.41095890410959
+C#,Regular Project,39,13.356164383561644
+C#,Research,0,0.0
+C#,Robotics/Iot,1,0.3424657534246575
+C#,Web Development,108,36.986301369863014
+Java,Automation/DevOps,44,11.891891891891893
+Java,Communication/Bots,2,0.5405405405405406
+Java,Data Apps/Visualization,0,0.0
+Java,Data Management,1,0.2702702702702703
+Java,Education,30,8.108108108108109
+Java,Game Development,47,12.702702702702704
+Java,Infrastructure/Cloud,17,4.594594594594595
+Java,Machine Learning/AI,7,1.891891891891892
+Java,Mobile Development,13,3.5135135135135136
+Java,Plugin/Extensibility Frameworks,87,23.513513513513516
+Java,Regular Project,28,7.567567567567568
+Java,Research,2,0.5405405405405406
+Java,Robotics/Iot,11,2.9729729729729732
+Java,Web Development,81,21.891891891891895
+JavaScript,Automation/DevOps,88,5.541561712846348
+JavaScript,Communication/Bots,59,3.71536523929471
+JavaScript,Data Apps/Visualization,9,0.5667506297229219
+JavaScript,Data Management,5,0.3148614609571789
+JavaScript,Education,113,7.1158690176322414
+JavaScript,Game Development,46,2.8967254408060454
+JavaScript,Infrastructure/Cloud,35,2.204030226700252
+JavaScript,Machine Learning/AI,9,0.5667506297229219
+JavaScript,Mobile Development,27,1.700251889168766
+JavaScript,Plugin/Extensibility Frameworks,140,8.816120906801007
+JavaScript,Regular Project,136,8.564231738035264
+JavaScript,Research,6,0.3778337531486146
+JavaScript,Robotics/Iot,0,0.0
+JavaScript,Web Development,915,57.61964735516373
+Python,Automation/DevOps,135,10.273972602739725
+Python,Communication/Bots,110,8.37138508371385
+Python,Data Apps/Visualization,25,1.9025875190258752
+Python,Data Management,42,3.1963470319634704
+Python,Education,120,9.1324200913242
+Python,Game Development,18,1.36986301369863
+Python,Infrastructure/Cloud,24,1.82648401826484
+Python,Machine Learning/AI,186,14.15525114155251
+Python,Mobile Development,5,0.380517503805175
+Python,Plugin/Extensibility Frameworks,91,6.925418569254186
+Python,Regular Project,165,12.557077625570775
+Python,Research,54,4.10958904109589
+Python,Robotics/Iot,21,1.5981735159817352
+Python,Web Development,318,24.200913242009133
+TypeScript,Automation/DevOps,112,3.392911239018479
+TypeScript,Communication/Bots,79,2.3932141775219633
+TypeScript,Data Apps/Visualization,8,0.24235080278703422
+TypeScript,Data Management,10,0.3029385034837928
+TypeScript,Education,43,1.302635564980309
+TypeScript,Game Development,86,2.605271129960618
+TypeScript,Infrastructure/Cloud,76,2.3023326264768254
+TypeScript,Machine Learning/AI,43,1.302635564980309
+TypeScript,Mobile Development,128,3.8776128445925475
+TypeScript,Plugin/Extensibility Frameworks,217,6.573765525598303
+TypeScript,Regular Project,238,7.209936382914268
+TypeScript,Research,3,0.09088155104513784
+TypeScript,Robotics/Iot,0,0.0
+TypeScript,Web Development,2258,68.40351408664041
