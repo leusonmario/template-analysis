@@ -1,0 +1,22 @@
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:           vuln_blocker   No. Observations:                 6180
+Model:                            GLM   Df Residuals:                     6173
+Model Family:        NegativeBinomial   Df Model:                            6
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -2532.6
+Date:                Wed, 14 Jan 2026   Deviance:                       3737.5
+Time:                        17:00:35   Pearson chi2:                 2.50e+04
+No. Iterations:                    28   Pseudo R-squ. (CS):            0.03692
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept           -2.2944      0.188    -12.192      0.000      -2.663      -1.926
+staleness_days      -0.0004      0.000     -1.117      0.264      -0.001       0.000
+commits_last_12m     0.0010      0.000      2.346      0.019       0.000       0.002
+repo_age_days        0.0005      0.000      5.080      0.000       0.000       0.001
+log_stars           -0.2627      0.092     -2.867      0.004      -0.442      -0.083
+log_forks            0.3183      0.093      3.431      0.001       0.137       0.500
+owner_is_org         0.0363      0.165      0.220      0.826      -0.287       0.360
+====================================================================================

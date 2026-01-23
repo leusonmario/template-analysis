@@ -1,0 +1,22 @@
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:      security_hotspots   No. Observations:                  262
+Model:                            GLM   Df Residuals:                      255
+Model Family:        NegativeBinomial   Df Model:                            6
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -660.83
+Date:                Wed, 14 Jan 2026   Deviance:                       669.58
+Time:                        17:00:33   Pearson chi2:                 2.58e+03
+No. Iterations:                    18   Pseudo R-squ. (CS):             0.1825
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept            1.4984      0.733      2.044      0.041       0.062       2.935
+staleness_days       0.0002      0.001      0.308      0.758      -0.001       0.002
+commits_last_12m     0.0012      0.002      0.679      0.497      -0.002       0.004
+repo_age_days       -0.0005      0.000     -2.155      0.031      -0.001   -4.59e-05
+log_stars            0.1646      0.194      0.850      0.396      -0.215       0.544
+log_forks            0.1442      0.147      0.978      0.328      -0.145       0.433
+owner_is_org        -0.3566      0.420     -0.850      0.395      -1.179       0.466
+====================================================================================
