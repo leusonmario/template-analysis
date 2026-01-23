@@ -1,0 +1,11 @@
+
+👥 OWNER TYPE ANALYSIS
+  bugs_per_kloc: U=3952207.0, p=0.5737
+  code_smells_per_kloc: U=4026637.5, p=0.5186
+  vulnerabilities_per_kloc: U=3999532.0, p=0.5030
+  security_hotspots_per_kloc: U=3931440.5, p=0.3657
+  vuln_blocker_per_kloc: U=4036777.5, p=0.0501
+  vuln_critical_per_kloc: U=4174734.5, p=0.0005
+  vuln_major_per_kloc: U=3890798.0, p=0.1393
+  vuln_minor_per_kloc: U=4030925.5, p=0.4759
+  vuln_info_per_kloc: U=4273964.5, p=0.0000
