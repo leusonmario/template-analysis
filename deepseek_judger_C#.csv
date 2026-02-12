@@ -2039,3 +2039,1229 @@ https://github.com/igor-ruivo/generic-auto-updater,"Generic Auto-Updater: a robu
   ""confidence"": ""4""
 }
 ```"
+https://github.com/AtmoOmen/OmenSamplePlugin,A dalamud sample plugin template modified from goatcorp's.,nan,"```json
+{
+    ""category"": ""Plugin/Extensibility Frameworks"",
+    ""reasoning"": ""The project is explicitly described as a 'dalamud sample plugin template' modified from goatcorp's original. Dalamud is a plugin framework for Final Fantasy XIV, and this template provides a scaffold for creating plugins that extend the game's functionality. The template defines the basic structure, registration mechanisms, and integration points required to develop plugins within the Dalamud ecosystem, aligning perfectly with the category's focus on extending existing platforms through modular plugins."",
+    ""confidence"": ""5""
+}
+```"
+https://github.com/arnobt78/Gesture-Recognition-Control-Powerpoint-Presentation--Microsoft-Kinect-Sensor-CSharp,"Gesture Recognition is a project to control Microsoft Powerpoint while presenting on a large screen, using the Microsoft Kinect Sensor, C# and Kinect SDK. Using their right or left hand, the presenter can slide to the next or previous page. They can also zoom in/out by fisting their hand, play/pause the presentation by displaying all/none fingers.",csharp; gesture-detection; gesture-recognition; kinect; kinect-sdk; kinect-sensor; powerpoint-automation,"```json
+{
+  ""category"": ""Automation/DevOps"",
+  ""reasoning"": ""The project automates PowerPoint presentation control through gesture recognition using Kinect sensor and SDK, creating a hands-free workflow automation system for presentation delivery rather than focusing on robotics hardware control or pure computer vision research."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Meowv/Blog,"🤣本项目有不同开发版本，最新版底层基于 abp vNext 搭建和免费开源跨平台框架 .NET5 进行开发，使用 MongoDB 存储数据，Redis 缓存数据。项目采用前后端分离的模式进行开发，API 遵循 RESTful 接口规范，页面使用 Blazor 进行开发，可作为 .NET Core 入门项目进行学习。If you liked `Blog` project or if it helped you, please give a star ⭐️ for this repository. 👍👍👍","dotnet, abpvnext, blazor-server, api, blogs, redis, mongodb","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a full-stack personal blog application built with .NET5, ABP vNext framework, and Blazor for the frontend, featuring a RESTful API, MongoDB for data storage, and Redis for caching. It follows a clear separation between frontend (Blazor WebAssembly/Server) and backend (API), includes administrative interfaces, and provides a complete web application structure for deployment. The template serves as a learning resource for .NET Core web development, covering authentication, API design, database integration, and UI development—all hallmarks of a web development template."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/beetlex-io/BeetleX,"high performance dotnet core socket tcp communication components,  support TLS, HTTP, HTTPS, WebSocket, RPC, Redis protocols, custom protocols  and 1M connections problem solution","tcp, socket, socket-server, socketasynceventargs, ssl, non-blocking, websocket, rpc-framework, rpc-server, http-server, https, tls, webserver, websocket-server, mqtt, mqtt-client, mqtt-server, rpc, websockets, tcp-server","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""BeetleX is a high-performance .NET Core socket communication library that provides TCP, SSL, HTTP, WebSocket, MQTT, RPC, and Redis protocol implementations. While it supports various protocols and high-concurrency scenarios, its core purpose is to offer a reusable, general-purpose networking library for building custom communication systems rather than focusing on a specific domain like web development, automation, or machine learning. The template provides scaffolding for socket-based applications, making it a generic software project template following language-specific best practices."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/duyanming/Viper,Viper 是一个基于Anno微服务引擎开发的Dashboard示例项目。Anno 底层通讯采用 grpc、thrift。自带服务发现、调用链追踪、Cron 调度、限流、事件总线等等,"anno, cqrs, thrift, viper, ddd, dashboard, grpc, microservice, apigateway","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""Viper is a dashboard and example project built on the Anno microservices framework, featuring service discovery, tracing, scheduling, rate limiting, and event bus capabilities. It provides a web-based interface for monitoring and managing microservices, including API gateway configuration, cluster routing, and performance metrics. The project's focus on creating a dashboard for microservices management, along with its use of web technologies for visualization and control, aligns with the Web Development category, which includes templates for web-based systems, APIs, and SaaS applications."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/ServUO/ServUO,An Ultima Online server emulator written in C# .NET,"servuo, c-sharp, uo, ultima, online, emulator, rpg, mmo, mmorpg, mmorpg-server, server, runuo, gpl, gplv2","```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""ServUO is a server emulator for Ultima Online, a classic MMORPG. The project focuses on recreating game server functionality including RPG mechanics, multiplayer networking, and game world simulation - all core aspects of game development rather than general web services, automation, or other domains. The README describes setup for running a game server with configuration for game mechanics and world management."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/zzzprojects/Dapper-Plus,"Dapper Plus - High-Efficient Bulk Actions (Insert, Update, Delete, and Merge) for .NET","dapper, csharp, dotnet, orm, ormlite, sqlbulkcopy, micro-orm, sql, bulk-inserts","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""Dapper Plus is a .NET library that extends IDbConnection/IDbTransaction interfaces with bulk database operations (Insert, Update, Delete, Merge). It's a specialized ORM enhancement tool focused on database performance optimization rather than domain-specific applications like ML, web development, or automation. The template provides a reusable scaffold for organizing database interaction code following .NET best practices, making it a general-purpose software library template."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/thbst16/dotnet-blazor-crud,Modular application for database CRUD with Blazor. Uses an in-memory database and features dummy data generation and data pagination.,"azure-devops, pagination, azure, azure-container-apps, blazor-server, demo-app, docker, dotnetcore, mudblazor","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a full-stack web application template built with Blazor (a web framework) featuring a client-side WASM frontend and .NET Core REST API backend. It demonstrates core web development patterns including CRUD operations, authentication (JWT), pagination, form validation, and API documentation (Swagger). While it includes DevOps elements (CI/CD, Docker), its primary purpose is to provide a scaffold for building web applications with Blazor, making it fundamentally a web development template."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/iolevel/peachpie-wordpress,WordPress running on .NET Core.,"php, dotnet, csharp, wordpress, implementation, php-compiler, dotnetcore, sample, peachpie, peachpie-compiler","{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a template for integrating WordPress, a PHP-based CMS, into an ASP.NET Core web server, enabling the development of web applications that combine PHP and .NET technologies. It focuses on configuring web server pipelines, managing plugins, and deploying web content, which aligns with the Web Development category's emphasis on creating web-based systems, APIs, and full-stack applications with frameworks like ASP.NET Core."",
+  ""confidence"": ""4""
+}"
+https://github.com/microsoft/vscode-remote-try-dotnet,.NET sample project for trying out Dev Containers,nan,"{
+  ""category"": ""Automation/DevOps"",
+  ""reasoning"": ""The project is a sample template for using development containers (Dev Containers) with .NET, focusing on setting up reproducible development environments via Docker and integrating with tools like VS Code and GitHub Codespaces. It emphasizes automating environment setup, container configuration, and development workflows, which aligns with the Automation/DevOps category's focus on streamlining development operations, CI/CD, and infrastructure-as-code setups."",
+  ""confidence"": ""5""
+}"
+https://github.com/skills/secure-repository-supply-chain,"Secure your supply chain, understand dependencies in your environment, know about vulnerabilities in those dependencies and patch them","skills-course, security, skills-exercise","```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository is a GitHub Skills course template focused on teaching developers how to secure software supply chains using GitHub's dependency management features. It follows a structured learning format with clear learning objectives, target audience, prerequisites, and step-by-step instructions, making it an educational resource rather than a production tool or framework."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/aghayeffemin/aspnetcore.ntier,.NET Core N-Tier architecture Web Api sample project.,"asp-net-core, asp-net-core-web-api, n-tier-architecture, automapper, generic-repository, dependency-injection, xunit, moq, dotnet-core, aspnetcore, entity-framework-core, sqlite, webapi, net6, fluentvalidation, csharp, integration-testing, serilog, refresh-token, net9","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a .NET Core Web API sample implementing N-Tier architecture with authentication, versioning, logging, and database integration. It provides a structured template for building web-based APIs/SaaS applications with clear separation of concerns (Presentation, Business Logic, Data Access layers), which aligns with the Web Development category's focus on backend/full-stack application scaffolds for web services."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/NilavPatel/dotnet-onion-architecture,.Net onion/clean architecture sample,"architecture, csharp, asp-net-core, onion-architecture, architectural-patterns, webapi, clean, clean-architecture, moq, xunit-tests, entity-framework-core","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The template provides a structured implementation of Onion/Clean Architecture specifically for ASP.NET Core Web API applications, focusing on separation of concerns, layered architecture, and web service development patterns. While it discusses architectural patterns and testing, its primary purpose is to scaffold web-based systems with clear separation between domain logic, application services, infrastructure, and presentation layers - all centered around building RESTful web APIs."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Adnatull/.NET-Clean-Architecture,"Clean Architecture in ASP.Net 9.0. This contains  Onion/Hexagonal architecture, DDD, CQRS using mediaTr, Unit Testing, Functional Testing, ASP.NET Core Identity, Entity Framework Core - Code First, Linq2db, Repository Pattern - Generic, Swagger UI, Response Wrappers,  API Versioning, Automapper, Serilog, Exception handling, and so on.","clean-architecture, csharp, ddd-architecture, onion-architecture, clean-code, layered-architecture, unit-testing, cqrs, mediatr-library, api-versioning, automapper, ef-core, nunit-framework, moq-framework, hexagonal-architecture, serilog, c-sharp, asp-net, asp-net-core, functional-testing","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""This template provides a comprehensive scaffold for building web APIs using ASP.NET Core 9.0 with modern architectural patterns (Clean/Onion/Hexagonal architecture, DDD, CQRS). It includes essential web development components like ASP.NET Core Identity for authentication, Entity Framework Core for database access, Swagger UI for API documentation, API versioning, and Docker deployment configurations. While it incorporates advanced patterns like CQRS and DDD, its primary purpose is to structure web service/API development rather than focusing on automation, data management, or other specialized domains."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/jcansdale/gpr,A .NET Core tool for working with the GitHub Package Registry,nan,"```json
+{
+  ""category"": ""Automation/DevOps"",
+  ""reasoning"": ""The project is a .NET Core CLI tool specifically designed for interacting with GitHub Package Registry, providing commands for package management operations like push, delete, list, and details. This fits the Automation/DevOps category as it streamlines development operations related to package management and registry interactions, similar to how Docker or Terraform templates automate infrastructure workflows."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/ltmx/Unity.mathx,"An Extension Library for Unity.Mathematics - Extension Methods, New Syntax, Optimized Functions, and more !","unity-mathematics, math-library, mathematics, extension-methods, unity, unity-3d, unity-plugin, math, unity3d, math-helper, math-functions, mathematical-programming, unity-math-helpers, unity-mathematics-extensions, unity-mathematics-helpers, game-development","```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is an extension library specifically for Unity.Mathematics, providing optimized math functions, extension methods, and quality-of-life improvements for Unity game development. It includes features like fast math operations, vector manipulations, and game-relevant utilities (e.g., signed distance functions, noise generation, mesh processing). The repository's topics, description, and roadmap all emphasize integration with Unity's ecosystem and game development workflows, rather than general-purpose math libraries or other domains."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/AditiKraft/Krafter,"A modern .NET 9 full-stack platform built with Vertical Slice Architecture (VSA), multi-tenancy, and Blazor WebAssembly — designed for efficient AI-assisted feature development.","blazor, dotnet, multitenant, permissions, vertical-slice-architecture","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""Krafter is a full-stack .NET 9 platform built with Blazor WebAssembly and Vertical Slice Architecture, designed specifically for building scalable, multi-tenant SaaS applications. It provides a complete scaffold for web-based systems including backend APIs, frontend UI components, authentication, database configuration, and deployment workflows - all characteristics of a web development template. While it mentions AI-assisted feature development, this appears to be a development methodology rather than the core domain, and the template's primary focus is on web application structure rather than AI/ML model development."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/nak0823/AccountChecker,The infamous 'hack' tool to validate stolen email/pass combinations.,"account-checker, bruteforce, cracker, template","```json
+{
+    ""category"": ""Regular Project"",
+    ""reasoning"": ""The project is a CLI tool for validating email/password combinations across websites, featuring threading, proxy support, and hits saving. While it has security implications and educational aspects, its core structure is a general-purpose command-line application with HTTP requests, file I/O, and console UI - making it a reusable scaffold for organizing source code and workflows rather than fitting specialized domains like Automation/DevOps, Communication/Bots, or Research."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/mohamedelareeg/CleanArchitecture,"Explore Clean Architecture principles in .NET Core 8 - An organized, scalable, and maintainable codebase following best practices","automapper, clean-architecture, cqrs, dotnet-core, fluentvalidation, mediator, serilog, webapi-core, archtecture, clean-code, csharp","{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The repository is a template for implementing Clean Architecture principles in .NET Core 8, focusing on organizing code into distinct layers (Domain, Application, Infrastructure, etc.) and incorporating patterns like CQRS, Mediator, and tools such as Entity Framework Core and Serilog. It serves as a general-purpose scaffold for building scalable and maintainable software, particularly web APIs and MVC applications, without being tied to a specific domain like ML, web development exclusively, or automation. Its main goal is to provide a reusable project structure following best practices in software architecture, which aligns with the 'Regular Project' category for generic software setups."",
+  ""confidence"": ""5""
+}"
+https://github.com/lixinyang123/AvaloniaAOT,"Avalonia Native AOT Templete. Smaller size, lower memory usage and faster startup speed. ","avaloniaui, nativeaot, upx","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This is a template repository for creating Avalonia UI applications with NativeAOT compilation, focusing on optimizing executable size, memory usage, and startup performance. It provides a standardized project structure with build configurations, publishing scripts, and platform-specific setup instructions for creating efficient desktop applications. While it uses UI frameworks, its primary purpose is as a general-purpose project scaffold for organizing source code, build processes, and deployment workflows following .NET best practices rather than being specifically focused on web development, game development, or other specialized domains."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/isadorasophia/hellomurder,Hello world project for Murder Engine.,nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The repository is a 'hello world' template project for Murder Engine, a game engine. It provides a baseline structure for starting new games with the engine, including build instructions, editor setup, and gameplay execution. The template focuses on core game development workflows like building, running in an editor, and playing the game, which aligns with the Game Development category's emphasis on accelerating prototyping and defining game logic structures."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/TASVideos/tasvideos,The code for the live TASVideos website,"bootstrap, csharp, hacktoberfest","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The repository contains the source code for the live TASVideos website (tasvideos.org), which is a web-based platform. It uses C# and Bootstrap (frontend framework), follows web development standards, and includes typical web application concerns like coding standards, local development setup, and CI/CD workflows. While it hosts content related to tool-assisted speedruns (which could relate to gaming), the repository itself is fundamentally a web application codebase rather than a game development framework or automation template."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/RealDotNetDave/dotNetTips.Spargine,Open-source .NET assemblies from dotNetTips.com and David McCarter,nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This repository contains a collection of .NET assemblies providing utility libraries, extension methods, testing helpers, and benchmarking tools. It serves as a general-purpose codebase for .NET development rather than targeting a specific domain like web development, machine learning, or automation. The project structure focuses on reusable components, testing utilities, and performance benchmarking - all characteristic of a general software library project."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/homemech/unity-pattern-combo,"An action/fighting game combo system utilizing the command pattern. For Unity/C#, created as a supplement for Unity e-book ""Level up your code with game programming patterns""","action, combo, fighting-game, game-development, unity3d","```json
+{
+    ""category"": ""Game Development"",
+    ""reasoning"": ""The project is a Unity-based action/fighting game combo system implementing the command pattern, specifically designed for game development with controller input handling and arcade-style mechanics. It serves as a supplement to a game programming patterns e-book and provides a demo structure for game logic and event handling."",
+    ""confidence"": ""5""
+}
+```"
+https://github.com/YALCINCAN/NET6_Clean-OnionArchitectureAPI,"NET6,CQRS,Caching,Logging,Repository Pattern,UnitOfWork,JWT,Refresh Token,Email Confirmation,Forgot Password","docker, cqrs-pattern, fluentvalidation, inmemory-cache, jwt, net6, redis-cache, refresh-token, repository-pattern, serilog, unitofwork-pattern, mediatr","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The template provides a comprehensive scaffold for building web APIs using .NET 6 with modern architectural patterns (Clean/Onion Architecture, CQRS, Repository/UnitOfWork). It includes essential web development features like JWT authentication, role-based authorization, user management (registration, password reset, email confirmation), API response wrappers, validation, logging, and Docker deployment. While it incorporates DevOps elements (Docker, CI/CD readiness) and patterns used in various domains, its primary focus is on structuring backend web services with authentication, authorization, and API best practices."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/ChelyLuu/FilterDataGrid,WPF DataGrid列头筛选、搜索、统计功能,nan,"```json
+{
+  ""category"": ""Data Apps/Visualization"",
+  ""reasoning"": ""The project is a WPF DataGrid control with advanced filtering, searching, statistical, and visualization features. It focuses on enhancing data presentation, exploration, and interactive analysis through a rich UI component rather than backend infrastructure, data management pipelines, or general-purpose software development."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/ArcPh1r3/HenryTutorial,Example Survivor v2,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository is named 'Henry Tutorial' and directs users to a Wiki tab for getting started, indicating it's structured as a learning resource or instructional guide rather than a functional application or development framework. The description 'Example Survivor v2' suggests it may be an example project or demonstration, which aligns with educational templates that provide standardized structures for tutorials, course materials, or demonstration implementations."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/ThermiteFe8/Custom-Gravity-Physics-Unity,"An Open Source Unity project that supports custom gravity fields that can point in ANY direction and manipulate the player in many ways! Includes spheres, parallel fields, and splline fields, along with QOL stuff such as drop shadows that point in the direction of gravity, transparencies, and camera triggers",nan,"```json
+{
+    ""category"": ""Game Development"",
+    ""reasoning"": ""This is a Unity-based project specifically designed for implementing custom gravity physics systems in video games, with features like directional gravity fields, camera triggers, and visual polish elements (drop shadows, transparency effects). The template provides core game logic components for gravity manipulation, player movement, and camera control - all fundamental elements of game development rather than general-purpose software or other specialized domains."",
+    ""confidence"": ""5""
+}
+```"
+https://github.com/SkyAlumny/fortnite-launcher-for-og-servers,"A Fortnite Launcher that is made to Launch any Fortnite Version and connect to lobby backend server with Account Login, Build Download, Injector, UI, Discord System and much more ","backend, bypass, fortnite, injector, launcher, og, server, ui, lawin","```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is a specialized launcher for launching specific versions of Fortnite and connecting to custom backend servers, with features like build downloading, injection, UI, and Discord integration. While it includes some automation elements, its primary purpose is to facilitate game client management and server connectivity for a specific game (Fortnite), making it a game development tool rather than a general-purpose automation or DevOps template."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/rijwanansari/CleanArchitectureDOTNET8BlazorWeb,Clean Architecture - Blazor Web App with .NET 8 ,"blazor, blazor-application, clean-architecture, dotnet, dotnet-core, dotnetcore8, entity-framework-core, identity, repository-pattern","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""This is a Blazor Web App template implementing Clean Architecture with .NET 8, Entity Framework Core, and repository pattern. It provides a complete scaffold for building web applications with authentication, CRUD operations, and database integration. The template focuses on web application structure, routing, authentication, and database configuration - all core concerns of web development frameworks."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/FinalTwist/Ultima-Adventures,"A fork of Ultima Odyssey, A unique twist on Ultima Online - full server scripts, client link within",nan,"```json
+{
+    ""category"": ""Game Development"",
+    ""reasoning"": ""The project is a fork of Ultima Odyssey, providing full server scripts and client setup for Ultima Online, a classic MMORPG. It includes game-specific systems like soulbound mechanics, AI for enemies and spells, and champion spawns, all aimed at enabling users to run and modify their own game server instances. This directly aligns with the Game Development category, which focuses on templates for creating games, simulations, or interactive media, including core game logic, asset management, and frameworks for prototyping."",
+    ""confidence"": ""5""
+}
+```"
+https://github.com/martial-god/Benny-Scraper,"Webnovel and Manga Scraper that stores Webnovels as Epubs, and mangas as either PDFs of Comicbook Archives","database, entity-framework-core, novels, scraping-websites, selenium-csharp, manga-scraper, web-novels, manga, manga-downloader, sqlite","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This is a specialized CLI application for scraping and archiving webnovels and manga into EPUB and PDF/CBZ formats. While it involves web scraping and data processing, its primary purpose is as a standalone tool for content collection and offline storage rather than fitting into domains like Data Management (which focuses on datasets/pipelines), Web Development (web services/APIs), or Automation/DevOps (CI/CD/infrastructure). The project structure emphasizes command-line usage, local file generation, and user configuration rather than broader infrastructure or domain-specific frameworks."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Azure-Samples/cosmos-db-nosql-dotnet-samples,Sample .NET applications for Azure Cosmos DB for NoSQL,"azure, cosmos-db, dotnet, nosql","```json
+{
+  ""category"": ""Data Management"",
+  ""reasoning"": ""This repository provides sample .NET applications specifically for Azure Cosmos DB for NoSQL, focusing on data storage, database operations, and data pipeline integration patterns. While it involves Azure infrastructure, the core purpose is demonstrating data management workflows with a NoSQL database rather than cloud infrastructure provisioning or general web development. The samples show how to structure data access layers, configure database connections, and implement CRUD operations, which aligns with the Data Management category's focus on data storage, pipeline workflows, and database interaction patterns."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/noamyogev84/ConcurrentPriorityQueue,A thread-safe generic first in-first out (FIFO) collection with support for priority queuing.,"threadsafe, threading, concurrent-queues, producerconsumer, priorityqueue, thread-safety, collections, hacktoberfest","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This repository provides a thread-safe, generic priority queue implementation in C# that implements standard .NET collection interfaces (IProducerConsumerCollection<T>). It's a reusable library component focused on concurrent data structures rather than domain-specific applications like DevOps, ML, or web development. The template serves as a scaffold for building thread-safe collections following .NET best practices."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/SkyAlumny/TTY-SPOOFER,"A C# Perm Spoofer for Fortnite, Valorant and other EAC / BE Games. Has its own Framework, some protection and Fortnite Tourney / Tournament SID Changer","cheat, fortnite, perm, spoofer, tourney, valorant, woofer","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This repository provides a C# framework and source code for hardware ID spoofing and tournament SID changing in anti-cheat protected games like Fortnite and Valorant. While it targets gaming environments, its core purpose is to offer a reusable software scaffold with specific functionality (spoofing/protection mechanisms) rather than focusing on game development, automation, or any other specialized domain. The template structure serves as a general-purpose project setup for implementing these features."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/tuyen-vuduc/chick-and-paddy-dotnet-maui,A sample application to demonstrate how to build a .NET MAUI app,"maui, sample, dotnet, hacktoberfest","```json
+{
+  ""category"": ""Mobile Development"",
+  ""reasoning"": ""This is a template repository for building .NET MAUI (Multi-platform App UI) applications, which is a cross-platform framework for creating native mobile and desktop apps using C# and XAML. The README provides detailed guidance on structuring MAUI apps with features like page creation, popups, models, and MVVM architecture patterns specifically for mobile app development. The inclusion of UI design references, screenshots, and mobile-specific libraries confirms its focus on mobile application scaffolding."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/les-tontons-crafters/xtrem-tdd-money-kata,"Repository for the workshop on the ""Money Problem""","kata, tdd, functional-programming, mutation-testing, property-based-testing, refactoring, strangler-fig, test-data-builder, workshop","```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository is structured as a workshop for teaching Test-Driven Development (TDD) concepts through hands-on exercises (kata) using mob programming and various constraints. It follows the 4C educational model (Connection, Concepts, Concrete Practice, Conclusion), includes prerequisites for different programming languages, and provides supplementary materials like an escape game and video demonstrations. The primary goal is to facilitate learning, skill development, and knowledge transfer in software engineering practices rather than creating production software."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/microsoft/onnxruntime-csharp-cv-template,nan,nan,"```json
+{
+    ""category"": ""Regular Project"",
+    ""reasoning"": ""The README content focuses exclusively on contribution guidelines, licensing, and trademark policies without any domain-specific technical content. This suggests it's a generic template for organizing open-source projects with standardized legal and collaboration frameworks, rather than targeting a specific technical domain like web development, machine learning, or automation."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/jasonsturges/sqlite-dotnet-core,.NET 8.0 Console Application using SQLite with Entity Framework and Dependency Injection,"sqlite, database, entity-framework, dotnet-core, dependency-injection, console-application, dotnet","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This template provides a standardized structure for a .NET 8.0 console application that incorporates SQLite database operations with Entity Framework and dependency injection patterns. It demonstrates how to organize a multi-project solution with separation of concerns (Core, Infrastructure, Application layers) and implements common software engineering practices like dependency injection and database context management. The template serves as a reusable scaffold for organizing source code, tests, and following language/framework-specific best practices rather than focusing on any specialized domain like web development, machine learning, or automation."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/malkamius/CrimsonStainedLands,A MUD Server in C# Based on ROM,nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is a MUD (Multi-User Dungeon) server implementation in C#, which is a text-based multiplayer online game system. The repository provides a complete game server framework with area loading, player management, game mechanics, and client connectivity instructions - all core components of game development rather than general software infrastructure."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/ActivistInvestor/AcMgdLib,Extension Library for managed AutoCAD.NET development,nan,"```json
+{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""This repository provides a library specifically designed to extend AutoCAD's managed .NET API, offering higher-level abstractions and productivity tools for AutoCAD plugin development. It serves as a scaffold for creating AutoCAD extensions, with structured components for ribbon support, database utilities, and other AutoCAD-specific functionality, making it a template for extending the AutoCAD ecosystem rather than a general-purpose project or other domain-specific template."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/shivaduke28/Rector,nan,nan,"```json
+{
+    ""category"": ""Plugin/Extensibility Frameworks"",
+    ""reasoning"": ""Rector is a tool for automated code refactoring and upgrading, specifically designed to extend and modify PHP codebases through custom rules. It provides a framework for creating and applying transformation rules to modernize legacy code, making it a template for extending code analysis and modification capabilities rather than a general-purpose project or automation tool."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/klry/IviVisaNetSample,🚀 Simple IVI VISA.NET example with CI and .NET 5+,"ivi, visa, instruments, automation, visa-net, keysight, national-instruments, rohde-schwarz, kikusui, agilent, ci, rohde, kelary","```json
+{
+  ""category"": ""Automation/DevOps"",
+  ""reasoning"": ""This repository provides a template for instrument communication automation using VISA.NET with CI/CD integration, focusing on streamlining development operations for test and measurement systems. It addresses deployment challenges, vendor library dependencies, and modern .NET runtime compatibility - all characteristic of DevOps and automation workflows rather than pure instrumentation or hardware control."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/ElyasafCohen100/Investment-Advisor-Project,nan,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The project is explicitly described as being developed for a 'Windows Systems Engineering course' and serves as a comprehensive example implementation combining multiple technologies (Python GUI, ASP.NET Core backend, cloud/AI integrations). It demonstrates architectural patterns (MVC, CQRS, Event Sourcing) and integration with external services, making it primarily educational for learning full-stack development, system integration, and modern software engineering practices rather than being a production-ready tool or specialized domain application."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Azure-Samples/containerapps-albumapi-csharp,Container Apps Quickstart: C# Album API ,nan,"```json
+{
+  ""category"": ""Infrastructure/Cloud"",
+  ""reasoning"": ""This is a template repository for deploying a C# Album API to Azure Container Apps, specifically designed as a companion to Microsoft's 'code-to-cloud quickstart' documentation. The project focuses on cloud-native application deployment using containerized services on Azure infrastructure, providing a standardized setup for deploying backend APIs to a managed container platform rather than general web development or other domains."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/entelect-incubator/Project-Templates,"Polyglot scaffolding templates for greenfield projects, built with consistent architecture, code standards, and production-ready defaults.","clean-architecture, csharp, dotnet, layered-architecture, vertical-slice-architecture, polyglot, scaffolding, templates","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This repository provides polyglot scaffolding templates for greenfield projects with consistent architecture and production-ready defaults across multiple technology stacks (.NET, React). It serves as a general-purpose project structure template that organizes source code, tests, documentation, and CI/CD workflows following language-specific best practices, without being tied to any specific domain like web development, mobile, or machine learning."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/kwsch/PKHeXPluginExample,An example project that compiles a .dll compatible with PKHeX's plugin loader.,nan,"```json
+{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""This template provides a minimal scaffold for creating plugins that extend PKHeX's functionality through its plugin loader system. It focuses on defining the required structure (assembly, namespace, class naming conventions) and integration points specifically for extending an existing host application, which aligns with the core characteristics of plugin/extensibility frameworks."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/VirtueSky/TheBeginning,Getting started making games so easy (Android & iOS),"code-base, game-base, scriptable-object, unity, unity3d, game-core","```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The repository is a Unity-based template specifically designed for creating mobile games (Android & iOS) with a focus on hyper-casual and casual game genres. It provides a structured game architecture using Scriptable Objects, includes core game components like GameManager, LevelLoader, AudioManager, and PopupManager, and offers development tools like GameConfig Window and DebugView. The template's primary purpose is to accelerate game prototyping and development by providing a reusable foundation with pre-configured game flow, scene management, and debugging utilities."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/vaporvee/gd-net-thirdpersoncontroller,Thirdperson controller made in the .NET version of Godot 4.0 with C# ,"godot4, template, thirdperson","```json
+{
+    ""category"": ""Game Development"",
+    ""reasoning"": ""The project is a third-person controller template specifically built for Godot 4.0 using C#/.NET, which is a game engine. The template provides core game logic components (character movement, camera control, input handling) that accelerate prototyping and experimentation for 3D games. This aligns perfectly with the Game Development category definition, which includes 'setups for libraries, IDEs, or custom rendering/game-loop frameworks' and 'define core game logic, event handling, asset management, and physics configurations to accelerate prototyping and experimentation.'"",
+    ""confidence"": ""5""
+}
+```"
+https://github.com/SHAYANZAWAR/AutoDocX,"A personal project to solve the problem that me and my academic fellows are facing, creation of word file (code && output) after attempting coding assignment (.cpp specially), I'm trynna automate that process using a CLI based tool called AutoDocX , build upon C# .net and CLI using System.CommandLine Beta version.","automation, dotnet, open-source, tool, workflow","{
+  ""category"": ""Education"",
+  ""reasoning"": ""The project is a CLI tool that automates the creation of .docx files containing C/C++ code and program output, specifically designed to help students with programming assignment submissions. Its primary goal is to reduce manual overhead in academic contexts, aligning with the Education category's focus on standardized structures for assignments, reproducibility, and learning facilitation."",
+  ""confidence"": ""5""
+}"
+https://github.com/8bitflynn/VDRIVE,VDRIVE - wirelessly SEARCH/MOUNT and LOAD/SAVE on your Commodore 64,"commodore, retro","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""VDRIVE is a specialized tool for retro computing that enables wireless disk image access and file operations on Commodore 64 hardware. While it involves hardware integration (ESP8266/WiC64) and server components, its primary purpose is as a reusable software scaffold for organizing source code, client-server communication, and cross-platform compatibility - making it a general-purpose project structure rather than fitting into more specific domains like IoT, Game Development, or Automation/DevOps."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/LegacyTemplates/mvcidentity,.NET 6.0 MVC Website integrated with ServiceStack using MVC Identity Auth,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""This is a .NET 6.0 MVC website template integrated with ServiceStack and ASP.NET Identity authentication. It provides a complete scaffold for building web applications with authentication, database integration, and OAuth configuration. The template focuses on web-specific concerns like user authentication, database migrations for user tables, and OAuth setup for social logins, which are core components of web application development rather than specialized domains like ML, mobile, or automation."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/VirtueSky/TheBeginning_2,Help you make the game easier! (Android & iOS),"game-core, gamebase, singleton, singleton-pattern, unity, unity3d-games","```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""This is a Unity template specifically designed for mobile game development (Android & iOS), focusing on hyper-casual and casual games. It provides a structured game architecture with service scenes, game scenes, managers (GameManager, PopupManager, AudioManager, LevelLoader), and a defined game flow for level progression, win/lose conditions, and replay functionality. The template includes game-specific tools like GameConfig windows and DebugView utilities, all built around the Unity game engine ecosystem."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/CIS-566-Fall-2023/hw04-stylization,nan,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository is clearly structured as a university homework assignment (HW 4) for a course (CIS-566-Fall-2023) focused on 3D stylization in Unity. It provides step-by-step instructions, learning objectives, submission guidelines, and references to lab materials and tutorials. The content is designed to teach students specific techniques in non-photorealistic rendering, shader development, and interactive scene creation, rather than being a production-ready template for general use."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/MyzTyn/PokemonUnity_DemoStadiumUI,Demo for Pokemon Stadium UI part. ,"pokemon-stadium-ui, pokemon-stadium, unity, csharp, pokemonunity-demostadiumui, demo, pokemon","```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""This is a Unity-based demo project showcasing UI elements for a Pokemon Stadium game, built using the PokemonUnity Framework. The repository provides a working example of game UI implementation with database integration, sprite assets, and visual components specifically for game development purposes. It serves as a template/demonstration for creating game interfaces within the Unity engine for Pokemon-related games."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/Azure/blazor-aoai-rag-aisearch,"A comprehensive sample project demonstrating the integration of Blazor, .NET C#, and Azure OpenAI using the Retrieval-Augmented Generation (RAG) pattern with Azure AI Search. This repository showcases best practices for building intelligent, interactive web applications leveraging modern cloud technologies.",nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a comprehensive sample demonstrating integration of Blazor (a web framework), .NET C#, and Azure OpenAI using RAG pattern with Azure AI Search. It focuses on building intelligent, interactive web applications with modern cloud technologies, featuring a Blazor frontend application for user interaction. While it incorporates AI/ML components (Azure OpenAI, RAG pattern), the primary goal is to showcase web application development with these integrated technologies rather than being focused on ML model development or research reproducibility."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Dalamud-DailyRoutines/DailyRoutines.ModuleTemplate,nan,nan,"```json
+{
+    ""category"": ""Plugin/Extensibility Frameworks"",
+    ""reasoning"": ""The repository is a template for creating plugin modules for 'Daily Routines' (likely a Dalamud plugin framework for Final Fantasy XIV). It serves as a scaffold for extending an existing ecosystem with new functionality, providing the basic structure, registration mechanisms, and integration points for creating modular plugins within a host platform."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/nogic1008/dotnet-ci-example,Example of .NET Core + Github Actions,"csharp, dotnet-core, dotnet, github-actions","```json
+{
+  ""category"": ""Automation/DevOps"",
+  ""reasoning"": ""This repository is a template demonstrating CI/CD automation for .NET Core projects using GitHub Actions. It focuses on streamlining development operations through automated workflows for building, testing, linting, and code quality checks, which aligns with the Automation/DevOps category's emphasis on reproducible environments and automated pipelines."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/GridProtectionAlliance/projectalpha,Visual Studio solution that provides a jump start to developing new products from the Grid Solutions Framework - Time-Series Library.,nan,"```json
+{
+  ""category"": ""Infrastructure/Cloud"",
+  ""reasoning"": ""Project Alpha is a Visual Studio solution template designed to accelerate development of time-series data management applications using the Grid Solutions Framework. It provides a complete scaffold for building service-based applications that manage and host time-series adapters, including database configuration, manager applications, debug hosts, and installation packages. The template focuses on creating scalable data infrastructure for industrial/energy systems rather than being a general-purpose project structure or purely educational tool."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/yusufkalyoncu/OnionArchitecture,ASP.NET 8 Onion Architecture base project,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""This is a template repository implementing Onion Architecture for ASP.NET 8 applications, specifically designed as a base project for building scalable, maintainable web APIs and enterprise applications. The structure includes Presentation (API controllers), Infrastructure (database, services), and Core (business logic) layers, which are characteristic patterns for web application development rather than specialized domains like ML, DevOps, or Mobile."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/SeenKid/SeenKid,My version of readme.md profile. Don't hesitate to use it for your profile. Just make sure to change links,"seenkid, introduction, readme-card, readme-profile, readme-template","```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""This repository provides a customizable README template for GitHub profiles, designed to help users create structured, visually appealing profile introductions with coding statistics, activity visualizations, and personal information. It serves as an educational resource for demonstrating GitHub profile customization techniques and promoting best practices in personal branding and documentation within developer communities."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/FloatingOriginInteractive/Balsa.SDK,Addon SDK for Balsa Model Flight Sim | https://floatingorigininteractive.github.io/Balsa.SDK,"balsa, modding, unity-tools","```json
+{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""This repository is an SDK (Software Development Kit) specifically designed for creating addons/modifications for the Balsa Model Flight Sim game. It provides the necessary tools, documentation, and structure to extend the game's functionality through third-party plugins, which aligns with the category's focus on 'creating new modules and plugins' and 'extending a host platform’s functionality.'"",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/angelonic95/anikolab.FlowUI,"A C# + JavaScript library to optimize button visibility and loading in the Dynamics 365 Ribbon, improving performance through custom APIs. It also supports Subgrid optimization and potentially Forms","c-sharp, dynamics, dynamics-365, dynamics-crm, js, ribbon","```json
+{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""This project provides a library specifically designed to extend and optimize the Dynamics 365 platform's ribbon interface and subgrid components. It offers a structured framework (C# Custom API builders and JavaScript integration) for creating plugins that enhance the standard Dynamics 365 functionality with performance optimizations and centralized configuration management. The template focuses on extending an existing ecosystem (Dynamics 365) rather than being a general-purpose project or fitting into other specialized domains like Web Development or Automation."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/zyrafaq/BanGuard-plugin,BanGuard lets Terraria admins share bans and verify accounts via Discord.,tshock-plugin,"{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""BanGuard is a plugin for TShock, a server software for Terraria, designed to extend its functionality by adding ban sharing and account verification via Discord. It provides a structured template for creating plugins, including installation instructions, command definitions, and configuration setup, focusing on extending an existing ecosystem rather than standalone applications in domains like game development or communication bots."",
+  ""confidence"": ""4""
+}"
+https://github.com/Nintoryan/UnityCommandPattern-Undo,C# unity project shows the basics of command pattern,nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is a Unity-based implementation of the command pattern for undo/redo functionality in a character movement system. Unity is a game development engine, and the template demonstrates a core game programming pattern (command pattern) specifically for game object manipulation and user interaction - both fundamental aspects of game development."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/bernatagulloesbrina/TE-Scripting-in-Visual-Studio,nan,nan,"```json
+{
+    ""category"": ""Education"",
+    ""reasoning"": ""The repository provides a template for using Visual Studio as a coding environment for scripting, with accompanying blog post explaining the setup. This aligns with educational templates that demonstrate how to use specific technologies or patterns, promote reproducibility, and share learning material."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/hysel/Bricklink-BrickSet-Excel-Integration,"This project aims to allow you to use excel functions to retrieve LEGO items (sets, mini-figures, and other items) information to an excel spreadsheet. This code will directly enable you to get an item name, image, category, release year, and average price for a LEGO item from the BrickLink and BrickSet API.",nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This is a specialized Excel add-in project that integrates external APIs (BrickLink/BrickSet) to retrieve LEGO item data into spreadsheets. While it involves data retrieval and API integration, its core purpose is to create a reusable software tool (Excel functions) for a specific use case rather than focusing on data management pipelines, automation workflows, or any other specialized domain. The template provides a scaffold for building a functional Excel integration tool with database caching, making it a general-purpose software project template."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/SERAP-KEREM/SerapKeremGameKit,"Production‑ready Unity game boilerplate (URP): managers, pooled audio/particles, UI, haptics, input, editor tools.","audio, boilerplate, game-template, haptics, particles, pooling, ui, unity, unity-template, unity-urp, triinspector, unity-boilerplane","```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""This is a Unity game boilerplate specifically designed for rapid game prototyping and production. It provides core game systems (audio, particles, UI, input, haptics), game-specific architecture patterns (managers, pooling, economy systems), and is built around the Unity game engine with URP support. The template focuses on accelerating game development workflows rather than general software engineering or other specialized domains."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/ayzdru/MonolithicCleanArchitecture,ASP.NET Monolithic Clean Architecture with CQRS,"clean-architecture, cqrs, dotnet, template, ddd, monolithic, asp-net","```json
+{
+    ""category"": ""Regular Project"",
+    ""reasoning"": ""This is a template repository providing a standardized project structure for ASP.NET applications using Clean Architecture, CQRS, and DDD patterns. It serves as a general-purpose scaffold for organizing backend web applications with specific architectural patterns, focusing on code organization, separation of concerns, and development workflows rather than being tied to a specific domain like web development frameworks or specialized applications."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/bbvch/TDDAcademy,Repository for TDD Academy in C#,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository is explicitly named 'TDD Academy' and serves as a bootstrap project for fast kickoff with C# .NET Core, featuring libraries for unit tests and spec tests. This structure is designed to teach and demonstrate Test-Driven Development (TDD) principles through a standardized template, making it ideal for educational purposes such as courses, tutorials, or learning exercises rather than being a general-purpose project or focused on automation/DevOps."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/mhmoudalaskalany/AspNetCore_CleanArchitecture,nan,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""This is a Clean Architecture template specifically designed for .NET 9 Web API development, featuring web-specific components like JWT authentication, Swagger documentation, API versioning, and policy-based authorization. While it includes some DevOps elements (logging, monitoring roadmap), its primary purpose is to provide a structured scaffold for building web services and APIs following Clean Architecture principles."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/QUIDD60x/YourTale,Fully open source Terraria mod YourTale/Your Tale.,"terraria, tmodloader, mod, terraria-mod, tmodloader-mod","```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is a Terraria mod (YourTale) that adds custom content to an existing game, including weapons, mobs, bosses, world generation, and gameplay features. This directly aligns with the Game Development category, which includes templates for creating games, simulations, or interactive media, and specifically mentions setups for libraries, custom frameworks, and accelerating prototyping for game-related projects."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/YesOrNotCtrader/Ctrader-Stragegy-Tester-Project,Quantitative Analysis: The Key to Mastering Trading Strategies.,nan,"```json
+{
+    ""category"": ""Machine Learning/AI"",
+    ""reasoning"": ""The project focuses on developing a trading bot (CBot) for the cTrader platform that uses quantitative analysis and the NNFX (No Nonsense Forex) approach to evaluate and execute trading strategies. It emphasizes data-driven decision-making, backtesting, and performance metrics analysis - all core components of algorithmic trading systems that fall under the ML/AI domain, specifically in financial applications where quantitative models are applied to market data."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/NotNite/GDWeave.Sample,nan,nan,"```json
+{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""This repository is a template for creating mods/plugins for the GDWeave framework in C#, specifically targeting game modification. It provides a scaffold for extending an existing ecosystem (GDWeave) with custom functionality, including manifest configuration, project structure, and build setup. The template focuses on defining integration points and registration mechanisms rather than game development itself."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/NotNite/WebfishingSampleMod,nan,nan,"```json
+{
+    ""category"": ""Plugin/Extensibility Frameworks"",
+    ""reasoning"": ""The repository 'WebfishingSampleMod' appears to be a template for creating mods (modifications) for a game or application called 'Webfishing', as indicated by the name and the link to a mod setup guide. This fits the Plugin/Extensibility Frameworks category, which includes templates that provide basic structures to extend existing ecosystems through plugins, modules, or mods, defining integration points for extending a host platform's functionality."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/eisclimber/ExPresS-XR,"Based on the OpenXR Standard, ExPresS XR aims is to help automate early stages of development by providing configurable base implementations of components that are expected to be useful for scientific XR projects.  ","exhibit, exhibition, science, science-research, toolkit, unity, vr, xr","```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""ExPresS XR is a Unity toolkit designed to automate early development stages for scientific XR projects, with features like configurable XR rigs, data collection systems, quiz systems, and virtual exhibition tools. It includes extensive documentation, tutorials, and example scenes specifically aimed at helping inexperienced developers create educational and scientific VR experiences, aligning with the Education category's focus on standardized structures for academic projects, tutorials, and promoting reproducibility and learning."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Lounek09/DofusRetroSniffer,A simple sniffer for Dofus Retro written in C#,"pcap, sniffer, ankama, dofusretro, csharp","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The project is a network packet sniffer specifically designed for Dofus Retro game traffic, implemented in C# with libpcap/Npcap dependencies. It functions as a specialized CLI tool for network analysis rather than fitting into domain-specific categories like Game Development (which focuses on creating games) or Automation/DevOps (which focuses on deployment pipelines). The template provides a basic structure for a network monitoring utility with cross-platform setup instructions, making it a general-purpose software project scaffold."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/elton999/UmbrellaToolsKit3,It's a small framework to work with MonoGame for fast game development,"gameframework, ogmo-editor, gamengine, monogame, monogame-framework, aseprite, ldk","```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""UmbrellaToolsKit is explicitly described as 'a game framework made with MonoGame' and provides specialized tools for game development including sprite rendering, animation systems (Aseprite integration), tilemap editors (LDTK/OGMO), physics systems, behavior trees, particle systems, and component-based architecture. The framework focuses on accelerating game prototyping and development with game-specific abstractions rather than general-purpose software development."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/arnobt78/Gesture-Recognition-Control-Powerpoint-Presentation--Microsoft-Kinect-Sensor-CSharp-Project,"Gesture Recognition is a project to control Microsoft Powerpoint while presenting on a large screen, using the Microsoft Kinect Sensor, C# and Kinect SDK. Using their right or left hand, the presenter can slide to the next or previous page. They can also zoom in/out by fisting their hand, play/pause the presentation by displaying all/none fingers.","csharp, gesture-detection, gesture-recognition, kinect, kinect-sdk, kinect-sensor, powerpoint-automation","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This project is a C# application that uses Microsoft Kinect to control PowerPoint presentations through gesture and speech recognition. While it incorporates elements of human-computer interaction and hardware integration, its primary purpose is as a standalone software tool for presentation control rather than fitting into specialized domains like Robotics/IoT (which would focus on embedded systems or sensor networks) or Automation/DevOps (which would emphasize CI/CD or infrastructure automation). The template provides a complete application structure for building a functional gesture-controlled presentation tool, making it a general-purpose software project."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/SymoHTL/CloudCord,A ASP.NET Webapi to store files on Discord,nan,"{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is an ASP.NET Web API designed for file management (upload, download, delete) using Discord as a storage backend. It provides a structured web service with API endpoints, configuration for hosting, and a client library for integration, aligning with web development templates that scaffold backend services and APIs."",
+  ""confidence"": ""4""
+}"
+https://github.com/xebia/AzureFunctionsWorkshop,Workshop materials for Azure Functions,"azure, azure-functions, workshop","```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository is explicitly described as 'Workshop materials for Azure Functions' and contains structured lessons, prerequisites, and step-by-step instructions for learning Azure Functions and related Azure services. It includes presentation materials, hands-on assignments, and deployment guidance, all characteristic of educational content designed to teach specific technologies through guided practice rather than being a production-ready template for automation, infrastructure, or application development."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/2Retr0/GodotSponza,A simple Sponza demo in Godot,"godot, godot-engine, sponza","```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is a Sponza Palace scene implementation in Godot Engine, specifically designed as a demo environment for game development projects. It involves 3D mesh optimization, texture processing, and scene preparation using game development tools (Godot, Blender, glTF Transform), which are core activities in game development workflows for creating interactive 3D environments."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/Christian-Schou/Dotnet-CRUD-Api,This is a simple Demo CRUD API for use in my tutorials. It contains a simple implementation of a CRUD service for products.,"crud, dotnet, api, dotnet-core, mediator, cqrs, swagger","```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository is explicitly described as 'a simple Demo CRUD API for use in my tutorials' and serves as an educational resource for learning .NET Core development patterns. It demonstrates implementation of CRUD operations, CQRS with MediatR, Entity Framework Core, and Swagger documentation in a structured, well-documented format meant for teaching purposes rather than production use. The README emphasizes its role in tutorials and includes clear setup instructions for learners."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/joeloftusdev/dotnet_cmake_examples,CMake C#/.NET 5+ WPF and WinForms Examples,"cmake, csharp, dotnet, windows-forms, wpf","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This template provides a general-purpose project structure for building C#/.NET applications (WPF and WinForms) using CMake as the build system. It focuses on organizing build configurations and demonstrating cross-platform build workflows rather than targeting specialized domains like web development, machine learning, or automation. The template serves as a reusable scaffold for software development following language- and tool-specific best practices."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/khoa070104/HMS_Assignment2,nan,nan,"```json
+{
+    ""category"": ""Web Development"",
+    ""reasoning"": ""The project appears to be a web application with authentication (Admin and Customer accounts) and database configuration (Code First migration and appsettings.json settings). The mention of appsettings.json and Code First migrations strongly suggests an ASP.NET Core web application with Entity Framework, which is a common web development stack for building web services or full-stack applications."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/JohnBacho/VIBES-LAB-Project1,"A Unity VR project developed for neuroscience and psychology research, focusing on exploring learning in VR.","neuroscience, unity, virtual-reality, eye-tracking, python, csharp, psychology, human-computer-interaction","```json
+{
+  ""category"": ""Research"",
+  ""reasoning"": ""The project is a Unity VR application specifically designed for neuroscience and psychology research on fear conditioning and extinction, with explicit academic collaboration between university departments. It includes data collection (eye-tracking), analysis scripts (Python), and is focused on reproducible scientific experiments rather than general game development or commercial applications."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/resonite-modding-group/ExampleMod,A simple example mod repo to be used as a basis for creating a Resonite mod. This repo is MIT-0,"frooxengine, mod, resonite, resonite-mod, resonitemodloader, csharp","```json
+{
+    ""category"": ""Plugin/Extensibility Frameworks"",
+    ""reasoning"": ""This is a template repository specifically designed for creating mods/plugins for the Resonite game/engine using ResoniteModLoader. It provides the basic structure, configuration files, and integration points for extending the functionality of the host platform (Resonite) through modular additions. The template focuses on defining the scaffold for creating new mods rather than being a game development template itself or a general-purpose project structure."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/TFS-Custom-Team/TFS_CapStone_Project,TFS school Cap stone project ,nan,"```json
+{
+    ""category"": ""Education"",
+    ""reasoning"": ""The project is explicitly described as a 'school Capstone project' for 'TFS school', indicating it's an academic/educational template for final-year or culminating student projects. Capstone projects are common in educational institutions to demonstrate comprehensive learning and practical application of skills. The template likely provides a standardized structure for students to organize their academic work, documentation, and code following institutional guidelines."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/TrdHuy/ArtWiz,"⚡ SPR, PAK editor tool for JX",nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is described as 'A powerful tool for managing and editing game assets' and specifically mentions being a 'SPR, PAK editor tool for JX' (likely referring to sprite and package file formats common in game development). The repository focuses on game asset management workflows, version control automation for game content, and includes specialized tools for game asset editing rather than general software development or other domains."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/void-type/VoidCore,A set of core libraries for building domain-driven business applications on .NET.,dotnet,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""VoidCore is a set of core libraries for building domain-driven business applications on .NET, providing opinionated structures for organizing source code, data access (Entity Framework), web applications (ASP.NET), and financial calculations. It serves as a reusable scaffold for .NET projects with standardized patterns for business logic, testing, and deployment workflows, aligning with general-purpose software development templates rather than specialized domains like web development, machine learning, or automation."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/ehsanhrz/VSAsample,a basic VSA sample in c# ,"architecture, sample, vsa, asp-net-core, dotnet, dotnet-8, entit, vertical-slice-architecture","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The repository provides a basic implementation sample of Vertical Slice Architecture in C# with ASP.NET Core and .NET 8. This represents a general-purpose software architecture pattern template for organizing application code, rather than being specific to domains like web development, automation, or machine learning. It serves as a reusable scaffold demonstrating architectural best practices for structuring projects."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/erkantaylan/Spireon,Micro Microservice framework with Aspire,nan,"```json
+{
+    ""category"": ""Infrastructure/Cloud"",
+    ""reasoning"": ""The project is a microservice framework built with Aspire, which is Microsoft's cloud-native development stack for building distributed applications. This template focuses on defining deployment configurations, service orchestration, and cloud-native architectures rather than general web development or automation workflows. Aspire specifically targets scalable, resilient cloud applications with service discovery, health checks, and distributed tracing - all core concerns of cloud infrastructure and microservice deployment patterns."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/Serdan/SourceGeneratorTemplate,nan,nan,"```json
+{
+    ""category"": ""Regular Project"",
+    ""reasoning"": ""The template provides a general-purpose project structure with standardized organization for source code, tests, documentation, and CI/CD workflows. It includes language-agnostic best practices for project setup, dependency management, and development workflows without specializing in any specific domain like web development, ML, or automation."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/JinguMastery/OSMCity,A Unity project about rebuilding cities from OpenStreetMap data.,"unity3d, unity","```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is a Unity-based application focused on 3D reconstruction of cities from OpenStreetMap data, which aligns with game development templates that provide setups for 3D rendering, asset management, and interactive environments. Unity is primarily a game engine, and the project's core functionality involves creating 3D models of real-world cities, which is a common use case in game development for building virtual environments."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/QuotationFactory/Integration.Quickstart,Quickstart to build an integration behind the Edge connector,nan,"```json
+{
+  ""category"": ""Automation/DevOps"",
+  ""reasoning"": ""The project provides a template for building integrations that automate data exchange between Quotation Factory (a cloud platform) and local systems using the Edge Connector. It focuses on automating workflows for file processing, data synchronization, and system integration through standardized handlers and deployment configurations, which aligns with the Automation/DevOps domain's emphasis on streamlining development operations and creating reproducible integration pipelines."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/IstsPrograms/Quant.cs,It's a library for console programs using C#,nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This is a C# library for building console applications with command-line interfaces, command execution, and extensibility features. It provides a structured framework for creating command-driven console programs with custom I/O handling, notification systems, and server capabilities, but doesn't specialize in any specific domain like DevOps, ML, or web development. The template focuses on general-purpose software scaffolding for CLI tools and console applications."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/chrdek/linqpath_prerel,Create different folder structures using Linq objects,"linq, directories, folders, folders-creator, folder-structure, linq-to-path, linq-to-objects","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The project is a C# library (LinqPath) that provides LINQ-like operations for creating and manipulating folder structures programmatically. It's a general-purpose utility package for file system operations rather than being specialized for any specific domain like DevOps, ML, or web development. The template appears to be a scaffold for creating similar utility libraries or packages."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/surrealnirvana/LawEnforcementEnhancementMod,nan,nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is a game modification (mod) that enhances police officer behavior, spawning, and management within a game environment. It includes dynamic spawning mechanics, AI improvements, patrol routes, and configuration systems specifically designed to modify gameplay mechanics and NPC behavior. The installation requires a game mod loader (MelonLoader), and the features focus on enhancing in-game systems rather than general software development, automation, or other domains."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/cr-zhichen/FlashDotNet,DotNet Core API开发的快速开启框架,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a .NET Core API development framework specifically designed for building web-based systems and APIs. It provides a complete scaffold for web services including MVC controllers, JWT authentication, Swagger/Scalar API documentation, WebSocket support, database configurations, and deployment setups - all characteristics of web application development templates."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/shaahinfaezi/Discord-DingDong,This is a Tic Tac Toe Bot for discord ❌⭕,"discord, discord-bot, tic-tac-toe, discordnet, tictactoe, tictactoe-game","```json
+{
+  ""category"": ""Communication/Bots"",
+  ""reasoning"": ""The project is a Discord bot implementation of Tic Tac Toe, designed to facilitate interactive gameplay within Discord servers. It includes command structures, role management, and user interaction features typical of conversational bots, focusing on enabling communication-based entertainment rather than general-purpose automation, game development frameworks, or other domains."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/Crown-Commercial-Service/conclave-ssso,nan,nan,"```json
+{
+  ""category"": ""Automation/DevOps"",
+  ""reasoning"": ""The project consists of multiple .NET Core background job schedulers (reporting, data migration, delegation, dormancy, etc.) that run as micro-services for a procurement system. These are automated batch processing services that handle scheduled tasks, data synchronization, and maintenance operations without direct user interaction, which aligns with DevOps principles of automating operational workflows and background processing."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Tusquito/asp.net-core-web-api-template,nan,nan,"```json
+{
+    ""category"": ""Web Development"",
+    ""reasoning"": ""This is an ASP.NET Core Web API template with microservices architecture, JWT authentication, API versioning, and database integration - all core components of web service development. While it includes DevOps elements (Docker) and communication patterns (RabbitMQ), its primary purpose is to scaffold a production-ready web API backend with modern web development patterns."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/Azels56/CSharp-Lessons,This repository is an archive of my journey on learning C#,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository is explicitly described as 'an archive of my journey on learning C#' for a 'school lesson that my college has to offer.' This indicates it's a personal learning repository created for educational purposes, tracking progress through a college course rather than being a domain-specific template for production use."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/YaraGh22-engs/ASP-.NET-Core-8-API-CRUD-Movies-Example,"MoviesAPI is a RESTful API built using ASP.NET Core Web API that allows for creating, reading, updating, and deleting movie data. ","asp-net-core-web-api, entity-framework-core, linq-to-sql, postman, postman-test, rest-api, restful-api, sqlserver-2022, swagger","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a RESTful API built with ASP.NET Core Web API and Entity Framework Core, implementing CRUD operations, authentication/authorization with JWT, and following web API best practices. This aligns directly with the Web Development category definition, which includes 'templates that support the creation of web-based systems and APIs/SaaS' and 'popular web frameworks for backend applications' with typical features like routing, authentication, and database configuration."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/Sharaf-Mansour/SimpleAPIArchitecture,TBD,nan,"```json
+{
+    ""category"": ""Web Development"",
+    ""reasoning"": ""The repository name 'SimpleAPIArchitecture' strongly suggests a template focused on web-based API development, which aligns with the Web Development category's description of supporting 'the creation of web-based systems and APIs/SaaS' and providing 'structure (code/test/deploy), routing, authentication, and database configuration scaffolds for web services.'"",
+    ""confidence"": ""3""
+}
+```"
+https://github.com/Cardkess/MAUI-Cross-platform-App-.net-8,nan,nan,"```json
+{
+  ""category"": ""Mobile Development"",
+  ""reasoning"": ""The template is specifically designed for creating .NET 8 MAUI (Multi-platform App UI) applications, which is Microsoft's framework for building native cross-platform mobile and desktop apps from a single codebase. MAUI primarily targets mobile platforms (iOS, Android) along with desktop platforms, making this a mobile development template that provides the foundational structure for building mobile applications."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/jcorvinus/InstrumentalXR,"A procedural UI toolkit & spec for creating fully 3d, physics-based, instrument-panel style UI in XR",nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is a procedural UI toolkit specifically designed for creating 3D, physics-based, instrument-panel style user interfaces in XR (Extended Reality) environments. It's built as a Unity framework with dependencies on SteamVR and other game/XR development libraries, focusing on interactive 3D UI elements for immersive experiences rather than general web, mobile, or data applications."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/CengizhanBayram/Software_Lesson_Project,.,nan,"```json
+{
+    ""category"": ""Education"",
+    ""reasoning"": ""The repository name 'Software_Lesson_Project' strongly suggests an educational purpose, likely serving as a template for teaching software development concepts, structuring assignments, or providing a standardized project format for learning. The absence of domain-specific topics or detailed technical descriptions in the README further indicates this is a generic educational scaffold rather than a specialized technical template."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/hansadrianus/RepositoryPattern,Clean Repository Pattern with .NET 8,nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This template provides a standardized project structure for .NET 8 applications following Clean Architecture principles with Repository Pattern implementation. It focuses on organizing source code, separating concerns (Domain/Application/Infrastructure layers), and integrating common development tools (Entity Framework, MediatR, AutoMapper) - making it a general-purpose software scaffold rather than a domain-specific template. The template emphasizes maintainable code organization and development workflows rather than targeting specific domains like web development, machine learning, or automation."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/NetCoreTemplates/worker-sqs,.NET 8 AWS SQS MQ Worker Service,nan,"```json
+{
+    ""category"": ""Automation/DevOps"",
+    ""reasoning"": ""The project is a .NET worker service template specifically designed for processing messages from AWS SQS (Simple Queue Service), which is a core component of message queueing and background job processing systems. This template provides a standardized structure for building scalable, cloud-native worker services that handle asynchronous message processing - a fundamental pattern in modern DevOps, microservices architectures, and cloud automation workflows. It focuses on operational concerns like message handling, service deployment, and integration with AWS infrastructure rather than application development, data processing, or research."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/andyninety9/SkincareProductsSalesSystem,nan,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a comprehensive web application for skincare product sales with frontend (React/Vue.js), backend (.NET Core Web API), database (PostgreSQL), and cloud services. It includes typical web development features like user authentication, payment processing, API integration, and Docker deployment configurations, making it a full-stack web application template rather than a specialized domain like ML, Mobile, or DevOps."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/AaronMetzelaar/MRFramework,A Mixed Reality framework developed for my Computer Science bachelor's thesis.,nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is a Mixed Reality framework built in Unity for creating interactive simulations with projection systems and physical object detection. While it involves computer vision (OpenCV) and could be considered for research or robotics, its primary implementation in Unity, focus on interactive simulations, and use of game engine architecture align it most closely with game development templates that provide frameworks for interactive media, simulations, and real-time interaction systems."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/octodemo/BeamCodespacesDemo,nan,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository is a demonstration application specifically designed for teaching and showcasing GitHub Codespaces capabilities. It includes detailed step-by-step guides, talk tracks for presentations, and multiple extended demos focused on educating developers about containerized development environments, multi-devcontainer setups, and repository permissions. While it implements a web application (Blazor-based social platform), its primary purpose is educational - serving as a standardized template for demonstrating Codespaces features, best practices, and configuration options to facilitate learning and knowledge transfer."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/BAKAOLC/Duckov_Modding_Template,nan,nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""This template is specifically designed for creating mods (modifications) for the game 'Escape from Duckov' using the Harmony framework. It provides a structured project setup with pre-configured dependencies, mod loading systems, and integration with the game's architecture. The template focuses on extending game functionality through modding rather than general software development, automation, or other domains."",
+  ""confidence"": 5
+}
+```"
+https://github.com/Ethanol10/rimuru-tempest-ror2,Adding Rimuru Tempest as a playable character to RoR2 as a mod.,nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""This repository is a mod template for adding a new playable character (Rimuru Tempest) to the game Risk of Rain 2 (RoR2). The README details character abilities, gameplay mechanics, animations, network compatibility, and integration with the game's modding ecosystem. The project focuses on extending game functionality through custom character development, which aligns with the Game Development category's description of templates for game creation, prototyping, and interactive media."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/pxlit-projects/Guts-DotNetAdvanced,nan,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository contains start solutions for exercises in a university course (.NET Advanced at PXL-Digital), uses GitHub Classroom for student assignments, includes automated tests for verifying student solutions, and provides detailed instructions for students to clone, work on exercises, and submit results through an educational platform (GUTS). The primary purpose is to facilitate learning, provide standardized project structures for coursework, and enable automated assessment of student work."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/pmgdev64/KawaiiOS_v1.0.0_build_1010,"KawaiiOS Is A Based x86-86 C# Operating System, Which This OS Is Created Using Cosmos And C#. ","operating-system, cosmosos, csharp, x86-64","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This is a template repository for building an x86-64 operating system using C# and Cosmos (C# Open Source Managed Operating System). While operating system development is specialized, the template serves as a general-purpose scaffold for organizing OS source code, build configurations, and documentation following C#/Cosmos conventions. It doesn't fit more specific domains like Automation/DevOps (no CI/CD focus), Machine Learning/AI (no ML pipelines), or Research (not primarily for scientific reproducibility). The template provides a standardized structure for a software project (OS development) rather than targeting a specialized application domain."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/vik37/HR.LeaveManagement,ASP NET Core - Clean Architecture,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""This is a template for a full-stack web application built with .NET technologies (Blazor frontend, RESTful APIs, MSSQL database) following Clean Architecture principles. It provides a complete scaffold for building enterprise web applications with user authentication, role-based access control, and typical web application features like leave request workflows and employee management. The template includes both backend API structure and frontend UI components, making it specifically designed for web application development rather than general-purpose software or other specialized domains."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/Subrata019/SolidPrinciples,Solid Principles explained with examples using C#.,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The project provides concrete examples and explanations of SOLID principles using C#, with a dedicated wiki for learning materials. This aligns with educational templates that demonstrate specific technologies or patterns to promote understanding and reproducibility."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/PiotrekUnityDeveloper/UnityFallingSandSimulationTemplate,a simple falling sand engine in unity,nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is a falling sand simulation engine built in Unity, a popular game development platform. It implements particle physics systems (gravity, velocity, density, collision) and chunk-based rendering optimization specifically for interactive simulations - all core components of game engines and game prototyping frameworks. While it has simulation aspects, its implementation within Unity and focus on real-time particle interactions aligns it with game development templates rather than general-purpose simulation or research tools."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/CursedPrograms/3D-AR-Gemini,nan,"gemini, gemini-api, unity3d, csharp, python","```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is a Unity3D-based template for 3D augmented reality (AR) applications using ARCore, with C# as the primary programming language and integration of shaders (HLSL/ShaderLab). Unity is a leading game engine, and ARCore is commonly used for AR gaming and interactive experiences. The repository structure and technologies indicate a focus on creating immersive 3D AR applications, which aligns with the Game Development category's emphasis on interactive media, rendering frameworks, and prototyping setups."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/it23372726/SkillLink,nan,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""SkillLink is explicitly described as a 'University Peer-to-Peer Learning Platform' that connects students as learners and tutors. The platform's core purpose is to facilitate educational collaboration, skill sharing, and learning sessions within an academic environment. While it uses web development technologies (React.js and ASP.NET Core), its primary domain focus is educational infrastructure rather than general web application development. The platform's features - offering skills, requesting help, scheduling sessions, and exchanging feedback - are all centered around enhancing the educational experience and peer learning within a university context."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Ko1ors/ModularWidget,Windows application that combines different modular solutions to solve various user problems,"cryptocurrencies, ethereum, ethereum-blockchain, modular, prism, widget, windows, wpf, blockchain, modular-design, cryptocurrency","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The project is a Windows desktop application built with WPF that provides modular widgets for cryptocurrency tracking and media control. While it includes blockchain-related modules, its core purpose is as a general-purpose desktop application framework with plugin-like modules rather than being specifically focused on ML/AI, web development, or other specialized domains. It serves as a reusable scaffold for organizing modular desktop widgets following Windows application best practices."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Argatski/SoftUni,Courses from the main program in SoftUni,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository organizes coursework materials from SoftUni's main program, including programming basics, C#, JavaScript, and front-end development courses. It serves as a structured collection of educational resources, assignments, and certificates for learning software development, aligning with the Education category's focus on standardized academic projects, course materials, and promoting reproducibility and learning."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/AdachiSei/GameJam-Template,GameJam用テンプレート,nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The repository is explicitly described as a Unity template for GameJam development, containing game-specific configurations, naming conventions for game assets/objects, and pre-installed game development assets (DOTween, UniRx, UniTask). The template focuses on accelerating game prototyping with standardized structures for game logic, asset management, and development workflows specific to game creation."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library,A set of 17 design guidelines with implementation examples that support inclusive avatars for people with disabilities in social VR.,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository provides a comprehensive set of 17 design guidelines with implementation examples for creating inclusive avatars for people with disabilities in social VR. It serves as an educational resource for practitioners, researchers, and developers, offering structured recommendations, visual examples, and best practices to promote accessibility and inclusion in avatar design. The content is instructional, aimed at teaching and standardizing approaches rather than providing a functional software template or development framework."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/Sanjeevi-046/CodeNest,nan,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""CodeNest is described as an 'all-in-one workspace' with web-based tools for developers including JSON/XML/HTML/JavaScript linting, JWT token decoding, and Base64 conversion. It features personalized profiles, shareable URLs, and a web interface for coding tasks, making it a web application focused on developer productivity tools rather than automation pipelines, data visualization, or other specialized domains."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/ohmcodes/WindowsGSM.PluginTemplate,🧩WindowsGSM plugin that provides PluginTemplate Dedicated server,nan,"```json
+{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""This repository is a template for creating plugins that extend WindowsGSM (Windows Game Server Manager), a dedicated server management tool. The template provides the basic structure, installation instructions, and integration points for developing new server plugins, which aligns with the definition of templates that 'provide the basic structure to extend existing ecosystems' and 'serve as minimal scaffolds that define registration mechanisms, configuration files, and integration points for extending a host platform's functionality.'"",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/GHXX/LogicWorld-ExampleMod,Unofficial LogicWorld Example mod,nan,"```json
+{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""This is a template for creating mods (modifications) for the LogicWorld game, providing a structured project setup with C# source organization, component definitions, localization files, and manifest configuration. It serves as a scaffold for extending the game's functionality through custom components and logic, fitting the category of templates that define registration mechanisms, configuration files, and integration points for extending a host platform's functionality."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/skarnes20/Code4Fun.Demo.Api,"Example of how you can set up an web api with well defined arcitecture, unit testing and customized open api documentation",nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The repository is explicitly described as 'an example of how you can set up a web API with well-defined architecture, unit testing and customized Open API documentation.' It focuses on web API development patterns including architectural organization (clean layers with installers), OpenAPI/Swagger documentation customization, and testing strategies for data access layers. The content emphasizes web service scaffolding rather than general-purpose project structures or other specialized domains."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/EthemKesim/Simple-USA-Voting-System,nan,nan,"```json
+{
+    ""category"": ""Education"",
+    ""reasoning"": ""The project is a multi-language implementation of a basic voting system designed to practice core programming skills and compare implementations across Python, C#, and JavaScript. Its primary purpose is educational - to demonstrate how the same functionality can be built in different languages, making it suitable for learning programming concepts rather than being a production-ready voting system or belonging to other specialized domains."",
+    ""confidence"": ""5""
+}
+```"
+https://github.com/BillChirico/GolfClapBot,Chatbot that uses OpenAI to respond to Twitch messages.,"chatbot, openai, twitch","```json
+{
+  ""category"": ""Communication/Bots"",
+  ""reasoning"": ""The project is a chatbot specifically designed to interact with Twitch chat messages using OpenAI's language model. Its primary purpose is to facilitate automated conversational interactions in a live streaming platform, which aligns with the Communication/Bots category definition of 'messaging applications' and 'interactive communication agents'."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/ViveSoftware/VIVE-OpenXR-Sample-Unity,nan,nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""This is a Unity-based template repository providing code samples for VIVE OpenXR VR/AR development, specifically targeting VIVE XR Elite and VIVE Focus Vision headsets. The repository contains sample scenes, MR (Mixed Reality) implementations, performance settings, and integration guidelines for VR/AR applications. While it involves some educational elements (samples and documentation), its primary purpose is to accelerate game/VR development by providing ready-to-use templates for interactive 3D applications with specific hardware integration, which aligns with the Game Development category's focus on 'setups for libraries, IDEs, or custom rendering/game-loop frameworks' and 'core game logic, event handling, asset management' for 'accelerating prototyping and experimentation' in interactive media."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/SCP-DZ-SPECIAL-PLUGIN/SDSP-Custom-weapon,Hi this plugin for add more items and guns funny and spicial in the game .this plugin created by MONCEF50G,"dzcp, exiled-plugin, exiled-scpsl, sdsp","```json
+{
+    ""category"": ""Plugin/Extensibility Frameworks"",
+    ""reasoning"": ""The project is a plugin for SCP: Secret Laboratory that adds custom weapons and gameplay features. It follows a plugin architecture pattern where developers extend an existing game's functionality through modular additions. While it relates to game development, its primary purpose is to provide a template/structure for creating extensions (plugins) for an existing game ecosystem rather than creating standalone games."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/BhangeeF16/dot-net-6-api-controller-base,Base Structure of Dot Net 6 ControllerBase API,"broiler, broiler-plate, broilerplate, dotnet, dotnet-core, dotnetcore, dotnet-broiler-plate","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""This is a .NET 6 Controller-based API template that provides a structured foundation for building web services with features like middleware pipeline, user management endpoints, authentication/authorization (role seeding, admin user), and external service integrations (SMTP, Twilio). The template focuses on organizing backend web application components following .NET conventions, making it a scaffold for web API development rather than a domain-specific template for ML, mobile, DevOps, or other categories."",
+  ""confidence"": 5
+}
+```"
+https://github.com/BenJarrett/Ultimate-Team,nan,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a full-stack web application for NBA card collection with user authentication, interactive UI, and real-time player statistics. It uses React for frontend and C#/.NET for backend with MySQL database, following typical web development patterns including REST APIs, authentication, and database integration."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/Zhu-QingWen/CSharp-OpenCV-Bearing-Detection,独立设计并开发了一套模拟工业质检场景的上位机软件，旨在自动识别并标注轴承表面的常见缺陷（如划痕、污点）。,"computer-vision, csharp, defect-detection, image-processing, opencv, wpf","```json
+{
+    ""category"": ""Machine Learning/AI"",
+    ""reasoning"": ""The project is a computer vision application specifically designed for automated defect detection in industrial quality control scenarios. It uses OpenCV-based algorithms to identify and annotate surface defects on bearings, which falls under the domain of AI/ML applications focused on visual inspection and automated analysis rather than general web development, data visualization, or pure automation/devops."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/EIRSVi/sync-verse-studio,"Developed in C# with .NET, this Windows Forms app provides contemporary inventory tracking and management solutions for business processes","csharp, inventory-management, pos, production, windows-forms","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This is a comprehensive Windows Forms desktop application for retail management (POS and inventory system) built with .NET 8.0 and SQL Server. While it includes business-specific functionality for sales, inventory, and customer management, its core structure represents a general-purpose software project template with organized layers (presentation, business logic, data access), standard project organization, and typical software engineering practices. It serves as a reusable scaffold for building desktop business applications rather than focusing on specialized domains like web development, mobile, ML/AI, or infrastructure automation."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/jhoney92021/JayPolyGlot,coding basics by language,"coding-basics, coding-challenges, csharp, example-code, loops, ruby, linq, linq-expressions, vb-net, vbnet","```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository is explicitly designed for learning programming fundamentals across multiple languages, with structured content for comparing implementations and detailed documentation for onboarding. Its primary goal is educational—facilitating practice, comparison, and learning of basic programming concepts—rather than serving as a template for production software, research, or domain-specific applications."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/sYnced7/StorageInstruments,An application to manage band instruments,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a full-stack web application built with .NET Core backend (REST API with Swagger documentation) and plans for a React frontend. It implements CRUD operations, follows layered architecture (repository/service patterns), and includes web UI screenshots showing typical web application interfaces. While it mentions learning purposes and includes some DevOps elements (Docker), the core functionality and structure align with web application development templates that provide scaffolds for organizing backend APIs, frontend clients, and database integration."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/MaiQD/datnet-workout-tracker,A .NET-based workout tracking application,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a .NET-based workout tracking application with a modular monolith architecture, implementing a web API with authentication, database integration, and RESTful endpoints. It follows web development patterns including Clean Architecture, CQRS with MediatR, and provides Swagger documentation for API exploration. The template focuses on structuring backend web services with clear separation of concerns, making it suitable for building scalable web applications rather than being specific to other domains like mobile development, data visualization, or machine learning."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/MorneVenter/godot-blueprint-csharp,A quick-start Godot C# project ready for development.,nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""This is a Godot C# project template specifically designed for game development, featuring structured folders for game assets (sprites, models, materials, shaders, scenes), game-specific utility scripts (SaveManager, EventManager), and guidance for managing 2D/3D scenes. The template includes game engine-specific conventions and tools (Blender, Aseprite, Audacity) commonly used in game creation workflows."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/DMIT-2018/Take-Home-Exercises-Sep-2023,nan,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository contains structured exercises (LINQ parts 1-2, OLTP exercises) with clear instructional materials and references to instructor setup for academic terms. This aligns with educational templates designed for course assignments, learning specific technologies (LINQ, Blazor), and promoting reproducible learning environments."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/gjlee0802/3d_interact,대학교에서 처음 만들어본 3차원 손 제스쳐->마우스 입력 변환  프로그램,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The project is described as a university freshman's first project that demonstrates the application of computer vision techniques (Depth Camera, PointCloudLibrary, K-means clustering) to create a hand gesture-to-mouse input system. It serves as an educational showcase of HCI concepts and implementation methods rather than a production-ready tool or specialized domain application. The repository structure and documentation emphasize learning outcomes, experimentation, and demonstration of fundamental techniques."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/ClearMeasureLabs/onion-architecture-dotnet-7-container-apps-gha-demo,Demonstrates Github Actions workflow,nan,"```json
+{
+  ""category"": ""Automation/DevOps"",
+  ""reasoning"": ""This template repository demonstrates a comprehensive CI/CD pipeline setup for deploying .NET 7 container applications to Azure using multiple automation tools (GitHub Actions, Azure DevOps, TeamCity) and infrastructure orchestration with Octopus Deploy. The primary focus is on automating infrastructure provisioning, container deployment, testing, and scaling operations across multiple environments (TDD, UAT, Prod). The documentation emphasizes workflow automation, infrastructure-as-code practices, and deployment pipeline configuration rather than application development or specific domain logic."",
+  ""confidence"": 5
+}
+```"
+https://github.com/magic5644/codeLineCounter,Extract essential metrics fron a .NET solution,"csharp, dotnet, metrics, metrics-gathering, dependency-graph, graphviz-dot, code, csv, duplications, exports, json","```json
+{
+  ""category"": ""Automation/DevOps"",
+  ""reasoning"": ""CodeLineCounter is a tool that analyzes .NET solutions to extract essential software metrics including lines of code, cyclomatic complexity, code duplications, and dependency graphs. It automates code quality assessment and generates reports in CSV/JSON formats, which aligns with DevOps practices of continuous code analysis, quality monitoring, and automated reporting for development workflows."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/MarioCodes/functional-templates,"Several templates to use directly, out of the box with maven already configured. Different templates for different functionalities and objectives.","java-templates, maven, vertx, vertx3, kotlin, kotlin-template, java-kotlin, template, templates, template-project","{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The repository provides a collection of ready-to-use templates for different programming languages and frameworks (primarily .NET 8, with older Java/Kotlin/Docker examples) to quickly start new projects with preconfigured structures, dependencies, and best practices. It focuses on general-purpose project scaffolding for software development, including basic setups, CRUD operations, testing, and multi-project architectures, rather than targeting a specific domain like web development, machine learning, or automation."",
+  ""confidence"": ""4""
+}"
+https://github.com/rak3xh/DiscordBot-by-rak3xh,Discord bot made using C# and .NET. This bot add fun to your discord server by giving un-orthodox meaning of words which are in the english dictionary.,"csharp-app, discord, discord-bot, dotnet, urban-dictionary, visual-studio","{
+  ""category"": ""Communication/Bots"",
+  ""reasoning"": ""The project is a Discord bot built with C# and .NET that uses the Urban Dictionary API to provide humorous definitions of English words, aiming to add fun to Discord servers. Its primary focus is on creating an interactive messaging application with preconfigured command structures and event handling for chat automation, which aligns directly with the Communication/Bots domain's emphasis on conversational agents and bot development."",
+  ""confidence"": ""5""
+}"
+https://github.com/DurgaDuttTiwari/Reqnroll-Automation-Demo-Test-Framework,This is a personal automation framework project built with a focus on Behavior-Driven Development (BDD) using Reqnroll (SpecFlow-compatible) in C# with .NET 8.,nan,"```json
+{
+  ""category"": ""Automation/DevOps"",
+  ""reasoning"": ""The project is a test automation framework implementing Behavior-Driven Development (BDD) with Reqnroll, Selenium, and NUnit for web UI testing. It includes CI/CD pipeline integration via GitHub Actions, automated test execution, and custom HTML reporting. This aligns with the Automation/DevOps category as it focuses on streamlining development operations through automated testing workflows, reproducible test environments, and continuous integration pipelines rather than being a general-purpose project or specific to web development."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/Netizen-alt/AntiCheat,nan,nan,"```json
+{
+    ""category"": ""Regular Project"",
+    ""reasoning"": ""The project appears to be a basic anti-cheat runner written in C# that implements program protection mechanisms like process termination, mouse locking, and keyboard input blocking. While it has security-related functionality, it doesn't fit specialized domains like Game Development (though anti-cheat is often used in games) or Automation/DevOps. The description suggests a general-purpose software tool rather than a domain-specific template for games, ML, web development, etc. It's best classified as a Regular Project since it represents a generic software tool template."",
+    ""confidence"": ""3""
+}
+```"
+https://github.com/KickoffWorks/clean-architecture-api,"Repository with outter core libraries and presentation. Application library and Presentation API alongside Architectural, Integration and Unit tests.","clean-architecture, rest-api, sample","```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The repository provides a template for building REST APIs using clean architecture principles, with explicit focus on web service structure (Sample.Users.Api), application logic organization, and testing layers. It includes configuration for authentication (JWT), dependency management via NuGet, and follows patterns typical for web backend development rather than being domain-agnostic or focused on other specialized areas like ML or mobile apps."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/vrtn096/DualSenseV,Modification of gta v based on scripthookdotnet and DSX to control the adaptive triggers and DualSense lights within the game.,nan,"```json
+{
+    ""category"": ""Game Development"",
+    ""reasoning"": ""The project is a modification (mod) for Grand Theft Auto V that enhances gameplay by integrating DualSense controller features (adaptive triggers and lights) through existing game modding frameworks (ScriptHookVDotNet and DSX). Its primary purpose is to extend and customize a video game's interactive experience, which aligns with the Game Development category's focus on 'core game logic, event handling, asset management, and physics configurations to accelerate prototyping and experimentation.' While it involves some automation (configurable settings via F10) and hardware integration, its core domain is game enhancement rather than general automation, communication bots, or other categories."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/AndrewChebotarev/Novel,"Novel is a visual novel called ""Farewell Letter,"" created using the Unity engine. The project is an emotional interactive story with a deep plot, where the player's choices directly influence the development of events and the ending of the narrative.",nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The project is explicitly described as a visual novel game called 'Farewell Letter' built with Unity game engine, featuring interactive storytelling, branching dialogue systems, multiple endings, and game-specific technologies (2D art, Spine/DOTween, FMOD/Wwise). The repository serves as a template for creating narrative-driven games with emotional plots and player choice mechanics, which aligns perfectly with the Game Development category's focus on game creation frameworks, interactive media, and accelerated prototyping."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/Jalal-Althahab/MySimpleNotes,Simple Personal Notes App For Windows,nan,"```json
+{
+    ""category"": ""Regular Project"",
+    ""reasoning"": ""The project is a simple personal notes application for Windows, which represents a general-purpose software tool rather than a domain-specific template. It fits the 'Regular Project' category as it provides a reusable scaffold for organizing source code, documentation, and workflows for a desktop application, following language-specific best practices without specializing in domains like web development, mobile development, or automation."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/ChrisTutorials/projectile_prototype_godot_4_cs,nan,nan,"```json
+{
+    ""category"": ""Game Development"",
+    ""reasoning"": ""The repository is a Godot 4 C# project template for creating a projectile prototype, specifically built as the end result of a game development tutorial. It includes configuration for the Godot game engine, .NET setup for C# scripting, and references to game assets like space backgrounds, all of which are characteristic of game development templates focused on accelerating prototyping and experimentation in game engines."",
+    ""confidence"": ""5""
+}
+```"
+https://github.com/imoulas/sample-maui-net-expense-app,nan,nan,"```json
+{
+  ""category"": ""Mobile Development"",
+  ""reasoning"": ""The project is a .NET MAUI sample application implementing MVVM architecture with SQLite database operations, which is specifically designed for cross-platform mobile app development targeting iOS, Android, Windows, and macOS. The template focuses on mobile-specific patterns like MVVM, commanding, and CRUD operations with Entity Framework SQLite - all core concerns in mobile application development rather than general-purpose software."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/NetCoreTemplates/worker-servicebus,.NET 8 Azure Service Bus MQ Worker Service,nan,"```json
+{
+  ""category"": ""Automation/DevOps"",
+  ""reasoning"": ""This template provides a standardized .NET 8 worker service for Azure Service Bus message queue processing, which is a core component of cloud-native application architectures for handling background tasks, event-driven processing, and decoupled service communication. It focuses on infrastructure-as-code patterns for message queue consumers, which aligns with DevOps practices for building scalable, maintainable, and deployable microservices that integrate with cloud messaging services."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Siroro/SilkNETAot,Basic AOT Silk.NET example,nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This is a basic template demonstrating Ahead-of-Time (AOT) compilation with Silk.NET, a .NET wrapper for low-level graphics and multimedia APIs. The repository provides minimal build instructions for Windows and Linux, serving as a reusable scaffold for organizing .NET projects that require AOT compilation and cross-platform deployment. It focuses on general-purpose project structure and build workflows rather than domain-specific applications like game development or data visualization."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/LuckyCodeDog/.NetCoreMVC_Three_Layers_Scaffold,nan,nan,"```json
+{
+    ""category"": ""Regular Project"",
+    ""reasoning"": ""The template provides a standardized structure for .NET Core MVC applications with layered architecture, interface abstraction, and dependency injection via IOC container. It focuses on organizing source code, implementing design patterns, and establishing best practices for maintainable software development rather than targeting a specific domain like web development, automation, or machine learning."",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/JhayRod/ToDoListApp-C-ASP.NET-MVC-VS2022,"ToDoList using C#, ASP.NET Core MVC in Visual Studio 2022: Used to write, build, and run the C# and ASP.NET MVC project.",nan,"```json
+{
+    ""category"": ""Web Development"",
+    ""reasoning"": ""The project is a web-based To-Do List application built with ASP.NET Core MVC, which is a web framework for creating web applications and APIs. It includes controllers, models, views, and focuses on web-specific features like user interface, routing, and data handling through a web browser. The template provides a scaffold for organizing web application code following MVC patterns, which aligns with the Web Development category definition of supporting creation of web-based systems and APIs."",
+    ""confidence"": ""5""
+}
+```"
+https://github.com/Kluvwen/XivVoices,Turning Every Dialogue in Final Fantasy XIV Into a Voiced Dialogue!,nan,"```json
+{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""This project is a plugin for Final Fantasy XIV that adds voice acting to NPC dialogues and syncs lip movements, extending the game's functionality through a modular plugin architecture. It fits the Plugin/Extensibility Frameworks category because it provides a structured way to extend an existing platform (FFXIV via Dalamud plugin system) with new features, includes installation/config mechanisms, and serves as a scaffold for community contributions and forks."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/westfax/SDK-Fax,.Net C# SDK for WestFax API and associated Demo Project.,nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This repository provides a .NET C# SDK and demo project for interacting with the WestFax API, which is a cloud fax service. The template focuses on creating a reusable software library (SDK) with demonstration code for API integration, following general-purpose software development patterns rather than targeting a specific domain like DevOps, ML, or Web Development. It includes source code organization, dependency management, and example usage typical of library/package development templates."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/DMXControl/LumosPluginTemplates,nan,nan,"```json
+{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""This repository provides a template for creating plugins that extend the functionality of DMXControl 3, a lighting control software. The template demonstrates how to build both Kernel and GUI plugins, defines required plugin structures, registration mechanisms, and integration points with the host application's architecture. It serves as a scaffold for developers to create new modules that add features like Project Explorer entries, dimmer curves, effects, input assignments, and logging capabilities to the DMXControl 3 ecosystem."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/xybii/SpecialPlugin,.net core 插件应用,"csharp, netcore, aspnetcore","{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""The project is a .NET Core plugin framework that provides a structured way to create and integrate plugins into applications, supporting modular development and extensibility. It includes packages for core functionality and ASP.NET Core integration, with examples of replacing controllers, adding new controllers, and configuring modules, aligning with the category's focus on extending existing ecosystems through plugins and modular architectures."",
+  ""confidence"": ""5""
+}"
+https://github.com/AlaaElsayed99/Chat-Chirp,"Our Global Talking App is a modern and innovative platform that connects people from all corners of the world, fostering meaningful connections and relationships. Built using cutting-edge technologies, including API integration, Angular frontend, SignalR for real-time communication, and the Unit of Work pattern for seamless data management",nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is described as a web-based platform with Angular frontend, API integration, and real-time communication via SignalR, which are all core components of modern full-stack web applications. The focus on connecting users globally through a web interface with real-time features aligns with web development templates that provide scaffolding for building interactive web services and applications."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/donaldmucci/WebSearchMCPServer,I've used the MCP SDK for C# and .NET to build a Copilot Studio compatible MCP server that leverages Google search.,"copilot-studio, csharp, mcp, mcp-server","```json
+{
+    ""category"": ""Communication/Bots"",
+    ""reasoning"": ""The project is a Copilot Studio compatible MCP server that leverages Google search, built using the MCP SDK for C#/.NET. Copilot Studio is Microsoft's platform for building conversational AI agents and chatbots, and MCP (Model Context Protocol) servers are specifically designed to extend AI assistant capabilities with external tools and data sources. This template enables developers to rapidly create AI-powered conversational agents with search functionality, fitting squarely within the Communication/Bots domain which focuses on 'messaging applications, Discord or Telegram bots, preconfigured APIs, event-handling logic, and modular command structures for interactive communication agents.'"",
+    ""confidence"": ""4""
+}
+```"
+https://github.com/marcflohrer/stiebel-eltron-dashboard,Provides a dashboard that shows the raw data of the original dashboard as widgets and it adds the missing performance factor metric.,"stiebel-eltron-dashboard, stiebel-eltron, servicewelt, isg, docker, xunit, dashboard, stiebel-eltron-heatpump","```json
+{
+  ""category"": ""Data Apps/Visualization"",
+  ""reasoning"": ""The project is primarily a dashboard application that visualizes heat pump performance data through charts and widgets, focusing on data presentation and exploration rather than backend infrastructure or automation. It extends an existing dashboard by adding missing performance metrics and historical context visualization, which aligns with the Data Apps/Visualization category's emphasis on interactive data-driven applications and dashboards for analysis and interpretation."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/TheShuEd/baseline-station-14,"Space Station 14 Fork, with completely filtered vanilla content, which is ideal for starting to develop your own unique project.",nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""The repository is a specialized fork of Space Station 14, a multiplayer space station simulation game, designed as a starting template for creating custom game projects. It provides a pre-filtered version of the original game content with the RobustToolbox game engine, allowing developers to build their own unique games or modifications without dealing with vanilla content removal. The template focuses on game architecture, content management, and engine configuration specifically for game development purposes."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/SoftwareCraftersMurcia/christmas-tree,nan,nan,"{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository is a template for a coding exercise (Christmas Tree Kata) with multi-language testing setups, aimed at teaching testing practices and providing a standardized structure for learning and practicing software development skills across different programming languages."",
+  ""confidence"": ""5""
+}"
+https://github.com/KristofferRisa/azure-function-contact-form,An simple Azure Function based back-end API for a website contact form. ,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is an Azure Function-based backend API specifically designed to handle website contact form submissions. This falls under web development as it creates a serverless web service/API component for a web application, focusing on backend functionality rather than broader infrastructure automation or other specialized domains."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/NateSavage/Dotnet-Library-Template,A template for C# libraries with seperate benchmarking and unit testing projects out of the box. Has extensive git configuration for game projects.,"benchmark, dotnet, library, module, template, test, cc0, godot, unity","```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This is a general-purpose C# library template with separate benchmarking and unit testing projects, designed as a reusable scaffold for organizing source code, tests, and documentation following language-specific best practices. While it mentions game engines (Unity/Godot) in compatibility notes, its core purpose is providing a standardized project structure for C# libraries rather than focusing on game development, ML, web, or other specialized domains."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/ulfbou/Zentient.Abstractions,nan,nan,"```json
+{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""Zentient.Abstractions is a foundational library providing core abstractions and interfaces for building extensible applications within the Zentient Framework ecosystem. It defines standardized contracts (ITypeDefinition, IEnvelope, IValidator, etc.) and a four-pillar architecture that serves as a scaffold for creating plugins, modules, and extensions with consistent patterns for dependency injection, validation, and observability. The template establishes the basic structure for extending the framework through composable interfaces and metadata systems, making it primarily a framework for building extensible components rather than a domain-specific application template."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Zyssalone/Wall-Change,🌄 A lightweight Windows wallpaper changer with system tray support and auto-start.,nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This is a lightweight Windows desktop application for wallpaper management with system tray integration and auto-start functionality. It serves as a general-purpose utility tool rather than fitting into specialized domains like web development, automation/DevOps, or machine learning. The template provides a structured project setup for a standalone desktop application with installation, usage, and maintenance workflows, making it a general software project scaffold."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Unity-for-Unity-Manufacturing/AssetStudio,"AssetStudio is a tool for exploring, extracting and exporting assets and assetbundles.",nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""AssetStudio is a specialized desktop application for exploring, extracting, and exporting Unity game assets and asset bundles. It functions as a standalone tool with a GUI for reverse engineering and asset extraction rather than being part of a development pipeline, automation workflow, or any of the other specialized domains listed. Its primary purpose is to provide a reusable, structured tool for working with Unity's proprietary formats, which aligns with the 'Regular Project' category of general-purpose software tools."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/Popcorn-Factory/lee-hyperreal-ror2,Lee Hyperreal from PUNISHING: Grey Raven,nan,"```json
+{
+  ""category"": ""Game Development"",
+  ""reasoning"": ""This is a character mod for the game Risk of Rain 2, implementing a new playable survivor with custom abilities, animations, VFX, skins, and game mechanics. The repository serves as a template for creating game content extensions within an existing game ecosystem, focusing on character design, combat systems, and gameplay integration rather than general software development or other specialized domains."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/satsvelke/Net-5-API,nan,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The template provides a structured starting point for building web APIs using .NET 5 with key web development patterns (repository pattern, dependency injection, JWT authentication, EF Core, middleware). It includes architectural components specifically designed for web service creation rather than general-purpose software or other specialized domains."",
+  ""confidence"": ""5""
+}
+```"
+https://github.com/ewdlop/Luthetus.Ide.Fork,https://github.com/Luthetus.Ide,biopolar-empathy,"```json
+{
+  ""category"": ""Plugin/Extensibility Frameworks"",
+  ""reasoning"": ""The Luthetus.Ide repository appears to be an IDE (Integrated Development Environment) framework based on Blazor WebAssembly, focused on providing extensible development tools. The GitHub configuration shows comprehensive label systems for tracking IDE components, language parsers/compilers, and platform support (Linux, Windows, Mac, WASM, Photino), which aligns with templates designed for extending development ecosystems through plugins and modular components rather than being a general-purpose project or web application framework."",
+  ""confidence"": ""4""
+}
+```"
+https://github.com/sascharo/24s1-ce6127-tanks-lab,CE6127 Artificial Intelligence in Game Design,"ai, artificial-intelligence, game-design, ntu, unity, ntu-ccds, 24s1, ce6127, ccds","```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The repository is explicitly labeled as a lab project for the course 'CE6127 Artificial Intelligence in Game Design' at NTU, with topics including 'ntu', 'ce6127', and '24s1' (likely referring to the 2024 Semester 1). The README indicates it's a Unity-based tanks lab template, suggesting it's designed for students to learn and apply AI concepts in game development within an educational context. While it involves game development and AI, its primary purpose is educational—providing a structured template for course assignments and learning."",
+  ""confidence"": ""5""
+}
+```"
