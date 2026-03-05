@@ -13,6 +13,7 @@ from typing import Any, Dict, List, Optional, Set, Tuple
 
 from openai import OpenAI
 
+import config
 
 # -----------------------------
 # Configuration
@@ -261,9 +262,7 @@ def append_rows(csv_path: Path, rows: List[Dict[str, Any]], fieldnames: List[str
 
 def main() -> None:
 
-    api_key = ""
-
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=config.GPT_KEY)
 
     model_folder = sanitize_model_name(MODEL)
     model_out_dir = GLOBAL_OUT_DIR / model_folder

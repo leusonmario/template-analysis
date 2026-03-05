@@ -3,16 +3,15 @@
 import argparse
 import csv
 import os
-import time
 from typing import Optional, Set
 
 import pandas as pd
-import requests
 from langdetect import detect, DetectorFactory
 from tqdm import tqdm
 
-DetectorFactory.seed = 0  # deterministic language detection
+import config
 
+DetectorFactory.seed = 0  # deterministic language detection
 
 def normalize_url(u: str) -> str:
     """Lightweight normalization for matching URLs across CSVs."""
@@ -150,8 +149,7 @@ Return JSON only:
 # Main
 # ---------------------------------------------------------------------
 def main(input_path, output_path, model, focus_csv=None, focus_col=None, sample_n=None, sleep_s=0):
-    #api_key = "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"
-    api_key = "sk-0d643e7550db452e897642c943e2feb7"
+    api_key = config.ROUTER_KEY
     if not api_key:
         raise RuntimeError("Set your API key in the environment variable OPENROUTER_API_KEY.")
 
