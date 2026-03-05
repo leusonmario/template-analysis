@@ -1,0 +1,22 @@
+Total aligned comparisons: 240
+
+=== Overall Metrics (Macro Average) ===
+Cohen's Kappa: 0.4656
+Accuracy: 0.8083
+Macro Precision: 0.7495
+Macro Recall: 0.7202
+Macro F1: 0.7321
+
+=== Agreement by Item ===
+G1 (n=20): Kappa=0.6000, Acc=0.8000, Prec=0.8125, Rec=0.8000, F1=0.7980
+G2 (n=20): Kappa=0.2000, Acc=0.6000, Prec=0.6000, Rec=0.6562, F1=0.5604
+G3 (n=20): Kappa=0.3846, Acc=0.8000, Prec=0.7451, Rec=0.6667, F1=0.6875
+G4 (n=20): Kappa=NA, Acc=0.8500, Prec=0.4250, Rec=0.5000, F1=0.4595
+G5 (n=20): Kappa=0.3182, Acc=0.8500, Prec=0.6373, Rec=0.6944, F1=0.6571
+G6 (n=20): Kappa=0.4595, Acc=0.9000, Prec=0.6667, Rec=0.9474, F1=0.7222
+G7 (n=20): Kappa=0.1379, Acc=0.7500, Prec=0.5784, Rec=0.5625, F1=0.5671
+P1 (n=20): Kappa=0.5714, Acc=0.8500, Prec=0.7667, Rec=0.8125, F1=0.7849
+P2 (n=20): Kappa=0.2857, Acc=0.7000, Prec=0.6250, Rec=0.8333, F1=0.6000
+P3 (n=20): Kappa=0.2308, Acc=0.8000, Prec=0.6667, Rec=0.5938, F1=0.6078
+P4 (n=20): Kappa=0.6341, Acc=0.8500, Prec=0.9062, Rec=0.7857, F1=0.8119
+P5 (n=20): Kappa=0.7727, Acc=0.9500, Prec=0.9722, Rec=0.8333, F1=0.8857
