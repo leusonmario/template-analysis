@@ -1,3 +1,0 @@
-ERROR:pip_audit._cli:requirement file /tmp/repo_ou1ozi56/pyproject.toml contains invalid specifier at line 4: Invalid requirement: : Expected package name at the start of dependency specifier
-    [project]
-    ^

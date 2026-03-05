@@ -1,1 +1,0 @@
-ERROR:pip_audit._cli:requirement file /tmp/repo_7vnnajuv/requirements.txt contains invalid specifier at line 1: Incorrect and ignored trailing argument(s): GDAL

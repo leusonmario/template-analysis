@@ -1,3 +1,0 @@
-ERROR:pip_audit._cli:requirement file /tmp/repo_2lq05fgb/setup.py contains invalid specifier at line 4: Invalid requirement: : Expected end or semicolon (after name and no valid version specifier)
-    from setuptools import setup
-         ^
