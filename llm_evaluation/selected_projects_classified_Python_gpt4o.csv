@@ -1,0 +1,587 @@
+repo_url,description,topics,llm_output,
+https://github.com/331leo/FastAPI_Template,A Simple FastAPI Template,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a template for building web applications using FastAPI, which is a web framework for developing APIs. It provides the necessary structure and commands to set up and run web servers, making it essential for creating web-based systems.""
+}
+```",Web
+https://github.com/iml1111/IMFast-Motor,Boilerplate for Large Scale FastAPI Web Backend Structure with Motor(Mongodb),boilerplate; fastapi; mongodb,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project provides a boilerplate structure for developing a large scale web backend using FastAPI and MongoDB, focusing on API design and database connectivity, which are core aspects of web application development.""
+}
+```",Web
+https://github.com/4GeeksAcademy/Instagram-bootstrap-jeferson,nan,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""This project provides a basic boilerplate for students to create their first website, serving as an educational resource aimed at teaching fundamental web development skills within a coding bootcamp context.""
+}
+```",Web
+https://github.com/0Miquel/Pytorch-project-template,Pytorch project template to focus on the implementation rather than the boilerplate code,nan,"```json
+{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The project provides a template for building PyTorch projects, emphasizing the implementation of machine learning models and experiments. It integrates tools for experiment tracking and hyperparameter optimization, which are essential components in developing and refining AI models.""
+}
+```",AI
+https://github.com/wasmer-examples/django-wasmer-starter,nan,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""This project is a template for building a Django application that showcases how to deploy it on Wasmer Edge, focusing on web framework configuration, HTTP request handling, and routing. The main goal is to provide a structure for web-based systems, specifically using the Django framework.""
+}
+```",Web
+https://github.com/trr266/aws-otree-template,Template for deploying oTree to AWS,nan,"```json
+{
+  ""category"": ""Infrastructure/ Cloud"",
+  ""reasoning"": ""The project is a template for deploying oTree, an open-source platform used for conducting experiments, to AWS. This indicates a focus on cloud deployment and infrastructure management, fitting into the Infrastructure/Cloud domain.""
+}
+```",Cloud
+https://github.com/shipyard/django-starter,nan,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a Django starter application that sets up the environment using Docker and Docker Compose, which is tailored for web application development. Its focus on providing a structured setup for a web application, including dependencies for a backend service, aligns it with the web development domain.""
+}
+```",Web
+https://github.com/SaidBySolo/boilerplate,"black, isort and mypy(strict) environments.",nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The project provides a boilerplate setup with configuration for code formatting, styling, and type checking using tools like black, isort, and mypy. It focuses on setting up a standard environment for Python development without being domain-specific, which aligns with general-purpose project structures.""
+}
+```",Regular
+https://github.com/Echo298327/auth-gateway-fastapi-keycloak,Starter template for building scalable FastAPI microservices with Docker Compose and Keycloak for authentication.,api-gateway; authentication; docker-compose; fastapi; keycloak; microservices; mongodb,"```json
+{
+  ""category"": ""Infrastructure/ Cloud"",
+  ""reasoning"": ""The project provides a starter template for building scalable FastAPI microservices using Docker Compose and Keycloak for authentication, emphasizing a cloud-native architecture and deployment configurations that facilitate the creation and management of microservices.""
+}
+```",Cloud
+https://github.com/b-ggs/django-template,🔧 starter django 4.2 template,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a template for creating Django applications that simplifies the setup and deployment process, utilizing Docker for local development and providing configurations for various environments. Its focus on web frameworks, deployment targets, and environment management aligns it closely with web development.""
+}
+```",Web
+https://github.com/mauriciobraz/fastapi-starterkit,A Python template with opinionated practices and configurations for FastAPI projects.,black; caddy; docker; docker-compose; fastapi; flake8; mypy; poetry; python,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a Python template for FastAPI, aimed at streamlining the development of web-based applications. It includes configurations for dependency management, Docker setup, code quality tools, and CI with GitHub Actions, all of which are essential for building and deploying web services.""
+}
+```",Web
+https://github.com/spacetelescope/stsci-package-template,A package template for STScI Open Source software projects,template-project; python; sphinx-documentation; stsci,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The STScI Package Template is designed as a standardized structure for creating open-source software projects. It guides users in setting up their repositories while promoting best practices, documentation, and community contributions, which aligns with educational goals of reproducibility and shared learning in software development.""
+}
+```",Regular
+https://github.com/ersilia-os/eos-template,Template repository to add new models to the Ersilia Model Hub,template,"```json
+{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The project serves as a template repository to facilitate the incorporation of machine learning models into the Ersilia Model Hub, emphasizing the organization of model code, checkpoints, and metadata necessary for model execution and management, which aligns closely with the work done in the field of machine learning and AI.""
+}
+```",AI
+https://github.com/libresource/pygenesis-django,Python Django package repository template ,django; package; python; template-repository,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a Python Django package repository template designed to help developers quickly set up their Django applications. It provides a structured starting point for web application development, including features for testing and documentation, which aligns it with the web development domain.""
+}
+```",Web
+https://github.com/YuyangXueEd/MuLTIHydra,A Multi-purpose template for LighTnIng + Hydra + Comet ML ,nan,"{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The project is a multi-purpose deep learning template built using PyTorch Lightning and Hydra, which allows users to easily set up, experiment, and manage various deep learning models and configurations. It provides functionalities for model training, evaluation, and hyperparameter tuning, clearly aligning with the domain of Machine Learning and AI.""
+}",AI
+https://github.com/WhaleFell/FastAPI-Template,The FastAPI Template ,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a FastAPI template designed to streamline the development of web-based APIs and applications. It includes features like SQLAlchemy for database management, a friendly folder structure, and Docker support, all of which are essential for creating scalable web services.""
+}
+```",Web
+https://github.com/rozeappletree/fastapi-template,boilerplate code,nan,"```json
+{
+  ""category"": ""Infrastructure/ Cloud"",
+  ""reasoning"": ""The project is a starter template that combines FastAPI, Docker, and PostgreSQL, indicating a focus on building cloud-native applications with infrastructure configurations. By utilizing Docker and PostgreSQL, it facilitates deployment and management of web services in a cloud environment.""
+}
+```",Automation
+https://github.com/iPelino/conference_project,Class project for a Conference management App,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is centered around creating a conference management application which involves features such as user registration, session scheduling, and speaker management, all of which are typically part of web-based systems and APIs. The focus on developing functionality for managing conferences indicates a web application architecture that supports user interactions through a frontend interface.""
+}
+```",Education
+https://github.com/streamlit/document-qa-template,nan,nan,"```json
+{
+  ""category"": ""Data Apps/ Visualization"",
+  ""reasoning"": ""The project is a Streamlit app designed to answer questions about uploaded documents using OpenAI's GPT-3.5, emphasizing data presentation and exploration by allowing users to interact with their documents and receive responses in a user-friendly interface.""
+}
+```",Bot
+https://github.com/algonacci/flask-docker-template,The template of containerized Flask application,nan,"```json
+{
+  ""category"": ""Automation/ DevOps"",
+  ""reasoning"": ""The project is a template for a containerized Flask application, which aligns with automation and DevOps practices by facilitating the setup of a Dockerized environment for development and deployment. This ensures reproducibility and eases the deployment process in development operations.""
+}
+```",Automation
+https://github.com/tlpss/research-template,opinionated Cookiecutter template for python research projects ,cookiecutter-python; cookiecutter-template; python-template,"```json
+{
+  ""category"": ""Research"",
+  ""reasoning"": ""The project serves as a Cookiecutter template specifically designed for Python research projects, providing a structured setup for reproducible scientific studies and coding practices. It focuses on configurations that are beneficial for academic and research environments, such as testing, type checking, and project organization, which are essential for ensuring transparency and replicability in research work.""
+}
+```",Research
+https://github.com/heliophysicsPy/pyhc-repo-template,Template for a PyHC package repository,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""This repository serves as a template for new Python projects within the PyHC community, providing a structured foundation that adheres to best practices and standards. Its primary goal is to facilitate learning and development for individuals aiming to create heliophysics packages, thus classifying it within the Education domain.""
+}
+```",Regular
+https://github.com/linrongbin16/ci-template.nvim,CI template for Neovim plugin project.,nan,"```json
+{
+  ""category"": ""Automation/ DevOps"",
+  ""reasoning"": ""This project serves as a CI template specifically for Neovim plugin development, providing automated checks, testing, and deployment features. It facilitates continuous integration workflows, ensuring that the development process for plugins is streamlined and reliable, aligning it with the Automation/ DevOps category.""
+}
+```",Automation
+https://github.com/marprin/flask-celery-boilerplate,Simple starter python flask framework with celery,flask; python3; python; celery; background-jobs; docker; docker-compose,"```json
+{
+  ""category"": ""Automation/ DevOps"",
+  ""reasoning"": ""The project provides a basic framework for a Python Flask application that utilizes Celery for handling background jobs, which falls under the category of streamlining development operations. The inclusion of Docker and Docker Compose for setup indicates a focus on automated deployment and environment configuration, highlighting its role in DevOps practices.""
+}
+```",Automation
+https://github.com/pedrorrivero/pyproject-qiskit,Template for Qiskit python projects,qiskit; quantum-computing,"```json
+{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The project provides a template for developing Qiskit-based quantum computing applications, which aligns with the domain of AI and machine learning as it facilitates the creation and testing of quantum algorithms and models.""
+}
+```",Quantum
+https://github.com/catalyst-cooperative/cheshire,A template repository to make setting up new Python projects easier and more uniform.,nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The project provides a standardized template for setting up new Python projects, featuring structured directories, testing frameworks, and development tools. Its main goal is to streamline the initial setup process for Python packages rather than focusing on a specific application domain or functionality, which aligns it with the characteristics of a general-purpose project structure.""
+}
+```",Regular
+https://github.com/or-tools/python_or-tools,About Template to consume pypi ortools package,nan,"```json
+{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The project serves as a template to use Google OR-Tools, which is a library for combinatorial optimization and decision-making, commonly utilized in AI and machine learning contexts. The sample project demonstrates how to integrate this library into a Python environment, which aligns it closely with the development and practical application of AI/machine learning solutions.""
+}
+```",Automation
+https://github.com/louisbrulenaudet/hackathon-backend,"Python boilerplate for hackathon backend project, designed to ship fast fast fast 🏎️",api; backend; boilerplate; boilerplate-template; docker-compose; fastapi; hackathon; hackathon-project; hacking; mistral; open-source; pydantic; python; ruff; uv,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a Python boilerplate for a backend specifically designed for rapid development of web applications, utilizing FastAPI, Docker, and providing an API structure. Its focus on establishing a backend service aligns it closely with web development frameworks and practices.""
+}
+```",Education
+https://github.com/MLH-Fellowship/mock-take-home-project,Mock Take Home Project,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project involves building an API for tracking sport activity records, which aligns with web development as it requires creating a web-based system with endpoints for managing data related to various activities. It emphasizes API design and functionality, which are central aspects of web applications.""
+}
+```",Web
+https://github.com/streamlit/movies-dataset-template,nan,nan,"```json
+{
+  ""category"": ""Data Apps/ Visualization"",
+  ""reasoning"": ""The project is a Streamlit application that displays movie data from The Movie Database (TMDB), which emphasizes interactive data presentation and exploration. Its main goal is to provide a visual interface for users to explore and analyze movie-related information, classifying it within the Data Apps/Visualization domain.""
+}
+```",Data Visualization
+https://github.com/app-generator/core-django,Core Django - A minimum Codebase | App-Generator.dev,django-starter; django-starter-template; django-template; starter-template; django-simple; simple-django-project; basic-django-project; core-django; django-core; django-docker-compose; django-docker-starter; django-simple-project; simple-django; django-for-beginners; django-for-everybody,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a minimal Django starter template with Docker support, designed to help users quickly set up a web application using the Django framework. Its purpose is to streamline the development of web-based systems by providing essential features and configurations specifically tailored for building web applications.""
+}
+```",Web
+https://github.com/AutomotiveDevOps/requirements,Automated requirements management with strictdoc and GitHub actions.,nan,"```json
+{
+  ""category"": ""Data Management"",
+  ""reasoning"": ""The project focuses on automated requirements management and compliance documentation, specifically targeting the MIL-STD-498 standard for safety-critical systems. It provides structured templates and examples for managing and documenting software requirements, design, and testing processes, which are essential aspects of data management in software development.""
+}
+```",Education
+https://github.com/pamelafox/async-video-code,nan,nan,"```json
+{
+  ""category"": ""Automation/ DevOps"",
+  ""reasoning"": ""The project serves as a Python project template that incorporates automated dev tools and CI/CD processes using GitHub Actions for testing and linting. It streamlines development operations through its structured setup, including pre-commit hooks and a devcontainer for consistent environment management.""
+}
+```",Regular
+https://github.com/CursedPrograms/Python-Django-Template,Python Template for Flask & Django,django; python,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a template for building web applications using Flask and Django, which are popular web frameworks for creating web-based systems. Its focus on Python, web technologies, and providing a standard project structure aligns it with the Web Development category.""
+}
+```",Web
+https://github.com/codersforcauses/django-nextjs-template,Django + Nextjs Template: Standardised CFC Tech Stack,cfc-standards,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a template for building web applications using Django for the backend and Next.js for the frontend. It provides standardized setups for both frameworks, including development and database configuration, which aligns with the creation of web-based systems and APIs.""
+}
+```",Web
+https://github.com/nictuku/py-mcp-server-template,Fork this to create a working server in Python,nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The project serves as a template for creating Model Context Protocol (MCP) servers using Python, providing a standard structure for setting up the server environment, managing dependencies, and running the server application. It does not specifically align with more defined categories like DevOps, AI, or Web Development, but rather represents a general-purpose project template for developing server applications.""
+}
+```",Web
+https://github.com/yashksaini-coder/Flask-Project-Template,nan,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The Flask Starter Template is designed to help developers quickly set up a web application using the Flask framework. It focuses on providing essential features such as authentication, database integration, and templating, which are key components of web development projects.""
+}
+```",Web
+https://github.com/alexdlaird/django-bootstrap-authentication-template-project,"A simple template, including authentication forms, for a deployable Django application using Bootstrap",python; django; bootstrap; education; django-pipeline; travis-ci; ansible; heliumcli,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The project serves as a template for a Django application that includes authentication forms, making it especially useful for educational purposes. It provides a standardized structure that helps learners and developers get started quickly with Django and web development practices.""
+}
+```",Web
+https://github.com/MyoHub/myochallenge_2024eval,nan,nan,"```json
+{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The project involves developing controllers for bionic models to perform manipulation and locomotion tasks, which clearly relates to training AI models for physical tasks. It provides resources for training agents and implementing policies, indicating a focus on machine learning techniques.""
+}
+```",AI
+https://github.com/SINTEF/fastapi-template,FastAPI/Python Service Template,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The FastAPI/Python Service Template is designed to facilitate the creation of modular web services using the FastAPI framework, emphasizing best practices in coding organization and including Docker support for both development and production environments.""
+}
+```",Web
+https://github.com/roniemartinez/docker-django-template,Template repository for a Docker+Django project,nan,"```json
+{
+  ""category"": ""Infrastructure/ Cloud"",
+  ""reasoning"": ""This project is a Docker+Django template designed for building scalable web applications that utilize containerization for deployment. By incorporating Docker, Nginx for load balancing, and PostgreSQL, it focuses on creating a cloud-native architecture, which aligns it closely with the Infrastructure/Cloud domain.""
+}
+```",Web
+https://github.com/edanalytics/edu_project_template,Template for initializing an EDU deployment,nan,"{
+  ""category"": ""Data Management"",
+  ""reasoning"": ""The project focuses on setting up data pipelines involving Airflow and dbt, which are essential tools for managing and transforming datasets within data engineering workflows. It provides configurations and scripts necessary for the initial setup and management of data, making it suitable for the Data Management domain.""
+}",MLOps
+https://github.com/Monomango-Development/TD_Prefab,This project can be used as a boilerplate to base future projects off of.,nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The project serves as a boilerplate that provides a standardized structure for developing future projects. It is designed for general-purpose use and does not confine itself to a specific domain, making it a reusable scaffold for organizing source code and project setups.""
+}
+```",Regular
+https://github.com/awesomelistsio/awesome-list,Template to create your own awesome list.,awesome; awesome-list; awesome-lists; awesome-list-template,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The project provides a template for creating curated lists of resources, serving as a general-purpose project structure for organizing information rather than fitting into a more specialized domain.""
+}
+```",Regular
+https://github.com/inferless/stable-video-diffusion,"This model converts a single still image into a coherent video sequence with consistent, realistic motion. <metadata> gpu: T4 | collections: [""Diffusers""] </metadata>",video-and-3d-object,"```json
+{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The project involves converting a still image into a coherent video sequence using a model for image-to-video transformation, which falls under the domain of machine learning as it focuses on developing and deploying AI models for creative applications.""
+}
+```",AI
+https://github.com/upmem/dpu_kmeans,Implementation of the K-means algorithm on UPMEM PIM architecture,nan,"```json
+{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The project implements the K-means algorithm, which is a fundamental method in machine learning for clustering data. It leverages the UPMEM PIM architecture to run this algorithm efficiently, highlighting its use in the development of AI models.""
+}
+```",AI
+https://github.com/mglowinski93/AsyncSqlalchemyTemplate,Template for asynchronious SqlAlchemy usage.,nan,"```json
+{
+  ""category"": ""Data Management"",
+  ""reasoning"": ""The project is a template for using asynchronous SQLAlchemy, which is focused on managing database interactions in an efficient, asynchronous manner. This aligns with the Data Management category as it structures workflows around database connectivity and operation handling, emphasizing the management of data operations rather than general-purpose application deployment or web development.""
+}
+```",Regular
+https://github.com/Leohanhart/DeliveryService,"the best FastAPI template around. Incl: FastAPI, AUTH, SSH-TUNNEL, Docker, DTO's) best practisch code, with 20 peer reviews.",docker; fastapi; postgresql; python; sshtunnel,"```json
+{
+  ""category"": ""Infrastructure/ Cloud"",
+  ""reasoning"": ""The DeliveryService project utilizes FastAPI and Docker for building and deploying a robust data delivery API, emphasizing efficient database connectivity and SSH tunneling. Its focus on deployment scalability and management aligns it with infrastructure-related solutions, particularly for cloud-native architectures.""
+}
+```",Web
+https://github.com/banesullivan/remotetileserver,📡 A template for deploying localtileserver on Heroku,rasters; geospatial; heroku; tile-server; flask-application; localtileserver,"```json
+{
+  ""category"": ""Infrastructure/ Cloud"",
+  ""reasoning"": ""The project is a template for deploying a local tile server using a Flask application on Heroku, emphasizing cloud deployment and configuration. This aligns with the Infrastructure/Cloud domain as it provides mechanisms for deploying web applications in a cloud environment.""
+}
+```",Cloud
+https://github.com/Hochfrequenz/python_template_repository,A template repository that comes up with a pre-defined tox setup and CI actions. ,black; githubactions-ci; mypy; pylint; pytest; python3; tox,"```json
+{
+  ""category"": ""Automation/ DevOps"",
+  ""reasoning"": ""This repository provides a pre-defined setup for Python projects that includes a `tox` configuration for automated testing, linting, and code formatting. It also integrates GitHub Actions for CI/CD workflows, making it a tool for streamlining development operations and ensuring code quality through automation.""
+}
+```",Automation
+https://github.com/funnyzak/pyproject-starter,A template for the python project. It uses poetry for dependency management and tox for testing.,python; poetry-python; tox; python-project-starter,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The project is a template designed for Python projects that facilitates the setup of development environments, dependency management, and testing frameworks using tools like Poetry and Tox. It serves as a general-purpose scaffold to help developers start new Python applications with recommended practices.""
+}
+```",Regular
+https://github.com/MichaelCurrin/py-project-template,Starter template for a Python app - including CI and docs 🐍 🌠,python; scaffolding; python3; skeleton; quickstart; template; starter; boilerplate,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This project serves as a starter template for Python applications, providing a structured setup for development, including configuration for testing, version control, and CI/CD with GitHub Actions. It is general-purpose in nature, enabling users to scaffold their own Python projects efficiently.""
+}
+```",Regular
+https://github.com/picocomputer/vscode-cc65,New Project Template for CC65,nan,"```json
+{
+  ""category"": ""Education"",
+  ""reasoning"": ""The project provides a template and scaffolding for developing software for the Picocomputer 6502, including foundational examples in C and assembly. It is aimed at teaching and facilitating the learning of programming for the 6502 platform, serving as an educational resource for both beginners and experienced developers who wish to explore this retro computing environment.""
+}
+```",Regular
+https://github.com/altixco/django-postgres-dokku,Django 3.1 + Postgres 11 + Dokku config (Production Ready),postgres; django; dokku; django-rest-framework; webpack; push-notifications,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""This project template is designed to set up a Django web application using PostgreSQL and Dokku for deployment. It emphasizes the creation of a web-based system by providing ready-to-use configurations for routing, static files, templates, and various deployment techniques typical to web applications.""
+}
+```",Automation
+https://github.com/MuckRock/documentcloud-hello-world-addon,nan,nan,"```json
+{
+  ""category"": ""Plugin/ Extensibility Frameworks"",
+  ""reasoning"": ""The project is an example Add-On for DocumentCloud, designed to allow users to create custom Add-Ons to enhance the platform's functionality. This aligns with the Plugin/Extensibility Frameworks category, as it provides the structure for extending an existing system with new features.""
+}
+```",Plugin
+https://github.com/ZH-XiJun/action_sprd_signer,nan,nan,"```json
+{
+  ""category"": ""Automation/ DevOps"",
+  ""reasoning"": ""The project provides GitHub Actions workflows to automate the signing of images for Unisoc/SPRD devices, which streamlines the development and deployment process related to firmware preparation, thus aligning it with the Automation/DevOps domain.""
+}
+```",Automation
+https://github.com/mezgoodle/bot_template,My template for aiogram bots,nan,"```json
+{
+  ""category"": ""Communication/ Bots"",
+  ""reasoning"": ""The project is a template for developing Telegram bots using the aiogram framework. It focuses on providing the necessary structure and tools for creating interactive communication agents, which aligns it with the Communication/ Bots domain.""
+}
+```",Bot
+https://github.com/kasperjunge/fastapi-react-vibe-coding-template,nan,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a FastAPI-React coding template, which indicates that it is designed to facilitate the creation of web-based applications using FastAPI for the backend and React for the frontend. This classifies it under web development as it focuses on building a full-stack web application framework.""
+}
+```",Web
+https://github.com/tboulet/research-project-template,"A template repository, for the objective of combining research and good code practice. It focuses on code structure, modularity, configuration system (Hydra) and logging (tensorboard and WandB)",nan,"```json
+{
+  ""category"": ""Research"",
+  ""reasoning"": ""The project focuses on structuring research code with a modular design, allowing for easy configuration, logging, and experimentation. This aligns with the goals of reproducibility and streamlined experimentation, which are central to research practices.""
+}
+```",Research
+https://github.com/neo4j-field/neo4j-python-api-sample,Sample app for a Python API using FastAPI and neomodel,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a sample application for building a Python API using FastAPI and neomodel, which supports the creation and interaction with a Neo4j database. Its focus on developing a web-based API for querying and manipulating database records categorizes it firmly within the Web Development domain.""
+}
+```",Web
+https://github.com/list4c/playwright-python-testing,Template repository for automated testing using Playwright and Python,playwright-python; stxnext; test-automation; test-framework,"```json
+{
+  ""category"": ""Automation/ DevOps"",
+  ""reasoning"": ""The project serves as a template for automating end-to-end tests using Playwright and Python, focusing on continuous integration and validation of pull requests, which are key aspects of DevOps practices.""
+}
+```",Automation
+https://github.com/Cheaterman/fluxt,Boilerplate to quickly get started on building a Flask app with a Nuxt frontend.,nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a boilerplate for quickly starting a web application using Flask for the backend and Nuxt for the frontend, which falls under the realm of web development as it provides the structure for building a full-stack web application.""
+}
+```",Web
+https://github.com/fly-apps/not-midjourney-bot,Build your very own AI image-generating Discord bot on Fly GPUs,discord-bot; fooocus; midjourney; stable-diffusion; gpu; ai,"```json
+{
+  ""category"": ""Communication/ Bots"",
+  ""reasoning"": ""The project is centered around building a Discord bot that generates images using AI, specifically integrating functionalities with the Fooocus API for text-to-image generation. Its primary focus is on creating a conversational agent within the Discord platform, which aligns it closely with the Communication/Bots domain.""
+}
+```",Bot
+https://github.com/til-ai/til-25,DSTA BrainHack TIL-AI 2025 template repository.,nan,"```json
+{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The DSTA BrainHack TIL-AI 2025 template repository is designed to facilitate the development, testing, and submission of AI models across various challenges involving tasks like automatic speech recognition (ASR), computer vision (CV), optical character recognition (OCR), and reinforcement learning (RL). It incorporates Docker for containerization and provides a structure specifically tailored for machine learning projects, making it a clear fit for the Machine Learning/AI category.""
+}
+```",AI
+https://github.com/SHIINASAMA/pyside_template,A simple pyside6 project template with build script.,linux; macos; pyside6; windows; python,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""The project is a template designed to provide a basic structure for PySide6 applications, enabling developers to set up their projects easily. It includes project scaffolding, a build script, and dependencies, making it a reusable starting point for general-purpose software development rather than focusing on specific domain functionalities.""
+}
+```",Regular
+https://github.com/Monsets/telegram_bot_template,"Telegram Bot template with subscription, tg channels reading embedded",nan,"```json
+{
+  ""category"": ""Communication/ Bots"",
+  ""reasoning"": ""The project is a Telegram bot template designed for managing subscriptions, processing payments, and user profiles, aimed at creating premium communication services. It focuses on automated interactions and managing user engagements within Telegram, categorizing it clearly as a bot framework for conversational applications.""
+}
+```",Bot
+https://github.com/JMSLab/Template,Template for research repository using scons.,nan,"```json
+{
+  ""category"": ""Research"",
+  ""reasoning"": ""The repository serves as a template for creating reproducible research projects, incorporating tools like SCons for building and managing project dependencies, and it emphasizes structuring and organizing research code and data for transparency and replication.""
+}
+```",Research
+https://github.com/ANTsX/ANTsPyMM,utilities for processing modalities beyond T1w,nan,"```json
+{
+  ""category"": ""Data Management"",
+  ""reasoning"": ""The ANTsPyMM project provides utilities for processing neuroimaging data, with a significant focus on organizing, transforming, and analyzing various modalities of brain MRI. Its functions support data inspection, cleaning, and maintaining reproducibility, which are key aspects of managing complex datasets in neuroimaging research.""
+}
+```",Data Management
+https://github.com/jkitchin/literature-alerts,nan,nan,"```json
+{
+  ""category"": ""Data Management"",
+  ""reasoning"": ""The project is designed to create literature alerts using the OpenAlex API, facilitating the management and organization of research outputs by generating RSS feeds and organizing results into structured files. It primarily focuses on automating the process of tracking and managing citations and research publications, which aligns it with the goals of data management in a research context.""
+}
+```",Automation
+https://github.com/QuvonchbekBobojonov/aiogram-webhook-template,Aiogram version 3 web hook template via FastAPI,aiogram; aiogram-bot-template; aiogram-template; aiogram3; aiogram3-template; fastapi; python-telegram-bot; aiogram-webhooks; aiogram3-webhooks,"```json
+{
+  ""category"": ""Communication/ Bots"",
+  ""reasoning"": ""The project is a template for building a Telegram bot using the Aiogram library and FastAPI for handling webhooks. Its main focus is on enabling the creation of interactive communication agents, which aligns it with the Communication/Bots category.""
+}
+```",Bot
+https://github.com/nazar220160/AiogramTemplate,This is a template for telegram bot on aiogram3 using asynchronous database and redis,aiogram; aiogram3; example; python; sqlalchemy; telegram; telegram-bot; template,"```json
+{
+  ""category"": ""Communication/ Bots"",
+  ""reasoning"": ""The project is a template for creating a Telegram bot using the aiogram library, which is specifically designed for building conversational agents within the Telegram platform. Its focus on bot functionalities, including command handling and interactions through a messaging interface, places it firmly within the Communication/Bots category.""
+}
+```",Bot
+https://github.com/fauzaanu/telegram-bot-starter,Telegram Bot starter using python-telegram-bot,nan,"```json
+{
+  ""category"": ""Communication/ Bots"",
+  ""reasoning"": ""The project provides a template for creating a Telegram bot using the python-telegram-bot library, which falls under conversational and messaging applications. Its main goal is to facilitate the rapid development of interactive communication agents, thus fitting into the Communication/Bots category.""
+}
+```",Bot
+https://github.com/AEADataEditor/replication-template,"A template for starting a reproducibility check. For development and to file issues, see https://github.com/AEADataEditor/replication-template-development",reproducibilty,"```json
+{
+  ""category"": ""Research"",
+  ""reasoning"": ""The repository serves as a template for conducting reproducibility checks in academic research, focusing on ensuring scientific transparency and facilitating replication of studies, which aligns with the goals of the Research domain.""
+}
+```",Research
+https://github.com/pyvista/pyvistaqt-exe,Create a Windows installable exe from a PyVistaQt application,3d; pyinstaller; pyqt; pyvista,"{
+  ""category"": ""Automation/ DevOps"",
+  ""reasoning"": ""The project provides a template for automating the building of a standalone Windows executable from a PyVistaQt application, including features for asset bundling and automated CI builds with GitHub Actions. This aligns with the Automation/DevOps domain as it streamlines the development operations related to creating deployable applications.""
+}",Automation
+https://github.com/rruiter87/TcTemplate,A template repo for TwinCAT projects,beckhoff; beckhoff-twincat; beckhoff-twincat-plc; industrial-automation; plc-programming; twincat; twincat3,"```json
+{
+  ""category"": ""Automation/ DevOps"",
+  ""reasoning"": ""The TcTemplate repository is designed as a template for TwinCAT projects, focusing on initializing, configuring, and managing automation-related code and pre-commit workflows. Its emphasis on setting up pre-commit hooks and requirements suggests that it facilitates the automation of development operations within industrial automation contexts, thereby fitting into the Automation/DevOps category.""
+}
+```",Robotics
+https://github.com/opensafely/research-template,The template for new research projects that use the OpenSAFELY framework.,opensafely; non-research,"```json
+{
+  ""category"": ""Research"",
+  ""reasoning"": ""The project serves as a template for new research projects using the OpenSAFELY framework, which is aimed at electronic health records research. It emphasizes principles of open science and transparency, making it suitable for reproducible scientific studies and empirical experiments.""
+}
+```",Research
+https://github.com/godatadriven/python-devcontainer-template,Shows you how to use a Devcontainer for your Python project 🐳♡🐍,devcontainer; devcontainer-template; vscode-devcontainer; python-devcontainer,"```json
+{
+  ""category"": ""Automation/ DevOps"",
+  ""reasoning"": ""This project demonstrates how to set up a Devcontainer for Python projects, enabling reproducible development environments and streamlining onboarding processes for teams. Its focus on configuration and automation aligns it closely with DevOps practices.""
+}
+```",Automation
+https://github.com/dovolopor-research/python-api-template,🐍 一个快速高性能的「Python API 模板」,python-api; python-template; sanic; sanic-project,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a high-performance Python API template designed for building web applications using FastAPI. It includes structures for deployment, configuration, and testing that facilitate the development of web-based systems and APIs.""
+}
+```",Web
+https://github.com/Borda/kaggle_SandBox,starting point for Kaggle attempt :],kaggle; python; kaggle-competition; sandbox; template-project,"```json
+{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The project provides a template for participating in Kaggle competitions, which typically involve the development, training, and submission of machine learning models. It includes a structured setup for core functionalities, notebooks for experiments, and may involve unit tests, aligning it closely with machine learning project workflows.""
+}
+```",AI
+https://github.com/itsmeadarsh2008/cherrysaas,"a cherishable saas pythonic reflex template for humans, cherryblossom-inspired perfection, as cherishable as cherry blossom 🌸",nan,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is described as a 'SaaS pythonic reflex template,' indicating its focus on web-based applications and services. As it aims to provide a template structure for building a software as a service, it directly aligns with web development domains, facilitating the creation of web applications.""
+}
+```",Regular
+https://github.com/t1m4/fastapi_template,FastAPI + SqlAlchemy + Dependency injector,fastapi; python; sqlalchemy-core; typer; celery; redis; sentry; docker,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a FastAPI template that provides a structured architecture for building web applications with a clear separation of concerns. It emphasizes API development, database interactions, and includes various modern web development tools and practices, making it suited for creating web-based systems.""
+}
+```",Web
+https://github.com/crossplane/function-template-python,A template for writing a composition function in Python,nan,"```json
+{
+  ""category"": ""Automation/ DevOps"",
+  ""reasoning"": ""The project is a template for writing composition functions in Python, which automates the process of creating and deploying these functions using Docker and Crossplane tools. Its focus on CI/CD, Docker integration, and building reusable function packages underlines its alignment with the Automation/ DevOps domain.""
+}
+```",Automation
+https://github.com/app-generator/django-berry-dashboard,Django - Berry Dashboard (Open-Source) | AppSeed,bootstrap5; django-template; django-theme; berry-dashboard; berry-design; django-bs5; berry-bootstrap5; berry-bs5; berry-django; django-berry,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The Django Berry Dashboard project is an open-source starter template based on Django that integrates the Berry Dashboard UI kit and Bootstrap for creating customizable web applications. It focuses on providing a structure for web-based systems, allowing developers to build interactive data management features and user interfaces effectively.""
+}
+```",Web
+https://github.com/MaksimZayats/python-django-template," A robust Django API template with Docker, Celery, RabbitMQ, Redis, Sentry, and AWS S3 integration. Streamlined for quick setup and scalable development 🚀",django; docker; drf; python; template,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a Django API template that incorporates multiple modern technologies such as Docker, Celery, and AWS S3 for building scalable and robust web-based applications. Its primary focus is on setting up a structured environment for developing RESTful APIs, making it a fit for the web development domain.""
+}
+```",Automation
+https://github.com/yunojuno/poetry-template,"Template for a redistributable Django app, using poetry, pytest, pylint, flake8, mypy",nan,"{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a template for creating redistributable Django applications, incorporating modern development practices such as dependency management, testing, and CI/CD, which are essential for building web applications. Its focus on setting up a structured environment for Django development aligns it closely with the web development category.""
+}",Web
+https://github.com/MR-GREEN1337/awesome-mcp-fastapi,Awesome MCP template for awesome FastAPI builders,nan,"```json
+{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The project is a FastAPI-based implementation of the Model Context Protocol (MCP) that enhances tool registry capabilities for AI tools, particularly for Large Language Models (LLMs). Its purpose is to facilitate the integration and management of AI-related tools, which aligns it closely with the Machine Learning/AI domain.""
+}
+```",AI
+https://github.com/rom1504/python-template,Simple python template,nan,"```json
+{
+  ""category"": ""Regular Project"",
+  ""reasoning"": ""This repository provides a straightforward Python template designed for general-purpose development, which includes basic structure, API, and testing instructions. It does not specialize in a particular domain area such as web development or automation, making it a reusable scaffold for various Python projects.""
+}
+```",Regular
+https://github.com/febus982/bootstrap-python-fastapi,A python service built using Clean Architecture and SOLID principles,clean-architecture; python; alembic; fastapi; grpc; sqlalchemy; software-architecture; template; template-repository; template-repository-python,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The project is a Python-based service built using Clean Architecture principles and FastAPI, focusing on creating web APIs with support for advanced features like WebSockets, authentication, and database management, which classifies it explicitly in the domain of web application development.""
+}
+```",Education
+https://github.com/realkarych/aioplate,Template for creating Telegram bots on Python Aiogram,aiogram; postgresql; python; sqlalchemy; asyncpg; bot; telegram; template; chatbot,"{
+  ""category"": ""Communication/ Bots"",
+  ""reasoning"": ""The project is a template for creating Telegram bots using Python's Aiogram framework, which focuses on the development of conversational agents. Its key characteristics include modular command structures and event handling, making it suitable for rapid development of interactive communication applications.""
+}",Bot
+https://github.com/BetterAndroid/android-app-template,A template for quickly creating basic Android project.,android; android-template; app-template; kotlin,"```json
+{
+  ""category"": ""Mobile Development"",
+  ""reasoning"": ""The project is a template designed for quickly creating basic Android applications, providing a structure that facilitates the development of mobile apps using standard Android frameworks and practices.""
+}
+```",Mobile
+https://github.com/netbriler/aiogram-peewee-template,"Telegram Bot API template, with aiogram, peewee and docker",postgres; postgresql; telegram; telegram-bot; telegram-bot-api; telegram-bot-template; aiogram; python; python3; docker; docker-compose; telegram-webhook; makefile; i18n; github-actions; cicd; telegram-web-app; peewee; migrations,"```json
+{
+  ""category"": ""Communication/ Bots"",
+  ""reasoning"": ""The project is a template for developing a Telegram bot using the aiogram framework, which facilitates the creation of interactive communication agents within the Telegram messaging service. It includes configurations for bot settings, event handling, and deployment, making it primarily focused on facilitating bot development.""
+}
+```",Bot
+https://github.com/tweag/python-monorepo-example,"Example of a python monorepo using pip, the poetry backend, and Pants",nan,"```json
+{
+  ""category"": ""Automation/ DevOps"",
+  ""reasoning"": ""The project is a template for a Python monorepo designed to streamline development workflows and dependency management, using tools like Pip and virtual environments. Its focus on CI configurations and reproducibility aligns it with Automation/DevOps practices, particularly for continuous integration and deployment processes.""
+}
+```",Regular
+https://github.com/kmsint/aiogram_bot_template,nan,nan,"```json
+{
+  ""category"": ""Communication/ Bots"",
+  ""reasoning"": ""This project is a template for developing Telegram bots using the aiogram framework, which enables the creation of interactive communication agents. The focus on messaging functionality and interaction through a messaging platform clearly places it within the Communication/Bots domain.""
+}
+```",Bot
+https://github.com/wakaree/aiogram_bot_template,Aiogram 3.x bot template using PostgreSQL (asyncpg) with SQLAlchemy + alembic.,aiogram-bot; aiogram-bot-template; aiogram3; telegram-bot; telegram-bot-template; fastapi,"```json
+{
+  ""category"": ""Communication/ Bots"",
+  ""reasoning"": ""The project provides a template for building a Telegram bot using the Aiogram framework, which is specifically designed for creating interactive communication agents. It focuses on setting up the necessary infrastructure and dependencies for bot development, placing it firmly in the Communication/ Bots category.""
+}
+```",Bot
+https://github.com/peaceiris/mkdocs-material-boilerplate,"MkDocs Material Boilerplate (Starter Kit) - Deploy documentation to hosting platforms (Netlify, GitHub Pages, GitLab Pages, and AWS Amplify Console) with Docker, pipenv, and GitHub Actions.",mkdocs; mkdocs-material; dockerfile; github-pages; netlify; boilerplate; starter-kit; gitlab-pages; docker; aws; static-site-generator,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""The MkDocs Material Boilerplate is primarily aimed at creating and deploying static documentation websites using MkDocs, which fits within the realm of web development. It provides the necessary structure and tools for setting up and hosting documentation on various platforms, making it a web-based solution for documentation purposes.""
+}
+```",Automation
+https://github.com/Vivify-Ideas/python-django-drf-boilerplate,Django Boilerplate for starting fresh new DRF projects,drf; docker; boilerplate; python; django; swagger,"```json
+{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""This project provides a boilerplate for starting new Django Rest Framework applications, which are web-based systems. It includes features such as API documentation, authentication, and a fully dockerized development environment, all of which are essential components for web service development.""
+}
+```",Web
+https://github.com/nogibjj/mlops-template,mlops template,copilot; coursera; huggingface; mlops; python,"{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The project is an MLOps template designed for managing and deploying machine learning models efficiently, integrating key tools and workflows for model training, evaluation, and deployment using frameworks like TensorFlow and PyTorch. This aligns with the Machine Learning/ AI category as it emphasizes the development and operationalization of AI models.""
+}",AI
+https://github.com/langchain-ai/rag-research-agent-template,nan,nan,"```json
+{
+  ""category"": ""Machine Learning/ AI"",
+  ""reasoning"": ""The repository is a template for developing a Retrieval-Augmented Generation (RAG) research agent using LangGraph, which involves processing user queries, retrieving relevant documents, and generating responses based on language models. Its emphasis on AI research, specifically integrating various language models and document retrieval mechanisms, categorizes it firmly within the Machine Learning/AI domain.""
+}
+```",AI
+https://github.com/Significant-Gravitas/Auto-GPT-Plugin-Template,A starting point for developing your own plug-in for Auto-GPT,nan,"```json
+{
+  ""category"": ""Plugin/ Extensibility Frameworks"",
+  ""reasoning"": ""The project provides a template for developing plugins for Auto-GPT, specifically designed to extend the capabilities of the Auto-GPT framework. Its focus on providing a structured starting point for plugin development aligns with the characteristics of extensibility frameworks, enabling developers to create additional features within an existing ecosystem.""
+}
+```",Plugin
+https://github.com/wsvincent/lithium,Django starter project with 🔋,django; python; starter-template; docker; allauth; whitenoise,"{
+  ""category"": ""Web Development"",
+  ""reasoning"": ""Lithium is a Django-powered boilerplate designed for quickly setting up web applications with integrated user authentication, dependency management via Docker, and standard configurations for serving static files, which are core concerns in web development.""
+}",Web
