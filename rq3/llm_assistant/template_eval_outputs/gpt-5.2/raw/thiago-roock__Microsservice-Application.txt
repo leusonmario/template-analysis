@@ -1,0 +1,97 @@
+{
+  "G1": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository contains a .github/workflows directory, but its contents could not be inspected from the public HTML view (the listing did not render), and common workflow filenames (e.g., codeql.yml, dotnet.yml, ci.yml) were not found at the expected raw URLs (404).",
+      "The README shows a CodeQL badge, suggesting some quality/security automation intent, but without accessible workflow files it is not possible to confirm integrated CI/CD, testing, linting, hooks, bots, or dependency update automation as part of the template."
+    ],
+    "confidence": 3
+  },
+  "G2": {
+    "adherence": "No",
+    "reasoning": [
+      "A README exists and provides basic purpose plus installation/usage commands for installing the .NET template via dotnet new install and creating a project via dotnet new microsservice-api.",
+      "Documentation is not comprehensive for customization/extension: it lacks explicit prerequisites/versions (e.g., .NET SDK version), structure explanation, and guidance on how to modify/extend the scaffold beyond the basic install/run commands."
+    ],
+    "confidence": 4
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository is a GitHub 'Public template', but the README instructions focus on installing via dotnet new install from a ZIP URL or cloning the repo locally, not on using GitHub’s 'Use this template' button/feature for instantiation.",
+      "No explicit guidance was found that educates users to instantiate via GitHub template mechanism."
+    ],
+    "confidence": 5
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap file/section (e.g., ROADMAP.md, GitHub Projects roadmap, milestones) is referenced or visible from the repository landing/README content that was retrievable.",
+      "Issues exist but there are no issues and no milestones visible, providing no public forward-looking plan."
+    ],
+    "confidence": 4
+  },
+  "G5": {
+    "adherence": "Yes",
+    "reasoning": [
+      "The repository is explicitly marked as 'generated from thiago-roock/BackgroundTasks-Application', indicating it was derived from another template/repository and is part of a reusable lineage/family approach."
+    ],
+    "confidence": 5
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository has no published releases and the tags page indicates there aren’t any releases/tags available, so there is no versioned release channel to align supported technology versions with template versions.",
+      "The README does not specify supported technology versions (e.g., target .NET/ASP.NET Core version) tied to any release."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No community/support channels (e.g., Discussions, Discord/Slack links) or sponsorship information are visible in the accessible README/landing content.",
+      "Issues are enabled but there are currently 0 issues, and there is no explicit call for contributions or community support mechanisms in the retrieved documentation."
+    ],
+    "confidence": 4
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository is presented as a scaffold/template for creating ASP.NET Core microservices and includes dotnet new install instructions, which is consistent with a template/scaffolding purpose rather than a full end-to-end application.",
+      "The presence of a content/Microsservice folder suggests template content packaging rather than a single finished product."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "No",
+    "reasoning": [
+      "There is no visible indication that the repository is archived or explicitly marked inactive in the accessible landing/README content.",
+      "While activity recency was not verified (commit dates were not visible in the retrieved content), the pitfall requires unclear/inactive status signaling; no such signaling was found."
+    ],
+    "confidence": 3
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository appears focused on a single template/scaffold (microsservice-api) rather than multiple language/ecosystem variants distributed across folders/branches.",
+      "No evidence was found of multiple distinct templates being bundled together (e.g., separate templates for different stacks) in the accessible documentation."
+    ],
+    "confidence": 3
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository’s stated purpose is to provide a microservice scaffold/template; it does not appear to be the primary implementation repository for a separate technology product.",
+      "No evidence was found that a technology implementation and its template are being co-located in a confusing way (the repo is explicitly labeled and described as a template/scaffold)."
+    ],
+    "confidence": 4
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository is not empty: it contains a README, solution/project files, and a content/Microsservice directory, indicating actual scaffold content.",
+      "Basic documentation exists (README plus repository description/topics), so it is not missing fundamental documentation."
+    ],
+    "confidence": 5
+  }
+}

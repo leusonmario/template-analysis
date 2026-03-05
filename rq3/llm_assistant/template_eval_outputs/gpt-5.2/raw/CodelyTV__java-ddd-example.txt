@@ -1,0 +1,98 @@
+{
+  "G1": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Repository includes a GitHub Actions workflow that runs on push to main and on pull requests, and executes environment startup, linting, and tests (steps: `make start`, `make lint`, `make test`).",
+      "Project provides a ready-to-use setup with Gradle wrapper files, Docker/Docker Compose files, and a Makefile to standardize common tasks (build/test/up)."
+    ],
+    "confidence": 4
+  },
+  "G2": {
+    "adherence": "No",
+    "reasoning": [
+      "README provides a brief 'How To Start' checklist and a dependency update note, but lacks deeper guidance on customizing/extending the template structure (e.g., architecture explanation, module conventions, how to add new bounded contexts, etc.).",
+      "Documentation appears primarily limited to a single README plus an external course link; no wiki or multi-language docs are evident from the repository landing content."
+    ],
+    "confidence": 3
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "README instructs users to 'Clone this repository' with `git clone ...` rather than guiding them to use GitHub's 'Use this template' feature.",
+      "The repository is explicitly marked as a 'Public template', so the README guidance is misaligned with the recommended instantiation mechanism."
+    ],
+    "confidence": 5
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap is visible on the repository landing page content (no ROADMAP section in README and no releases/roadmap artifacts surfaced).",
+      "Issues exist, but there is no explicit roadmap document or milestone-based plan presented as a roadmap."
+    ],
+    "confidence": 3
+  },
+  "G5": {
+    "adherence": "Yes",
+    "reasoning": [
+      "GitHub indicates this template was 'generated from CodelyTV/java-basic-skeleton', showing it is derived from a base template.",
+      "README lists multiple related repositories across Java/PHP/Scala, suggesting an ecosystem/family approach to templates/examples."
+    ],
+    "confidence": 4
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository has 'No releases published', so there is no release/versioning mechanism to align supported technology versions with template releases.",
+      "README mentions Java 11 installation, but there is no release tagging strategy to map template versions to Java/Gradle/library versions over time."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No visible community support channels (e.g., Discord/Discussions link) or sponsorship callouts are evident from the repository landing/README content provided.",
+      "While issues and PRs are enabled, there is no explicit encouragement or structured community/support mechanism described in the README."
+    ],
+    "confidence": 3
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "README explicitly states it is intended as a starting point to bootstrap a Java project (a template/skeleton use case), not presented as a finished product/library.",
+      "Repository is labeled as a GitHub 'Public template' and includes scaffolding elements (Gradle wrapper, Makefile, Docker setup, CI workflow) consistent with a template."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "There is no prominent status signaling (e.g., archived repo banner or explicit 'maintenance status' section in README) visible in the inspected content.",
+      "Open issues include items dating back to 2020–2024, and the repository provides no clear statement about whether it is actively maintained or not, which can make status unclear to users."
+    ],
+    "confidence": 3
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository appears to contain a single Java template/project structure rather than multiple language/ecosystem variants in separate folders/branches.",
+      "README points to other repositories for other languages instead of bundling multiple templates into this repository."
+    ],
+    "confidence": 4
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "This repository is positioned as the template/skeleton itself (DDD Java starter), not as the primary implementation repository for a separate technology product that also happens to include a template.",
+      "No evidence from the inspected landing/README content suggests it is mixing a technology product's implementation lifecycle with a template in the same repo."
+    ],
+    "confidence": 3
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not empty: it contains source code, Gradle build files, Docker files, Makefile, and a README.",
+      "README provides at least basic setup instructions (Java version, clone, make up/build/test)."
+    ],
+    "confidence": 5
+  }
+}

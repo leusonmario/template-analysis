@@ -1,0 +1,99 @@
+{
+  "G1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository appears to provide a basic Turborepo/Yarn monorepo scaffold (api + web) but no evidence of integrated quality mechanisms like CI workflows, linting/test automation, hooks, or bots.",
+      "The GitHub Actions page shows only the generic GitHub Actions marketing content and does not show any repository workflows, suggesting no CI/CD pipelines are configured.",
+      "The repository file list shown on the main page includes api/, web/, package.json, turbo.json, yarn.lock, .gitignore, README.md, but no .github/workflows directory is visible."
+    ],
+    "confidence": 4
+  },
+  "G2": {
+    "adherence": "No",
+    "reasoning": [
+      "README content visible on the repository home page is brief and focuses on a few development commands and a short description of api/web; it does not provide comprehensive guidance for customization/extension, explicit version requirements, or deeper setup steps.",
+      "No evidence of additional documentation assets (wiki, docs folder, multi-language docs) is visible from the repository landing page."
+    ],
+    "confidence": 4
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "The README content shown does not mention using GitHub's \"Use this template\" button or otherwise educate users on the correct template instantiation mechanism.",
+      "The repository is marked as a \"Public template\" on GitHub, but the documentation shown does not guide users to use the template feature."
+    ],
+    "confidence": 4
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap is visible on the repository landing page (no ROADMAP section in the displayed README excerpt, and no Projects content is indicated).",
+      "No issues or milestones are visible (Issues shows 0), and there is no other public signal of planned evolution."
+    ],
+    "confidence": 3
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence is visible that this template is part of a reusable family of templates (no references to sibling templates, variants, or derivation strategy).",
+      "Repository appears to be a single template focused on a Turborepo monorepo with api/web packages."
+    ],
+    "confidence": 3
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository shows \"No releases published\" on the Releases/Tags page, so there is no release/versioning scheme to align supported technology versions with template releases.",
+      "The visible README excerpt does not specify supported versions (e.g., Node.js, Yarn, Next.js, Express) in a way that is tied to releases."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence of community/support channels (e.g., Discord/Discussions) or sponsorship calls is visible from the repository landing page.",
+      "Issues and Pull Requests both show 0, and there is no visible CONTRIBUTING/community guidance from the inspected pages."
+    ],
+    "confidence": 3
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is explicitly labeled as a template and described as \"A template for building apps using a monorepo,\" and the structure (api + web) matches a starter scaffold rather than a complete product.",
+      "The README describes it as a monorepo setup using Turborepo with an Express TypeScript API and a default Next.js web app, consistent with a starter template."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "No",
+    "reasoning": [
+      "No explicit indication of inactivity/archival status is visible on the repository landing page (it is not shown as archived).",
+      "While the repository shows only a small commit history, lack of releases/issues alone is not sufficient to conclude unclear/inactive status without an explicit status signal."
+    ],
+    "confidence": 2
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository appears to provide a single template with two packages (api and web) as part of one coherent monorepo scaffold, not multiple unrelated templates distributed across folders/branches.",
+      "No evidence of multiple template variants (different languages/ecosystems) co-located in separate folders/branches was found in the inspected file listing."
+    ],
+    "confidence": 3
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository appears to be a template scaffold repository rather than a primary technology implementation repository; it is not presenting itself as the canonical implementation of a framework/library plus a template in the same repo.",
+      "No separate product/technology artifact (with its own releases/issues as a product) is evident; the repo description and README focus on being a template."
+    ],
+    "confidence": 3
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not empty: the landing page shows api/, web/, package.json, turbo.json, yarn.lock, .gitignore, and README.md.",
+      "A README exists and includes basic development instructions and a short explanation of the included packages."
+    ],
+    "confidence": 5
+  }
+}

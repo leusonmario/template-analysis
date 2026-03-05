@@ -1,0 +1,98 @@
+{
+  "G1": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository contains an ESLint configuration and npm scripts for linting/testing (e.g., \"eslint\", \"test\"), but there is no evidence of an integrated CI/CD pipeline (no visible GitHub Actions workflows; the Actions page shows only the generic onboarding content).",
+      "No evidence of automation/bots (e.g., Dependabot config, code review bots) or pre-commit hooks in the publicly visible files list."
+    ],
+    "confidence": 4
+  },
+  "G2": {
+    "adherence": "No",
+    "reasoning": [
+      "The README is not comprehensive documentation; it is a short discontinuation notice and explicitly warns users not to install the bot, with no setup/customization/extension guidance.",
+      "No step-by-step guide, requirements, or usage instructions are present in the README content."
+    ],
+    "confidence": 5
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "The README does not explain how to instantiate the template via GitHub’s \"Use this template\" button (or any template instantiation instructions at all).",
+      "Although the repository is marked \"Public template\" on GitHub, the documentation does not educate users on correct template usage."
+    ],
+    "confidence": 5
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap is provided in the README; the only forward-looking statement is a possible return date, not a roadmap of planned template evolution/features.",
+      "No GitHub Projects/roadmap artifacts are visible (Projects shows 0)."
+    ],
+    "confidence": 4
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence that this template is organized as part of a reusable family of templates (no references to a base/default template, no sibling templates, no documented derivation strategy).",
+      "The repository appears to be a single template repository."
+    ],
+    "confidence": 3
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository has no published GitHub releases (the Releases/Tags page indicates there aren’t any releases).",
+      "While package.json includes a version (\"1.0.0\"), there is no release/tagging strategy that aligns supported technology versions with template releases."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence of dedicated community/support channels (e.g., Discord link), contribution guidance, discussions, or sponsorship calls in the README.",
+      "The README content is a discontinuation notice rather than an invitation to collaborate or seek support."
+    ],
+    "confidence": 4
+  },
+  "P1": {
+    "adherence": "Yes",
+    "reasoning": [
+      "The repository appears to be a full WhatsApp bot codebase (many source folders and runtime files like src/, plugins/, index.js, server.js, Dockerfile, etc.) rather than a focused scaffolding template with guidance for reuse.",
+      "The README does not describe template goals or scaffolding; it states the bot is discontinued and warns not to install it, which is inconsistent with a template intended for reuse."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "The README explicitly states the bot/template is discontinued and warns users not to attempt installation, indicating an inactive/unsupported state.",
+      "The repository is not archived (it is still a \"Public template\"), so the inactive status is only communicated via README text, which can be overlooked compared to GitHub’s archival mechanism."
+    ],
+    "confidence": 5
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence that multiple distinct template variants are bundled in separate folders/branches as different templates; the structure looks like one bot project with modules/plugins.",
+      "No documentation indicates multiple template options or variants."
+    ],
+    "confidence": 3
+  },
+  "P4": {
+    "adherence": "Yes",
+    "reasoning": [
+      "The repository is simultaneously labeled as a GitHub template and contains what looks like the actual bot implementation (application code, runtime entrypoints, deployment files), mixing product/implementation concerns with template concerns.",
+      "There is no separate, template-focused scaffolding/documentation layer; the repo primarily hosts the implementation."
+    ],
+    "confidence": 4
+  },
+  "P5": {
+    "adherence": "Yes",
+    "reasoning": [
+      "While the repository is not empty (it contains many files), it effectively has missing documentation for template reuse: the README is only a discontinuation notice and provides no setup/customization guidance.",
+      "The README explicitly warns that files may fail and says \"No intentar instalarlo\" (do not try to install it), which leaves users without usable documentation for reuse."
+    ],
+    "confidence": 5
+  }
+}

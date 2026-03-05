@@ -1,0 +1,98 @@
+{
+  "G1": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Repository includes CI via AppVeyor (appveyor.yml present) and README shows AppVeyor build status badge, indicating an integrated quality mechanism.",
+      "Template is packaged/distributed via NuGet/MyGet/GitHub Packages (README has install instructions and package badges), which is a common engineering practice for .NET templates."
+    ],
+    "confidence": 4
+  },
+  "G2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README documents purpose, prerequisites (NET 6.0, Node 14, npm 6), installation steps, how to create a project from the template, and shows expected generated folder structure.",
+      "README links to external resources (Vue tutorial, Microsoft docs for .NET templates) and includes uninstall instructions and a 'Previous Versions' compatibility table."
+    ],
+    "confidence": 5
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "README focuses on installing/using this as a .NET 'dotnet new' template package (NuGet/MyGet) rather than educating users about GitHub's 'Use this template' button/flow.",
+      "README explicitly suggests cloning the repository for local tinkering, but does not explicitly guide users to GitHub template instantiation as the primary mechanism."
+    ],
+    "confidence": 4
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap content is visible on the repository landing page/README (no ROADMAP section/file referenced).",
+      "No GitHub Projects usage is indicated (Projects shows 0), and no other planning artifact is referenced."
+    ],
+    "confidence": 4
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository appears to be a single template (one repo marked 'Public template') with no evidence of a related family of derived templates or a 'default template' spawning variants.",
+      "No documentation references sibling templates or a template suite."
+    ],
+    "confidence": 4
+  },
+  "G6": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Repository has GitHub Releases with versioned tags (e.g., 0.7.0) and release notes indicating technology upgrades (e.g., upgrade to .NET 6.0 and Vue 3.0).",
+      "README includes a 'Previous Versions' table mapping .NET target versions to template versions, supporting reproducibility/compatibility selection."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No visible community channels (e.g., Discord/Discussions) or sponsorship calls are referenced on the repository landing page/README.",
+      "Issues and pull requests are present as GitHub features but show 0, and there is no explicit community/support guidance beyond a contributing link."
+    ],
+    "confidence": 3
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is explicitly described as a template (public template) and README describes it as a minimal .NET template intended to generate new projects, including installation via 'dotnet new'.",
+      "README shows generated scaffolding structure rather than presenting itself as a complete end-to-end product/library meant to be used directly."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Latest visible GitHub release is 0.7.0 dated '26 May' (year not shown in the captured view), and the repository does not clearly communicate maintenance status (no archive banner or explicit 'inactive/maintained' statement in the visible README excerpt).",
+      "Without an explicit status signal, users may not know whether the template is actively maintained."
+    ],
+    "confidence": 2
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository structure and README describe a single template output (one scaffold) rather than multiple distinct templates organized in folders/branches.",
+      "No evidence of multiple language/ecosystem variants being shipped in the same repo."
+    ],
+    "confidence": 4
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is focused on providing a reusable template package (NuGet/MyGet) and scaffold, not co-located with a separate technology implementation that would be the primary product artifact.",
+      "README framing and contents are template-centric (installation, generation, prerequisites, structure)."
+    ],
+    "confidence": 4
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not empty and includes a README with substantial instructions and context.",
+      "Repository has multiple files (e.g., csproj, appveyor.yml, .github directory) indicating non-trivial scaffold content."
+    ],
+    "confidence": 5
+  }
+}

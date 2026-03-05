@@ -1,0 +1,99 @@
+{
+  "G1": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository provides a deployable Django starter with Platform.sh configuration (e.g., .platform/*, manage.py, dependency files), but there is no publicly visible evidence (from the inspected pages) of integrated quality mechanisms like GitHub Actions CI, linting/test automation, pre-commit hooks, or dependency-update bots.",
+      "The .github directory exists, but its contents could not be retrieved/inspected from the .github folder listing page (it did not render file listings), so no CI/CD or automation evidence could be confirmed."
+    ],
+    "confidence": 3
+  },
+  "G2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README includes a clear purpose statement (Django 4 template for Platform.sh) and a Features section listing key components/versions (Python 3.10, PostgreSQL 12, TLS, pip-based builds).",
+      "README provides customization guidance (what Platform.sh config files were added, what the demo app does) and explains how to switch package managers (pip/pipenv/Poetry) with concrete configuration instructions and examples.",
+      "README includes external references (Django site and Platform.sh docs)."
+    ],
+    "confidence": 4
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "The inspected README content does not explicitly instruct users to instantiate via GitHub’s “Use this template” button (or equivalent GitHub template instantiation flow).",
+      "The repository is marked as a “Public template” on GitHub, but the documentation excerpt shown focuses on Platform.sh deployment/configuration rather than GitHub template usage instructions."
+    ],
+    "confidence": 4
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap was observed on the repository landing page/README excerpt, and the repository shows “Projects 0,” suggesting no GitHub Projects-based roadmap is being used.",
+      "The README includes a prominent warning that the repository is no longer maintained, which further suggests there is no forward-looking evolution plan communicated."
+    ],
+    "confidence": 4
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "While the repository belongs to an organization named platformsh-templates (suggesting a broader ecosystem), within this repository there is no evidence of being explicitly derived from another template or acting as a base for a family (no mention of a base/default template lineage in the inspected content).",
+      "The README discusses variations for package managers within the same template, but that is not the same as a reusable family of separate templates derived from a common base."
+    ],
+    "confidence": 3
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "The Releases page shows “There aren’t any releases here,” so there is no release/versioning mechanism to align supported technology versions with template releases.",
+      "Although the README lists technology versions (e.g., Python 3.10, PostgreSQL 12), those versions are not tied to any tagged or released template versions."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence of dedicated community channels (e.g., Discord/Slack links) or sponsorship calls was observed in the inspected README excerpt or repository header sections.",
+      "Issues and PRs exist, but that alone is not an explicit encouragement mechanism (no CONTRIBUTING/community guidance was observed in the inspected content)."
+    ],
+    "confidence": 3
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository is explicitly labeled as a GitHub template and contains scaffolding/configuration for deploying a Django app on Platform.sh (including Platform.sh config files and a demo app), which matches a template purpose rather than a full product/library implementation.",
+      "The README frames the code as a template/starter and includes customization guidance, consistent with a template rather than an end-to-end production application."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "The repository landing page/README shows a prominent warning: “This repository is no longer maintained by our internal teams… will not receive updates, bug fixes, or new features.”",
+      "The repository is not shown as GitHub-archived in the inspected header (it still appears as an active public template), so the inactive status is communicated in README text rather than via GitHub’s archival mechanism, matching the pitfall description."
+    ],
+    "confidence": 5
+  },
+  "P3": {
+    "adherence": "Yes",
+    "reasoning": [
+      "The README indicates multiple variants/configurations for different package managers (pip, pipenv, Poetry) are provided together via an applications.yaml array with includes, which is effectively multiple template variants bundled in one repository.",
+      "This increases complexity/discoverability concerns because users must choose and toggle between variants rather than selecting a single focused template."
+    ],
+    "confidence": 4
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository appears focused on providing a deployable scaffold/template for Platform.sh rather than co-locating the primary implementation of a separate technology product with its template.",
+      "No evidence was observed that this repository is simultaneously the main upstream for a framework/library and its template; it is specifically a Django-on-Platform.sh starter."
+    ],
+    "confidence": 3
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository is not empty: it contains application code and configuration files (e.g., myapp/, manage.py, dependency lockfiles, .platform/).",
+      "A README is present and includes substantive documentation (features, customizations, package manager options, references)."
+    ],
+    "confidence": 5
+  }
+}

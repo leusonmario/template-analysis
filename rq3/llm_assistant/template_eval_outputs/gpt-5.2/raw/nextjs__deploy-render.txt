@@ -1,0 +1,92 @@
+{
+  "G1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository contains a minimal Next.js app plus Render IaC (render.yaml) and basic npm scripts (dev/build/start), but no visible integrated quality mechanisms such as linting, unit/integration tests, pre-commit hooks, dependency update bots, or CI workflows.",
+      "The GitHub Actions page does not show any configured workflows for CI/CD."
+    ],
+    "confidence": 4
+  },
+  "G2": {
+    "adherence": "No",
+    "reasoning": [
+      "README provides basic deployment instructions (one-click and manual) and links to external docs, but it does not document template customization/extension, local development steps, required toolchain versions (Node/pnpm), or how to adapt the scaffold beyond deployment.",
+      "No evidence of additional docs (wiki, docs folder) or multi-language documentation."
+    ],
+    "confidence": 4
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "README instructs users to 'Fork this repo' rather than explicitly guiding them to use GitHub's 'Use this template' button/flow.",
+      "Repository is marked as a 'Public template', so template-specific instantiation guidance would be expected but is not present."
+    ],
+    "confidence": 5
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap content observed (no ROADMAP.md, milestones, or README section describing planned evolution)."
+    ],
+    "confidence": 4
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence in the repository content that this template is part of a reusable family (e.g., references to a base template, derivation instructions, or multiple related templates managed as variants)."
+    ],
+    "confidence": 3
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository has no GitHub Releases ('There aren’t any releases here'), so technology version support is not aligned to versioned template releases.",
+      "While package.json pins Next.js (15.0.6) and React RC versions, there is no release/tagging strategy communicating compatibility over time."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence of dedicated community/support channels (e.g., Discord/Discussions link) or sponsorship calls within the repository content inspected.",
+      "Community standards page indicates missing common community files (e.g., contributing guidelines, code of conduct, etc.), suggesting limited community enablement."
+    ],
+    "confidence": 4
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is explicitly described as a 'Next.js template to deploy to Render as a Node.js server' and includes deployment scaffolding (render.yaml) consistent with a template purpose rather than a full product/library."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "No",
+    "reasoning": [
+      "No explicit signals of inactivity were observed (not archived; no README notice stating unmaintained).",
+      "While activity recency was not reliably retrievable from the Pulse page due to GitHub page loading limitations, there is also no misleading 'active' claim; status is simply not discussed."
+    ],
+    "confidence": 2
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository appears to contain a single template (one Next.js app scaffold plus a single render.yaml) rather than multiple template variants across folders/branches."
+    ],
+    "confidence": 4
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository content is focused on the deployment template itself (Next.js scaffold + Render configuration) and does not appear to co-locate an unrelated technology implementation with its template."
+    ],
+    "confidence": 4
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not empty and includes core files (app/, package.json, next.config.ts, tsconfig.json, render.yaml) and a README with deployment instructions."
+    ],
+    "confidence": 5
+  }
+}

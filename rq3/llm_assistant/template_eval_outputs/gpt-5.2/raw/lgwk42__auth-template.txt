@@ -1,0 +1,92 @@
+{
+  "G1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository provides a ready-to-run Gradle/Spring Boot project structure (gradle wrapper, src/, build.gradle), but there is no evidence of integrated quality mechanisms like CI workflows, linting, test automation, hooks, or bots.",
+      "GitHub Actions page shows only the generic GitHub Actions landing content (no workflows listed), and the .github/workflows path returns 404 (no workflow files found)."
+    ],
+    "confidence": 4
+  },
+  "G2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README.md contains usage instructions (prereqs like Java 21, clone/build/run commands) and API documentation with request/response examples for auth endpoints.",
+      "Repository includes an additional ENGLISH_README.md, indicating documentation is available in multiple languages (Korean + English)."
+    ],
+    "confidence": 4
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "README.md instructs users to instantiate the template via `git clone https://github.com/lgwk42/auth-template.git` rather than using GitHub’s “Use this template” mechanism, despite the repo being marked as a Public template."
+    ],
+    "confidence": 5
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap is visible from the inspected repository surfaces (README content shown focuses on usage and API docs; no roadmap section, milestones, or projects content indicating planned evolution)."
+    ],
+    "confidence": 3
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence the template is part of a reusable family (no references to sibling templates, no organization-level template set, and no indication this repo is derived from or used to generate other templates)."
+    ],
+    "confidence": 3
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "Releases page explicitly states there aren’t any releases, so there is no release/version mapping for supported technology versions.",
+      "README mentions Java 21, but without versioned releases/tags tied to template versions for reproducibility."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No visible community/support mechanisms were found (no Discussions, Discord/Slack links, contribution/community sections, or sponsorship calls in the inspected README excerpt).",
+      "Issues list shows 0 issues and no other community engagement signals were observed from the inspected pages."
+    ],
+    "confidence": 3
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is explicitly labeled and described as an auth template (Spring Boot + Java | Auth Template) and contains scaffold-like project structure intended for reuse rather than being presented as a standalone product/library release."
+    ],
+    "confidence": 3
+  },
+  "P2": {
+    "adherence": "No",
+    "reasoning": [
+      "No explicit signals of inactivity were observed (repository is not shown as archived on the main page, and README excerpt does not state deprecation/inactive status).",
+      "Lack of releases/CI does not by itself prove unclear/inactive status; no explicit misleading status messaging was found."
+    ],
+    "confidence": 2
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository appears to contain a single template project (single Gradle/Spring Boot codebase) rather than multiple template variants organized in folders/branches."
+    ],
+    "confidence": 3
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence that this repository is simultaneously the primary implementation repo for a separate technology/product plus a template; it appears to be dedicated to the template itself."
+    ],
+    "confidence": 3
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not empty: it contains src/, Gradle wrapper files, build.gradle, and README documentation.",
+      "README includes usage instructions and API docs, so basic documentation is present."
+    ],
+    "confidence": 5
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "G1": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository includes a Gradle build (build.gradle.kts, Gradle wrapper) and a GitHub Actions workflows directory, indicating some engineering setup exists.",
+      "However, the workflows listing could not be retrieved/inspected due to GitHub UI loading limitations in the captured page (the .github/workflows directory page did not render file entries), so there is no verifiable evidence of CI jobs (tests/lint/build), automation, or bots being configured from public content we could access.",
+      "No evidence of linting/testing frameworks or quality gates is visible from the repository landing page/README excerpt."
+    ],
+    "confidence": 2
+  },
+  "G2": {
+    "adherence": "No",
+    "reasoning": [
+      "README provides a short 'To get started' checklist and a couple Gradle commands, but it is not comprehensive (no detailed customization guide, no explicit prerequisites/versions like Java/Gradle, no deeper extension guidance). ([github.com](https://github.com/SpongePowered/sponge-plugin-template))",
+      "README explicitly says 'Read more about Sponge plugin development at (docs not yet written)', indicating missing key documentation. ([github.com](https://github.com/SpongePowered/sponge-plugin-template))"
+    ],
+    "confidence": 4
+  },
+  "G3": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README instructs users to 'Create a new repository from this template', which aligns with using GitHub’s template instantiation mechanism rather than cloning. ([github.com](https://github.com/SpongePowered/sponge-plugin-template))",
+      "The repository is marked 'Public template' on GitHub, reinforcing intended usage as a template. ([github.com](https://github.com/SpongePowered/sponge-plugin-template))"
+    ],
+    "confidence": 5
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap content is visible on the repository landing page/README excerpt (no ROADMAP.md, milestones, or planned-features section referenced). ([github.com](https://github.com/SpongePowered/sponge-plugin-template))"
+    ],
+    "confidence": 4
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence in the repository description/README/topics indicates this template is part of a family of derived templates or that it is derived from a default template; it appears to be a single template repository. ([github.com](https://github.com/SpongePowered/sponge-plugin-template))"
+    ],
+    "confidence": 3
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository has no published releases. ([github.com](https://github.com/SpongePowered/sponge-plugin-template/releases))",
+      "The tags page also indicates there aren’t any releases/tags available, so there is no release/version mapping for supported technology versions. ([github.com](https://github.com/SpongePowered/sponge-plugin-template/tags))",
+      "While the repo description mentions 'SpongeAPI 8.0.0', it is not associated with a versioned release of the template itself. ([github.com](https://github.com/SpongePowered/sponge-plugin-template))"
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README points users to the Sponge Discord for help, which is a dedicated community support channel. ([github.com](https://github.com/SpongePowered/sponge-plugin-template))",
+      "README includes a contributing invitation ('Feel free to submit a PR'), encouraging community participation. ([github.com](https://github.com/SpongePowered/sponge-plugin-template))"
+    ],
+    "confidence": 4
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository is explicitly presented as a 'Sponge plugin template' and includes starter code under an example package plus setup instructions, which is consistent with a scaffold/template rather than a full end-to-end product. ([github.com](https://github.com/SpongePowered/sponge-plugin-template))"
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "No",
+    "reasoning": [
+      "No public indication of archival/inactivity status is visible on the repository landing page excerpt (it is not shown as archived, and there is no README banner stating it is unmaintained). ([github.com](https://github.com/SpongePowered/sponge-plugin-template))",
+      "While the repo has no releases and 0 issues, that alone is insufficient to conclude unclear/inactive status without an explicit status signal. ([github.com](https://github.com/SpongePowered/sponge-plugin-template/releases))"
+    ],
+    "confidence": 3
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository structure shown is a single Gradle/Java template (single src tree) rather than multiple template variants in folders/branches being advertised. ([github.com](https://github.com/SpongePowered/sponge-plugin-template))"
+    ],
+    "confidence": 4
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "This repository is dedicated to the template itself (example plugin + build configuration) and is not colocated with the primary Sponge technology implementation repositories (e.g., SpongeAPI/Sponge). The repo description and README focus on being a template. ([github.com](https://github.com/SpongePowered/sponge-plugin-template))"
+    ],
+    "confidence": 4
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not empty: it contains README.md, Gradle build files, and example source code under src/main/java. ([github.com](https://github.com/SpongePowered/sponge-plugin-template))",
+      "Basic documentation exists (README with setup steps), so it is not missing a README/description, even though documentation is not comprehensive. ([github.com](https://github.com/SpongePowered/sponge-plugin-template))"
+    ],
+    "confidence": 5
+  }
+}

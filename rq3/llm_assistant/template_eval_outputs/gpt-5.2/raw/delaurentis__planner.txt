@@ -1,0 +1,91 @@
+{
+  "G1": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository is marked as a GitHub template, but the visible contents indicate it is a full application (folders like src/, server/, nginx/, Dockerfiles, docker-compose files) rather than a scaffold focused on reuse.",
+      "No evidence of integrated common quality mechanisms (e.g., GitHub Actions CI workflows, lint/test pipelines, dependency update bots) could be confirmed from the publicly accessible repository pages; the Actions page does not show repository workflows and the .github directory could not be retrieved (404 when attempting to open it)."
+    ],
+    "confidence": 3
+  },
+  "G2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README contains substantial documentation: overview, local run instructions (npm install/start), deployment instructions (npm run deploy), customization pointers (specific file paths), and step-by-step first-time deployment guidance for Google Cloud/Kubernetes and OAuth setup steps."
+    ],
+    "confidence": 4
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "The README content visible from the repository page focuses on running/deploying the app and does not provide instructions to instantiate via GitHub’s “Use this template” button or otherwise educate users on the template feature."
+    ],
+    "confidence": 4
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap was found on the main repository page or in the visible README sections; there is no Projects board (Projects shows 0) and no explicit roadmap file/section was observed."
+    ],
+    "confidence": 3
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence was found that this template is part of a reusable family of templates (e.g., multiple related template repos, a 'base template', or documented derivations). The repository appears to be a single template repository."
+    ],
+    "confidence": 3
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository has no GitHub Releases (the Releases/Tags page explicitly states there aren’t any releases).",
+      "Without releases, there is no clear mapping between template versions and supported technology versions for reproducibility."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence of dedicated community/support channels (e.g., Discord/Slack links) or sponsorship calls was observed on the main page/visible README content.",
+      "While Issues exist, that alone does not demonstrate explicit encouragement mechanisms like community channels or sponsorship."
+    ],
+    "confidence": 3
+  },
+  "P1": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Although labeled as a template, the repository description and README describe a fully functioning product ('Planner is a front-end for GitLab, GitHub, and Jira... designed to be self-hosted'), and the repo contains full application structure (src/, server/, Dockerfiles, nginx/). This aligns with the 'non-template' pitfall (a full implementation labeled as a template)."
+    ],
+    "confidence": 5
+  },
+  "P2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "The repository shows open issues with the most recent visible issue creation dates in 2022, suggesting potential inactivity.",
+      "No explicit status signaling (e.g., archived repository banner or clear 'inactive/maintained' status statement) was observed on the main page/visible README content."
+    ],
+    "confidence": 3
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence was found that multiple distinct templates (variants for different languages/ecosystems) are bundled in separate folders/branches; the repository appears to be a single application/template."
+    ],
+    "confidence": 3
+  },
+  "P4": {
+    "adherence": "Yes",
+    "reasoning": [
+      "The repository appears to mix product/technology implementation concerns with template concerns: it is a complete application with deployment and OAuth setup instructions, rather than a dedicated scaffolding template repository separated from the primary implementation artifact."
+    ],
+    "confidence": 4
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository is not empty and includes many files and directories (e.g., src/, server/, Dockerfiles).",
+      "A README exists and contains substantial guidance (run, deploy, customize, OAuth setup)."
+    ],
+    "confidence": 5
+  }
+}

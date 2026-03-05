@@ -1,0 +1,101 @@
+{
+  "G1": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Repository includes automated quality mechanisms: a Travis CI configuration runs unit tests with coverage and uploads to Codecov (badges in README; .travis.yml uses `coverage run ... -m unittest discover tests` and Codecov uploader).",
+      "Repository includes linting configuration via a committed `.pylintrc` and also references codestyle tooling in release notes (e.g., 'Codestyle: pycodestyle, pylint.').",
+      "Project is packaged with `pyproject.toml` (setuptools build backend) and has a `tests/` directory, indicating a ready-to-use setup beyond just source code."
+    ],
+    "confidence": 5
+  },
+  "G2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README provides purpose, installation instructions, minimum Python version requirement (Python 3.10+), and practical usage tips (running demos, Jupyter notebooks, SSL key generation).",
+      "Repository links to extensive external documentation (Read the Docs Sphinx docs and GitHub Pages pydoc docs) and includes a `docs/` directory in the repo.",
+      "README includes links to external resources (project homepage, dependencies like NumPy/gmpy2/uvloop) and explains optional features and how to enable them."
+    ],
+    "confidence": 4
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "The README focuses on installing/using MPyC as a library (e.g., `pip install .`, `pip install -e .`) and does not provide instructions about using GitHub's 'Use this template' button or the `/generate` endpoint.",
+      "No evidence in the README content retrieved that the repository is positioned as a GitHub template for instantiation; it reads like a normal library project."
+    ],
+    "confidence": 4
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap file/section (e.g., ROADMAP.md, GitHub Projects roadmap, or README roadmap section) was observed in the repository landing page content inspected.",
+      "Releases exist and describe changes, but they are not a forward-looking roadmap of planned evolution."
+    ],
+    "confidence": 4
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence that this repository is part of a 'family' of templates derived from a default template (no mention of sibling templates, variants, or derivation strategy).",
+      "Repository appears to be a single project/library (MPyC) rather than a template lineage."
+    ],
+    "confidence": 4
+  },
+  "G6": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Repository provides versioned releases/tags (e.g., v0.11, v0.10, etc.) on GitHub Releases.",
+      "Release notes explicitly communicate supported technology versions (e.g., notes about Python 3.10 support and Python 3.13+ SSL behavior; README states Python 3.10+).",
+      "Packaging metadata (`pyproject.toml`) specifies `requires-python = '>=3.10'`, helping users align template/library version with runtime requirements."
+    ],
+    "confidence": 4
+  },
+  "G7": {
+    "adherence": "Yes",
+    "reasoning": [
+      "GitHub Discussions is enabled (visible in repository navigation and also linked in `pyproject.toml` under project URLs), providing a community support channel.",
+      "Repository has visible community engagement signals (stars/forks) and a discussion forum, though no explicit Discord/sponsorship call was observed in inspected content."
+    ],
+    "confidence": 4
+  },
+  "P1": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Although marked as a 'Public template' on GitHub, the repository content is a full-featured Python library for secure multiparty computation (source package `mpyc/`, tests, docs, PyPI badge, installation instructions).",
+      "README and packaging metadata position it as a distributable library (PyPI badge, `pyproject.toml` project metadata), not as scaffolding intended to be instantiated into new repos."
+    ],
+    "confidence": 5
+  },
+  "P2": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence the repository is archived or marked inactive; it has recent release activity shown on the Releases page (e.g., v0.11 dated '09 Feb' on the releases listing).",
+      "README does not indicate deprecation/inactivity in the inspected content."
+    ],
+    "confidence": 3
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository structure appears to be a single coherent project (one Python package, one tests suite, docs, demos) rather than multiple template variants split across folders/branches.",
+      "No evidence of multiple language/ecosystem templates bundled together."
+    ],
+    "confidence": 4
+  },
+  "P4": {
+    "adherence": "Yes",
+    "reasoning": [
+      "The repository mixes 'technology implementation' concerns (MPyC library source, packaging, releases, docs) with being labeled as a GitHub template, which can confuse users expecting reusable scaffolding rather than the primary implementation artifact.",
+      "README and releases are oriented around product/library evolution and usage, not template instantiation/customization."
+    ],
+    "confidence": 4
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not empty: it contains source code, tests, docs, demos, and configuration files.",
+      "README exists and provides substantial documentation plus links to external docs."
+    ],
+    "confidence": 5
+  }
+}

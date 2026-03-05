@@ -1,0 +1,87 @@
+{
+  "G1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository contains a ready-to-use .NET/C# solution and MSBuild automation (e.g., Directory.Build.props/targets) for building and installing the mod into Valheim, but there is no evidence of integrated quality mechanisms like CI pipelines, automated tests, linting enforcement, or dependency-update bots.",
+      "The GitHub Actions page shows the generic 'getting started' content rather than any configured workflows, suggesting no CI/CD is set up."
+    ],
+    "confidence": 4
+  },
+  "G2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README explains purpose and provides step-by-step usage instructions, requirements (MSBuild 16+, optional .NET SDK for modern C#), troubleshooting, and customization guidance (renaming mod, changing author/version with csproj snippets)."
+    ],
+    "confidence": 5
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "README 'How to use template' instructs users to 'Download or clone this repository' rather than explicitly guiding them to use GitHub's 'Use this template' button/feature."
+    ],
+    "confidence": 5
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap is visible on the repository landing page/README, and there are no issues/milestones indicating planned evolution."
+    ],
+    "confidence": 4
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence that this repository is part of a template family (e.g., a documented default template spawning variants, or multiple related template repos). It appears to be a single template focused on Valheim+BepInEx."
+    ],
+    "confidence": 3
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository has no GitHub Releases and no Tags published, so it does not align supported technology versions with versioned template releases for reproducibility."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No visible community/support channels (e.g., Discord/Discussions) or sponsorship calls are indicated on the repository pages inspected; Issues are empty and there is no mention of support avenues in the README."
+    ],
+    "confidence": 3
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is explicitly presented as a 'Valheim template for quickly writing mods using BepInEx' and includes scaffolding and instructions consistent with a template rather than a full end-user application/library."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "No",
+    "reasoning": [
+      "No explicit signals of inactivity were observed (e.g., archived repo banner or README status notice). While there are no releases and no open issues, that alone is insufficient to conclude unclear/inactive status."
+    ],
+    "confidence": 2
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository structure appears to provide a single template solution (with an example mod project) rather than multiple distinct templates across folders/branches."
+    ],
+    "confidence": 4
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository appears dedicated to the template/scaffolding itself, not co-located with a primary technology implementation that would mix product and template concerns."
+    ],
+    "confidence": 3
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not empty and includes a README with substantial instructions and requirements; it contains solution/project files and build configuration."
+    ],
+    "confidence": 5
+  }
+}

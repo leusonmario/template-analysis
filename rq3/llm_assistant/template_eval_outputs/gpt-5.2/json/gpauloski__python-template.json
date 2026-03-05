@@ -1,0 +1,95 @@
+{
+  "G1": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Includes CI via GitHub Actions for tests across multiple Python versions using tox (tests workflow matrix for 3.9–3.13).",
+      "Includes pre-commit configuration with common hooks plus ruff formatting/linting and mypy type checking.",
+      "Includes docs build/deploy automation (MkDocs + mike deploy to gh-pages) and a publish workflow that builds and publishes to PyPI on GitHub Releases.",
+      "Includes Dependabot configuration for GitHub Actions updates."
+    ],
+    "confidence": 5
+  },
+  "G2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README provides step-by-step setup instructions (template instantiation, what to delete, placeholder replacement via 'foobar', configuring pre-commit.ci, GitHub Pages, and PyPI secrets).",
+      "Repository contains a docs/ directory and mkdocs.yml, and a docs workflow that deploys documentation, indicating additional documentation beyond the README."
+    ],
+    "confidence": 4
+  },
+  "G3": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README explicitly instructs users to click the \"Use this template\" button as the first setup step rather than cloning directly."
+    ],
+    "confidence": 5
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence of a roadmap file/section (e.g., ROADMAP.md, GitHub Projects, milestones) on the main repository page content inspected."
+    ],
+    "confidence": 4
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository appears to be a single Python package template; no evidence it is part of a multi-template family (e.g., multiple sibling templates, documented derivations, or a default template spawning variants) beyond a note that it was based on an external setup video."
+    ],
+    "confidence": 4
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "GitHub Releases page shows no releases published.",
+      "There is at least one tag (example-v0.0.1 dated Feb 22, 2023), but there is no clear release/versioning scheme communicated as template releases tied to supported technology versions.",
+      "Although the publish workflow enforces that the release tag matches the version in pyproject.toml, the repository itself does not currently provide actual releases to align with."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence found of dedicated community/support channels (e.g., Discord/Discussions link) or sponsorship calls on the inspected repository landing content.",
+      "Issues and PRs are currently empty, and there is no visible community engagement mechanism beyond standard GitHub contribution files."
+    ],
+    "confidence": 3
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is explicitly a \"Python package template\" and includes scaffolding elements typical of templates (workflows, pre-commit, tox, docs setup, PR/issue templates) rather than being a full end-to-end product implementation."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not archived and does not present itself as inactive in the inspected README/landing content.",
+      "While the latest visible tag is dated Feb 22, 2023, lack of recent releases alone is insufficient to conclude unclear/inactive status without an explicit status signal."
+    ],
+    "confidence": 3
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository structure indicates a single template with optional components (docs/, examples/) rather than multiple distinct templates split across folders/branches."
+    ],
+    "confidence": 4
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is focused on providing a reusable scaffolding/template (tooling, workflows, docs setup) and does not appear to be the primary implementation repository for a separate technology/product."
+    ],
+    "confidence": 4
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not empty and includes substantial configuration and code scaffolding (README, pyproject.toml, tox.ini, pre-commit config, workflows, docs configuration).",
+      "README provides clear setup guidance and the repository has a description and topics."
+    ],
+    "confidence": 5
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "G1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repo includes ESLint and Prettier configuration files (.eslintrc.json, .prettierrc) and a lint script (next lint), indicating some quality mechanisms are present.",
+      "No GitHub Actions workflows/CI pipelines are visible; the Actions page shows the generic GitHub Actions marketing/getting-started content rather than repository workflows, suggesting CI/CD is not set up.",
+      "No evidence of tests (no test scripts in package.json; only dev/build/start/lint are defined)."
+    ],
+    "confidence": 4
+  },
+  "G2": {
+    "adherence": "No",
+    "reasoning": [
+      "README could not be retrieved from the raw URL (returned empty content), and the rendered README page content was not accessible in the captured view, so there is no verifiable comprehensive documentation.",
+      "Based on visible repository root listing, there is only a README.md file for documentation and no wiki/docs folder is evident; however, the README content itself is not available to confirm guidance on customization/extension."
+    ],
+    "confidence": 3
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "README content could not be retrieved/inspected (raw README returned empty), so there is no evidence the repository explicitly instructs users to use GitHub's 'Use this template' button instead of cloning.",
+      "Repository is marked as a 'Public template' on GitHub, but template-usage instructions are not verifiable from accessible documentation."
+    ],
+    "confidence": 3
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap evidence was found (no visible ROADMAP.md, Projects usage details, or milestones information in the inspected pages).",
+      "The repository has no issues or pull requests listed on the main page navigation (0 issues / 0 PRs), and no other planning artifacts were observed."
+    ],
+    "confidence": 4
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence that this template is part of a template family or derived from a shared base template within an organization (single repository with a specific stack: Next.js + daisyUI + React Query).",
+      "No references to sibling templates, a monorepo of templates, or a 'base template' were observed in the accessible repository pages."
+    ],
+    "confidence": 4
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "No releases are published (Releases page states there aren’t any releases).",
+      "Although package.json pins some key versions (e.g., next 15.0.3), there is no release/tag mapping to supported technology versions for reproducibility."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence of community/support channels (e.g., Discord/Discussions) or sponsorship calls was observed on the inspected pages.",
+      "Repository shows 0 issues and 0 pull requests and no visible contribution/community guidance was verifiable (README content not accessible)."
+    ],
+    "confidence": 4
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is explicitly labeled as a 'Public template' and appears to contain a standard Next.js project scaffold (src/, public/, config files, package.json), consistent with a starter template rather than a full product/library.",
+      "No evidence suggests it is primarily an end-to-end application or framework implementation beyond being a starter setup."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Repository has very low visible activity signals (only 2 commits shown on the main page) and no releases, issues, or PRs, which can indicate inactivity or early-stage status.",
+      "No explicit status communication (e.g., archived repository banner or clear 'inactive/maintained' statement) was observed in the accessible pages; README status could not be verified because README content was not retrievable."
+    ],
+    "confidence": 3
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository structure appears to be a single template (single Next.js project layout with src/ and public/), not multiple templates split across folders/branches.",
+      "No evidence of multiple language/ecosystem variants within the same repository was observed."
+    ],
+    "confidence": 4
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository appears dedicated to the template itself (a Next.js starter with daisyUI and React Query) rather than mixing a technology implementation and its template in the same repo.",
+      "No evidence of a separate 'product' implementation colocated with the template was observed."
+    ],
+    "confidence": 4
+  },
+  "P5": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README.md exists in the repository root, so it is not an entirely empty template; however, the README content could not be retrieved (raw README returned empty), making documentation effectively missing/unverifiable from public accessible content during inspection.",
+      "Given the inability to access README content, users may lack basic guidance on setup/customization, which aligns with the 'missing documentation' aspect of this pitfall."
+    ],
+    "confidence": 3
+  }
+}

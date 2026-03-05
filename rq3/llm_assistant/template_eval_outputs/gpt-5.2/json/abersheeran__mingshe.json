@@ -1,0 +1,95 @@
+{
+  "G1": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Repository includes a GitHub Actions workflow (CI/CD) that runs linting (flake8 via script/check.py) and tests (pytest) across multiple OSes and Python versions (3.9, 3.10).",
+      "Workflow also includes a publish job that builds and uploads to PyPI on tag pushes, indicating an automated release/publish pipeline.",
+      "Project includes configuration for linting (.flake8) and a test suite directory (tests/), plus dependency management via PDM (pyproject.toml, pdm.lock)."
+    ],
+    "confidence": 5
+  },
+  "G2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README provides basic purpose and installation requirements (Python 3.9+) and points users to documentation.",
+      "Repository contains a docs site configuration (mkdocs.yml) with structured navigation and bilingual documentation (zh + en) and includes a section for internal design/customization (e.g., 'Create own language')."
+    ],
+    "confidence": 4
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "README does not mention using GitHub’s 'Use this template' button or /generate flow; it only describes installing via pip and links to releases/documentation.",
+      "While the repo is marked as a 'Public template' on GitHub, the public docs/README evidence retrieved does not explicitly educate users on correct template instantiation."
+    ],
+    "confidence": 4
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap file/section (e.g., ROADMAP.md, GitHub Projects roadmap, or README roadmap section) was found in the inspected repository landing content and documentation configuration."
+    ],
+    "confidence": 3
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence found that this template is part of a family of related templates (e.g., multiple sibling template repos, derivation notes, or an organization-level template suite).",
+      "Repository appears to be a single template/project for the MíngShé language/tooling."
+    ],
+    "confidence": 3
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "Although the README points to GitHub releases for a changelog and the project has a version in pyproject.toml (0.8.2), the repository does not clearly document supported technology versions mapped to template releases (e.g., explicit compatibility matrix for Python/Pegen/grammar versions per release).",
+      "The GitHub releases page could not be fetched via the tool at the time of inspection (request returned an unexpected status), limiting verification of versioned release notes and any stated compatibility policy."
+    ],
+    "confidence": 2
+  },
+  "G7": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Repository has GitHub Discussions enabled and the documentation links to a 'User Forum' that points to the repo’s Discussions, providing a community support channel."
+    ],
+    "confidence": 4
+  },
+  "P1": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Despite being marked as a template, the repository is also a full implementation of a Python-superset language (source code under mingshe/, tests/, packaging metadata, and PyPI publishing workflow), not just a minimal scaffolding starter.",
+      "README and docs describe MíngShé as a language/tool users can install and use, which is characteristic of a product/library repo; the 'template' aspect is secondary."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "The repository shows a latest release date of Dec 28, 2021 on the main page, suggesting long inactivity relative to today (Feb 28, 2026).",
+      "No explicit archival/status notice was observed in the README content retrieved (it does not state 'archived', 'deprecated', or 'unmaintained')."
+    ],
+    "confidence": 4
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence found of multiple template variants organized in folders/branches for different ecosystems; repository structure appears to represent a single coherent project/template."
+    ],
+    "confidence": 3
+  },
+  "P4": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Repository mixes technology implementation concerns (a language/compiler implementation, tests, packaging, PyPI publishing) with the stated goal of being a template for creating a Python superset, rather than separating a reusable template scaffold from the primary implementation artifact."
+    ],
+    "confidence": 4
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not empty and includes substantial code, tests, configuration, and documentation links.",
+      "A README exists and documentation is provided via MkDocs with multilingual support."
+    ],
+    "confidence": 5
+  }
+}

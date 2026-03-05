@@ -1,0 +1,89 @@
+{
+  "G1": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Repository is a functional ASP.NET Core solution scaffold (src/ plus tooling) rather than a minimal skeleton, and the README documents included test projects (xUnit unit tests and Selenium tests).",
+      "Includes a CI configuration file (azure-pipelines.yml) and shows a build status badge in the README, indicating an integrated quality mechanism/automation pipeline (even if it’s Azure Pipelines rather than GitHub Actions)."
+    ],
+    "confidence": 4
+  },
+  "G2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README provides a fairly detailed “Project Overview” describing the solution structure (Common/Data/Services/Tests/Web) and what each area contains, with examples/snippets for mapping.",
+      "README includes installation instructions via .NET template package commands and points users to support via GitHub issues and example projects."
+    ],
+    "confidence": 4
+  },
+  "G3": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is marked as a GitHub “Public template”, but the README focuses on installing via NuGet/dotnet new (dotnet new install AspNetCoreTemplate; dotnet new aspnet-core ...) rather than explicitly instructing users to use GitHub’s “Use this template” button for instantiation."
+    ],
+    "confidence": 4
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap content was found on the repository landing page/README, and the issues page shows no visible milestones/roadmap usage beyond the standard GitHub UI."
+    ],
+    "confidence": 3
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "No evidence in the inspected repository pages/README that this template is part of a maintained family of derived templates (e.g., links to sibling templates, a 'base template' concept, or multiple related template repos)."
+    ],
+    "confidence": 3
+  },
+  "G6": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Repository uses versioned tags/releases and explicitly states version alignment intent (e.g., tag list includes 'Update version to 5.0.0 to match the .NET version').",
+      "Tags show ongoing versioning up to 10.0.1 dated Jan 10, 2026, supporting reproducibility and compatibility selection by version."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "README provides a basic support path via GitHub issues, but no evidence was found of dedicated community channels (Discord/Slack/Discussions) or sponsorship calls on the inspected pages."
+    ],
+    "confidence": 3
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is explicitly presented as a template scaffold (“Public template” and 'ready-to-use template') and includes template packaging/install instructions (dotnet new install / dotnet new ...), which is consistent with a real template rather than a full product/library repo."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository shows recent tagged activity (10.0.1 on Jan 10, 2026) and is not indicated as archived/inactive on the inspected pages."
+    ],
+    "confidence": 4
+  },
+  "P3": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository appears to provide a single coherent ASP.NET Core template solution rather than multiple unrelated templates split across folders/branches."
+    ],
+    "confidence": 3
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository’s primary purpose appears to be the template itself (including NuGet template packaging via nuget.csproj and template installation instructions), not a colocated technology implementation that also happens to include a template."
+    ],
+    "confidence": 3
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not empty and includes a README with installation instructions and a detailed project overview; it also contains source folders and tooling directories."
+    ],
+    "confidence": 5
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "G1": {
+    "adherence": "Yes",
+    "reasoning": [
+      "Repository is explicitly a GitHub 'Public template' and includes a ready-to-use Gradle-based project scaffold (e.g., build.gradle, gradle wrapper, src/).",
+      "Includes GitHub Actions automation: build workflow builds and uploads artifacts on push/workflow_dispatch; release workflow builds and creates GitHub releases on tag push; publishing workflow supports CurseForge/Modrinth publishing via secrets/tokens.",
+      "However, there is no clear evidence of integrated linting, unit/integration testing, pre-commit hooks, or dependency-update bots in the inspected content; still, CI/CD automation is present and functional."
+    ],
+    "confidence": 4
+  },
+  "G2": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README provides practical customization guidance: choosing branches (main/mixin/scala/kotlin), editing gradle.properties, moving reference class/package, dependency management, shadow/contain usage, mixin guidance, access transformers, generating sources, and run instructions.",
+      "README documents how the included GitHub Actions workflows work and what configuration (IDs/tokens) is required."
+    ],
+    "confidence": 4
+  },
+  "G3": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README explicitly instructs using GitHub's template instantiation flow: 'Create a new repository' under 'Use this template' and mentions 'Include all branches' when needed, rather than telling users to git clone."
+    ],
+    "confidence": 5
+  },
+  "G4": {
+    "adherence": "No",
+    "reasoning": [
+      "No roadmap content was found on the repository landing page/README, and there are no GitHub Projects/roadmap documents referenced in the inspected materials."
+    ],
+    "confidence": 4
+  },
+  "G5": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository provides multiple variants via separate branches (main/mixin/scala/kotlin), but there is no evidence of a maintained 'family of templates' across multiple repositories derived from a default template, nor documentation describing a template lineage/family strategy."
+    ],
+    "confidence": 3
+  },
+  "G6": {
+    "adherence": "No",
+    "reasoning": [
+      "The repository shows 'No releases published' and the tags page also indicates no tags/releases available, so there is no release/versioning scheme to align supported technology versions with template releases.",
+      "While workflows reference Java/Gradle versions and game version (e.g., 1.12.2 in the publish workflow), these are not tied to published template releases."
+    ],
+    "confidence": 5
+  },
+  "G7": {
+    "adherence": "No",
+    "reasoning": [
+      "No dedicated community/support channels (e.g., Discord link) or sponsorship calls were found in this repository’s README/landing content.",
+      "The broader CleanroomMC organization appears to have a Discord, but this template repository itself does not visibly encourage community/social support in the inspected content."
+    ],
+    "confidence": 3
+  },
+  "P1": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is labeled as a template and its contents/README are focused on scaffolding and setup instructions (gradle.properties customization, branch selection, build/release workflows), consistent with a template rather than a full end-to-end product implementation."
+    ],
+    "confidence": 4
+  },
+  "P2": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not archived and does not present itself as inactive in the inspected README/landing page content.",
+      "While lack of releases could be a maintenance signal, there is no explicit unclear/inactive status messaging that would mislead users."
+    ],
+    "confidence": 3
+  },
+  "P3": {
+    "adherence": "Yes",
+    "reasoning": [
+      "README states there are 4 branches (main/mixin/scala/kotlin) and instructs users to include all branches when creating a repo from the template, indicating multiple template variants are bundled in a single repository via branches."
+    ],
+    "confidence": 5
+  },
+  "P4": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository appears dedicated to being a mod development template (scaffold + instructions + CI workflows) and does not appear to co-locate the primary Cleanroom technology implementation itself.",
+      "The Cleanroom implementation exists in a separate repository within the organization, suggesting separation of concerns."
+    ],
+    "confidence": 4
+  },
+  "P5": {
+    "adherence": "No",
+    "reasoning": [
+      "Repository is not empty: it contains build scripts, gradle wrapper, src structure, and a non-trivial README with usage instructions.",
+      "Repository has a description and license, and the README provides substantial guidance."
+    ],
+    "confidence": 5
+  }
+}
