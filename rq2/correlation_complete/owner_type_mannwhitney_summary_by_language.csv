@@ -1,0 +1,6 @@
+language,total_tests,raw_significant,bh_by_language_significant,bh_global_significant
+C#,9,1,0,0
+Java,9,1,1,1
+JavaScript,9,5,5,5
+Python,9,8,8,8
+TypeScript,9,2,2,2

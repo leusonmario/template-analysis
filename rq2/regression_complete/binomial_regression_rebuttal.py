@@ -5,6 +5,7 @@ import pandas as pd
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 from statsmodels.stats.outliers_influence import variance_inflation_factor
+from statsmodels.stats.multitest import multipletests
 
 
 def run_negative_binomial(dep_var, df, predictors, name, exposure_col="nloc"):
@@ -123,17 +124,79 @@ def run_negative_binomial(dep_var, df, predictors, name, exposure_col="nloc"):
             summary_text += se_text
             print(se_text)
 
-    fname = f"{name}/regression_{dep_var}_{name}.txt"
+    fname = f"{name}/regression_reb_{dep_var}_{name}.txt"
     with open(fname, "w", encoding="utf-8") as f:
         f.write(summary_text)
 
     print(f"💾 Saved regression output to {fname}\n")
 
     if used_regularized:
-        print("⚠️ NOTE: This fit used ridge-regularized Negative Binomial; "
-              "coefficients are shrunk and some warnings are expected.")
+        print(
+            "⚠️ NOTE: This fit used ridge-regularized Negative Binomial; "
+            "coefficients are shrunk and p-values are not reported."
+        )
 
-    return model
+    # ---------------------------
+    # 7) Extract coefficient-level results
+    # ---------------------------
+    rows = []
+
+    params = model.params
+
+    if not used_regularized:
+        bse = model.bse
+        pvalues = model.pvalues
+        conf = model.conf_int()
+
+        for term in params.index:
+            if term == "Intercept":
+                continue
+
+            coef = params[term]
+
+            rows.append({
+                "language": name,
+                "outcome": dep_var,
+                "predictor": term,
+                "n": len(d),
+                "coef": coef,
+                "std_error": bse[term],
+                "p_raw": pvalues[term],
+                "IRR": np.exp(coef),
+                "IRR_CI_low": np.exp(conf.loc[term, 0]),
+                "IRR_CI_high": np.exp(conf.loc[term, 1]),
+                "used_regularized": used_regularized
+            })
+
+    else:
+        # Regularized models do not provide comparable p-values.
+        # Keep coefficients/IRRs for transparency, but exclude from correction.
+        for term in params.index:
+            if term == "Intercept":
+                continue
+
+            coef = params[term]
+
+            rows.append({
+                "language": name,
+                "outcome": dep_var,
+                "predictor": term,
+                "n": len(d),
+                "coef": coef,
+                "std_error": np.nan,
+                "p_raw": np.nan,
+                "IRR": np.exp(coef),
+                "IRR_CI_low": np.nan,
+                "IRR_CI_high": np.nan,
+                "used_regularized": used_regularized
+            })
+
+    result_df = pd.DataFrame(rows)
+
+    return model, result_df
+
+all_regression_rows = []
+
 languages = ["Java", "Python", "C#", "TypeScript", "JavaScript"]
 
 for name in languages:
@@ -218,7 +281,7 @@ for name in languages:
 
     print(vif_df_no_intercept)
 
-    vif_out = f"{name}/vif_results_{name}.csv"
+    vif_out = f"{name}/vif_results_reb_{name}.csv"
     vif_df_no_intercept.to_csv(vif_out, index=False)
     print(f"\n💾 Saved VIF results to {vif_out}\n")
 
@@ -233,7 +296,101 @@ for name in languages:
     ]
 
     models = {}
+
     for y in count_outcomes:
         if y in df.columns:
-            models[y] = run_negative_binomial(y, df, predictors, name, exposure_col="nloc")
+            model, result_df = run_negative_binomial(
+                y, df, predictors, name, exposure_col="nloc"
+            )
+
+            models[y] = model
+            all_regression_rows.append(result_df)
+
+    #############################################
+    # 8. Multiple-comparison correction
+    #############################################
+
+    regression_results = pd.concat(all_regression_rows, ignore_index=True)
+
+    alpha = 0.05
+    mask = regression_results["p_raw"].notna()
+
+    # Global correction across all regression coefficient tests
+    regression_results["p_adj_bh_global"] = np.nan
+    regression_results["sig_bh_global"] = False
+
+    if mask.sum() > 0:
+        reject, p_adj, _, _ = multipletests(
+            regression_results.loc[mask, "p_raw"],
+            alpha=alpha,
+            method="fdr_bh"
+        )
+
+        regression_results.loc[mask, "p_adj_bh_global"] = p_adj
+        regression_results.loc[mask, "sig_bh_global"] = reject
+
+    # Correction by language
+    regression_results["p_adj_bh_by_language"] = np.nan
+    regression_results["sig_bh_by_language"] = False
+
+    for language, group in regression_results.groupby("language"):
+        idx = group[group["p_raw"].notna()].index
+
+        if len(idx) == 0:
+            continue
+
+        reject, p_adj, _, _ = multipletests(
+            regression_results.loc[idx, "p_raw"],
+            alpha=alpha,
+            method="fdr_bh"
+        )
+
+        regression_results.loc[idx, "p_adj_bh_by_language"] = p_adj
+        regression_results.loc[idx, "sig_bh_by_language"] = reject
+
+    # Correction by outcome
+    regression_results["p_adj_bh_by_outcome"] = np.nan
+    regression_results["sig_bh_by_outcome"] = False
+
+    for outcome, group in regression_results.groupby("outcome"):
+        idx = group[group["p_raw"].notna()].index
+
+        if len(idx) == 0:
+            continue
+
+        reject, p_adj, _, _ = multipletests(
+            regression_results.loc[idx, "p_raw"],
+            alpha=alpha,
+            method="fdr_bh"
+        )
+
+        regression_results.loc[idx, "p_adj_bh_by_outcome"] = p_adj
+        regression_results.loc[idx, "sig_bh_by_outcome"] = reject
+
+    regression_results.to_csv(
+        "negative_binomial_regression_results_with_fdr.csv",
+        index=False
+    )
+
+    print("\n✅ Saved corrected regression results to negative_binomial_regression_results_with_fdr.csv")
+
+    summary = (
+        regression_results
+        .groupby(["language", "outcome", "predictor"])
+        .agg(
+            p_raw=("p_raw", "first"),
+            p_adj_bh_by_language=("p_adj_bh_by_language", "first"),
+            sig_raw=("p_raw", lambda x: bool((x < 0.05).iloc[0]) if x.notna().any() else False),
+            sig_bh_by_language=("sig_bh_by_language", "first"),
+            IRR=("IRR", "first"),
+            IRR_CI_low=("IRR_CI_low", "first"),
+            IRR_CI_high=("IRR_CI_high", "first"),
+            n=("n", "first")
+        )
+        .reset_index()
+    )
+
+    summary.to_csv("negative_binomial_supported_claims_summary.csv", index=False)
+
+    print(summary[summary["sig_bh_by_language"] == True])
 

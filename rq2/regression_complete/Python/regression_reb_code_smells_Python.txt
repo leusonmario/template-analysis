@@ -1,0 +1,22 @@
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:            code_smells   No. Observations:                 3356
+Model:                            GLM   Df Residuals:                     3349
+Model Family:        NegativeBinomial   Df Model:                            6
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -22148.
+Date:                Mon, 04 May 2026   Deviance:                       23496.
+Time:                        12:46:41   Pearson chi2:                 2.70e+05
+No. Iterations:                   100   Pseudo R-squ. (CS):            0.09465
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept            5.9178      0.344     17.222      0.000       5.244       6.591
+staleness_days      -0.0002      0.000     -0.511      0.609      -0.001       0.001
+commits_last_12m     0.0003      0.000      0.610      0.542      -0.001       0.001
+repo_age_days        0.0003      0.000      1.492      0.136   -8.88e-05       0.001
+log_stars           -0.2313      0.168     -1.376      0.169      -0.561       0.098
+log_forks            0.0099      0.167      0.059      0.953      -0.318       0.338
+owner_is_org        -0.3879      0.298     -1.301      0.193      -0.972       0.197
+====================================================================================

@@ -1,0 +1,6 @@
+language,total_tests,raw_sig,bh_by_language_sig,bonf_by_language_sig,bh_global_sig,bonf_global_sig
+C#,54,17,7,3,12,3
+Java,54,14,6,4,10,4
+JavaScript,54,40,37,20,34,17
+Python,54,10,2,2,4,1
+TypeScript,54,34,31,19,24,12

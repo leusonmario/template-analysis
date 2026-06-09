@@ -1,0 +1,22 @@
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:             vuln_major   No. Observations:                  215
+Model:                            GLM   Df Residuals:                      208
+Model Family:        NegativeBinomial   Df Model:                            6
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -1124.3
+Date:                Tue, 05 May 2026   Deviance:                       716.91
+Time:                        14:49:13   Pearson chi2:                 1.46e+03
+No. Iterations:                    30   Pseudo R-squ. (CS):             0.5349
+Covariance Type:                  HC3                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+Intercept            2.9316      0.466      6.285      0.000       2.017       3.846
+staleness_days   -1.568e-05      0.001     -0.023      0.982      -0.001       0.001
+commits_last_12m     0.0088      0.005      1.712      0.087      -0.001       0.019
+repo_age_days        0.0004      0.000      1.456      0.145      -0.000       0.001
+log_stars            0.5641      0.213      2.652      0.008       0.147       0.981
+log_forks           -0.3605      0.233     -1.549      0.121      -0.817       0.096
+owner_is_org        -0.6943      0.341     -2.036      0.042      -1.363      -0.026
+====================================================================================
